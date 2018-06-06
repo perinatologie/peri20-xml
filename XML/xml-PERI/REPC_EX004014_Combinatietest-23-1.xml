@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schematron_closed_warnings/peri20-ct-avr-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schematron/peri20-ct-avr-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--     Aanvraag combinatietest    -->
+<REPC_IN004014NL xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../schemas/REPC_IN004014NL.xsd">
+    <!-- Unieke identificatie van dit HL7v3 bericht  zoals uitgegeven door het zendende systeem-->
+    <id extension="86572343" root="2.16.840.1.113883.2.4.6.6.99.23444.17"/>
+    <creationTime value="20140102101112"/>
+    <versionCode code="NICTIZEd2005-Okt"/>
+    <interactionId extension="REPC_IN004014NL" root="2.16.840.1.113883.1.6"/>
+    <profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
+    <processingCode code="P"/>
+    <processingModeCode code="T"/>
+    <acceptAckCode code="AL"/>
+    <receiver typeCode="RCV">
+        <device classCode="DEV" determinerCode="INSTANCE">
+            <!-- ID van de ontvangende softwareapplicatie -->
+            <id extension="2" root="2.16.840.1.113883.2.4.99.104.2"/>
+            <name>Systeem Y van organisatie EFG</name>
+        </device>
+    </receiver>
+    <sender typeCode="SND">
+        <device classCode="DEV" determinerCode="INSTANCE">
+            <!-- ID van de zendende softwareapplicatie -->
+            <id extension="3-1" root="2.16.840.1.113883.2.4.99.105.3"/>
+            <name>Verloskundige software applicatie X van praktijk ABC</name>
+        </device>
+    </sender>
+    <ControlActProcess classCode="CACT" moodCode="EVN">
+        <authorOrPerformer typeCode="AUT">
+            <participant>
+                <AssignedPerson>
+                    <!-- ID van verloskundige, hier een UZI code -->
+                    <id root="2.16.528.1.1007.3.1" extension="000012349"/>
+                    <!-- Zorgverlenertype = verloskundige -->
+                    <code codeSystem="2.16.840.1.113883.2.4.15.111" code="03.000"/>
+                    <assignedPrincipalChoiceList>
+                        <assignedPerson>
+                            <name>
+                                <given>Victor</given>
+                                <family>Verloskundige</family>
+                            </name>
+                        </assignedPerson>
+                    </assignedPrincipalChoiceList>
+                    <Organization>
+                        <!-- ID van de organisatie waartoe de auteur behoort, URA -->
+                        <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                        <!-- Organisatietype = verloskundigenpraktijk -->
+                        <code codeSystem="2.16.840.1.113883.2.4.15.1060" code="G3"/>
+                        <name>ABC Verloskundigenpraktijk</name>
+                        <addr>
+                            <city>Amsterdam</city>
+                        </addr>
+                    </Organization>
+                </AssignedPerson>
+            </participant>
+        </authorOrPerformer>
+        <overseer typeCode="RESP">
+            <AssignedPerson>
+                <!-- ID van verloskundige, hier een UZI code -->
+                <id root="2.16.528.1.1007.3.1" extension="000012349"/>
+                <!-- Zorgverlenertype = verloskundige -->
+                <code codeSystem="2.16.840.1.113883.2.4.15.111" code="03.000"/>
+                <assignedPrincipalChoiceList>
+                    <assignedPerson>
+                        <name>
+                            <given>Victor</given>
+                            <family>Verloskundige</family>
+                        </name>
+                    </assignedPerson>
+                </assignedPrincipalChoiceList>
+                <Organization>
+                    <!-- ID van de organisatie waartoe de auteur behoort, URA -->
+                    <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                    <!-- Organisatietype = verloskundigenpraktijk -->
+                    <code code="G3" codeSystem="2.16.840.1.113883.2.4.15.1060"/>
+                    <name>ABC Verloskundigenpraktijk</name>
+                    <addr>
+                        <city>Vestigingsplaats</city>
+                    </addr>
+                </Organization>
+            </AssignedPerson>
+        </overseer>
+        <subject typeCode="SUBJ" contextConductionInd="false">
+            <registrationProcess moodCode="EVN">
+                <code code="900000" codeSystem="2.16.840.1.113883.2.4.15.4"/>
+                <statusCode code="active"/>
+                <!-- registration process date and time -->
+                <effectiveTime>
+                    <low value="20120229123745"/>
+                </effectiveTime>
+                <subject2 typeCode="SUBJ" contextConductionInd="false">
+                    <CareProvisionEvent classCode="PCPR" moodCode="EVN">
+                        <templateId root="2.16.840.1.113883.2.4.6.10.90.85"/>
+                        <statusCode code="active"/>
+                        <!-- Item: Vrouw 1..1 M -->
+                        <subject typeCode="SBJ">
+                            <patient classCode="PAT">
+                                <!-- BSN van de moeder -->
+                                <id root="2.16.840.1.113883.2.4.6.3" extension="100202020"/>
+                                <addr use="HP">
+                                    <postalCode>1234 AB</postalCode>
+                                </addr>
+                                <patientPerson classCode="PSN" determinerCode="INSTANCE">
+                                    <!-- naam van de moeder -->
+                                    <name use="OR">Diny Bos</name>
+                                    <!-- geboortedatum moeder -->
+                                    <birthTime value="19700801"/>
+                                    <!-- Item: 10400 - Etniciteit 1..1 R -->
+                                    <ethnicGroupCode code="12" codeSystem="2.16.840.1.113883.2.4.4.13.28"/>
+                                </patientPerson>
+                            </patient>
+                        </subject>
+
+                        <!-- Zorgverlener / Zorgaanbieder -->
+                        <performer typeCode="PPRF">
+                            <responsibleParty classCode="ASSIGNED">
+                                <!-- Item: 10001 - Zorgverlener (UZI-nummer) 0..1 C 0001 -->
+                                <!-- Item: 10003 - Zorgverlener (AGB-ID) 0..1 C 0001 -->
+                                <!-- Item: 10004 - Zorgverlener (LVR1-ID) 0..1 C 0001 -->
+                                <id root="2.16.528.1.1007.3.1" extension="000123459"/>
+                                <agentPerson>
+                                    <!-- Item: 10006 - Naam zorgverlener 1..1 M -->
+                                    <name>
+                                        <given>Victor</given>
+                                        <family>Verloskundige</family>
+                                    </name>
+                                </agentPerson>
+                                <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                                    <!-- Item: 10020 - Zorgaanbieder (URA) 0..1 C 0004 -->
+                                    <!-- Item: 10021 - Zorgaanbieder (OID) 0..1 C 0004 -->
+                                    <!-- Item: 10022 - Zorgaanbieder (AGB-id) 0..1 C 0004 -->
+                                    <!-- Item: 10023 - Zorgaanbieder (LVR1-ID) 0..1 C 0004 -->
+                                    <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                                    <id root="2.16.840.1.113883.2.4.3.46.99.5.6.1.1" extension="12"/>
+                                    <!-- Item: 10026 - Naam zorgaanbieder 1..1 M -->
+                                    <name>ABC Verloskundigenpraktijk</name>
+                                </representedOrganization>
+                            </responsibleParty>
+                        </performer>
+
+                        <!-- Anamnese -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <organizer classCode="CONTAINER" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900963"/>
+                                <code code="417662000" codeSystem="2.16.840.1.113883.6.96" displayName="Past history of clinical finding"/>
+                                <component typeCode="COMP">
+                                    <organizer classCode="CONTAINER" moodCode="EVN">
+                                        <!-- Item: 80904 - Algemene anamnese -->
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.900959"/>
+                                        <code code="312850006" codeSystem="2.16.840.1.113883.6.96" displayName="History of - disorder"/>
+                                        <component typeCode="COMP" contextConductionInd="true">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900936"/>
+                                                <code code="73211009" codeSystem="2.16.840.1.113883.6.96" displayName="Diabetes mellitus (disorder)"/>
+                                                <value xsi:type="BL" value="false"/>
+                                            </observation>
+                                        </component>
+                                    </organizer>
+                                </component>
+                            </organizer>
+                        </pertinentInformation3>
+
+                        <!-- Lengte -->
+                        <pertinentInformation3 contextConductionInd="true" typeCode="PERT">
+                            <observation moodCode="EVN" classCode="OBS">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900570"/>
+                                <code codeSystem="2.16.840.1.113883.6.1" code="3137-7" displayName="lengte"/>
+                                <value unit="cm" value="184" xsi:type="PQ"/>
+                            </observation>
+                        </pertinentInformation3>
+
+                        <!-- Obstetrische anamnese per vorige zwangerschap -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <organizer classCode="CONTAINER" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900966"/>
+                                <code code="248983002" codeSystem="2.16.840.1.113883.6.96" displayName="Obstetric history"/>
+                                <!-- Bevalling van deze vorige zwangerschap -->
+                                <component typeCode="COMP" contextConductionInd="true">
+                                    <procedure classCode="PROC" moodCode="EVN">
+                                        <id nullFlavor="NI"/>
+                                        <code code="236973005" codeSystem="2.16.840.1.113883.6.96" displayName="Delivery procedure (procedure)"/>
+                                        <!-- uitkomst per kind voor deze voorgaande zwangerschap -->
+                                        <outboundRelationship typeCode="COMP">
+                                            <procedure classCode="PROC" moodCode="EVN">
+                                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900980"/>
+                                                <id nullFlavor="NI"/>
+                                                <code code="Baring" codeSystem="2.16.840.1.113883.2.4.3.22.1.3"/>
+                                                <subject typeCode="SBJ">
+                                                    <personalRelationship classCode="PRS">
+                                                        <code code="CHILD" codeSystem="2.16.840.1.113883.5.111"/>
+                                                        <relationshipHolder classCode="PSN" determinerCode="INSTANCE">
+                                                            <birthTime value="20121031"/>
+                                                        </relationshipHolder>
+                                                    </personalRelationship>
+                                                </subject>
+                                                <!-- Kindspecifieke gegevens vorige uitkomsten -->
+                                                <!-- Congenitale afwijkingen -->
+                                                <outboundRelationship typeCode="COMP">
+                                                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.901015"/>
+                                                        <code code="443341004" codeSystem="2.16.840.1.113883.6.96"/>
+                                                    </observation>
+                                                </outboundRelationship>
+                                                <!-- Chromosomale afwijkingen -->
+                                                <outboundRelationship typeCode="COMP">
+                                                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.901016"/>
+                                                        <code code="74345006" codeSystem="2.16.840.1.113883.6.96"/>
+                                                        <value xsi:type="CE" code="41040004" codeSystem="2.16.840.1.113883.6.96" displayName="Trisomie 21"/>
+                                                    </observation>
+                                                </outboundRelationship>
+                                            </procedure>
+                                        </outboundRelationship>
+                                    </procedure>
+                                </component>
+                            </organizer>
+                        </pertinentInformation3>
+
+                        <!--        zwangerschap        -->
+
+                        <!-- Item: 20010 - Graviditeit 1..1 R -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900004"/>
+                                <code code="Gravidity" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <value xsi:type="INT" value="2"/>
+                            </observation>
+                        </pertinentInformation3>
+
+                        <!-- Item: 20030 - A terme datum 1..1 M -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900928"/>
+                                <code code="EDDDef" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <!-- Item: 20030 - A terme datum 1..1 M -->
+                                <value xsi:type="TS" value="20100815"/>
+                            </observation>
+                        </pertinentInformation3>
+
+                        <!-- Item: 20080 - Subfertiliteitsbehandeling -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.901083"/>
+                                <code code="PRN3206" codeSystem="2.16.840.1.113883.2.4.3.22.1.1"/>
+                                <value xsi:type="BL" value="true"/>
+                                <!-- Item: 20091 - Ovulatie-inductie toegepast  -->
+                                <outboundRelationship typeCode="PERT">
+                                    <procedure classCode="PROC" moodCode="EVN" negationInd="true">
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.900174"/>
+                                        <id nullFlavor="NI"/>
+                                        <code code="61285001" codeSystem="2.16.840.1.113883.6.96"/>
+                                    </procedure>
+                                </outboundRelationship>
+                                <!-- Item: 20095 - Geassisteerde conceptie  -->
+                                <outboundRelationship typeCode="PERT">
+                                    <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.900175"/>
+                                        <id nullFlavor="NI"/>
+                                        <code code="63487001" codeSystem="2.16.840.1.113883.6.96" displayName="Assisted fertilization (procedure)"/>
+                                        <methodCode code="425901007" codeSystem="2.16.840.1.113883.6.96" displayName="IVF - In vitro fertilisation with intracytoplasmic sperm injection (ICSI)"/>
+                                    </procedure>
+                                </outboundRelationship>
+                                <!-- Item: 20100 - Eiceldonatie toegepast -->
+                                <outboundRelationship typeCode="PERT">
+                                    <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.900180"/>
+                                        <id nullFlavor="NI"/>
+                                        <code code="176843009" codeSystem="2.16.840.1.113883.6.96"/>
+                                        <outboundRelationship typeCode="PERT">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900931"/>
+                                                <code code="GebDatEiDon" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                                <value xsi:type="TS" value="1981"/>
+                                            </observation>
+                                        </outboundRelationship>
+                                        <outboundRelationship typeCode="PERT">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <templateId root="2.16.840.1.113883.2.4.6.10.90.901084"/>
+                                                <code code="LftdEiDon" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                                <value xsi:type="INT" value="34"/>
+                                            </observation>
+                                        </outboundRelationship>
+                                    </procedure>
+                                </outboundRelationship>
+                                <outboundRelationship typeCode="PERT">
+                                    <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.901085"/>
+                                        <id nullFlavor="NI"/>
+                                        <code code="177037000" codeSystem="2.16.840.1.113883.6.96" displayName="Oocyte recovery (procedure)"/>
+                                        <effectiveTime value="20160612"/>
+                                    </procedure>
+                                </outboundRelationship>
+                                <outboundRelationship typeCode="PERT">
+                                    <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.901086"/>
+                                        <id nullFlavor="NI"/>
+                                        <code code="236894009" codeSystem="2.16.840.1.113883.6.96" displayName="Frozen embryo transfer (procedure)"/>
+                                    </procedure>
+                                </outboundRelationship>
+                                <outboundRelationship typeCode="PERT">
+                                    <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.901087"/>
+                                        <id nullFlavor="NI"/>
+                                        <code code="75456002" codeSystem="2.16.840.1.113883.6.96" displayName="Embryo transfer (procedure)"/>
+                                        <effectiveTime value="20160612"/>
+                                    </procedure>
+                                </outboundRelationship>
+                            </observation>
+                        </pertinentInformation3>
+
+                        <!-- Item: 20170 - Trisomie in de anamnese 1..1 C 0009 -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="TrisomyAnam" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <value xsi:type="BL" value="false"/>
+                            </observation>
+                        </pertinentInformation3>
+                        <!-- Prenatale controle -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <procedure classCode="PROC" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.901003"/>
+                                <id nullFlavor="NI"/>
+                                <code code="18114009" codeSystem="2.16.840.1.113883.6.96" displayName="Prenatal examination and care of mother"/>
+                                <effectiveTime value="20140506"/>
+                                <!-- Rookgedrag -->
+                                <outboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.900939"/>
+                                        <code code="Rookgedrag" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Rookgedrag"/>
+                                        <value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.58" displayName="niet gerookt"/>
+                                    </observation>
+                                </outboundRelationship>
+                                <!-- Gewicht (gemeten) -->
+                                <outboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <templateId root="2.16.840.1.113883.2.4.6.10.90.900571"/>
+                                        <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" displayName="Body weight"/>
+                                        <value xsi:type="PQ" value="81" unit="kg"/>
+                                    </observation>
+                                </outboundRelationship>
+                            </procedure>
+                        </pertinentInformation3>
+                    </CareProvisionEvent>
+                </subject2>
+            </registrationProcess>
+        </subject>
+    </ControlActProcess>
+</REPC_IN004014NL>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>EntityCode</name>
+    <desc/>
+    <!-- 0-A _MaterialEntityClassType (v:MaterialEntityClassType)-->
+    <!-- 1-A _ContainerEntityType (v:ContainerEntityType)-->
+    <!-- 3-A _NonRigidContainerEntityType (v:NonRigidContainerEntityType)-->
+    <code code="BAG" codeSystem="2.16.840.1.113883.5.1060" displayName="Bag">
+        <originalText>Definition: A pouched or pendulous container.</originalText>
+    </code>
+    <code code="PACKT" codeSystem="2.16.840.1.113883.5.1060" displayName="Packet">
+        <originalText>Definition: A paper</originalText>
+    </code>
+    <code code="PCH" codeSystem="2.16.840.1.113883.5.1060" displayName="Pouch">
+        <originalText>Definition: A small bag or container made of a soft material.</originalText>
+    </code>
+    <code code="SACH" codeSystem="2.16.840.1.113883.5.1060" displayName="Sachet">
+        <originalText>Definition: A small bag or packet containing a small portion of a substance.</originalText>
+    </code>
+    <!-- 3-A _RigidContainerEntityType (v:RigidContainerEntityType)-->
+    <!-- 4-A _IndividualPackageEntityType (v:IndividualPackageEntityType)-->
+    <code code="AMP" codeSystem="2.16.840.1.113883.5.1060" displayName="Ampule">
+        <originalText>Definition: A small sealed glass container that holds a measured amount of a medicinal substance.</originalText>
+    </code>
+    <code code="MINIM" codeSystem="2.16.840.1.113883.5.1060" displayName="Minim">
+        <originalText>Definition: Individually dosed ophthalmic solution. One time eye dropper dispenser.</originalText>
+    </code>
+    <code code="NEBAMP" codeSystem="2.16.840.1.113883.5.1060" displayName="Nebuamp">
+        <originalText>Definition: Individually dosed inhalation solution.</originalText>
+    </code>
+    <code code="OVUL" codeSystem="2.16.840.1.113883.5.1060" displayName="Ovule">
+        <originalText>Definition: A container either glass or plastic and a narrow neck, for storing liquid.</originalText>
+    </code>
+    <!-- 4-A _MultiUseContainerEntityType (v:MultiUseContainerEntityType)-->
+    <code code="BOTA" codeSystem="2.16.840.1.113883.5.1060" displayName="Amber Bottle">
+        <originalText>Definition: A bottle of yellow to brown color. Used to store light-sensitive materials</originalText>
+    </code>
+    <code code="BOTD" codeSystem="2.16.840.1.113883.5.1060" displayName="Dropper Bottle">
+        <originalText>Definition: A bottle with a cap designed to release the contained liquid in droplets of a specific size.</originalText>
+    </code>
+    <code code="BOTG" codeSystem="2.16.840.1.113883.5.1060" displayName="Glass Bottle">
+        <originalText>Definition: A bottle made of glass</originalText>
+    </code>
+    <code code="BOTPLY" codeSystem="2.16.840.1.113883.5.1060" displayName="Polyethylene Bottle">
+        <originalText>Definition: A bottle made of polyethylene</originalText>
+    </code>
+    <code code="BOX" codeSystem="2.16.840.1.113883.5.1060" displayName="Box">
+        <originalText>Definition: A 6-sided container commonly made from paper or cardboard used for solid forms.</originalText>
+    </code>
+    <code code="CAN" codeSystem="2.16.840.1.113883.5.1060" displayName="Can">
+        <originalText>Definition: A metal container in which a material is hermetically sealed to enable storage over long periods.</originalText>
+    </code>
+    <code code="CART" codeSystem="2.16.840.1.113883.5.1060" displayName="Cartridge">
+        <originalText>Definition: A sealed container of liquid or powder intended to be loaded into a device.</originalText>
+    </code>
+    <code code="CNSTR" codeSystem="2.16.840.1.113883.5.1060" displayName="Canister">
+        <originalText>Definition: A pressurized metal container holding a substance released as a spray or aerosol.</originalText>
+    </code>
+    <code code="JAR" codeSystem="2.16.840.1.113883.5.1060" displayName="Jar">
+        <originalText>Definition: A container of glass, earthenware, plastic, etc. Top of the container has a diameter of similar size to the diameter
+            of the container as a whole</originalText>
+    </code>
+    <code code="JUG" codeSystem="2.16.840.1.113883.5.1060" displayName="Jug">
+        <originalText>Definition: A deep vessel for holding liquids, with a handle and often with a spout or lip shape for pouring.</originalText>
+    </code>
+    <code code="TIN" codeSystem="2.16.840.1.113883.5.1060" displayName="Tin">
+        <originalText>Definition: A lidded container made of thin sheet metal.</originalText>
+    </code>
+    <code code="TUB" codeSystem="2.16.840.1.113883.5.1060" displayName="Tub">
+        <originalText>Definition: An open flat bottomed round container.</originalText>
+    </code>
+    <code code="TUBE" codeSystem="2.16.840.1.113883.5.1060" displayName="Tube">
+        <originalText>Definition: A long hollow rigid or flexible cylinder. Material is extruded by squeezing the container.</originalText>
+    </code>
+    <code code="VIAL" codeSystem="2.16.840.1.113883.5.1060" displayName="Vial">
+        <originalText>Definition: A small cylindrical glass for holding liquid medicines.</originalText>
+    </code>
+    <code code="CARD" codeSystem="2.16.840.1.113883.5.1060" displayName="Card">
+        <originalText>Definition: A bubble pack card. Multiple individual/separated doses.</originalText>
+    </code>
+    <code code="DIALPK" codeSystem="2.16.840.1.113883.5.1060" displayName="Dial Pack">
+        <originalText>Definition: Rotatable dispenser. Eg. Birth control package.</originalText>
+    </code>
+    <code code="DISK" codeSystem="2.16.840.1.113883.5.1060" displayName="Disk">
+        <originalText>Definition: Object that is thin, flat, and circular. Doses of medication often contained in bubbles on the disk.</originalText>
+    </code>
+    <code code="DOSET" codeSystem="2.16.840.1.113883.5.1060" displayName="Dosette">
+        <originalText>Definition: Special packaging that will help patients take their medications on a regular basis.</originalText>
+    </code>
+    <code code="STRIP" codeSystem="2.16.840.1.113883.5.1060" displayName="Strip">
+        <originalText>Definition: A continuous strip of plastic sectioned into individual pouches, each one containing the quantity of 1 or more
+            medications intended to be administered at a specific time</originalText>
+    </code>
+    <code code="SYSTM" codeSystem="2.16.840.1.113883.5.1060" displayName="System">
+        <originalText>Definition: A kit in which the components are interconnected.</originalText>
+    </code>
+    <code code="_DeviceGenericType" codeSystem="2.16.840.1.113883.5.1060" displayName="Device Generic Type">
+        <originalText>Definition: Includes the set of codes used to identify a device that may be referred to in an ICSR report. Example code set
+            reference is the FDA Center for Devices and Radiological Health product code list.</originalText>
+    </code>
+    <!-- 1-A _DrugEntity (v:DrugEntity)-->
+    <!-- 2-A _ClinicalDrug (v:ClinicalDrug)-->
+    <code code="_ActiveIngredientDrugEntityType" codeSystem="2.16.840.1.113883.5.1060" displayName="ActiveIngredientDrugEntityType">
+        <originalText>Definition: Any substance which, when combined with other ingredients, delivers all or part of the therapeutic benefit
+            associated with a medication.</originalText>
+    </code>
+    <code code="_ManufacturedDrug" codeSystem="2.16.840.1.113883.5.1060" displayName="ManufacturedDrug">
+        <originalText>Definition: Identifies a drug or the use of a drug as produced by a specific manufacturer</originalText>
+    </code>
+    <code code="_ExposureAgentEntityType" codeSystem="2.16.840.1.113883.5.1060" displayName="ExposureAgentEntityType">
+        <originalText>Definition: Indicates the material to which the patient was exposed which is believed to be related to the adverse
+            reaction</originalText>
+    </code>
+    <!-- 1-A _MaterialEntityAdditive (v:MaterialEntityAdditive)-->
+    <code code="ACDA" codeSystem="2.16.840.1.113883.5.1060" displayName="ACD Solution A">
+        <originalText>Definition: ACD Solution A of trisodium citrate, 22.0g/L; citric acid, 8.0 g/L; and dextrose 24.5 g/L. Used in Blood banking and
+            histocompatibilty testing</originalText>
+    </code>
+    <code code="ACDB" codeSystem="2.16.840.1.113883.5.1060" displayName="ACD Solution B">
+        <originalText>Definition: ACD Solution B of trisodium citrate, 13.2g/L; citric acid, 4.8 g/L; and dextrose 14.7 g/L. Used in Blood banking and
+            histocompatibilty testing.</originalText>
+    </code>
+    <code code="ACET" codeSystem="2.16.840.1.113883.5.1060" displayName="Acetic Acid">
+        <originalText>Definition: 50% V/V acetic acid in water. Used as a urine preservative</originalText>
+    </code>
+    <code code="AMIES" codeSystem="2.16.840.1.113883.5.1060" displayName="Amies transport medium">
+        <originalText>Definition: Sodium Chloride 3.0g, Potassium Chloride 0.2g, Calcium Chloride 0.1g, Magnesium Chloride 0.1g, Monopotassium
+            Phosphate 0.2g, Disodium Phosphate 1.15g, Sodium Thiogly collate 1.0g, Distilled Water 1 liter</originalText>
+    </code>
+    <code code="BACTM" codeSystem="2.16.840.1.113883.5.1060" displayName="Bacterial Transport medium">
+        <originalText>Definition: Any medium used to maintain bacterial viability (e.g. Stuart's, Cary-Blair, Amies)</originalText>
+    </code>
+    <code code="BF10" codeSystem="2.16.840.1.113883.5.1060" displayName="Buffered 10% formalin">
+        <originalText>Definition: Formaldehyde 4% w/v; methyl alcohol 1% w/v; phosphate buffering salts. Tissue preservative</originalText>
+    </code>
+    <code code="BOR" codeSystem="2.16.840.1.113883.5.1060" displayName="Boric Acid">
+        <originalText>Definition: Powdered boric acid (usually 10 g) added to 24-hour urine collections as a preservative.</originalText>
+    </code>
+    <code code="BOUIN" codeSystem="2.16.840.1.113883.5.1060" displayName="Bouin's solution">
+        <originalText>Definition: Picric acid, saturated aqueous solution (750.0 ml), 37-40% formalin (250.0 ml), glacial acetic acid (50.0 ml).
+            Tissue preservative.</originalText>
+    </code>
+    <code code="BSKM" codeSystem="2.16.840.1.113883.5.1060" displayName="Buffered skim milk">
+        <originalText>Definition: 50% skim milk in 0.01 M phosphate-buffered saline. Maintain virus viability</originalText>
+    </code>
+    <code code="C32" codeSystem="2.16.840.1.113883.5.1060" displayName="3.2% Citrate">
+        <originalText>Definition: A 3.2% solution of Sodium Citrate in water. Used as a blood preservative</originalText>
+    </code>
+    <code code="C38" codeSystem="2.16.840.1.113883.5.1060" displayName="3.8% Citrate">
+        <originalText>Definition: A 3.8% solution of Sodium Citrate in water. Used as a blood preservative</originalText>
+    </code>
+    <code code="CARS" codeSystem="2.16.840.1.113883.5.1060" displayName="Carson's Modified 10% formalin">
+        <originalText>Definition: A modification of buffered 10% formalin used as a general tissue preservative.</originalText>
+    </code>
+    <code code="CARY" codeSystem="2.16.840.1.113883.5.1060" displayName="Cary Blair Medium">
+        <originalText>Definition: Sodium Thioglycollate 1.5 g, Disodium Hydrogen Phosphate 1.1 g, Sodium Chloride 5.0 g, Calcium Chloride 0.09 g, Agar
+            5.0 g, per Liter of Water</originalText>
+    </code>
+    <code code="CHLTM" codeSystem="2.16.840.1.113883.5.1060" displayName="Chlamydia transport medium">
+        <originalText>Definition: Any of a number of non-nutritive buffered media used to maintain Chlamydia viability during transportation to the
+            laboratory</originalText>
+    </code>
+    <code code="CTAD" codeSystem="2.16.840.1.113883.5.1060" displayName="CTAD">
+        <originalText>Definition: Buffered tri-sodium citrate solution with theophylline, adenosine and dipyridamole</originalText>
+    </code>
+    <code code="EDTK15" codeSystem="2.16.840.1.113883.5.1060" displayName="Potassium/K EDTA 15%">
+        <originalText>Definition: Potassium EDTA 15% solution in water</originalText>
+    </code>
+    <code code="EDTK75" codeSystem="2.16.840.1.113883.5.1060" displayName="Potassium/K EDTA 7.5%">
+        <originalText>Definition: Potassium EDTA 7.5% solution in water</originalText>
+    </code>
+    <code code="EDTN" codeSystem="2.16.840.1.113883.5.1060" displayName="Sodium/Na EDTA">
+        <originalText>Definition: Sodium fluoride and Disodium EDTA</originalText>
+    </code>
+    <code code="ENT" codeSystem="2.16.840.1.113883.5.1060" displayName="Enteric bacteria transport medium">
+        <originalText>Definition: Any of a number of non-nutritive buffered media used to maintain enteric bacterial viability during transportation
+            to the laboratory</originalText>
+    </code>
+    <code code="F10" codeSystem="2.16.840.1.113883.5.1060" displayName="10% Formalin">
+        <originalText>Definition: A 10% v/v solution in water of formalin( a 37% solution of formaldehyde and water). Used for tissue
+            preservation.</originalText>
+    </code>
+    <code code="FDP" codeSystem="2.16.840.1.113883.5.1060" displayName="Thrombin NIH; soybean trypsin inhibitor">
+        <originalText>Definition: Thrombin plus soybean trypsin inhibitor. For use in identifying fibrn degredation products.</originalText>
+    </code>
+    <code code="FL10" codeSystem="2.16.840.1.113883.5.1060" displayName="Sodium Fluoride, 10mg">
+        <originalText>Definition: Sodium fluoride, 10mg added as a urine preservative.</originalText>
+    </code>
+    <code code="FL100" codeSystem="2.16.840.1.113883.5.1060" displayName="Sodium Fluoride, 100mg">
+        <originalText>Definition: Sodium fluoride, 100mg added as a urine preservative.</originalText>
+    </code>
+    <code code="HCL6" codeSystem="2.16.840.1.113883.5.1060" displayName="6N HCL">
+        <originalText>Definition: A solution of HCl containing 6moles of hydrogen ion/L. Used as a Urine Preservative.</originalText>
+    </code>
+    <code code="HEPA" codeSystem="2.16.840.1.113883.5.1060" displayName="Ammonium heparin">
+        <originalText>Definition: Ammonium heparin</originalText>
+    </code>
+    <code code="HEPL" codeSystem="2.16.840.1.113883.5.1060" displayName="Lithium/Li Heparin">
+        <originalText>Definition: Lithium heparin salt</originalText>
+    </code>
+    <code code="HEPN" codeSystem="2.16.840.1.113883.5.1060" displayName="Sodium/Na Heparin">
+        <originalText>Definition: Sodium heparin salt</originalText>
+    </code>
+    <code code="HNO3" codeSystem="2.16.840.1.113883.5.1060" displayName="Nitric Acid">
+        <originalText>Definition: 6N Nitric acid used to preserve urine for heavy metal analysis.</originalText>
+    </code>
+    <code code="JKM" codeSystem="2.16.840.1.113883.5.1060" displayName="Jones Kendrick Medium">
+        <originalText>Definition: A transport medium formulated to maintain Bordetella pertussis viability.</originalText>
+    </code>
+    <code code="KARN" codeSystem="2.16.840.1.113883.5.1060" displayName="Karnovsky's fixative">
+        <originalText>Definition: 5% Glutaraldehyde, 4% Formaldehyde in 0.08M buffer. Tissue preservation</originalText>
+    </code>
+    <code code="KOX" codeSystem="2.16.840.1.113883.5.1060" displayName="Potassium Oxalate">
+        <originalText>Definition: Potassium oxalate and sodium fluoride in a 1.25:1 ratio</originalText>
+    </code>
+    <code code="LIA" codeSystem="2.16.840.1.113883.5.1060" displayName="Lithium iodoacetate">
+        <originalText>Definition: Iodoacetate lithium salt</originalText>
+    </code>
+    <code code="M4" codeSystem="2.16.840.1.113883.5.1060" displayName="M4">
+        <originalText>Definition: Modified Hank's balanced salt solution supplemented with bovine serum albumin, gelatin, sucrose and glutamic acid.
+            It is buffered to pH 7.3+ or - 0.2 with HEPES buffer. Phenol red is used to indicate pH. Vancomycin, Amphotericin B and Colistin are used
+            to</originalText>
+    </code>
+    <code code="M4RT" codeSystem="2.16.840.1.113883.5.1060" displayName="M4-RT">
+        <originalText>Definition: Modified Hank's balanced salt solution supplemented with bovine serum albumin, gelatin, sucrose and glutamic acid.
+            It is buffered to pH 7.3+ or - 0.2 with Hepes buffer. Phenol red is used to indicate pH. Gentamicin and amphotericin B are used to inhibit
+            c</originalText>
+    </code>
+    <code code="M5" codeSystem="2.16.840.1.113883.5.1060" displayName="M5">
+        <originalText>Definition: Modified Hank's balanced salt solution supplemented with protein stabilizers, sucrose and glutamic acid. It is
+            buffered to pH 7.3+ or - 0.2 with Hepes buffer. Phenol red is used to indicate pH. Vancomycin, Amphotericin B and Colistin are used to
+            inhibit c</originalText>
+    </code>
+    <code code="MICHTM" codeSystem="2.16.840.1.113883.5.1060" displayName="Michel's transport medium">
+        <originalText>Definition: 1M potassium citrate, pH 7.0 2.5 ml, 0.1M magnesium sulfate 5.0 ml, 0.1M N-ethyl malemide 5.0 ml, dH2O 87.5 ml,
+            ammonium sulfate 55gm. Preserve antigens for Immunofluorescence procedures</originalText>
+    </code>
+    <code code="MMDTM" codeSystem="2.16.840.1.113883.5.1060" displayName="MMD transport medium">
+        <originalText>Definition: A buffered medium with ammonium sulfate added to preserve antigens for Immunofluorescence procedures</originalText>
+    </code>
+    <code code="NAF" codeSystem="2.16.840.1.113883.5.1060" displayName="Sodium Fluoride">
+        <originalText>Definition: Sodium fluoride</originalText>
+    </code>
+    <code code="NONE" codeSystem="2.16.840.1.113883.5.1060" displayName="None">
+        <originalText>Definition: No additive. Specifically identifes the specimen as having no additives.</originalText>
+    </code>
+    <code code="PAGE" codeSystem="2.16.840.1.113883.5.1060" displayName="Page's Saline">
+        <originalText>Definition: 0.12 g NaCl, 0.004 g MgSO, 0.004 g, CaCl, 0.142 g Na2HPO4 and 0.136 g KH2PO4 per liter of distilled water. Maintain
+            Acanthaoemba viability.</originalText>
+    </code>
+    <code code="PHENOL" codeSystem="2.16.840.1.113883.5.1060" displayName="Phenol">
+        <originalText>Definition: Phenol. Urine preservative</originalText>
+    </code>
+    <code code="PVA" codeSystem="2.16.840.1.113883.5.1060" displayName="Polyvinylalcohol">
+        <originalText>Definition: Polyvinyl alcohol</originalText>
+    </code>
+    <code code="RLM" codeSystem="2.16.840.1.113883.5.1060" displayName="Reagan Lowe Medium">
+        <originalText>Definition: A transport medium formulated to maintain Bordetella pertussis viability.</originalText>
+    </code>
+    <code code="SILICA" codeSystem="2.16.840.1.113883.5.1060" displayName="Siliceous earth">
+        <originalText>Definition: Diatomaceous earth. For glucose determination blood samples</originalText>
+    </code>
+    <code code="SPS" codeSystem="2.16.840.1.113883.5.1060" displayName="Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride">
+        <originalText>Definition: Sodium polyanethol sulfonate in saline. Anticomplementary and antiphagocytic properties. Used in blood culture
+            collection.</originalText>
+    </code>
+    <code code="SST" codeSystem="2.16.840.1.113883.5.1060" displayName="Serum Separator Tube">
+        <originalText>Definition: Polymer separator gel with clot activator</originalText>
+    </code>
+    <code code="STUTM" codeSystem="2.16.840.1.113883.5.1060" displayName="Stuart transport medium">
+        <originalText>Definition: Sodium Glycerophosphate 10.0g, Calcium Chloride 0.1g, Mercaptoacetic Acid 1.0ml, Distilled Water 1
+            liter</originalText>
+    </code>
+    <code code="THROM" codeSystem="2.16.840.1.113883.5.1060" displayName="Thrombin">
+        <originalText>Definition: Thrombin. Accelerates clotting.</originalText>
+    </code>
+    <code code="THYMOL" codeSystem="2.16.840.1.113883.5.1060" displayName="Thymol">
+        <originalText>Definition: 2-Isopropyl-5-methyl phenol. A preservative for 24 Hr Urine samples</originalText>
+    </code>
+    <code code="THYO" codeSystem="2.16.840.1.113883.5.1060" displayName="Thyoglycolate broth">
+        <originalText>Definition: A nutritive medium with a reducing agent (sodium thioglycolate) which, due to a chemical reaction, removes oxygen
+            from the broth.</originalText>
+    </code>
+    <code code="TOLU" codeSystem="2.16.840.1.113883.5.1060" displayName="Toluene">
+        <originalText>Definition: Also known as Methylbenzene; Toluol; Phenylmethane. A preservative for 24 Hr Urine samples</originalText>
+    </code>
+    <code code="URETM" codeSystem="2.16.840.1.113883.5.1060" displayName="Ureaplasma transport medium">
+        <originalText>Definition: A buffered salt solution with antifungal agents added for the collection and transport of Ureaplasma
+            specimens.</originalText>
+    </code>
+    <code code="VIRTM" codeSystem="2.16.840.1.113883.5.1060" displayName="Viral Transport medium">
+        <originalText>Definition: Sucrose 74.6g, Potassium hydrogenphosphate 0.52g, L-glutamic acid 0.72g, Bovine serum albumin 5.0g, Gentamicin 50mg,
+            Potassium dihydrogenphosphate 1.25g, L-15 medium 9.9L, Water to 10L. Maintain Virus viability.</originalText>
+    </code>
+    <code code="WEST" codeSystem="2.16.840.1.113883.5.1060" displayName="Buffered Citrate">
+        <originalText>Definition: 3.8% Citrate buffered to a pH of 5.5 for Westergren Sedimentation Rate</originalText>
+    </code>
+    <!-- 1-A _MedicalDevice (v:MedicalDevice)-->
+    <!-- 2-A _AccessMedicalDevice (v:AccessMedicalDevice)-->
+    <code code="IALINE" codeSystem="2.16.840.1.113883.5.1060" displayName="Intra-arterial Line">
+        <originalText>Definition: A line used to administer a substance into an artery</originalText>
+    </code>
+    <code code="IVLINE" codeSystem="2.16.840.1.113883.5.1060" displayName="Intraveneous Line">
+        <originalText>Definition: A line used to administer a substance into a vein</originalText>
+    </code>
+    <!-- 2-A _AdministrationMedicalDevice (v:AdministrationMedicalDevice)-->
+    <!-- 3-A _InjectionMedicalDevice (v:InjectionMedicalDevice)-->
+    <code code="AINJ" codeSystem="2.16.840.1.113883.5.1060" displayName="AutoInjector">
+        <originalText>Definition: Automatically injects medication.</originalText>
+    </code>
+    <code code="PEN" codeSystem="2.16.840.1.113883.5.1060" displayName="Pen">
+        <originalText>Definition: A device which can contain a cartridge for injection purposes. Eg. Insulin pen.</originalText>
+    </code>
+    <code code="SYR" codeSystem="2.16.840.1.113883.5.1060" displayName="Syringe">
+        <originalText>Definition: A barrel with a plunger.</originalText>
+    </code>
+    <code code="APLCTR" codeSystem="2.16.840.1.113883.5.1060" displayName="Applicator">
+        <originalText>Definition: A device used to apply a liquid or powder to a surface.</originalText>
+    </code>
+    <code code="DSKS" codeSystem="2.16.840.1.113883.5.1060" displayName="Diskus">
+        <originalText>Definition: The device used to inhale the doses of medication contained in the disk form.</originalText>
+    </code>
+    <code code="DSKUNH" codeSystem="2.16.840.1.113883.5.1060" displayName="Diskhaler">
+        <originalText>Definition: The device used to inhale the doses of medication contained in the disk form.</originalText>
+    </code>
+    <code code="TRBINH" codeSystem="2.16.840.1.113883.5.1060" displayName="Turbuhaler">
+        <originalText>Definition: Asthma medication delivery device.</originalText>
+    </code>
+    <code code="PMP" codeSystem="2.16.840.1.113883.5.1060" displayName="Pump">
+        <originalText>Definition: A device that is used to raise, compress, or transfer liquids or gases and is operated by a piston or similar
+            mechanism.</originalText>
+    </code>
+    <code code="_x_BillableProduct" codeSystem="2.16.840.1.113883.5.1060" displayName="x_BillableProduct">
+        <originalText>Definition: Description:The billable codes selected for Clinical Product Invoices. Steward is Financial
+            Management.</originalText>
+    </code>
+    <code code="BLDPRD" codeSystem="2.16.840.1.113883.5.1060" displayName="Blood Product">
+        <originalText>Definition: A manufactured product that is produced from the raw blood oi a donor with the intention of using it in a recipient
+            transfusion.</originalText>
+    </code>
+    <code code="VCCNE" codeSystem="2.16.840.1.113883.5.1060" displayName="Vaccine">
+        <originalText>Definition: A Type of medicine that creates an immune protection without the recipient experiencing the disease.</originalText>
+    </code>
+    <!-- 0-A _NonDrugAgentEntity ()-->
+    <code code="NDA01" codeSystem="2.16.840.1.113883.5.1060" displayName="egg">
+        <originalText> Concept Properties: internalId: 21586</originalText>
+    </code>
+    <code code="NDA02" codeSystem="2.16.840.1.113883.5.1060" displayName="fish">
+        <originalText> Concept Properties: internalId: 21587</originalText>
+    </code>
+    <code code="NDA03" codeSystem="2.16.840.1.113883.5.1060" displayName="lactose">
+        <originalText> Concept Properties: internalId: 21588</originalText>
+    </code>
+    <code code="NDA04" codeSystem="2.16.840.1.113883.5.1060" displayName="peanut">
+        <originalText> Concept Properties: internalId: 21589</originalText>
+    </code>
+    <code code="NDA05" codeSystem="2.16.840.1.113883.5.1060" displayName="soy">
+        <originalText> Concept Properties: internalId: 21590</originalText>
+    </code>
+    <code code="NDA06" codeSystem="2.16.840.1.113883.5.1060" displayName="sulfites">
+        <originalText> Concept Properties: internalId: 21591</originalText>
+    </code>
+    <code code="NDA07" codeSystem="2.16.840.1.113883.5.1060" displayName="wheat or gluten">
+        <originalText> Concept Properties: internalId: 21592</originalText>
+    </code>
+    <code code="NDA08" codeSystem="2.16.840.1.113883.5.1060" displayName="isocyanates">
+        <originalText> Concept Properties: internalId: 21593</originalText>
+    </code>
+    <code code="NDA09" codeSystem="2.16.840.1.113883.5.1060" displayName="solvents">
+        <originalText> Concept Properties: internalId: 21594</originalText>
+    </code>
+    <code code="NDA10" codeSystem="2.16.840.1.113883.5.1060" displayName="oils">
+        <originalText> Concept Properties: internalId: 21595</originalText>
+    </code>
+    <code code="NDA11" codeSystem="2.16.840.1.113883.5.1060" displayName="venoms">
+        <originalText> Concept Properties: internalId: 21596</originalText>
+    </code>
+    <code code="NDA12" codeSystem="2.16.840.1.113883.5.1060" displayName="latex">
+        <originalText> Concept Properties: internalId: 21597</originalText>
+    </code>
+    <code code="NDA13" codeSystem="2.16.840.1.113883.5.1060" displayName="shellfish">
+        <originalText> Concept Properties: internalId: 21598</originalText>
+    </code>
+    <code code="NDA14" codeSystem="2.16.840.1.113883.5.1060" displayName="strawberries">
+        <originalText> Concept Properties: internalId: 21599</originalText>
+    </code>
+    <code code="NDA15" codeSystem="2.16.840.1.113883.5.1060" displayName="tomatoes">
+        <originalText> Concept Properties: internalId: 21600</originalText>
+    </code>
+    <code code="NDA16" codeSystem="2.16.840.1.113883.5.1060" displayName="dust">
+        <originalText> Concept Properties: internalId: 21601</originalText>
+    </code>
+    <code code="NDA17" codeSystem="2.16.840.1.113883.5.1060" displayName="dust mites">
+        <originalText> Concept Properties: internalId: 21602</originalText>
+    </code>
+    <code code="_NonPersonLivingSubjectEntityType" codeSystem="2.16.840.1.113883.5.1060" displayName="NonPersonLivingSubjectEntityType">
+        <originalText>Definition: Description:Types of NonPersonLivingSubjects for the EntityClass 'NLIV'</originalText>
+    </code>
+    <!-- 0-A _OrganizationEntityType (v:OrganizationEntityType)-->
+    <code code="_IndividualCaseSafetyReportSenderType" codeSystem="2.16.840.1.113883.5.1060" displayName="Individual Case Safety Report Sender Type">
+        <originalText>Definition: A code that is used to indicate the type of organization which is originating and sending the ICSR. The current code
+            example reference is from the International Conference on Harmonisation (ICH) Expert Workgroup guideline on Clinical Safety Data
+            Management: Data Elements for Transmission of Individual Case Safety Reports.</originalText>
+    </code>
+    <code code="NAT" codeSystem="2.16.840.1.113883.5.1060" displayName="NationEntityType">
+        <originalText>Definition: Codes identifying nation states. Allows for finer grained specification of Entity with classcode &lt;=
+            NAT</originalText>
+    </code>
+    <code code="RELIG" codeSystem="2.16.840.1.113883.5.1060" displayName="religious institution">
+        <originalText>Definition: An organization that provides religious rites of worship.</originalText>
+    </code>
+    <!-- 0-A _PlaceEntityType (v:PlaceEntityType)-->
+    <code code="BED" codeSystem="2.16.840.1.113883.5.1060" displayName="Bed Location">
+        <originalText>Definition: The location of a bed</originalText>
+    </code>
+    <code code="BLDG" codeSystem="2.16.840.1.113883.5.1060" displayName="Building Location">
+        <originalText>Definition: The location of a building</originalText>
+    </code>
+    <code code="FLOOR" codeSystem="2.16.840.1.113883.5.1060" displayName="Floor Location">
+        <originalText>Definition: The location of a floor of a building</originalText>
+    </code>
+    <code code="ROOM" codeSystem="2.16.840.1.113883.5.1060" displayName="Room Location">
+        <originalText>Definition: The location of a room</originalText>
+    </code>
+    <code code="WING" codeSystem="2.16.840.1.113883.5.1060" displayName="Wing Location">
+        <originalText>Definition: The location of a wing of a building (e.g. East Wing). The same room number for the same floor number can be
+            distinguished by wing number in some situations</originalText>
+    </code>
+    <!-- 0-A _ResourceGroupEntityType ()-->
+    <code code="PRAC" codeSystem="2.16.840.1.113883.5.1060" displayName="PractitionerGroup">
+        <originalText> Concept Properties: internalId: 21439</originalText>
+    </code>
+
+    <!-- Nederlandse toevoegingen -->
+    <code code="PKG" codeSystem="2.16.840.1.113883.5.1060" displayName="Package">
+        <originalText>A material intended to hold other materials for purposes of storage or transportation</originalText>
+    </code>
+    <code code="COMPPKG" codeSystem="2.16.840.1.113883.5.1060" displayName="Compliance Package">
+        <originalText>A container intended to contain sufficient material for more than one use, but grouped or organized to provide individual access
+            to sufficient material for a single use. Often used to ensure that the proper type and amount of material is consumed/expended for each
+            use. </originalText>
+    </code>
+    <code code="BLSTRPK" codeSystem="2.16.840.1.113883.5.1060" displayName="Blister Pack">
+        <originalText>A bubblepack. Medications sealed individually, separated into doses.</originalText>
+    </code>
+    <code code="KIT" codeSystem="2.16.840.1.113883.5.1060" displayName="Kit">
+        <originalText>A container for a diverse collection of products intended to be used together for some purpose (e.g. Medicinal kits often
+            contain a syringe, a needle and the injectable medication). </originalText>
+    </code>
+    <code code="BOT" codeSystem="2.16.840.1.113883.5.1060" displayName="Bottle">
+        <originalText>A container, typically rounded, either glass or plastic with a narrow neck and capable of storing liquid.</originalText>
+    </code>
+    <code code="BOTP" codeSystem="2.16.840.1.113883.5.1060" displayName="Plastic Bottle">
+        <originalText>A bottle made of plastic</originalText>
+    </code>
+</codeSystem>

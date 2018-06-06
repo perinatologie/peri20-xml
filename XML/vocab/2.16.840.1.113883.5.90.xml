@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?><?oxygen SCHSchema="vocab.sch?>
+<codeSystem xmlns:mif2="urn:hl7-org:v3/mif2" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:ns="http://www.w3.org/1999/xhtml" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" codeStrength="CWE">
+   <name>ParticipationType</name>
+   <desc/>
+   <code code="PART" codeSystem="2.16.840.1.113883.5.90" displayName="Participation">
+      <!-- v:ParticipationParticipation -->
+      <originalText>Definition: Indicates that the target of the participation is involved in some manner in the act, but does not qualify
+         how.</originalText>
+   </code>
+   <!-- 1-A _ParticipationAncillary (v:ParticipationAncillary)-->
+   <code code="ADM" codeSystem="2.16.840.1.113883.5.90" displayName="admitter">
+      <originalText>Definition: The practitioner who is responsible for admitting a patient to a patient encounter.</originalText>
+   </code>
+   <code code="ATND" codeSystem="2.16.840.1.113883.5.90" displayName="attender">
+      <originalText>Definition: The practitioner that has responsibility for overseeing a patient's care during a patient encounter.</originalText>
+   </code>
+   <code code="CALLBCK" codeSystem="2.16.840.1.113883.5.90" displayName="callback contact">
+      <originalText>Definition: A person or organization who should be contacted for follow-up questions about the act in place of the
+         author.</originalText>
+   </code>
+   <code code="CON" codeSystem="2.16.840.1.113883.5.90" displayName="consultant">
+      <originalText>Definition: An advisor participating in the service by performing evaluations and making recommendations.</originalText>
+   </code>
+   <code code="DIS" codeSystem="2.16.840.1.113883.5.90" displayName="discharger">
+      <originalText>Definition: The practitioner who is responsible for the discharge of a patient from a patient encounter.</originalText>
+   </code>
+   <code code="ESC" codeSystem="2.16.840.1.113883.5.90" displayName="escort">
+      <originalText>Definition: Only with Transportation services. A person who escorts the patient.</originalText>
+   </code>
+   <code code="REF" codeSystem="2.16.840.1.113883.5.90" displayName="referrer">
+      <originalText>Definition: A person having referred the subject of the service to the performer (referring physician). Typically, a referring
+         physician will receive a report.</originalText>
+   </code>
+   <!-- 1-A _ParticipationInformationGenerator (v:ParticipationInformationGenerator)-->
+   <code code="AUT" codeSystem="2.16.840.1.113883.5.90" displayName="author (originator)">
+      <originalText>Definition: Definition: A party that originates the Act and therefore has responsibility for the information given in the Act and
+         ownership of this Act.</originalText>
+   </code>
+   <code code="INF" codeSystem="2.16.840.1.113883.5.90" displayName="informant">
+      <originalText>Definition: A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history
+         questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</originalText>
+   </code>
+   <code code="TRANS" codeSystem="2.16.840.1.113883.5.90" displayName="Transcriber">
+      <!-- v:ParticipationInformationTranscriber -->
+      <originalText>Definition: An entity entering the data into the originating system. The data entry entity is collected optionally for internal
+         quality control purposes. This includes the transcriptionist for dictated text transcribed into electronic form.</originalText>
+   </code>
+   <code code="ENT" codeSystem="2.16.840.1.113883.5.90" displayName="data entry person">
+      <originalText>Definition: A person entering the data into the originating system. The data entry person is collected optionally for internal
+         quality control purposes. This includes the transcriptionist for dictated text.</originalText>
+   </code>
+   <code code="WIT" codeSystem="2.16.840.1.113883.5.90" displayName="witness">
+      <originalText>Definition: Only with service events. A person witnessing the action happening without doing anything. A witness is not
+         necessarily aware, much less approves of anything stated in the service event. Example for a witness is students watching an operation or an
+         advanced directive witness.</originalText>
+   </code>
+   <code code="CST" codeSystem="2.16.840.1.113883.5.90" displayName="custodian">
+      <originalText>Definition: An entity (person, organization or device) that is in charge of maintaining the information of this act (e.g., who
+         maintains the report or the master service catalog item, etc.).</originalText>
+   </code>
+   <code code="DIR" codeSystem="2.16.840.1.113883.5.90" displayName="direct target">
+      <!-- v:ParticipationTargetDirect -->
+      <originalText>Definition: Target that is substantially present in the service and which is directly affected by the service action (includes
+         consumed material, devices, etc.).</originalText>
+   </code>
+   <code code="BBY" codeSystem="2.16.840.1.113883.5.90" displayName="baby">
+      <originalText>Definition: In an obstetric service, the baby.</originalText>
+   </code>
+   <code code="CSM" codeSystem="2.16.840.1.113883.5.90" displayName="consumable">
+      <originalText>Definition: Target that is taken up, is diminished, and disappears in the service.</originalText>
+   </code>
+   <code code="DEV" codeSystem="2.16.840.1.113883.5.90" displayName="device">
+      <!-- v:ParticipationTargetDevice -->
+      <originalText>Definition: Something used in delivering the service without being substantially affected by the service (i.e. durable or inert
+         with respect to that particular service). Examples are: monitoring equipment, tools, but also access/drainage lines, prostheses, pace maker,
+         etc.</originalText>
+   </code>
+   <code code="NRD" codeSystem="2.16.840.1.113883.5.90" displayName="non-reuseable device">
+      <originalText>Definition: A device that changes ownership due to the service, e.g., a pacemaker, a prosthesis, an insulin injection equipment
+         (pen), etc. Such material may need to be restocked after he service.</originalText>
+   </code>
+   <code code="RDV" codeSystem="2.16.840.1.113883.5.90" displayName="reusable device">
+      <originalText>Definition: A device that does not change ownership due to the service, i.e., a surgical instrument or tool or an endoscope. The
+         distinction between reuseable and non-reuseable must be made in order to know whether material must be re-stocked.</originalText>
+   </code>
+   <code code="DON" codeSystem="2.16.840.1.113883.5.90" displayName="donor">
+      <originalText>Definition: In some organ transplantation services and rarely in transfusion services a donor will be a target participant in the
+         service. However, in most cases transplantation is decomposed in three services: explantation, transport, and implantation. The identity of
+         the donor (recipient) is often irrelevant for the explantation (implantation) service.</originalText>
+   </code>
+   <code code="EXPAGNT" codeSystem="2.16.840.1.113883.5.90" displayName="ExposureAgent">
+      <originalText>Definition: Description: The entity playing the associated role is the physical (including energy), chemical or biological
+         substance that is participating in the exposure. For example in communicable diseases, the associated playing entity is the disease causing
+         pathogen.</originalText>
+   </code>
+   <code code="EXPART" codeSystem="2.16.840.1.113883.5.90" displayName="ExposureParticipation">
+      <!-- v:ParticipationExposureparticipation -->
+      <originalText>Definition: Description:Direct participation in an exposure act where it is unknown that the participant is the source or subject
+         of the exposure. If the participant is known to be the contact of an exposure then the SBJ participation type should be used. If the
+         participant is known to be the source then the EXSRC participation type should be used.</originalText>
+   </code>
+   <code code="EXPTRGT" codeSystem="2.16.840.1.113883.5.90" displayName="ExposureTarget">
+      <originalText>Definition: Description: The entity playing the associated role is the target (contact) of exposure.</originalText>
+   </code>
+   <code code="EXSRC" codeSystem="2.16.840.1.113883.5.90" displayName="ExposureSource">
+      <originalText>Definition: Description:The entity playing the associated role is the source of exposure.</originalText>
+   </code>
+   <code code="PRD" codeSystem="2.16.840.1.113883.5.90" displayName="product">
+      <originalText>Definition: A material target that is brought forth (produced) in the service (e.g., specimen in a specimen collection, access or
+         drainage in a placement service, medication package in a dispense service). It doesn't matter whether the material produced had existence
+         prior to the service, or whether it is created in the service (e.g., in supply services the product is taken from a stock).</originalText>
+   </code>
+   <code code="SBJ" codeSystem="2.16.840.1.113883.5.90" displayName="subject">
+      <!-- v:ParticipationTargetSubject -->
+      <originalText>Definition: The principle target that the service acts on. E.g. the patient in physical examination, a specimen in a lab
+         observation. May also be a patient's family member (teaching) or a device or room (cleaning, disinfecting, housekeeping). Note: not all
+         direct targets are subjects, consumables, and devices used as tools for a service are not subjects. However, a device may be a subject of a
+         maintenance service.</originalText>
+   </code>
+   <code code="SPC" codeSystem="2.16.840.1.113883.5.90" displayName="specimen">
+      <originalText>Definition: The subject of non-clinical (e.g. laboratory) observation services is a specimen.</originalText>
+   </code>
+   <code code="IND" codeSystem="2.16.840.1.113883.5.90" displayName="indirect target">
+      <!-- v:ParticipationIndirectTarget -->
+      <originalText>Definition: Target that is not substantially present in the act and which is not directly affected by the act, but which will be a
+         focus of the record or documentation of the act.</originalText>
+   </code>
+   <code code="BEN" codeSystem="2.16.840.1.113883.5.90" displayName="beneficiary">
+      <originalText>Definition: Target on behalf of whom the service happens, but that is not necessarily present in the service. Can occur together
+         with direct target to indicate that a target is both, as in the case where the patient is the indirect beneficiary of a service rendered to a
+         family member, e.g. counseling or given home care instructions. This concept includes a participant, such as a covered party, who derives
+         benefits from a service act covered by a coverage act.</originalText>
+   </code>
+   <code code="CAGNT" codeSystem="2.16.840.1.113883.5.90" displayName="causative agent">
+      <originalText>Definition: Definition: A factor, such as a microorganism, chemical substance, or form of radiation, whose presence, excessive
+         presence, or (in deficiency diseases) relative absence is essential, in whole or in part, for the occurrence of a condition.</originalText>
+   </code>
+   <code code="COV" codeSystem="2.16.840.1.113883.5.90" displayName="coverage target">
+      <originalText>Definition: The target participation for an individual in a health care coverage act in which the target role is either the policy
+         holder of the coverage, or a covered party under the coverage.</originalText>
+   </code>
+   <code code="GUAR" codeSystem="2.16.840.1.113883.5.90" displayName="guarantor party">
+      <originalText>Definition: The target person or organization contractually recognized by the issuer as a participant who has assumed fiscal
+         responsibility for another personaTMs financial obligations by guaranteeing to pay for amounts owed to a particular account</originalText>
+   </code>
+   <code code="HLD" codeSystem="2.16.840.1.113883.5.90" displayName="holder">
+      <originalText>Definition: Participant who posses an instrument such as a financial contract (insurance policy) usually based on some agreement
+         with the author.</originalText>
+   </code>
+   <code code="RCT" codeSystem="2.16.840.1.113883.5.90" displayName="record target">
+      <originalText>Definition: The record target indicates whose medical record holds the documentation of this act. This is especially important
+         when the subject of a service is not the patient himself.</originalText>
+   </code>
+   <code code="RCV" codeSystem="2.16.840.1.113883.5.90" displayName="receiver">
+      <originalText>Definition: The person (or organization) who receives the product of an Act.</originalText>
+   </code>
+   <code code="IRCP" codeSystem="2.16.840.1.113883.5.90" displayName="information recipient">
+      <!-- v:ParticipationInformationRecipient -->
+      <originalText>Definition: A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act.
+         Information recipient is inert, i.e., independent of mood." Rationale: this is a generalization of a too diverse family that the definition
+         can't be any more specific, and the concept is abstract so one of the specializations should be used.</originalText>
+   </code>
+   <code code="NOT" codeSystem="2.16.840.1.113883.5.90" displayName="ugent notification contact">
+      <originalText>Definition: An information recipient to notify for urgent matters about this Act. (e.g., in a laboratory order, critical results
+         are being called by phone right away, this is the contact to call; or for an inpatient encounter, a next of kin to notify when the patient
+         becomes critically ill).</originalText>
+   </code>
+   <code code="PRCP" codeSystem="2.16.840.1.113883.5.90" displayName="primary information recipient">
+      <originalText>Definition: Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a
+         discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these
+         participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.</originalText>
+   </code>
+   <code code="REFB" codeSystem="2.16.840.1.113883.5.90" displayName="Referred By">
+      <originalText>Definition: A participant (e.g. provider) who has referred the subject of an act (e.g. patient).</originalText>
+   </code>
+   <code code="REFT" codeSystem="2.16.840.1.113883.5.90" displayName="Referred to">
+      <originalText>Definition: The person who receives the patient</originalText>
+   </code>
+   <code code="TRC" codeSystem="2.16.840.1.113883.5.90" displayName="tracker">
+      <originalText>Definition: A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as
+         ordered by specialist).</originalText>
+   </code>
+   <code code="LOC" codeSystem="2.16.840.1.113883.5.90" displayName="location">
+      <!-- v:ParticipationTargetLocation -->
+      <originalText>Definition: The facility where the service is done. May be a static building (or room therein) or a moving location (e.g.,
+         ambulance, helicopter, aircraft, train, truck, ship, etc.)</originalText>
+   </code>
+   <code code="DST" codeSystem="2.16.840.1.113883.5.90" displayName="destination">
+      <originalText>Definition: The destination for services. May be a static building (or room therein) or a movable facility (e.g.,
+         ship).</originalText>
+   </code>
+   <code code="ELOC" codeSystem="2.16.840.1.113883.5.90" displayName="entry location">
+      <originalText>Definition: A location where data about an Act was entered.</originalText>
+   </code>
+   <code code="ORG" codeSystem="2.16.840.1.113883.5.90" displayName="origin">
+      <originalText>Definition: The location of origin for services. May be a static building (or room therein) or a movable facility (e.g.,
+         ship).</originalText>
+   </code>
+   <code code="RML" codeSystem="2.16.840.1.113883.5.90" displayName="remote">
+      <originalText>Definition: Some services take place at multiple concurrent locations (e.g., telemedicine, telephone consultation). The location
+         where the principal performing actor is located is taken as the primary location (LOC) while the other location(s) are considered
+         "remote."</originalText>
+   </code>
+   <code code="VIA" codeSystem="2.16.840.1.113883.5.90" displayName="via">
+      <originalText>Definition: For services, an intermediate location that specifies a path between origin an destination.</originalText>
+   </code>
+   <code code="PRF" codeSystem="2.16.840.1.113883.5.90" displayName="performer">
+      <!-- v:ParticipationPhysicalPerformer -->
+      <originalText>Definition: Definition: A person, non-person living subject, organization or device that who actually and principally carries out
+         the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention.
+         Need not be the principal responsible actor.</originalText>
+   </code>
+   <code code="DIST" codeSystem="2.16.840.1.113883.5.90" displayName="distributor">
+      <originalText>Definition: Distributes material used in or generated during the act.</originalText>
+   </code>
+   <code code="PPRF" codeSystem="2.16.840.1.113883.5.90" displayName="primary performer">
+      <originalText>Definition: The principal or primary performer of the act.</originalText>
+   </code>
+   <code code="SPRF" codeSystem="2.16.840.1.113883.5.90" displayName="secondary performer">
+      <originalText>Definition: A person assisting in an act through his substantial presence and involvement This includes: assistants, technicians,
+         associates, or whatever the job titles may be.</originalText>
+   </code>
+   <code code="RESP" codeSystem="2.16.840.1.113883.5.90" displayName="responsible party">
+      <originalText>Definition: The person or organization that has primary responsibility for the act. The responsible party is not necessarily
+         present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing
+         actor after the fact. This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.</originalText>
+   </code>
+   <code code="VRF" codeSystem="2.16.840.1.113883.5.90" displayName="verifier">
+      <!-- v:ParticipationVerifier -->
+      <originalText>Definition: A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on
+         accountability.</originalText>
+   </code>
+   <code code="AUTHEN" codeSystem="2.16.840.1.113883.5.90" displayName="authenticator">
+      <originalText>Definition: A verifier who attests to the accuracy of an act, but who does not have privileges to legally authenticate the act. An
+         example would be a resident physician who sees a patient and dictates a note, then later signs it. Their signature constitutes an
+         authentication.</originalText>
+   </code>
+   <code code="LA" codeSystem="2.16.840.1.113883.5.90" displayName="legal authenticator">
+      <originalText>Definition: A verifier who legally authenticates the accuracy of an act. An example would be a staff physician who sees a patient
+         and dictates a note, then later signs it. Their signature constitutes a legal authentication.</originalText>
+   </code>
+</codeSystem>

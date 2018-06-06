@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeSystems>
+   <codeSystem ref="2.16.840.1.113883.5.1008"
+               name="NullFlavor"
+               displayName="NullFlavor"/>
+</codeSystems>

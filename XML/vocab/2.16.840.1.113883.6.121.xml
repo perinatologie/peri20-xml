@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>HumanLanguage</name>
+    <desc>Taalcodes volgens IETF 3066 - bron: http://hl7book.net/index.php?title=ClinicalDocument + generieke taalcodes 
+        - merk op: converteer naar kleine letters alvorens te vergelijken</desc>
+    <!--code code="aa" codeSystem="2.16.840.1.113883.6.121" displayName="Afar, Hamitisch"/>
+    <code code="ab" codeSystem="2.16.840.1.113883.6.121" displayName="Abchazisch"/>
+    <code code="ae" codeSystem="2.16.840.1.113883.6.121" displayName="Avestisch"/>
+    <code code="af" codeSystem="2.16.840.1.113883.6.121" displayName="Afrikaans"/>
+    <code code="ak" codeSystem="2.16.840.1.113883.6.121" displayName="Akan"/>
+    <code code="am" codeSystem="2.16.840.1.113883.6.121" displayName="Amhaars, Amharisch"/>
+    <code code="an" codeSystem="2.16.840.1.113883.6.121" displayName="Aragonees"/>
+    <code code="ar" codeSystem="2.16.840.1.113883.6.121" displayName="Arabisch"/>
+    <code code="as" codeSystem="2.16.840.1.113883.6.121" displayName="Assamees, Assami"/>
+    <code code="av" codeSystem="2.16.840.1.113883.6.121" displayName="Avaars"/>
+    <code code="ay" codeSystem="2.16.840.1.113883.6.121" displayName="Aymara, Aymará"/>
+    <code code="az" codeSystem="2.16.840.1.113883.6.121" displayName="Azeri, Azerbeidzjaans"/>
+    <code code="ba" codeSystem="2.16.840.1.113883.6.121" displayName="Basjkiers, Basjkirisch"/>
+    <code code="be" codeSystem="2.16.840.1.113883.6.121" displayName="Wit-Russisch, Belarussisch"/>
+    <code code="bg" codeSystem="2.16.840.1.113883.6.121" displayName="Bulgaars"/>
+    <code code="bh" codeSystem="2.16.840.1.113883.6.121" displayName="Bihari"/>
+    <code code="bi" codeSystem="2.16.840.1.113883.6.121" displayName="Bislama"/>
+    <code code="bm" codeSystem="2.16.840.1.113883.6.121" displayName="Bambara"/>
+    <code code="bn" codeSystem="2.16.840.1.113883.6.121" displayName="Bengaals"/>
+    <code code="bo" codeSystem="2.16.840.1.113883.6.121" displayName="Tibetaans"/>
+    <code code="br" codeSystem="2.16.840.1.113883.6.121" displayName="Bretons"/>
+    <code code="bs" codeSystem="2.16.840.1.113883.6.121" displayName="Bosnisch"/>
+    <code code="ca" codeSystem="2.16.840.1.113883.6.121" displayName="Catalaans"/>
+    <code code="ce" codeSystem="2.16.840.1.113883.6.121" displayName="Tsjetsjeens"/>
+    <code code="ch" codeSystem="2.16.840.1.113883.6.121" displayName="Chamorro"/>
+    <code code="co" codeSystem="2.16.840.1.113883.6.121" displayName="Corsicaans"/>
+    <code code="cr" codeSystem="2.16.840.1.113883.6.121" displayName="Cree"/>
+    <code code="cs" codeSystem="2.16.840.1.113883.6.121" displayName="Tsjechisch"/>
+    <code code="cu" codeSystem="2.16.840.1.113883.6.121" displayName="Kerkslavisch"/>
+    <code code="cv" codeSystem="2.16.840.1.113883.6.121" displayName="Tsjoevasjisch"/>
+    <code code="cy" codeSystem="2.16.840.1.113883.6.121" displayName="Welsh"/>
+    <code code="da" codeSystem="2.16.840.1.113883.6.121" displayName="Deens"/>
+    <code code="de" codeSystem="2.16.840.1.113883.6.121" displayName="Duits"/>
+    <code code="dv" codeSystem="2.16.840.1.113883.6.121" displayName="Divehi"/>
+    <code code="dz" codeSystem="2.16.840.1.113883.6.121" displayName="Dzongkha"/>
+    <code code="ee" codeSystem="2.16.840.1.113883.6.121" displayName="Ewe"/>
+    <code code="el" codeSystem="2.16.840.1.113883.6.121" displayName="Grieks"/-->
+    <code code="en" codeSystem="2.16.840.1.113883.6.121" displayName="Engels"/>
+    <code code="en-gb" codeSystem="2.16.840.1.113883.6.121" displayName="Engels - regio Verenigd Koninkrijk"/>
+    <code code="en-GB" codeSystem="2.16.840.1.113883.6.121" displayName="Engels - regio Verenigd Koninkrijk"/>
+    <!--code code="eo" codeSystem="2.16.840.1.113883.6.121" displayName="Esperanto"/>
+    <code code="es" codeSystem="2.16.840.1.113883.6.121" displayName="Spaans"/>
+    <code code="et" codeSystem="2.16.840.1.113883.6.121" displayName="Estisch, Ests"/>
+    <code code="eu" codeSystem="2.16.840.1.113883.6.121" displayName="Baskisch"/>
+    <code code="fa" codeSystem="2.16.840.1.113883.6.121" displayName="Perzisch, Farsi"/>
+    <code code="ff" codeSystem="2.16.840.1.113883.6.121" displayName="Fula"/>
+    <code code="fi" codeSystem="2.16.840.1.113883.6.121" displayName="Fins"/>
+    <code code="fj" codeSystem="2.16.840.1.113883.6.121" displayName="Fijisch"/>
+    <code code="fo" codeSystem="2.16.840.1.113883.6.121" displayName="Faeröers"/>
+    <code code="fr" codeSystem="2.16.840.1.113883.6.121" displayName="Frans"/-->
+    <code code="fy" codeSystem="2.16.840.1.113883.6.121" displayName="Fries"/>
+    <code code="fy-nl" codeSystem="2.16.840.1.113883.6.121" displayName="Fries - regio Nederland"/>
+    <code code="fy-NL" codeSystem="2.16.840.1.113883.6.121" displayName="Fries - regio Nederland"/>
+    <!--code code="ga" codeSystem="2.16.840.1.113883.6.121" displayName="Iers-Gaelisch"/>
+    <code code="gd" codeSystem="2.16.840.1.113883.6.121" displayName="Schots-Gaelisch"/>
+    <code code="gl" codeSystem="2.16.840.1.113883.6.121" displayName="Galicisch"/>
+    <code code="gn" codeSystem="2.16.840.1.113883.6.121" displayName="Guaraní"/>
+    <code code="gu" codeSystem="2.16.840.1.113883.6.121" displayName="Gujarati"/>
+    <code code="gv" codeSystem="2.16.840.1.113883.6.121" displayName="Manx-Gaelisch"/>
+    <code code="ha" codeSystem="2.16.840.1.113883.6.121" displayName="Hausa"/>
+    <code code="he" codeSystem="2.16.840.1.113883.6.121" displayName="Hebreeuws"/>
+    <code code="hi" codeSystem="2.16.840.1.113883.6.121" displayName="Hindi"/>
+    <code code="ho" codeSystem="2.16.840.1.113883.6.121" displayName="Hiri Motu"/>
+    <code code="hr" codeSystem="2.16.840.1.113883.6.121" displayName="Kroatisch"/>
+    <code code="ht" codeSystem="2.16.840.1.113883.6.121" displayName="Kreyòl"/>
+    <code code="hu" codeSystem="2.16.840.1.113883.6.121" displayName="Hongaars"/>
+    <code code="hy" codeSystem="2.16.840.1.113883.6.121" displayName="Armeens"/>
+    <code code="hz" codeSystem="2.16.840.1.113883.6.121" displayName="Herero"/>
+    <code code="ia" codeSystem="2.16.840.1.113883.6.121" displayName="Interlingua"/>
+    <code code="id" codeSystem="2.16.840.1.113883.6.121" displayName="Indonesisch"/>
+    <code code="ie" codeSystem="2.16.840.1.113883.6.121" displayName="Interlingue"/>
+    <code code="ig" codeSystem="2.16.840.1.113883.6.121" displayName="Igbo"/>
+    <code code="ii" codeSystem="2.16.840.1.113883.6.121" displayName="Yi"/>
+    <code code="ik" codeSystem="2.16.840.1.113883.6.121" displayName="Inupiak"/>
+    <code code="io" codeSystem="2.16.840.1.113883.6.121" displayName="Ido"/>
+    <code code="is" codeSystem="2.16.840.1.113883.6.121" displayName="IJslands"/>
+    <code code="it" codeSystem="2.16.840.1.113883.6.121" displayName="Italiaans"/>
+    <code code="iu" codeSystem="2.16.840.1.113883.6.121" displayName="Inuktitut"/>
+    <code code="ja" codeSystem="2.16.840.1.113883.6.121" displayName="Japans"/>
+    <code code="jv" codeSystem="2.16.840.1.113883.6.121" displayName="Javaans"/>
+    <code code="ka" codeSystem="2.16.840.1.113883.6.121" displayName="Georgisch"/>
+    <code code="kg" codeSystem="2.16.840.1.113883.6.121" displayName="Kikongo"/>
+    <code code="ki" codeSystem="2.16.840.1.113883.6.121" displayName="Gikuyu"/>
+    <code code="kj" codeSystem="2.16.840.1.113883.6.121" displayName="Kwanyama"/>
+    <code code="kk" codeSystem="2.16.840.1.113883.6.121" displayName="Kazachs"/>
+    <code code="kl" codeSystem="2.16.840.1.113883.6.121" displayName="Groenlands"/>
+    <code code="km" codeSystem="2.16.840.1.113883.6.121" displayName="Khmer, Cambodjaans"/>
+    <code code="kn" codeSystem="2.16.840.1.113883.6.121" displayName="Kannada, Kanarees, Kanara"/>
+    <code code="ko" codeSystem="2.16.840.1.113883.6.121" displayName="Koreaans"/>
+    <code code="kr" codeSystem="2.16.840.1.113883.6.121" displayName="Kanuri"/>
+    <code code="ks" codeSystem="2.16.840.1.113883.6.121" displayName="Kasjmiri, Kasjmiers, Kasjmirs"/>
+    <code code="ku" codeSystem="2.16.840.1.113883.6.121" displayName="Koerdisch"/>
+    <code code="kv" codeSystem="2.16.840.1.113883.6.121" displayName="Zurjeens"/>
+    <code code="kw" codeSystem="2.16.840.1.113883.6.121" displayName="Cornisch"/>
+    <code code="ky" codeSystem="2.16.840.1.113883.6.121" displayName="Kirgizisch"/>
+    <code code="la" codeSystem="2.16.840.1.113883.6.121" displayName="Latijn"/>
+    <code code="lb" codeSystem="2.16.840.1.113883.6.121" displayName="Luxemburgs"/>
+    <code code="lg" codeSystem="2.16.840.1.113883.6.121" displayName="Luganda"/>
+    <code code="li" codeSystem="2.16.840.1.113883.6.121" displayName="Limburgs"/>
+    <code code="ln" codeSystem="2.16.840.1.113883.6.121" displayName="Lingala"/>
+    <code code="lo" codeSystem="2.16.840.1.113883.6.121" displayName="Laotiaans"/>
+    <code code="lt" codeSystem="2.16.840.1.113883.6.121" displayName="Litouws"/>
+    <code code="lu" codeSystem="2.16.840.1.113883.6.121" displayName="Katanga"/>
+    <code code="lv" codeSystem="2.16.840.1.113883.6.121" displayName="Lets"/>
+    <code code="mg" codeSystem="2.16.840.1.113883.6.121" displayName="Plateaumalagasi"/>
+    <code code="mh" codeSystem="2.16.840.1.113883.6.121" displayName="Marshallees"/>
+    <code code="mi" codeSystem="2.16.840.1.113883.6.121" displayName="Maori"/>
+    <code code="mk" codeSystem="2.16.840.1.113883.6.121" displayName="Macedonisch"/>
+    <code code="ml" codeSystem="2.16.840.1.113883.6.121" displayName="Malayalam"/>
+    <code code="mn" codeSystem="2.16.840.1.113883.6.121" displayName="Mongools"/>
+    <code code="mo" codeSystem="2.16.840.1.113883.6.121" displayName="Moldavisch"/>
+    <code code="mr" codeSystem="2.16.840.1.113883.6.121" displayName="Marathi"/>
+    <code code="ms" codeSystem="2.16.840.1.113883.6.121" displayName="Maleis"/>
+    <code code="mt" codeSystem="2.16.840.1.113883.6.121" displayName="Maltees"/>
+    <code code="my" codeSystem="2.16.840.1.113883.6.121" displayName="Birmaans, Birmees"/>
+    <code code="na" codeSystem="2.16.840.1.113883.6.121" displayName="Nauruaans"/>
+    <code code="nb" codeSystem="2.16.840.1.113883.6.121" displayName="Norwegian Bokmål"/>
+    <code code="nd" codeSystem="2.16.840.1.113883.6.121" displayName="Noord-Ndebele"/>
+    <code code="ne" codeSystem="2.16.840.1.113883.6.121" displayName="Nepalees, Nepali"/>
+    <code code="ng" codeSystem="2.16.840.1.113883.6.121" displayName="Ndonga"/-->
+    <code code="nl" codeSystem="2.16.840.1.113883.6.121" displayName="Nederlands"/>
+    <code code="nl-nl" codeSystem="2.16.840.1.113883.6.121" displayName="Nederlands - regio Nederland"/>
+    <code code="nl-NL" codeSystem="2.16.840.1.113883.6.121" displayName="Nederlands - regio Nederland"/>
+    <!--code code="nl-be" codeSystem="2.16.840.1.113883.6.121" displayName="Nederlands - regio België"/>
+    <code code="nn" codeSystem="2.16.840.1.113883.6.121" displayName="Nynorsk"/>
+    <code code="no" codeSystem="2.16.840.1.113883.6.121" displayName="Noors"/>
+    <code code="nr" codeSystem="2.16.840.1.113883.6.121" displayName="Zuid-Ndebele"/>
+    <code code="nv" codeSystem="2.16.840.1.113883.6.121" displayName="Navajo"/>
+    <code code="ny" codeSystem="2.16.840.1.113883.6.121" displayName="Nyanja"/>
+    <code code="oc" codeSystem="2.16.840.1.113883.6.121" displayName="Occitaans"/>
+    <code code="oj" codeSystem="2.16.840.1.113883.6.121" displayName="Ojibweg"/>
+    <code code="om" codeSystem="2.16.840.1.113883.6.121" displayName="Afaan Oromo"/>
+    <code code="or" codeSystem="2.16.840.1.113883.6.121" displayName="Oriya"/>
+    <code code="os" codeSystem="2.16.840.1.113883.6.121" displayName="Ossetisch"/>
+    <code code="pa" codeSystem="2.16.840.1.113883.6.121" displayName="Punjabi"/>
+    <code code="pi" codeSystem="2.16.840.1.113883.6.121" displayName="Pali"/>
+    <code code="pl" codeSystem="2.16.840.1.113883.6.121" displayName="Pools"/>
+    <code code="ps" codeSystem="2.16.840.1.113883.6.121" displayName="Pasjtoe, Pasjto, Pashtoe"/>
+    <code code="pt" codeSystem="2.16.840.1.113883.6.121" displayName="Portugees"/>
+    <code code="qu" codeSystem="2.16.840.1.113883.6.121" displayName="Quechua"/>
+    <code code="rm" codeSystem="2.16.840.1.113883.6.121" displayName="Reto-Romaans"/>
+    <code code="rn" codeSystem="2.16.840.1.113883.6.121" displayName="Kirundi"/>
+    <code code="ro" codeSystem="2.16.840.1.113883.6.121" displayName="Roemeens"/>
+    <code code="ru" codeSystem="2.16.840.1.113883.6.121" displayName="Russisch"/>
+    <code code="rw" codeSystem="2.16.840.1.113883.6.121" displayName="Kinyarwanda"/>
+    <code code="sa" codeSystem="2.16.840.1.113883.6.121" displayName="Sanskriet"/>
+    <code code="sc" codeSystem="2.16.840.1.113883.6.121" displayName="Sardijns"/>
+    <code code="sd" codeSystem="2.16.840.1.113883.6.121" displayName="Sindhi"/>
+    <code code="se" codeSystem="2.16.840.1.113883.6.121" displayName="Noord-Samisch, Noord-Laps"/>
+    <code code="sg" codeSystem="2.16.840.1.113883.6.121" displayName="Sangho"/>
+    <code code="sh" codeSystem="2.16.840.1.113883.6.121" displayName="Servokroatisch"/>
+    <code code="si" codeSystem="2.16.840.1.113883.6.121" displayName="Singalees"/>
+    <code code="sk" codeSystem="2.16.840.1.113883.6.121" displayName="Slowaaks, Slovaaks"/>
+    <code code="sl" codeSystem="2.16.840.1.113883.6.121" displayName="Sloveens"/>
+    <code code="sm" codeSystem="2.16.840.1.113883.6.121" displayName="Samoaans"/>
+    <code code="sn" codeSystem="2.16.840.1.113883.6.121" displayName="Shona"/>
+    <code code="so" codeSystem="2.16.840.1.113883.6.121" displayName="Somalisch"/>
+    <code code="sq" codeSystem="2.16.840.1.113883.6.121" displayName="Albanees"/>
+    <code code="sr" codeSystem="2.16.840.1.113883.6.121" displayName="Servisch"/>
+    <code code="ss" codeSystem="2.16.840.1.113883.6.121" displayName="Swazi"/>
+    <code code="st" codeSystem="2.16.840.1.113883.6.121" displayName="Zuid-Sotho"/>
+    <code code="su" codeSystem="2.16.840.1.113883.6.121" displayName="Soendanees, Sundanees"/>
+    <code code="sv" codeSystem="2.16.840.1.113883.6.121" displayName="Zweeds"/>
+    <code code="sw" codeSystem="2.16.840.1.113883.6.121" displayName="Swahili"/>
+    <code code="ta" codeSystem="2.16.840.1.113883.6.121" displayName="Tamil"/>
+    <code code="te" codeSystem="2.16.840.1.113883.6.121" displayName="Telugu, Teloegoe"/>
+    <code code="tg" codeSystem="2.16.840.1.113883.6.121" displayName="Tadzjieks"/>
+    <code code="th" codeSystem="2.16.840.1.113883.6.121" displayName="Thai, Thais"/>
+    <code code="ti" codeSystem="2.16.840.1.113883.6.121" displayName="Tigrinya"/>
+    <code code="tk" codeSystem="2.16.840.1.113883.6.121" displayName="Turkmeens, Toerkmeens"/>
+    <code code="tl" codeSystem="2.16.840.1.113883.6.121" displayName="Tagalog"/>
+    <code code="tn" codeSystem="2.16.840.1.113883.6.121" displayName="Tswana"/>
+    <code code="to" codeSystem="2.16.840.1.113883.6.121" displayName="Tongaans, Tonga"/>
+    <code code="tr" codeSystem="2.16.840.1.113883.6.121" displayName="Turks"/>
+    <code code="ts" codeSystem="2.16.840.1.113883.6.121" displayName="Tsonga"/>
+    <code code="tt" codeSystem="2.16.840.1.113883.6.121" displayName="Tataars, Tartaars"/>
+    <code code="tw" codeSystem="2.16.840.1.113883.6.121" displayName="Twi"/>
+    <code code="ty" codeSystem="2.16.840.1.113883.6.121" displayName="Tahitiaans"/>
+    <code code="ug" codeSystem="2.16.840.1.113883.6.121" displayName="Oeigoers, Oejgoers"/>
+    <code code="uk" codeSystem="2.16.840.1.113883.6.121" displayName="Oekraïens"/>
+    <code code="ur" codeSystem="2.16.840.1.113883.6.121" displayName="Urdu"/>
+    <code code="uz" codeSystem="2.16.840.1.113883.6.121" displayName="Oezbeeks"/>
+    <code code="ve" codeSystem="2.16.840.1.113883.6.121" displayName="Venda"/>
+    <code code="vi" codeSystem="2.16.840.1.113883.6.121" displayName="Vietnamees"/>
+    <code code="vo" codeSystem="2.16.840.1.113883.6.121" displayName="Volapük, Volapuk"/>
+    <code code="wa" codeSystem="2.16.840.1.113883.6.121" displayName="Waals"/>
+    <code code="wo" codeSystem="2.16.840.1.113883.6.121" displayName="Wolof"/>
+    <code code="xh" codeSystem="2.16.840.1.113883.6.121" displayName="Xhosa"/>
+    <code code="yi" codeSystem="2.16.840.1.113883.6.121" displayName="Jiddisch"/>
+    <code code="yo" codeSystem="2.16.840.1.113883.6.121" displayName="Yoruba"/>
+    <code code="za" codeSystem="2.16.840.1.113883.6.121" displayName="Zhuang, Tsjoeang"/>
+    <code code="zh" codeSystem="2.16.840.1.113883.6.121" displayName="Chinees"/>
+    <code code="zu" codeSystem="2.16.840.1.113883.6.121" displayName="Zulu"/-->
+</codeSystem>

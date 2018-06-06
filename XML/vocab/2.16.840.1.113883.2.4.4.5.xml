@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>WCIAv3 Tabel 25 B-codes</name>
+    <desc>WCIAv3 Tabel 25 B-codes</desc>
+    <code code="1" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gebruik geen alcohol bij dit middel"/>
+    <code code="2" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Pas op met alcohol"/>
+    <code code="3" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="In deze verpakking bewaren"/>
+    <code code="6" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Pas op: bijtend middel"/>
+    <code code="7" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Felle zon en UVlamp op de huid vermijden"/>
+    <code code="8" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Alleen gebruiken indien helder"/>
+    <code code="9" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na gebruik handen wassen"/>
+    <code code="10" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Goed fijnkauwen voor het doorslikken"/>
+    <code code="11" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Heel doorslikken, niet kauwen"/>
+    <code code="12" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Kuur afmaken"/>
+    <code code="13" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Met water innemen, niet met melk"/>
+    <code code="14" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Omschudden vlak voor gebruik"/>
+    <code code="15" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij gebruik geen voertuigen besturen"/>
+    <code code="16" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Kan het reactievermogen verminderen"/>
+    <code code="17" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Zittend of staand innemen met veel water"/>
+    <code code="18" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Pas op: werkt blekend op haar en kleding"/>
+    <code code="19" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Kan de urine of stoelgang verkleuren"/>
+    <code code="20" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Maakt vlekken op kleding en linnengoed"/>
+    <code code="21" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Ten minste een half uur VOOR het eten"/>
+    <code code="22" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="TIJDENS of vlak NA het eten innemen"/>
+    <code code="23" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="TIJDENS de warme maaltijd innemen"/>
+    <code code="24" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij maagklachten NA het eten innemen"/>
+    <code code="25" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Pas op met vuur"/>
+    <code code="26" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Innemen met veel vocht"/>
+    <code code="27" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Eerst oplossen in water"/>
+    <code code="28" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Eerst uiteen laten vallen in water"/>
+    <code code="29" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 1 week houdbaar"/>
+    <code code="30" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 2 weken houdbaar"/>
+    <code code="31" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 1 maand houdbaar"/>
+    <code code="32" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="In koelkast bewaren (niet in vriesvak)"/>
+    <code code="33" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Innemen met melk"/>
+    <code code="34" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij voorkeur een half uur VOOR het eten"/>
+    <code code="35" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="TIJDENS het eten innemen"/>
+    <code code="36" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 2 maanden houdbaar"/>
+    <code code="37" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 3 maanden houdbaar"/>
+    <code code="38" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 6 maanden houdbaar"/>
+    <code code="39" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 1 jaar houdbaar"/>
+    <code code="40" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Koel bewaren (8-15 C)"/>
+    <code code="41" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij kamertemperatuur bewaren (15-25 C)"/>
+    <code code="42" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Let op de uiterste gebruiksdatum"/>
+    <code code="43" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 24 uur houdbaar"/>
+    <code code="44" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 6 weken houdbaar"/>
+    <code code="45" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Omroeren voor gebruik"/>
+    <code code="46" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bewaar in het donker"/>
+    <code code="47" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 3 jaar houdbaar"/>
+    <code code="48" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bewaar in het licht"/>
+    <code code="49" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Droog bewaren"/>
+    <code code="50" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Zo lang gebruiken als arts voorschrijft"/>
+    <code code="51" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Vlak VOOR het eten innemen"/>
+    <code code="52" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Kauwen of fijngemaakt met vocht innemen"/>
+    <code code="53" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="In de diepvries bewaren"/>
+    <code code="54" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 10 dagen houdbaar"/>
+    <code code="55" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s Avonds innemen"/>
+    <code code="56" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Niet meer dan 4 per 24 uur"/>
+    <code code="57" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Niet meer dan 8 per week"/>
+    <code code="58" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Niet meer dan 2 per 24 uur"/>
+    <code code="59" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Niet meer dan 4 per week"/>
+    <code code="60" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Niet langer dan 5 dagen achtereen gebr."/>
+    <code code="61" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Pas op met alcohol i.v.m. maagklachten"/>
+    <code code="62" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Dun op de huid aanbrengen"/>
+    <code code="63" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Let op: beschadigt zachte contactlenzen"/>
+    <code code="64" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gebruik volgens schema trombosedienst"/>
+    <code code="65" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Ten minste half uur VOOR ontbijt innemen"/>
+    <code code="66" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 uur voor en 2 uur na innemen niet eten"/>
+    <code code="67" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Tablet ONDER de tong laten oplossen"/>
+    <code code="68" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gorgelen, daarna uitspugen"/>
+    <code code="69" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Mond spoelen, daarna uitspugen"/>
+    <code code="70" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Tablet langzaam opzuigen"/>
+    <code code="71" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Ter inhalatie via de mond"/>
+    <code code="72" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Ter inhalatie via de neus"/>
+    <code code="73" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Tot 20 druppels op 1 l heet water stomen"/>
+    <code code="74" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na gebruik mond spoelen"/>
+    <code code="75" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Op lichaamstemperatuur brengen voor gebr"/>
+    <code code="76" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 uur voor en 1 uur na innemen niet eten"/>
+    <code code="77" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Op de tong laten smelten, wegslikken"/>
+    <code code="78" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Kort voor of tijdens het eten"/>
+    <code code="79" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor en 1 uur na innemen niet eten"/>
+    <code code="80" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 1 dag houdbaar"/>
+    <code code="81" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Ten minste 1 uur VOOR het eten innemen"/>
+    <code code="82" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="100 ml op 1 liter handwarm water"/>
+    <code code="83" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Pleister niet aan zonlicht blootstellen"/>
+    <code code="84" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor of 2 uur na het eten innemen"/>
+    <code code="85" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="VOOR het ontbijt innemen"/>
+    <code code="86" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="In de beker goed mengen met 200 ml water"/>
+    <code code="87" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Op 150 ml vloeistof strooien, doorroeren"/>
+    <code code="88" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 1 dag na ref.tijdstip"/>
+    <code code="89" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 3 dagen na ref.tijdstip"/>
+    <code code="90" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 4 dagen na ref.tijdstip"/>
+    <code code="91" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 5 dagen na ref.tijdstip"/>
+    <code code="92" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 28 dagen na ref.tijdstip"/>
+    <code code="93" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 2 maanden na ref.tijdstip"/>
+    <code code="94" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 8 uur houdbaar"/>
+    <code code="95" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Eerst mengen met water of zacht voedsel"/>
+    <code code="96" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na aanbreken strip 3 maanden houdbaar"/>
+    <code code="97" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Ten minste 15 minuten VOOR het eten"/>
+    <code code="98" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="In koelkast bewaren na eerste gebruik"/>
+    <code code="99" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 7 dagen na ref.tijdstip"/>
+    <code code="100" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 4 uur houdbaar"/>
+    <code code="101" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken bij kamertemperatuur bewaren"/>
+    <code code="102" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken in koelkast bewaren"/>
+    <code code="103" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Voor merken in koelkast bewaren"/>
+    <code code="104" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="ca 20 sec in de mond houden, doorslikken"/>
+    <code code="105" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 1 uur na innemen niet eten"/>
+    <code code="106" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 9 dagen na ref.tijdstip"/>
+    <code code="107" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Eluaat binnen 8 uur gebruiken"/>
+    <code code="108" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij dit middel GEEN grapefruitsap drinken"/>
+    <code code="109" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="TIJDENS het eten of binnen 1 uur erna"/>
+    <code code="110" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Kan metaal verkleuren (bril, sieraden)"/>
+    <code code="111" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Voor gebruik ten minste 10x omzwenken"/>
+    <code code="112" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 12 uur houdbaar (in koelkast)"/>
+    <code code="113" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 14 dagen houdbaar"/>
+    <code code="114" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Ten minste 1 uur VOOR het ontbijt"/>
+    <code code="115" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 6 uur houdbaar"/>
+    <code code="116" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 30 min houdbaar"/>
+    <code code="117" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 4 maanden houdbaar"/>
+    <code code="118" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 1 uur houdbaar (volume 4 ml)"/>
+    <code code="119" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 4 uur houdbaar (volume 10 ml)"/>
+    <code code="120" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 3 maanden houdbaar"/>
+    <code code="121" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Eluaat binnen 10 uur gebruiken"/>
+    <code code="122" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 14 dagen na ref.tijdstip"/>
+    <code code="123" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 15 dagen na ref.tijdstip"/>
+    <code code="124" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Capsule mag open,korrels heel doorslikken"/>
+    <code code="125" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Een half uur voor of na het eten innemen"/>
+    <code code="126" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor of half uur na eten innemen"/>
+    <code code="127" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 3 maanden na ref.tijdstip"/>
+    <code code="128" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 20 uur na ref.tijdstip"/>
+    <code code="129" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 36 uur na ref.tijdstip"/>
+    <code code="130" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 12 uur na ref.tijdstip"/>
+    <code code="131" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 23 uur na ref.tijdstip"/>
+    <code code="132" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na ontdooien binnen 6 uur gebruiken"/>
+    <code code="133" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 3 uur houdbaar"/>
+    <code code="134" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen van zakje 3 maanden houdbaar"/>
+    <code code="135" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="In koelkast 1 jaar houdbaar"/>
+    <code code="136" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij kamertemperatuur 6 maanden houdbaar"/>
+    <code code="137" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Pas op: bleekt kleding en linnengoed"/>
+    <code code="138" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Rechtop bewaren"/>
+    <code code="139" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="15 min. voor en na gebruik niet drinken"/>
+    <code code="140" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Niet kauwen"/>
+    <code code="141" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s Avonds innemen bij de maaltijd"/>
+    <code code="142" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 12 uur houdbaar"/>
+    <code code="143" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 12 weken na ref.tijdstip"/>
+    <code code="144" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 8 dagen na ref.tijdstip"/>
+    <code code="145" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Onaangebroken: in koelkast bewaren"/>
+    <code code="146" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen: bij kamertemperatuur bewaren"/>
+    <code code="147" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Koel of bij kamertemp. bewaren (8-25 C)"/>
+    <code code="148" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar 2-6 weken na ref.tijdstip"/>
+    <code code="149" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 10 dagen na ref.tijdstip"/>
+    <code code="150" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 8 uur houdbaar"/>
+    <code code="151" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 32 uur na ref.tijdstip"/>
+    <code code="152" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na merken 10 min houdbaar"/>
+    <code code="153" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 21 dagen na ref.tijdstip"/>
+    <code code="154" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Luchtbel niet verwijderen"/>
+    <code code="155" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na ontdooien 5 uur houdbaar"/>
+    <code code="156" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="In droog ijs tot 1 uur voor gebruik"/>
+    <code code="157" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 8 weken na ref.tijdstip"/>
+    <code code="158" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Ten minste 2 uur na innemen niet eten"/>
+    <code code="159" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Innemen op nuchtere maag"/>
+    <code code="160" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 2 dagen na ref.tijdstip"/>
+    <code code="161" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 4 weken houdbaar"/>
+    <code code="162" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 8 uur na ref.tijdstip"/>
+    <code code="163" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 4 weken houdbaar"/>
+    <code code="164" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na oplossen in de koelkast bewaren"/>
+    <code code="165" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na oplossen 48 uur houdbaar"/>
+    <code code="166" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 48 uur houdbaar"/>
+    <code code="167" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Innemen na de maaltijd"/>
+    <code code="168" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 30 dagen houdbaar"/>
+    <code code="169" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Voor gebruik mengen door te rollen"/>
+    <code code="170" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na oplossen 4 uur houdbaar"/>
+    <code code="171" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na ontdooien binnen 36 uur gebruiken"/>
+    <code code="172" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 12 uur houdbaar"/>
+    <code code="173" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gemengd met water of melkproduct innemen"/>
+    <code code="174" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na mengen 6 uur houdbaar"/>
+    <code code="175" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor de warme maaltijd innemen"/>
+    <code code="176" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na aanbreken 1 dag houdbaar"/>
+    <code code="177" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 4 dagen houdbaar (in koelkast)"/>
+    <code code="178" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 24 uur houdbaar"/>
+    <code code="179" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Binnen 30 minuten na het eten innemen"/>
+    <code code="180" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Water toevoegen aan poeder, schudden"/>
+    <code code="181" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 6 weken houdbaar"/>
+    <code code="182" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 6 weken na ref.tijdstip"/>
+    <code code="183" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Dosis verdunnen in een glas water"/>
+    <code code="184" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Voor gebruik 1:1 verdunnen met water"/>
+    <code code="185" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na oplossen 4 weken houdbaar in koelkast"/>
+    <code code="186" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 7 dagen houdbaar"/>
+    <code code="187" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Of 2 uur voor/na lunch/avondeten innemen"/>
+    <code code="188" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Of ten minste een half uur voor ontbijt"/>
+    <code code="189" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Voor gebruik op kamertemperatuur brengen"/>
+    <code code="190" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 3 dagen houdbaar"/>
+    <code code="191" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Buiten koelkast max. 5 dagen houdbaar"/>
+    <code code="192" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 3 weken houdbaar"/>
+    <code code="193" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="De tablet mag worden fijngemalen"/>
+    <code code="194" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Oplosm. bij kamertemp. bewaren (15-25 C)"/>
+    <code code="195" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Innemen met wat voedsel"/>
+    <code code="196" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="In de mond laten smelten, doorslikken"/>
+    <code code="197" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Half uur voor of 1 uur na eten innemen"/>
+    <code code="198" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Voor gebruik flacon enkele malen omkeren"/>
+    <code code="199" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 24 uur houdbaar (in koelkast)"/>
+    <code code="200" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Binnen 30 min. na inname niet gaan liggen"/>
+    <code code="201" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="4 maanden houdbaar"/>
+    <code code="202" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Houdbaar tot 24 dagen na ref.tijdstip"/>
+    <code code="203" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 7 weken houdbaar"/>
+    <code code="204" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Heel doorslikken i.v.m. vieze smaak"/>
+    <code code="205" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij voorkeur 1 uur voor het eten innemen"/>
+    <code code="206" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s Morgens innemen"/>
+    <code code="207" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na openen 8 weken houdbaar"/>
+    <code code="208" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij voorkeur heel doorslikken"/>
+    <code code="1001" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="5e tot 25e dag van de cyclus"/>
+    <code code="1002" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="10e tot 25e dag van de cyclus"/>
+    <code code="1003" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="16e tot 25e dag van de cyclus"/>
+    <code code="1004" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="19e tot 25e dag van de cyclus"/>
+    <code code="1005" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor of 2 uur na de maaltijd"/>
+    <code code="1006" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor de maaltijd en voor de nacht"/>
+    <code code="1007" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor de maaltijd met water"/>
+    <code code="1008" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur na de maaltijd"/>
+    <code code="1009" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor de ingreep"/>
+    <code code="1010" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor de maaltijd"/>
+    <code code="1011" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na 1 week herhalen"/>
+    <code code="1012" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 dagen voor de menstruatie beginnen"/>
+    <code code="1013" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 uur voor of 2 uur na de maaltijd"/>
+    <code code="1014" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 uur voor de ingreep"/>
+    <code code="1015" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na 2 weken herhalen"/>
+    <code code="1016" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3 dagen voor de menstruatie beginnen"/>
+    <code code="1017" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="6 uur voor de reis aanbrengen"/>
+    <code code="1018" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="aanbrengen"/>
+    <code code="1019" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="volgende maal afspraak maken"/>
+    <code code="1020" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="aanstippen"/>
+    <code code="1021" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s avonds"/>
+    <code code="1022" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij een aanval"/>
+    <code code="1023" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij benauwdheid"/>
+    <code code="1024" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij diarree"/>
+    <code code="1025" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij het ontbijt"/>
+    <code code="1026" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in beide ogen"/>
+    <code code="1027" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in beide oren"/>
+    <code code="1028" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij pijn"/>
+    <code code="1029" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="met 1 druppel bedekken, laten drogen"/>
+    <code code="1030" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na de ontlasting"/>
+    <code code="1031" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="deppen"/>
+    <code code="1032" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1e dag 2, daarna 1 maal daags 1"/>
+    <code code="1033" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="dun aanbrengen"/>
+    <code code="1034" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="goed fijnkauwen"/>
+    <code code="1035" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gebruik bekend"/>
+    <code code="1036" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gorgelen"/>
+    <code code="1037" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="griepinjectie"/>
+    <code code="1038" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gebruik volgens aanwijzingen bijsluiter"/>
+    <code code="1039" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gebruik volgens aanwijzingen huisarts"/>
+    <code code="1040" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in zijn geheel met water innemen"/>
+    <code code="1041" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in de haren en op de hoofdhuid"/>
+    <code code="1042" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="een half uur voor de maaltijd en de nacht"/>
+    <code code="1043" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="op de hoofdhuid"/>
+    <code code="1044" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="op de huid"/>
+    <code code="1045" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="een half uur voor de maaltijd"/>
+    <code code="1046" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="een half uur voor het ontbijt"/>
+    <code code="1047" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="een half uur voor 't slapen"/>
+    <code code="1048" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het aangedane neusgat"/>
+    <code code="1049" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in beide neusgaten hoog opsnuiven"/>
+    <code code="1050" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in beide neusgaten"/>
+    <code code="1051" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het badwater"/>
+    <code code="1052" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor i.m. injectie"/>
+    <code code="1053" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="aan de huisarts afgeven"/>
+    <code code="1054" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="inhaleren"/>
+    <code code="1055" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="injecteren"/>
+    <code code="1056" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="inmasseren"/>
+    <code code="1057" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="insmeren"/>
+    <code code="1058" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="inwrijven"/>
+    <code code="1059" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="intraveneus injecteren"/>
+    <code code="1060" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in vernevelapparaat"/>
+    <code code="1061" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in water oplossen"/>
+    <code code="1062" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="kuur: medicijnen opgebruiken!"/>
+    <code code="1063" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het linker oog"/>
+    <code code="1064" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het linker oor"/>
+    <code code="1065" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s middags en 's avonds"/>
+    <code code="1066" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s middags"/>
+    <code code="1067" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur na de maaltijd, goed fijnkauwen"/>
+    <code code="1068" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s morgens"/>
+    <code code="1069" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet meer dan 10 per week"/>
+    <code code="1070" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet meer dan 5 per week"/>
+    <code code="1071" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="met water innemen"/>
+    <code code="1072" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="maximaal 6mg ergotamine per dag"/>
+    <code code="1073" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na de maaltijd"/>
+    <code code="1074" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na de maaltijd innemen"/>
+    <code code="1075" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet met melk innemen"/>
+    <code code="1076" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet op lege maag innemen"/>
+    <code code="1077" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na het ontbijt"/>
+    <code code="1078" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na het ontbijt met water innemen"/>
+    <code code="1079" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="nuchter (voor het ontbijt) innemen"/>
+    <code code="1080" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="om de 2 uur"/>
+    <code code="1081" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="om de 3 uur"/>
+    <code code="1082" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="om de 4 uur"/>
+    <code code="1083" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="om de 5 uur"/>
+    <code code="1084" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="om de 6 uur"/>
+    <code code="1085" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="om de 8 uur"/>
+    <code code="1086" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="onder occlusie"/>
+    <code code="1087" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s ochtends en 's avonds"/>
+    <code code="1088" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="op het ooglid aanbrengen"/>
+    <code code="1089" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het aangedane oog"/>
+    <code code="1090" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="onder het ooglid aanbrengen"/>
+    <code code="1091" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het aangedane oor"/>
+    <code code="1092" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="opkauwen"/>
+    <code code="1093" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="oplossen"/>
+    <code code="1094" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="opsnuiven"/>
+    <code code="1095" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="opzuigen"/>
+    <code code="1096" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="onder de tong"/>
+    <code code="1097" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="om de 12 uur"/>
+    <code code="1098" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="op vast tijdstip"/>
+    <code code="1099" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="oplossen in water of limonade"/>
+    <code code="1100" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="omroeren in water, melk of sap"/>
+    <code code="1101" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="met penseel aanbrengen"/>
+    <code code="1102" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="rectaal inbrengen"/>
+    <code code="1103" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="rood etiket"/>
+    <code code="1104" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="rechtop innemen met ruim water"/>
+    <code code="1105" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het rechter oog"/>
+    <code code="1106" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het rechter oor"/>
+    <code code="1107" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het rechter neusgat"/>
+    <code code="1108" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="sine confectione et monitione"/>
+    <code code="1109" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="spoelen"/>
+    <code code="1110" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="spoelen en doorslikken"/>
+    <code code="1111" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="specialistisch voorschrift"/>
+    <code code="1112" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het linker neusgat"/>
+    <code code="1113" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="tijdens de maaltijd"/>
+    <code code="1114" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="tijdens de maaltijd met melk innemen"/>
+    <code code="1115" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="tijdens of na de maaltijd"/>
+    <code code="1116" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="tussen de maaltijden door"/>
+    <code code="1117" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="20 minuten voor de maaltijd"/>
+    <code code="1118" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor uitwendig gebruik"/>
+    <code code="1119" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet meer gebruiken; uit de handel!"/>
+    <code code="1120" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="vaginaal aanbrengen"/>
+    <code code="1121" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij jeuk"/>
+    <code code="1122" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor 't examen"/>
+    <code code="1123" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="diep vaginaal inbrengen"/>
+    <code code="1124" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor inwendig gebruik"/>
+    <code code="1125" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="volgens instructies huisarts"/>
+    <code code="1126" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor de ingreep"/>
+    <code code="1127" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor de maaltijd"/>
+    <code code="1128" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor de nacht"/>
+    <code code="1129" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor het ontbijt"/>
+    <code code="1130" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor het slapen"/>
+    <code code="1131" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gebruik volgens schema"/>
+    <code code="1132" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="verstuiven"/>
+    <code code="1133" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gebruik volgens voorschrift specialist"/>
+    <code code="1134" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="mee wassen"/>
+    <code code="1135" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na het ontbijt, goed fijnkauwen"/>
+    <code code="1136" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig bij diarree"/>
+    <code code="1137" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig"/>
+    <code code="1138" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig bij hoest"/>
+    <code code="1139" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig bij nervositeit"/>
+    <code code="1140" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig bij pijn"/>
+    <code code="1141" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig voor de nacht"/>
+    <code code="1142" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig voor het slapen"/>
+    <code code="1143" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="op de plekjes aanbrengen"/>
+    <code code="1144" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij hoofdpijn"/>
+    <code code="1145" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij koorts"/>
+    <code code="1146" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij hoge koorts"/>
+    <code code="1147" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij koorts en/of pijn"/>
+    <code code="1148" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="inbrengen"/>
+    <code code="1149" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij iedere luierwisseling"/>
+    <code code="1150" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="meermalen daags"/>
+    <code code="1151" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="maandag, woensdag en vrijdag"/>
+    <code code="1152" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gebruik naar behoefte"/>
+    <code code="1153" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet met melk, maag- of ijzermed. innemen"/>
+    <code code="1154" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s ochtends en 's middags"/>
+    <code code="1155" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="sprayen"/>
+    <code code="1156" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor s.c. injectie"/>
+    <code code="1157" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="tijdens het ontbijt"/>
+    <code code="1158" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="VOOR de maaltijd; bij maagklachten NA m."/>
+    <code code="1159" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="dagzalf/-creme"/>
+    <code code="1160" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="nachtzalf/-creme"/>
+    <code code="1161" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's middags, 2 's avonds"/>
+    <code code="1162" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's middags, 1/2 's avonds"/>
+    <code code="1163" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's middags, 1 's avonds"/>
+    <code code="1164" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1/2 's middags, 1 's avonds"/>
+    <code code="1165" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 2 's avonds"/>
+    <code code="1166" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 1/2 's avonds"/>
+    <code code="1167" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 1 's middags, 2 's avonds"/>
+    <code code="1168" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 1 's middags, 1/2 's avonds"/>
+    <code code="1169" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 2 's middags"/>
+    <code code="1170" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 2 's middags, 1 's avonds"/>
+    <code code="1171" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 2 's middags, 2 's avonds"/>
+    <code code="1172" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 1/2 's middags"/>
+    <code code="1173" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 1/2 's middags, 1 's avonds"/>
+    <code code="1174" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens, 1/2 's middags, 2 's avonds"/>
+    <code code="1175" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 's morgens 1/2 's middags 1/2 's avonds"/>
+    <code code="1176" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's morgens, 1 's avonds"/>
+    <code code="1177" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's morgens, 3 's avonds"/>
+    <code code="1178" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's morgens, 1/2 's avonds"/>
+    <code code="1179" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's morgens, 1 's middags"/>
+    <code code="1180" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's morgens, 1 's middags, 1 's avonds"/>
+    <code code="1181" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's morgens, 1 's middags, 1/2 's avonds"/>
+    <code code="1182" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's morgens, 1 's middags, 2 's avonds"/>
+    <code code="1183" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 's morgens, 2 's middags, 1 's avonds"/>
+    <code code="1184" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1/2 's morgens, 1 's avonds"/>
+    <code code="1185" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1/2 's morgens, 2 's avonds"/>
+    <code code="1186" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1/2 's morgens, 1 's middags"/>
+    <code code="1187" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1/2 's morgens, 1 's middags, 1 's avonds"/>
+    <code code="1188" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1/2 's morgens, 1 's middags, 2 's avonds"/>
+    <code code="1189" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1/2 's morgens 1/2 's middags 1 's avonds"/>
+    <code code="1190" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1/2 's morgens 1/2 's middags 2 's avonds"/>
+    <code code="1191" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3 dagen 3, 2 dagen 2, daarna 1 per dag"/>
+    <code code="1192" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1e dag 5, 2e dag 4, 3e dag 3, enz."/>
+    <code code="1193" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1e dag 3, 2e dag 2, dan 1 maal daags 1 t."/>
+    <code code="1194" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig bij jeuk"/>
+    <code code="1195" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1e dag 2, daarna 1 maal daags 1"/>
+    <code code="1196" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in de eerste week 1 maal daags 1"/>
+    <code code="1197" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na het avondeten"/>
+    <code code="1198" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s ochtends en voor de nacht"/>
+    <code code="1199" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3 maal daags 1, 2 voor de nacht"/>
+    <code code="1200" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3 maal daags 1/2, 1 voor de nacht"/>
+    <code code="1201" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="een half uur voor zonnebaden aanbrengen"/>
+    <code code="1202" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 dagen 2 per dag, daarna 1 per dag"/>
+    <code code="1203" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gedurende 1 week; na 3 weken herhalen"/>
+    <code code="1204" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 tegelijk, daarna zo nodig om de 2 uur 1"/>
+    <code code="1205" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet meer dan 8 per dag"/>
+    <code code="1206" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="tenminste 1 week voor aankomst beginnen"/>
+    <code code="1207" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="nog 4 weken na vertrek doorgebruiken"/>
+    <code code="1208" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="nu 2, na 12 uur weer 2"/>
+    <code code="1209" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 nu, na 14 dagen herhalen"/>
+    <code code="1210" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3 dagen; eventueel na 3 weken herhalen"/>
+    <code code="1211" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in de eerste week 2 dagen achtereen"/>
+    <code code="1212" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2e wk t/m 3e mnd bij voll. borstvoeding"/>
+    <code code="1213" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1e, 3e en 5e dag 1 capsule, voor het eten"/>
+    <code code="1214" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="fors laxeren 1-2 uur na de kuur"/>
+    <code code="1215" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3 weken voor aankomst beginnen"/>
+    <code code="1216" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="beginnen met 3 nu, na 8 uur 2"/>
+    <code code="1217" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet meer dan 12 per 24 uur"/>
+    <code code="1218" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij maagklachten staken"/>
+    <code code="1219" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gebruik volgens aanwijzing verloskundige"/>
+    <code code="1220" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gebruik volgens aanwijzingen tandarts"/>
+    <code code="1221" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="op dinsdag, donderdag en zaterdag"/>
+    <code code="1222" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="eerste maal een dubbele dosis"/>
+    <code code="1223" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="eerste week de dubbele dosering"/>
+    <code code="1224" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="eerste week de halve dosering"/>
+    <code code="1225" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gedurende 3 weken, daarna 1 week stoppen"/>
+    <code code="1226" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1-2 weken voor de verwachte menstruatie"/>
+    <code code="1227" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="de tweede week"/>
+    <code code="1228" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="de derde week"/>
+    <code code="1229" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na twee weken verhogen tot"/>
+    <code code="1230" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na twee weken controle"/>
+    <code code="1231" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij voldoende effect dosis verlagen tot"/>
+    <code code="1232" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij voldoende effect dosering verlagen"/>
+    <code code="1233" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="daarna"/>
+    <code code="1234" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na 4, 8 en 12 dagen telkens verhogen met"/>
+    <code code="1235" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="per week verhogen tot effect met"/>
+    <code code="1236" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig om de 5 minuten herhalen"/>
+    <code code="1237" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo mogelijk na enkele dagen"/>
+    <code code="1238" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij ernstige klachten verhogen tot"/>
+    <code code="1239" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="15e tot 25e dag van de cyclus"/>
+    <code code="1240" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="6 uur na het antibioticum"/>
+    <code code="1241" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="maximaal 6 uur tussentijd!"/>
+    <code code="1242" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="of"/>
+    <code code="1243" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gedurende 1 week, daarna"/>
+    <code code="1244" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="per week verhogen met 1 per dag tot max."/>
+    <code code="1245" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo spoedig mogelijk; max 72 uur na coitus"/>
+    <code code="1246" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="eerste avond, daarna"/>
+    <code code="1247" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="beginnen als de metronidazol op is"/>
+    <code code="1248" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="eerste dosis 's avonds innemen"/>
+    <code code="1249" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="verminderen tot"/>
+    <code code="1250" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij voldoende effect verminderen tot"/>
+    <code code="1251" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="per dag dosering met 2 stuks verminderen"/>
+    <code code="1252" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voortzetten tot 3 dagen na herstel"/>
+    <code code="1253" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="en na iedere ontlasting"/>
+    <code code="1254" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na 5 dagen"/>
+    <code code="1255" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2e dag 3, 3e dag 2, daarna"/>
+    <code code="1256" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig na een kwartier herhalen"/>
+    <code code="1257" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na herstel nog 48 uur voortzetten"/>
+    <code code="1258" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="niet langer dan 10 dagen gebruiken"/>
+    <code code="1259" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2e dag 2 maal daags 1, daarna"/>
+    <code code="1260" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="de eerste dag, daarna"/>
+    <code code="1261" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in spuit 1:1 mengen met Kenacort A-10"/>
+    <code code="1262" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="eventueel na 1 week"/>
+    <code code="1263" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="eventueel na 1 week verhogen tot"/>
+    <code code="1264" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="30-60 minuten voor de ingreep, 6 uur erna"/>
+    <code code="1265" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gedurende 2 weken, daarna 2 weken"/>
+    <code code="1266" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="15 minuten voor de inspanning"/>
+    <code code="1267" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na 3 dagen"/>
+    <code code="1268" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="verminderen tot"/>
+    <code code="1269" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig na 1 week herhalen"/>
+    <code code="1270" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij verbetering"/>
+    <code code="1271" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="bij verslechtering"/>
+    <code code="1272" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gedurende 1 week, daarna 3 weken stoppen"/>
+    <code code="1273" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gedurende 3 dagen"/>
+    <code code="1274" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="gedurende 2 dagen, daarna 2 dagen"/>
+    <code code="1275" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="de eerste dag, daarna elke dag 1 minder"/>
+    <code code="1276" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="de eerste week"/>
+    <code code="1279" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="de vierde week"/>
+    <code code="1280" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="de vijfde week"/>
+    <code code="1281" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 maal herhalen"/>
+    <code code="1282" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 maal herhalen"/>
+    <code code="1283" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3 maal herhalen"/>
+    <code code="1284" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="4 maal herhalen"/>
+    <code code="1285" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="5 maal herhalen"/>
+    <code code="1286" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="6 maal herhalen"/>
+    <code code="1287" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="7 maal herhalen"/>
+    <code code="1288" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="8 maal herhalen"/>
+    <code code="1289" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="9 maal herhalen"/>
+    <code code="1290" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="10 maal herhalen"/>
+    <code code="1291" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="11 maal herhalen"/>
+    <code code="1292" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="12 maal herhalen"/>
+    <code code="1301" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur na de maaltijd; opkauwen"/>
+    <code code="1302" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="16e-25e dag van de cyclus"/>
+    <code code="1303" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="5e-25e dag van de cyclus"/>
+    <code code="1304" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="19e-25e dag van de cyclus"/>
+    <code code="1305" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="10e-25e dag van de cyclus"/>
+    <code code="1306" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor of 2 uur na maaltijd"/>
+    <code code="1307" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor de maaltijd en nacht"/>
+    <code code="1308" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 uur voor maaltijd met veel water"/>
+    <code code="1309" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 dgn voor menstruatie beginnen"/>
+    <code code="1310" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3 dagen voor menstruatie beginnen"/>
+    <code code="1311" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="2 uur voor of 2 uur na de maaltijd"/>
+    <code code="1312" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na twee weken herhalen"/>
+    <code code="1313" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="oplossen in water of limonade"/>
+    <code code="1314" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="omroeren in water, melk of sap"/>
+    <code code="1315" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="'s avonds"/>
+    <code code="1316" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="om de twaalf uur"/>
+    <code code="1317" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor inwendig gebruik"/>
+    <code code="1318" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="diep vaginaal inbrengen"/>
+    <code code="1319" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="volgens schema trombosedienst"/>
+    <code code="1320" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 u. v. eten 2 witte, na 2 min 2 roze"/>
+    <code code="1321" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="voor uitwendig gebruik"/>
+    <code code="1322" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig voor de nacht"/>
+    <code code="1323" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig voor 't slapen"/>
+    <code code="1324" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="kuur: medicijnen opgebruiken!"/>
+    <code code="1325" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in beide neusgaten hoog opsnuiven"/>
+    <code code="1326" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="maximaal tien per week"/>
+    <code code="1327" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="maximaal vijf per week"/>
+    <code code="1328" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="onder ooglid aanbrengen"/>
+    <code code="1329" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na de ontlasting"/>
+    <code code="1330" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="zo nodig bij diarrhee"/>
+    <code code="1331" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="na 1 week herhalen"/>
+    <code code="1332" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in beide ogen"/>
+    <code code="1333" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in beide oren"/>
+    <code code="1334" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="met melk innemen"/>
+    <code code="1335" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="met water innemen"/>
+    <code code="1336" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="volgens voorschrift specialist"/>
+    <code code="1337" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het aangedane neusgat"/>
+    <code code="1338" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1 tablet nu en over 14 dagen 1"/>
+    <code code="1339" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het aangedane oog"/>
+    <code code="1340" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het aangedane oor"/>
+    <code code="1341" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het linker oor"/>
+    <code code="1342" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het rechter oog"/>
+    <code code="1343" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het rechter oor"/>
+    <code code="1344" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="in het linker oog"/>
+    <code code="1345" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 2 weken, daarna"/>
+    <code code="1346" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 5 dagen"/>
+    <code code="1347" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 10 dagen"/>
+    <code code="1348" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 25 dagen"/>
+    <code code="1350" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 1 cyclus"/>
+    <code code="1351" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 3 cycli"/>
+    <code code="1352" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gebruik met voorzetkamer met masker"/>
+    <code code="1353" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gebruik met voorzetkamer met mondstuk"/>
+    <code code="1354" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gebruik met voorzetkamer"/>
+    <code code="1355" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Zo nodig na 5 tot 10 minuten herhalen"/>
+    <code code="1356" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Zo nodig na 6 uur herhalen"/>
+    <code code="1357" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Vermijd mondhoeken, ooghoeken en neus"/>
+    <code code="1358" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Op hele lichaam, van hals tot voetzolen"/>
+    <code code="1359" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Na 24 uur lichaam wassen"/>
+    <code code="1360" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Capsule open maken"/>
+    <code code="1361" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Eerste dag een dubbele dosis"/>
+    <code code="1362" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Eerste dag 4, tweede dag 2, derde dag 1"/>
+    <code code="1363" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Tot 2 weken na genezing"/>
+    <code code="1364" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Niet langer dan 1 week gebruiken"/>
+    <code code="1365" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Bij houden klacht na 15 min arts waarsch."/>
+    <code code="1366" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="3-5 min. laten intrekken, daarna wassen"/>
+    <code code="1367" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Zo nodig na 1 tot 1,5 uur herhalen"/>
+    <code code="1368" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Niet in het gezicht toepassen"/>
+    <code code="1369" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Achter het oor aanbrengen"/>
+    <code code="1370" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Zo nodig bij menstruatiepijn"/>
+    <code code="1371" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="1e tot en met 4e dag van de menstruatie"/>
+    <code code="1372" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 2 weken"/>
+    <code code="1373" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 4 weken"/>
+    <code code="1374" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Gedurende 5 weken"/>
+    <code code="1375" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="17e tot 28e dag van de cyclus"/>
+    <code code="1376" codeSystem="2.16.840.1.113883.2.4.4.5" displayName="Eerste inname voor het slapen gaan"/>
+</codeSystem>

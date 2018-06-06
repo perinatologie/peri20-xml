@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:mif2="urn:hl7-org:v3/mif2" xmlns="urn:hl7-org:v3"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:ns="http://www.w3.org/1999/xhtml"
+            xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd"
+            codeStrength="CWE">
+   <name>ActMood</name>
+   <desc>OpenIssue:  In Ballot 2009May, a strong Negative vote was lodged against several of the concept definitions in the vocabulary
+                     used for Act.moodCode. The vote was found "Persuasive With Mod", with the understanding that M and M would undertake a detailed
+                     review of these concept definitions for a future release of the RIM.
+                  </desc>
+   <!-- 0-A _ActMoodCompletionTrack (v:ActMoodCompletionTrack)--><code code="EVN" codeSystem="2.16.840.1.113883.5.1001"
+         displayName="event (occurrence)">
+      <originalText>Definition: Definition: An act that actually happens (may be an ongoing act or a documentation of a past act).</originalText>
+   </code>
+   <code code="INT" codeSystem="2.16.840.1.113883.5.1001" displayName="intent"><!-- v:ActMoodIntent --><originalText>Definition: Definition: An intention or plan for an act.</originalText>
+   </code>
+   <code code="PRMS" codeSystem="2.16.840.1.113883.5.1001" displayName="promise"><!-- v:ActMoodPromise --><originalText>Definition: Definition: A commitment to perform an act (may be either solicited or unsolicited). The committer becomes responsible to the other party for executing the act, and, as a consequence, the other party may rely on the first party to perform or cause to perform the act.</originalText>
+   </code>
+   <code code="APT" codeSystem="2.16.840.1.113883.5.1001" displayName="appointment">
+      <originalText>Definition: Definition: An act that has been scheduled to be performed at a specific place and time.</originalText>
+   </code>
+   <!-- 2-A _ActMoodDesire (v:ActMoodDesire)--><code code="PRP" codeSystem="2.16.840.1.113883.5.1001" displayName="proposal"><!-- v:ActMoodProposal --><originalText>Definition: Definition: A suggestion that an act might be performed. Not an explicit request, and professional responsibility may or may not be present.</originalText>
+   </code>
+   <code code="RMD" codeSystem="2.16.840.1.113883.5.1001" displayName="recommendation">
+      <originalText>Definition: Definition: A suggestion that an act should be performed with an acceptance of some degree of professional responsibility for the resulting act. Not an explicit request. .</originalText>
+   </code>
+   <!-- 3-A _ActMoodActRequest (v:ActMoodActRequest)--><code code="ARQ" codeSystem="2.16.840.1.113883.5.1001"
+         displayName="appointment request">
+      <originalText>Definition: Definition: A request act that is specialized for the appointment scheduling request/fulfillment cycle. An appointment request is fulfilled only and completely by an appointment (APT), i.e., all that the appointment request intends is to create an appointment (the actual act may well not happen if that is the professional decision during the appointment).</originalText>
+   </code>
+   <code code="PERMRQ" codeSystem="2.16.840.1.113883.5.1001"
+         displayName="permission request">
+      <originalText>Definition: Definition: A request for a permission to perform the act. Typically a payer (or possibly a supervisor) is being requested to give permission to perform the act. As opposed to the RQO, the requestee is not asked to perform or cause to perform the act but only to give the permission.</originalText>
+   </code>
+   <code code="RQO" codeSystem="2.16.840.1.113883.5.1001" displayName="request">
+      <originalText>Definition: Definition: A request act that is specialized for an event request/fulfillment cycle.</originalText>
+   </code>
+   <!-- 1-A _ActMoodPotential (v:ActMoodPotential)--><code code="DEF" codeSystem="2.16.840.1.113883.5.1001" displayName="definition">
+      <originalText>Definition: Definition: A definition of a kind of act that can occur .</originalText>
+   </code>
+   <code code="PERM" codeSystem="2.16.840.1.113883.5.1001" displayName="permission">
+      <originalText>Definition: Definition: A kind of act that defines a permission that has been granted.</originalText>
+   </code>
+   <code code="SLOT" codeSystem="2.16.840.1.113883.5.1001" displayName="resource slot">
+      <originalText>Definition: Definition: A kind of act that may occur during the specified time period.</originalText>
+   </code>
+   <!-- 0-A _ActMoodPredicate (v:ActMoodPredicate)--><code code="CRT" codeSystem="2.16.840.1.113883.5.1001" displayName="criterion"><!-- v:ActMoodCriterion --><originalText> Definition:</originalText>
+   </code>
+   <code code="EVN.CRT" codeSystem="2.16.840.1.113883.5.1001"
+         displayName="event criterion">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="EXPEC" codeSystem="2.16.840.1.113883.5.1001" displayName="expectation"><!-- v:ActMoodExpectation --><originalText>Definition: Definition: An act that is considered to have some noteworthy likelihood of occurring in the future (has_match = event).</originalText>
+   </code>
+   <code code="GOL" codeSystem="2.16.840.1.113883.5.1001" displayName="Goal">
+      <originalText>Definition: Definition: An expectation that is considered to be desirable to occur in the future</originalText>
+   </code>
+   <code code="RSK" codeSystem="2.16.840.1.113883.5.1001" displayName="risk">
+      <originalText>Definition: Definition:An act that may occur in the future and which is regarded as undesirable</originalText>
+   </code>
+   <code code="OPT" codeSystem="2.16.840.1.113883.5.1001" displayName="option">
+      <originalText>Definition: Definition: One of a set of acts that specify an option for the property values that the parent act may have. Typically used in definitions or orders to describe alternatives. An option can only be used as a group, that is, all assigned values must be used together. The actual mood of the act is the same as the parent act, and they must be linked by an actrelationship with type = OPTN.</originalText>
+   </code>
+</codeSystem>

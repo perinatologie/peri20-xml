@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+	<name>Bestand 361 a-tabel (eenheid gebruiksadvies)</name>
+	<desc>Bestand 361 a-tabel (eenheid gebruiksadvies)</desc>
+    <code code="1" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="aerosol"/>
+    <code code="2" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="autoinhaler"/>
+    <code code="3" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="ampul">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="4" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="applicatorvulling"/>
+    <code code="5" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="bruistablet">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="6" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="capsule">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="7" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="collodium"/>
+    <code code="8" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="capsule msr">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="9" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="centimeter">
+        <translation code="205" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="10" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="eetlepel (= 15ml)">
+        <translation code="233" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="11" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="paplepel (= 8 ml)">
+        <translation code="233" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="12" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="creme"/>
+    <code code="13" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="strooipoeder"/>
+    <code code="14" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="theelepel (= 3 ml)">
+        <translation code="233" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="15" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="dragee">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="16" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="depper">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="17" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="disper"/>
+    <code code="18" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="drank"/>
+    <code code="19" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="dosis">
+        <translation code="208" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="20" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="druppel">
+        <translation code="303" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="21" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="durette">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="22" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="druppelvloeistof"/>
+    <code code="23" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="doos"/>
+    <code code="24" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="eenheid">
+        <translation code="211" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="25" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="elixer"/>
+    <code code="26" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="emulsie"/>
+    <code code="27" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="extract"/>
+    <code code="28" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="fles">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="29" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="foam"/>
+    <code code="30" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="gas"/>
+    <code code="31" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="gel"/>
+    <code code="32" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="griepinjectie">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="33" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="granulaat"/>
+    <code code="34" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="gram">
+        <translation code="215" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="35" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="gaas">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="36" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="inhalatie">
+        <translation code="208" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="37" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="inhalator">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="38" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="injectie">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="39" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="inlegluier">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="40" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="incont.onderlegger">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="41" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="intertulle"/>
+    <code code="42" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="IUD"/>
+    <code code="43" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="injectievloeistof"/>
+    <code code="44" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="kilogram">
+        <translation code="219" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="45" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="klysma">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="46" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="korrel">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="47" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="kraal">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="48" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="kauwgom">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <!-- GBO unit bij liter gewijzigd van '1' naar 'l' -->
+    <code code="49" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="liter">
+        <translation code="222" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="50" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="lotion"/>
+    <code code="51" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="luier">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="52" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="meter">
+        <translation code="225" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="53" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="maatlepel"/>
+    <code code="54" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="milligram">
+        <translation code="229" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="55" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="minim">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="56" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="milliliter">
+        <translation code="233" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="57" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="millimeter">
+        <translation code="234" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="58" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="mitis tablet">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="59" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="mucilago"/>
+    <code code="60" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="mixtura"/>
+    <code code="61" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="nebulisator">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="62" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="naald">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="63" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="oplossing"/>
+    <code code="64" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="oogdruppel">
+        <translation code="303" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="65" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="olie"/>
+    <code code="66" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="onderlegger">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="67" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="oordruppel">
+        <translation code="303" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="68" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="ovule">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="69" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="oogwater"/>
+    <code code="70" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="oogzalf"/>
+    <code code="71" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="poeder">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="72" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="pasta"/>
+    <code code="73" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="penfill ampul">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="74" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="puffje">
+        <translation code="208" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="75" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="pil">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="76" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="plak"/>
+    <code code="77" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="pleister">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="78" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="pipet">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="79" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="rectiole">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="80" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="retard capsule">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="81" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="rotacap">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="82" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="repetab">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="83" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="retard tablet">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="84" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="zetpil">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="85" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="sachet">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="86" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="siroop forte"/>
+    <code code="87" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="shampoo"/>
+    <code code="88" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="siroop"/>
+    <code code="89" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="stuk">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="90" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="onbekend"/>
+    <code code="91" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="slijm"/>
+    <code code="92" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="smeersel"/>
+    <code code="93" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="spuit en naald">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="94" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="solutio"/>
+    <code code="95" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="spray"/>
+    <code code="96" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="spacer"/>
+    <code code="97" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="strip">
+        <translation code="490" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="98" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="suspensie"/>
+    <code code="99" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="overig"/>
+    <code code="100" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="tablet">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="101" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="turbuhaler">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="102" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="transdermaalpleister">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="103" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="tablet msr">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="104" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="tinctuur"/>
+    <code code="105" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="tampon">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="106" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="tube"/>
+    <code code="107" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="microgram">
+        <translation code="252" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="108" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="microliter">
+        <translation code="254" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="109" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="urotainer">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="110" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="verband">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="111" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="vaginale creme"/>
+    <code code="112" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="vetcreme"/>
+    <code code="113" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="vaginaalovule">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="114" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="verpakking">
+        <translation code="490" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="115" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="vaginaalspoeling"/>
+    <code code="116" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="vaginaaltablet">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="117" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="vetzalf"/>
+    <code code="118" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="wassing"/>
+    <code code="119" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="wat"/>
+    <code code="120" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="wegwerpspuit">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="121" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="zakje">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="122" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="zalf"/>
+    <code code="123" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="zeep"/>
+    <code code="124" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="zuigtablet">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="125" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="tablet mga">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="126" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="capsule mga">
+        <translation code="245" codeSystem="2.16.840.1.113883.2.4.4.1.900.2"/>
+    </code>
+    <code code="999" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="(nvt/afbr)"/>
+    <code code="127" codeSystem="2.16.840.1.113883.2.4.4.1.361" displayName="verstuiving"/>
+</codeSystem>

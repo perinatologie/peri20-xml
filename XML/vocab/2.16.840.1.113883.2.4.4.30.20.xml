@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/codeSystem2html.xsl" type="text/xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+      <name>NHG Tabel 20 Code opleiding</name>
+      <code code="01" codeSystem="2.16.840.1.113883.2.4.4.30.20" codeSystemVersion="v3" displayName="geen opleiding (lagere school niet afgemaakt)"/>
+      <code code="02" codeSystem="2.16.840.1.113883.2.4.4.30.20" codeSystemVersion="v3" displayName="lager algemeen onderwijs">
+            <translation code="ELEM" codeSystem="2.16.840.1.113883.5.1077"/>
+      </code>
+      <code code="03" codeSystem="2.16.840.1.113883.2.4.4.30.20" codeSystemVersion="v3" displayName="lager beroepsonderwijs">
+            <translation code="HS" codeSystem="2.16.840.1.113883.5.1077"/>
+      </code>
+      <code code="04" codeSystem="2.16.840.1.113883.2.4.4.30.20" codeSystemVersion="v3" displayName="middelbaar algemeen onderwijs">
+            <translation code="HS" codeSystem="2.16.840.1.113883.5.1077"/>
+      </code>
+      <code code="05" codeSystem="2.16.840.1.113883.2.4.4.30.20" codeSystemVersion="v3" displayName="middelbaar beroepsonderwijs"/>
+      <code code="08" codeSystem="2.16.840.1.113883.2.4.4.30.20" codeSystemVersion="v3" displayName="hoger algemeen onderwijs">
+            <translation code="HS" codeSystem="2.16.840.1.113883.5.1077"/>
+      </code>
+      <code code="09" codeSystem="2.16.840.1.113883.2.4.4.30.20" codeSystemVersion="v3" displayName="hoger beroepsonderwijs">
+            <originalText>HBO, incl. HEAO en HTS</originalText>
+            <translation code="BD" codeSystem="2.16.840.1.113883.5.1077"/>
+      </code>
+      <code code="10" codeSystem="2.16.840.1.113883.2.4.4.30.20" codeSystemVersion="v3" displayName="wetenschappelijk onderwijs">
+            <originalText>universiteit/hogeschool</originalText>
+            <translation code="GD" codeSystem="2.16.840.1.113883.5.1077"/>
+      </code>
+</codeSystem>

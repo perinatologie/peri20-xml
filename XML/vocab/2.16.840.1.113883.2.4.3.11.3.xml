@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<?oxygen SCHSchema="2.16.840.1.113883.2.4.3.11.3.sch"?>
+<!-- 
+  Versie 6.12.1.0 
+  Datum: 14-01-2013
+-->
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3" codeStrength="CWE">
+  <name>Systeemrollen</name>
+  <desc>Applicatiesysteemrollen worden toegelicht in een PvE (Infra of toepassing)</desc>
+  <!-- AORTA 6 zorgtoepassingsrollen -->
+  <code code="MEDICATIEVERSTREKKER810" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieverstrekker (MG) 6.x.x.x"/>
+  <code code="MEDICATIEBEWAKER810" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatiebewaker (ICA/MB) 6.x.x.x"/>
+  <code code="MEDICATIERAADPLEGER810" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieraadpleger (MG) 6.x.x.x"/>
+  <!--code code="MEDICATIEVOORSCHRIJVER810" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatievoorschrijver (MG) 6.x.x.x" /-->
+  <code code="VASTEHUISARTS810" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Huisartsdossierhouder (HWG) 6.x.x.x"/>
+  <code code="WAARNEMENDHUISARTS810" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Waarnemend huisarts (HWG) 6.x.x.x"/>
+  <code code="GBK810" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Goed Beheerd Klantenloketsysteem (INPA) 6.8.0.0"/>
+  <code code="GBP810" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Goed Beheerd Patiëntenportaal (INPA) 6.8.0.0"/>
+
+  <!-- AORTA 2011 Systeemrollen-->
+  <code code="APR.KVS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="APR Koppeling verifiërend systeem, zie [PvE GBx Rollen]"/>
+  <code code="APR.KBS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="APR Koppeling bevestigend systeem, zie [PvE GBx Rollen]"/>
+  <code code="APR.RPSa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="APR Raadplegend systeem - opvragen zorgaanbiederapplicatie, zie [PvE GBx Rollen]"/>
+  <code code="APR.RPSb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="APR Raadplegend systeem - opvragen interactieversie, zie [PvE GBx Rollen]"/>
+  <code code="APR.BWS.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="APR bewerkend systeem, zie [PvE GBx Rollen]"/>
+
+  <code code="APF.BWS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="APF Bewerkend systeem, zie [PvE GBx Rollen]"/>
+  <code code="TLG.RPS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Toegangslog Raadplegend systeem, zie [PvE GBx Rollen]"/>
+
+  <code code="SGL.ABS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Abonnerend systeem sinds 6.9.0.0"/>
+  <code code="SGL.NOS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Signaal notificatie ontvangend systeem sinds 6.9.0.0"/>
+  <code code="SGL.AOS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Signaal abonnement ontvangend systeem, zie [PvE GBx Rollen]"/>
+
+  <code code="VWI.BWS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Verwijsindex bewerkend systeem"/>
+  <code code="VWI.BWSa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Verwijsindex bewerkend systeem - heraanmelden op  midden"/>
+  <code code="VWI.BWSb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Verwijsindex bewerkend systeem - heraanmelden op laag"/>
+  <code code="VWI.RPSa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Verwijsindex Raadplegend systeem zie [PvE GBx Rollen]"/>
+  <code code="VWI.RPSb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Verwijsindex Raadplegend systeem met gegegevensbeheerder, zie [PvE GBx Rollen]"/>
+  <code code="VWI.RPSc.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Verwijsindex Raadplegend systeem met gegegevensbeheerder sinds 6.10.0.0, zie [PvE GBx Rollen]"/>
+  <!--<code code="VWI.SEA.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Ontvanger Signalering eerste aanmelding, zie [PvE GBx Rollen]"/>
+  <code code="VWI.SVI.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Ontvanger Signalering verwijdering indexgegevens aanmelding, zie [PvE GBx Rollen]"/>
+-->
+  <code code="ZAB.RPS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Zorgadresboek Raadplegend systeem AORTA 2011"/>
+
+  <code code="PAT.REGa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Patiëntadministrerend systeem AORTA 2011"/>
+  <code code="PAT.REGb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="SBV-z AORTA 2011"/>
+
+  <code code="Hwg.WHSa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Waarnemend huisartssysteem 2011 patiëntgegevens raadplegend systeem, zie [PvE Hwg]"/>
+  <code code="Hwg.WHSb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Waarnemend huisartssysteem 2011 gegevens versturend systeem, zie [PvE Hwg]"/>
+  <code code="Hwg.VHSa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Vaste huisartssysteem 2011 bronsysteem patiëntgegevens, zie [PvE Hwg]"/>
+  <code code="Hwg.VHSb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Vaste huisartssysteem 2011 gegevens ontvangend systeem, zie [PvE Hwg]"/>
+  
+  <code code="JGZ.JGZ.7000" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="JGZ-systeem, zie [PvE JGZ] "/>
+  <code code="JDO.JDOD.2013" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="JGZ-beheeroverdrachtsysteem, zie [PvE JGZ]"/>
+  <code code="RVP.VUS.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Vaccinatie-uitvoerend systeem, zie [PvE JGZ] "/>
+  <code code="RVP.VCS.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Vaccinatie-coördinerend systeem, zie [PvE JGZ] "/>
+  <code code="NHS.HVS.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Hielprik-verzoekend systeem, zie [PvE JGZ] "/>
+  <code code="NHS.HUS.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Hielprik-uitvoerend systeem, zie [PvE JGZ] "/>
+    
+  <code code="MP.MB.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatiebewakend systeem, zie [PvE Mp]"/>
+  <code code="ICA.Viewer.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatiebewakend systeem, kopie van MP.MB.2011"/>
+  <code code="MP.CB.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Conditiebeschikbaarstellend systeem, zie [PvE Mp]"/>
+
+  <code code="ICA.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Conditiebeschikbaarstellend systeem, kopie van MP.CB.2011"/>
+  
+  <code code="MP.MVO.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatievoorschrijvend systeem, zie [PvE Mp]"/>
+  <code code="MP.MVOa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatievoorschrijvend systeem - Recept vooraankondiging verzenden, zie [PvE Mp]"/>
+  <code code="MP.MVOb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatievoorschrijvend systeem - Recept verzenden, zie [PvE Mp]"/>
+  <code code="MP.MVOc.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatievoorschrijvend systeem - Verstrekking ontvangen, zie [PvE Mp]"/>
+
+  <code code="MP.MVSa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieverstrekkend systeem - Verstrekkingen opleveren, zie [PvE Mp]"/>
+  <code code="MP.MVSb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieverstrekkend systeem - Verstrekkingslijst opleveren , zie [PvE Mp]"/>
+  <code code="MP.MVSc.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieverstrekkend systeem - Verstrekking verzenden, zie [PvE Mp]"/>
+  <code code="MP.MVSd.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieverstrekkend systeem - Recept vooraankondiging ontvangen, zie [PvE Mp]"/>
+  <code code="MP.MVSe.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieverstrekkend systeem - Recept, zie [PvE Mp]"/>
+
+  <code code="MP.RPa.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieraadplegend systeem - Verstrekkingen raadplegen, zie [PvE Mp]"/>
+  <code code="MP.RPb.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieraadplegend systeem - Verstrekkingslijst raadplegen, zie [PvE Mp]"/>
+  <code code="MP.RPc.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieraadplegend systeem - Voorschriften raadplegen, zie [PvE Mp]"/>
+
+  <!--<code code="ZAB.BWS.7000" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="ZAB Bewerkend systeem sinds 7.x.x.x, zie [PvE GBx Rollen]" />-->
+  <!--<code code="ZAB.RPS.7000" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="ZAB Raadplegend systeem sinds 7.x.x.x, zie [PvE GBx Rollen]" />-->
+  <!--<code code="MDT.BWS.7000" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Mandaatbeherendsysteem sinds 7.x.x.x, zie [PvE GBx Rollen]" />-->
+
+ 
+  <code code="MED.Verstrekker.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatie verstrekker 2011"/>
+  <code code="MED.Bewaker.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatiebewaker 2011"/>
+  <code code="MED.Voorschrijver.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatievoorschrijver 2011"/>
+  <code code="MED.Viewer.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatieviewer 2011"/>
+  <code code="HIS.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Huisartssysteem 2011"/>
+  <code code="HAP.2011" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Huisartsenpostsysteem 2011"/>
+  <code code="HAP.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Huisartsenpostsysteem 2012"/>
+  <code code="Lu.MB.1.0" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="raadplegend labuitslagensysteem 1.0 - medicatiebewaking"/>
+  <code code="Lu.UMB.1.0" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="labuitvoerend systeem 1.0 - medicatiebewaking"/>
+  
+  <code code="RIVMtotaal.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Alle RIVM rollen"/>
+  <code code="RVP.VBS.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Rijksvaccinatieprgramma bron systeem"/>
+  <code code="RVP.VOS.2012" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Rijksvaccinatieprgramma opvragend systeem"/>
+  
+  
+<!-- AORTA 6.12 systeemrollen -->
+  <code code="GBPnotificatie2013" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="GBP Patientnotificatie abonnerend systeem 2013"/>
+  <code code="VWI.BWS.2013" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Verwijsindexbewerkend systeem 2013"/>
+  <code code="JGZ.JGZ.7001" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="JGZ-systeem, zie [PvE JGZ] "/>
+  
+<!-- Ketenzorg -->  
+  <code code="MVO.BST.2014" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatievoorschrift Opvragend Systeem obv Bouwsteen"></code>
+  <code code="MVV.BST.2014" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Medicatievoorschrift Versturend Systeem obv Bouwsteen"></code>
+  <code code="CMO.BST.2014" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Contactmoment Opvragend Systeem obv Bouwsteen"></code>
+  <code code="CMV.BST.2014" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Contactmoment Versturend Systeem obv Bouwsteen"></code>
+  <code code="LUO.BST.2014" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Labuitslag Opvragend Systeem obv Bouwsteen"></code>
+  <code code="LUV.BST.2014" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Labuitslag Versturend Systeem obv Bouwsteen"></code>
+  <code code="AUO.BST.2014" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Algemene uitslag Opvragend Systeem obv Bouwsteen"></code>
+  <code code="AUV.BST.2014" codeSystem="2.16.840.1.113883.2.4.3.11.3" displayName="Algemene uitslag Versturend Systeem obv Bouwsteen"></code>
+  
+  </codeSystem>

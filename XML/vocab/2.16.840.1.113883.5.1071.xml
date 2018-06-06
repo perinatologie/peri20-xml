@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>SubstitutionCondition</name>
+    <desc>Identifies what sort of change is permitted or has occurred between the item that was ordered/requested and the one that was/will be
+        provided. </desc>
+    <!-- 0-A _Conditional (v:Conditional)-->
+    <code code="CONFIRM" codeSystem="2.16.840.1.113883.5.1071" displayName="Confirm first">
+        <originalText>Definition: Confirmation with Contact Person prior to making any substitutions has or will occur.</originalText>
+    </code>
+    <code code="NOTIFY" codeSystem="2.16.840.1.113883.5.1071" displayName="Notify first">
+        <originalText>Definition: Notification to the Contact Person, prior to substitution and through normal institutional procedures, has or will
+            be made.</originalText>
+    </code>
+    <code code="NOSUB" codeSystem="2.16.840.1.113883.5.1071" displayName="No substitution">
+        <originalText>Definition: Substitution is not permitted.</originalText>
+    </code>
+    <code code="UNCOND" codeSystem="2.16.840.1.113883.5.1071" displayName="Unconditional">
+        <originalText>Definition: No conditions are required.</originalText>
+    </code>
+</codeSystem>

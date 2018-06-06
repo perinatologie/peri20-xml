@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/codeSystem2html.xsl" type="text/xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+      <name>Confidentiality</name>
+      <desc>Confidentiality</desc>
+      <code code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal">
+            <originalText>Normale vertrouwelijkheidsregels (conform regels voor gezondheidszorg) 
+                  gelden. Dat wil zeggen dat alleen geautoriseerde personen met een 
+                  legitieme medische of zakelijke noodzaak deze gegevens mogen inzien.</originalText>
+      </code>
+      <code code="R" codeSystem="2.16.840.1.113883.5.25" displayName="Beperkt">
+            <originalText>Beperkte toegang, bijvoorbeeld alleen voor zorgverlener met een actuele 
+                  zorgrelatie met de betreffende patiënt. Definitie is systeemafhankelijk.</originalText>
+      </code>
+      <code code="V" codeSystem="2.16.840.1.113883.5.25" displayName="Zeer beperkt">
+            <originalText>Zeer beperkte toegang, zoals bepaald door de beheerder van de bron 
+                  van de betreffende gegevens. Exacte invulling is systeemafhankelijk.</originalText>
+      </code>
+      <!-- ConfidentialityByInfoType (Medicatiebewaking) -->
+      <code code="ETH" codeSystem="2.16.840.1.113883.5.25" displayName="Alcohol of drugs">
+            <originalText>Deze gegevens hebben betrekking op misbruik van alcohol of drugs.</originalText>
+      </code>
+      <code code="HIV" codeSystem="2.16.840.1.113883.5.25" displayName="HIV of AIDS">
+            <originalText>Deze gegevens hebben betrekking op een HIV-besmetting of AIDS-geval.</originalText>
+      </code> 
+      <code code="PSY" codeSystem="2.16.840.1.113883.5.25" displayName="Psychiatrie">
+            <originalText>Deze gegevens hebben betrekking op een psychiatrische zorgepisode.</originalText>
+      </code>
+      <code code="SDV" codeSystem="2.16.840.1.113883.5.25" displayName="Seksueel of huiselijk geweld">
+            <originalText>Deze gegevens hebben betrekking op seksueel of huiselijk geweld.</originalText>
+      </code>
+      
+</codeSystem>

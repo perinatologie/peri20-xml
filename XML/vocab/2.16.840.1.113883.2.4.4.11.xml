@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3"
+    codeStrength="CWE">
+    <name>G-Standaard tabel 902 thesaurus 0006</name>
+    <desc>Farmapeutische vormen</desc>
+    <code code="38" codeSystem="2.16.840.1.113883.2.4.4.11" displayName="CONCENTRAAT VOOR MONDSPOELING"/>
+    <code code="48" codeSystem="2.16.840.1.113883.2.4.4.11" displayName="OORCREME"/>
+    <code code="224" codeSystem="2.16.840.1.113883.2.4.4.11" displayName="POEDER VOOR OPLOSSING">
+        <translation code="ERTAB24" codeSystem="2.16.840.1.113883.5.85" displayName="24 Hour Extended Release Tablet"/>
+    </code>
+</codeSystem>

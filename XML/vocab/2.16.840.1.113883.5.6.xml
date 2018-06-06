@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:mif2="urn:hl7-org:v3/mif2" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:ns="http://www.w3.org/1999/xhtml" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" codeStrength="CWE">
+   <name>ActClass</name>
+   <desc/>
+   <code code="ACT" codeSystem="2.16.840.1.113883.5.6" displayName="act">
+      <!-- v:ActClassRoot -->
+      <originalText>Definition: A record of something that is being done, has been done, can be done, or is intended or requested to be
+         done.</originalText>
+   </code>
+   <code code="ACCM" codeSystem="2.16.840.1.113883.5.6" displayName="accommodation">
+      <originalText>Definition: An accommodation is a service provided for a Person or other LivingSubject in which a place is provided for the
+         subject to reside for a period of time. Commonly used to track the provision of ward, private and semi-private accommodations for a
+         patient.</originalText>
+   </code>
+   <code code="ACCT" codeSystem="2.16.840.1.113883.5.6" displayName="account">
+      <originalText>Definition: A financial account established to track the net result of financial acts.</originalText>
+   </code>
+   <code code="ACSN" codeSystem="2.16.840.1.113883.5.6" displayName="accession">
+      <originalText>Definition: A unit of work, a grouper of work items as defined by the system performing that work. Typically some laboratory order
+         fulfillers communicate references to accessions in their communications regarding laboratory orders. Often one or more specimens are related
+         to an accession such that in some environments the accession number is taken as an identifier for a specimen (group).</originalText>
+   </code>
+   <code code="ADJUD" codeSystem="2.16.840.1.113883.5.6" displayName="financial adjudicationfinancial adjudication results&#xA;               ">
+      <originalText>Definition: A transformation process where a requested invoice is transformed into an agreed invoice. Represents the adjudication
+         processing of an invoice (claim). Adjudication results can be adjudicated as submitted, with adjustments or refused.</originalText>
+   </code>
+   <code code="CACT" codeSystem="2.16.840.1.113883.5.6" displayName="control act">
+      <!-- v:ActClassControlAct -->
+      <originalText>Definition: An act representing a system action such as the change of state of another act or the initiation of a query. All
+         control acts represent trigger events in the HL7 context. ControlActs may occur in different moods.</originalText>
+   </code>
+   <code code="ACTN" codeSystem="2.16.840.1.113883.5.6" displayName="action">
+      <originalText>Definition: Sender asks addressee to do something depending on the focal Act of the payload. An example is "fulfill this order".
+         Addressee has responsibilities to either reject the message or to act on it in an appropriate way (specified by the specific receiver
+         responsibilities for the interaction).</originalText>
+   </code>
+   <code code="INFO" codeSystem="2.16.840.1.113883.5.6" displayName="information">
+      <originalText>Definition: Sender sends payload to addressee as information. Addressee does not have responsibilities beyond serving addressee's
+         own interest (i.e., read and memorize if you see fit). This is equivalent to an FYI on a memo.</originalText>
+   </code>
+   <code code="STC" codeSystem="2.16.840.1.113883.5.6" displayName="state transition control">
+      <originalText>Definition: Description: Sender transmits a status change pertaining to the focal act of the payload. This status of the focal act
+         is the final state of the state transition. This can be either a request or an event, according to the mood of the control
+         act.</originalText>
+   </code>
+   <code code="CNTRCT" codeSystem="2.16.840.1.113883.5.6" displayName="contract">
+      <!-- v:ActClassContract -->
+      <originalText>Definition: An agreement of obligation between two or more parties that is subject to contractual law and
+         enforcement.</originalText>
+   </code>
+   <code code="FCNTRCT" codeSystem="2.16.840.1.113883.5.6" displayName="financial contract">
+      <!-- v:ActClassFinancialContract -->
+      <originalText>Definition: A contract whose value is measured in monetary terms.</originalText>
+   </code>
+   <code code="COV" codeSystem="2.16.840.1.113883.5.6" displayName="coverage">
+      <originalText>Definition: When used in the EVN mood, this concept means with respect to a covered party:</originalText>
+   </code>
+   <code code="CONS" codeSystem="2.16.840.1.113883.5.6" displayName="consent">
+      <originalText>Definition: The Consent class represents informed consents and all similar medico-legal transactions between the patient (or his
+         legal guardian) and the provider. Examples are informed consent for surgical procedures, informed consent for clinical trials, advanced
+         beneficiary notice, against medical advice decline from service, release of information agreement, etc.</originalText>
+   </code>
+   <code code="CONTREG" codeSystem="2.16.840.1.113883.5.6" displayName="container registration">
+      <originalText>Definition: An Act where a container is registered either via an automated sensor, such as a barcode reader, or by manual
+         receipt</originalText>
+   </code>
+   <code code="CTTEVENT" codeSystem="2.16.840.1.113883.5.6" displayName="clinical trial timepoint event">
+      <originalText>Definition: An identified point during a clinical trial at which one or more actions are scheduled to be performed (definition
+         mood), or are actually performed (event mood). The actions may or may not involve an encounter between the subject and a healthcare
+         professional.</originalText>
+   </code>
+   <code code="DISPACT" codeSystem="2.16.840.1.113883.5.6" displayName="disciplinary action">
+      <originalText>Definition: An action taken with respect to a subject Entity by a regulatory or authoritative body with supervisory capacity over
+         that entity. The action is taken in response to behavior by the subject Entity that body finds to be undesirable.</originalText>
+   </code>
+   <code code="EXPOS" codeSystem="2.16.840.1.113883.5.6" displayName="exposure">
+      <!-- v:ActClassExposure -->
+      <originalText>Definition: An interaction between entities that provides opportunity for transmission of a physical, chemical, or biological
+         agent from an exposure source entity to an exposure target entity.</originalText>
+   </code>
+   <code code="AEXPOS" codeSystem="2.16.840.1.113883.5.6" displayName="acquisition exposure">
+      <originalText>Definition: Description:</originalText>
+   </code>
+   <code code="TEXPOS" codeSystem="2.16.840.1.113883.5.6" displayName="transmission exposure">
+      <originalText>Definition: Description:</originalText>
+   </code>
+   <code code="INC" codeSystem="2.16.840.1.113883.5.6" displayName="incident">
+      <originalText>Definition: An event that occurred outside of the control of one or more of the parties involved. Includes the concept of an
+         accident.</originalText>
+   </code>
+   <code code="INFRM" codeSystem="2.16.840.1.113883.5.6" displayName="inform">
+      <originalText>Definition: The act of transmitting information and understanding about a topic to a subject where the participation association
+         must be SBJ.</originalText>
+   </code>
+   <code code="INVE" codeSystem="2.16.840.1.113883.5.6" displayName="invoice element">
+      <originalText>Definition: Represents concepts related to invoice processing in health care</originalText>
+   </code>
+   <code code="LIST" codeSystem="2.16.840.1.113883.5.6" displayName="working list">
+      <originalText>Definition: Working list collects a dynamic list of individual instances of Act via ActRelationship which reflects the need of an
+         individual worker, team of workers, or an organization to manage lists of acts for many different clinical and administrative reasons.
+         Examples of working lists include problem lists, goal lists, allergy lists, and to-do lists.</originalText>
+   </code>
+   <code code="MPROT" codeSystem="2.16.840.1.113883.5.6" displayName="monitoring program">
+      <originalText>Definition: An officially or unofficially instituted program to track acts of a particular type or categorization.</originalText>
+   </code>
+   <code code="OBS" codeSystem="2.16.840.1.113883.5.6" displayName="observation">
+      <!-- v:ActClassObservation v:ActClassCompositeOrder v:ActClassProcessStep -->
+      <originalText>Definition: Description:An act that is intended to result in new information about a subject. The main difference between
+         Observations and other Acts is that Observations have a value attribute. The code attribute of Observation and the value attribute of
+         Observation must be considered in combination to determine the semantics of the observation.</originalText>
+   </code>
+   <code code="ALRT" codeSystem="2.16.840.1.113883.5.6" displayName="detected issue">
+      <originalText>Definition: An observation identifying a potential adverse outcome as a result of an Act or combination of Acts.</originalText>
+   </code>
+   <code code="BATTERY" codeSystem="2.16.840.1.113883.5.6" displayName="battery">
+      <originalText>Definition: Definition: An observation that is composed of a set of observations. These observations typically have a logical or
+         practical grouping for generally accepted clinical or functional purposes, such as observations that are run together because of automation.
+         A battery can define required and optional component observations and, in some cases, will define complex rules that determine whether or not
+         a particular observation is made. BATTERY is a constraint on the Observation class in that it is understood to always be composed of
+         component observations.</originalText>
+   </code>
+   <code code="CLNTRL" codeSystem="2.16.840.1.113883.5.6" displayName="clinical trial">
+      <originalText>Definition: The set of actions that define an experiment to assess the effectiveness and/or safety of a biopharmaceutical product
+         (food, drug, device, etc.). In definition mood, this set of actions is often embodied in a clinical trial protocol; in event mood, this
+         designates the aggregate act of applying the actions to one or more subjects.</originalText>
+   </code>
+   <code code="CNOD" codeSystem="2.16.840.1.113883.5.6" displayName="Condition Node">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="concern">
+      <originalText>Definition: Definition: A worry that tends to persist over time and has as its subject a state or process. The subject of the
+         worry has the potential to require intervention or management.</originalText>
+   </code>
+   <code code="COND" codeSystem="2.16.840.1.113883.5.6" displayName="Condition">
+      <!-- v:ActClassCondition -->
+      <originalText>Definition: An observable finding or state that persists over time and tends to require intervention or management, and,
+         therefore, distinguished from an Observation made at a point in time; may exist before an Observation of the Condition is made or after
+         interventions to manage the Condition are undertaken. Examples: equipment repair status, device recall status, a health risk, a financial
+         risk, public health risk, pregnancy, health maintenance, chronic illness</originalText>
+   </code>
+   <code code="CASE" codeSystem="2.16.840.1.113883.5.6" displayName="public health case">
+      <!-- v:ActClassPublicHealthCase -->
+      <originalText>Definition: A public health case is an Observation representing a condition or event that has a specific significance for public
+         health. Typically it involves an instance or instances of a reportable infectious disease or other condition. The public health case can
+         include a health-related event concerning a single individual or it may refer to multiple health-related events that are occurrences of the
+         same disease or condition of interest to public health. An outbreak involving multiple individuals may be considered as a type of public
+         health case. A public health case definition (Act.moodCode = "definition") includes the description of the clinical, laboratory, and
+         epidemiologic indicators associated with a disease or condition of interest to public health. There are case definitions for conditions that
+         are reportable, as well as for those that are not. There are also case definitions for outbreaks. A public health case definition is a
+         construct used by public health for the purpose of counting cases, and should not be used as clinical indications for treatment. Examples
+         include AIDS, toxic-shock syndrome, and salmonellosis and their associated indicators that are used to define a case.</originalText>
+   </code>
+   <code code="OUTB" codeSystem="2.16.840.1.113883.5.6" displayName="outbreak">
+      <originalText>Definition: An outbreak represents a series of public health cases. The date on which an outbreak starts is the earliest date of
+         onset among the cases assigned to the outbreak, and its ending date is the last date of onset among the cases assigned to the
+         outbreak.</originalText>
+   </code>
+   <code code="DGIMG" codeSystem="2.16.840.1.113883.5.6" displayName="diagnostic image">
+      <originalText>Definition: Class for holding attributes unique to diagnostic images.</originalText>
+   </code>
+   <code code="GEN" codeSystem="2.16.840.1.113883.5.6" displayName="genomic observation">
+      <!-- v:ActClassGenomicObservation -->
+      <originalText>Definition: Description:An observation of genomic phenomena.</originalText>
+   </code>
+   <code code="DETPOL" codeSystem="2.16.840.1.113883.5.6" displayName="determinant peptide">
+      <originalText>Definition: Description:A determinant peptide in a polypeptide as described by polypeptide.</originalText>
+   </code>
+   <code code="EXP" codeSystem="2.16.840.1.113883.5.6" displayName="expression level">
+      <originalText>Definition: Description:An expression level of genes/proteins or other expressed genomic entities.</originalText>
+   </code>
+   <code code="LOC" codeSystem="2.16.840.1.113883.5.6" displayName="locus">
+      <originalText>Definition: Description:The position of a gene (or other significant sequence) on the genome.</originalText>
+   </code>
+   <code code="PHN" codeSystem="2.16.840.1.113883.5.6" displayName="phenotype">
+      <originalText>Definition: Description:A genomic phenomenon that is expressed externally in the organism.</originalText>
+   </code>
+   <code code="POL" codeSystem="2.16.840.1.113883.5.6" displayName="polypeptide">
+      <originalText>Definition: Description:A polypeptide resulting from the translation of a gene.</originalText>
+   </code>
+   <code code="SEQ" codeSystem="2.16.840.1.113883.5.6" displayName="bio sequence">
+      <originalText>Definition: Description:A sequence of biomolecule like the DNA, RNA, protein and the like.</originalText>
+   </code>
+   <code code="SEQVAR" codeSystem="2.16.840.1.113883.5.6" displayName="bio sequence variation">
+      <originalText>Definition: Description:A variation in a sequence as described by BioSequence.</originalText>
+   </code>
+   <code code="INVSTG" codeSystem="2.16.840.1.113883.5.6" displayName="investigation">
+      <originalText>Definition: An formalized inquiry into the circumstances surrounding a particular unplanned event or potential event for the
+         purposes of identifying possible causes and contributing factors for the event. This investigation could be conducted at a local
+         institutional level or at the level of a local or national government.</originalText>
+   </code>
+   <code code="OBSSER" codeSystem="2.16.840.1.113883.5.6" displayName="observation series">
+      <!-- v:ActClassObservationSeries -->
+      <originalText>Definition: Container for Correlated Observation Sequences sharing a common frame of reference. All Observations of the same cd
+         must be comparable and relative to the common frame of reference. For example, a 3-channel ECG device records a 12-lead ECG in 4 steps (3
+         leads at a time). Each of the separate 3-channel recordings would be in their own "OBSCOR". And, all 4 OBSCOR would be contained in one
+         OBSSER because all the times are relative to the same origin (beginning of the recording) and all the ECG signals were from a fixed set of
+         electrodes.</originalText>
+   </code>
+   <code code="OBSCOR" codeSystem="2.16.840.1.113883.5.6" displayName="correlated observation sequences">
+      <originalText>Definition: Container for Observation Sequences (Observations whose values are contained in LIST&lt;&gt;'s) having values
+         correlated with each other. Each contained Observation Sequence LIST&lt;&gt; must be the same length. Values in the LIST&lt;&gt;'s are
+         correlated based on index. E.g. the values in position 2 in all the LIST&lt;&gt;'s are correlated. This is analogous to a table where each
+         column is an Observation Sequence with a LIST&lt;&gt; of values, and each row in the table is a correlation between the columns. For example,
+         a 12-lead ECG would contain 13 sequences: one sequence for time, and a sequence for each of the 12 leads.</originalText>
+   </code>
+   <code code="POS" codeSystem="2.16.840.1.113883.5.6" displayName="position">
+      <!-- v:ActClassPosition -->
+      <originalText>Definition: An observation denoting the physical location of a person or thing based on a reference coordinate
+         system.</originalText>
+   </code>
+   <code code="POSACC" codeSystem="2.16.840.1.113883.5.6" displayName="position accuracy">
+      <originalText>Definition: Description:An observation representing the degree to which the assignment of the spatial coordinates, based on a
+         matching algorithm by a geocoding engine against a reference spatial database, matches true or accepted values.</originalText>
+   </code>
+   <code code="POSCOORD" codeSystem="2.16.840.1.113883.5.6" displayName="position coordinate">
+      <originalText>Definition: Description:An observation representing one of a set of numerical values used to determine the position of a place.
+         The name of the coordinate value is determined by the reference coordinate system.</originalText>
+   </code>
+   <code code="SPCOBS" codeSystem="2.16.840.1.113883.5.6" displayName="specimen observationActClassSpecObs&#xA;               ">
+      <originalText>Definition: An observation on a specimen in a laboratory environment that may affect processing, analysis or result
+         interpretation</originalText>
+   </code>
+   <code code="VERIF" codeSystem="2.16.840.1.113883.5.6" displayName="Verification">
+      <originalText>Definition: An act which describes the process whereby a 'verifying party' validates either the existence of the Role attested to
+         by some Credential or the actual Vetting act and its details.</originalText>
+   </code>
+   <!-- 2-A _ActClassROI (v:ActClassROI)-->
+   <code code="ROIBND" codeSystem="2.16.840.1.113883.5.6" displayName="bounded ROI">
+      <originalText>Definition: A Region of Interest (ROI) specified for a multidimensional observation, such as an Observation Series (OBSSER). The
+         ROI is specified using a set of observation criteria, each delineating the boundary of the region in one of the dimensions in the
+         multidimensional observation. The relationship between a ROI and its referenced Act is specified through an ActRelationship of type subject
+         (SUBJ), which must always be present. Each of the boundary criteria observations is connected with the ROI using ActRelationships of type
+         "has component" (COMP). In each boundary criterion, the Act.code names the dimension and the Observation.value specifies the range of values
+         inside the region. Typically the bounded dimension is continuous, and so the Observation.value will be an interval (IVL) data type. The
+         Observation.value need not be specified if the respective dimension is only named but not constrained. For example, an ROI for the QT
+         interval of a certain beat in ECG Lead II would contain 2 boundary criteria, one naming the interval in time (constrained), and the other
+         naming the interval in ECG Lead II (only named, but not constrained).</originalText>
+   </code>
+   <code code="ROIOVL" codeSystem="2.16.840.1.113883.5.6" displayName="overlay ROI">
+      <originalText>Definition: A Region of Interest (ROI) specified for an image using an overlay shape. Typically used to make reference to specific
+         regions in images, e.g., to specify the location of a radiologic finding in an image or to specify the site of a physical finding by
+         "circling" a region in a schematic picture of a human body. The units of the coordinate values are in pixels. The origin is in the upper left
+         hand corner, with positive X values going to the right and positive Y values going down. The relationship between a ROI and its referenced
+         Act is specified through an ActRelationship of type "subject" (SUBJ), which must always be present.</originalText>
+   </code>
+   <!-- 2-A _SubjectPhysicalPosition (v:ActClassSubjectPhysicalPosition)-->
+   <!-- 3-A _SubjectBodyPosition ()-->
+   <code code="LLD" codeSystem="2.16.840.1.113883.5.6" displayName="left lateral decubitus">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="PRN" codeSystem="2.16.840.1.113883.5.6" displayName="prone">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="RLD" codeSystem="2.16.840.1.113883.5.6" displayName="right lateral decubitus">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="SFWL" codeSystem="2.16.840.1.113883.5.6" displayName="Semi-Fowler's">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="SIT" codeSystem="2.16.840.1.113883.5.6" displayName="sitting">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="STN" codeSystem="2.16.840.1.113883.5.6" displayName="standing">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="SUP" codeSystem="2.16.840.1.113883.5.6" displayName="supine">
+      <!--  -->
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="RTRD" codeSystem="2.16.840.1.113883.5.6" displayName="reverse trendelenburg">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="TRD" codeSystem="2.16.840.1.113883.5.6" displayName="trendelenburg">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="PCPR" codeSystem="2.16.840.1.113883.5.6" displayName="care provision">
+      <!-- v:ActClassCareProvision -->
+      <originalText>Definition: An Act that of taking on whole or partial responsibility for, or attention to, safety and well-being of a subject of
+         care.</originalText>
+   </code>
+   <code code="ENC" codeSystem="2.16.840.1.113883.5.6" displayName="encounter">
+      <originalText>Definition: An interaction between a patient and healthcare participant(s) for the purpose of providing patient service(s) or
+         assessing the health status of a patient. For example, outpatient visit to multiple departments, home health support (including physical
+         therapy), inpatient hospital stay, emergency room visit, field visit (e.g., traffic accident), office visit, occupational therapy, telephone
+         call.</originalText>
+   </code>
+   <code code="POLICY" codeSystem="2.16.840.1.113883.5.6" displayName="policy">
+      <!-- v:ActClassPolicy -->
+      <originalText>Definition: Description:A mandate, regulation, obligation, requirement, rule, or expectation unilaterally imposed by one party
+         on:</originalText>
+   </code>
+   <code code="JURISPOL" codeSystem="2.16.840.1.113883.5.6" displayName="jurisdictional policy">
+      <originalText>Definition: Description:A mandate, regulation, obligation, requirement, rule, or expectation unilaterally imposed by a
+         jurisdiction on:</originalText>
+   </code>
+   <code code="ORGPOL" codeSystem="2.16.840.1.113883.5.6" displayName="organizational policy">
+      <originalText>Definition: Description:A mandate, obligation, requirement, rule, or expectation unilaterally imposed by an organization
+         on:</originalText>
+   </code>
+   <code code="SCOPOL" codeSystem="2.16.840.1.113883.5.6" displayName="scope of practice policy">
+      <originalText>Definition: Description:An ethical or clinical obligation, requirement, rule, or expectation imposed or strongly encouraged by
+         organizations that oversee particular clinical domains or provider certification which define the boundaries within which a provider may
+         practice and which may have legal basis or ramifications on:</originalText>
+   </code>
+   <code code="STDPOL" codeSystem="2.16.840.1.113883.5.6" displayName="standard of practice policy">
+      <originalText>Definition: Description:A requirement, rule, or expectation typically documented as guidelines, protocols, or formularies imposed
+         or strongly encouraged by an organization that oversees or has authority over the practices within a domain, and which may have legal basis
+         or ramifications on:</originalText>
+   </code>
+   <code code="PROC" codeSystem="2.16.840.1.113883.5.6" displayName="procedure">
+      <!-- v:ActClassProcedure v:ActClassCompositeOrder v:ActClassProcessStep -->
+      <originalText>Definition: An Act whose immediate and primary outcome (post-condition) is the alteration of the physical condition of the
+         subject.</originalText>
+   </code>
+   <code code="SBADM" codeSystem="2.16.840.1.113883.5.6" displayName="substance administration">
+      <originalText>Definition: The act of introducing or otherwise applying a substance to the subject.</originalText>
+   </code>
+   <code code="SBEXT" codeSystem="2.16.840.1.113883.5.6" displayName="Substance Extraction">
+      <!-- v:ActClassSubstanceExtraction -->
+      <originalText>Definition: Description: The act of removing a substance from the subject.</originalText>
+   </code>
+   <code code="SPECCOLLECT" codeSystem="2.16.840.1.113883.5.6" displayName="Specimen Collection">
+      <originalText>Definition: A procedure for obtaining a specimen from a source entity.</originalText>
+   </code>
+   <code code="REG" codeSystem="2.16.840.1.113883.5.6" displayName="registration">
+      <originalText>Definition: Represents the act of maintaining information about the registration of its associated registered subject. The subject
+         can be either an Act or a Role, and includes subjects such as lab exam definitions, drug protocol definitions, prescriptions, persons,
+         patients, practitioners, and equipment.</originalText>
+   </code>
+   <code code="REV" codeSystem="2.16.840.1.113883.5.6" displayName="review">
+      <originalText>Definition: The act of examining and evaluating the subject, usually another act. For example, "This prescription needs to be
+         reviewed in 2 months."</originalText>
+   </code>
+   <code code="SPCTRT" codeSystem="2.16.840.1.113883.5.6" displayName="specimen treatment">
+      <originalText>Definition: A procedure or treatment performed on a specimen to prepare it for analysis</originalText>
+   </code>
+   <code code="SPLY" codeSystem="2.16.840.1.113883.5.6" displayName="supply">
+      <!-- v:ActClassSupply v:ActClassCompositeOrder -->
+      <originalText>Definition: Supply orders and deliveries are simple Acts that focus on the delivered product. The product is associated with the
+         Supply Act via Participation.typeCode="product". With general Supply Acts, the precise identification of the Material (manufacturer, serial
+         numbers, etc.) is important. Most of the detailed information about the Supply should be represented using the Material class. If delivery
+         needs to be scheduled, tracked, and billed separately, one can associate a Transportation Act with the Supply Act. Pharmacy dispense services
+         are represented as Supply Acts, associated with a SubstanceAdministration Act. The SubstanceAdministration class represents the
+         administration of medication, while dispensing is supply.</originalText>
+   </code>
+   <code code="DIET" codeSystem="2.16.840.1.113883.5.6" displayName="diet">
+      <originalText> Definition:</originalText>
+   </code>
+   <code code="STORE" codeSystem="2.16.840.1.113883.5.6" displayName="storage">
+      <originalText>Definition: The act of putting something away for safe keeping. The "something" may be physical object such as a specimen, or
+         information, such as observations regarding a specimen.</originalText>
+   </code>
+   <code code="SUBST" codeSystem="2.16.840.1.113883.5.6" displayName="Substitution">
+      <originalText>Definition: Definition: Indicates that the subject Act has undergone or should undergo substitution of a type indicated by
+         Act.code.</originalText>
+   </code>
+   <code code="TRFR" codeSystem="2.16.840.1.113883.5.6" displayName="transfer">
+      <originalText>Definition: Definition: The act of transferring information without the intent of imparting understanding about a topic to the
+         subject that is the recipient or holder of the transferred information where the participation association must be RCV or HLD.</originalText>
+   </code>
+   <code code="TRNS" codeSystem="2.16.840.1.113883.5.6" displayName="transportation">
+      <originalText>Definition: Transportation is the moving of a payload (people or material) from a location of origin to a destination location.
+         Thus, any transport service has the three target instances of type payload, origin, and destination, besides the targets that are generally
+         used for any service (i.e., performer, device, etc.)</originalText>
+   </code>
+   <code code="XACT" codeSystem="2.16.840.1.113883.5.6" displayName="financial transaction">
+      <originalText>Definition: A sub-class of Act representing any transaction between two accounts whose value is measured in monetary
+         terms.</originalText>
+   </code>
+   <!-- 1-A _ActClassRecordOrganizer (v:ActClassRecordOrganizer)-->
+   <code code="COMPOSITION" codeSystem="2.16.840.1.113883.5.6" displayName="compositionAttestable unit&#xA;               ">
+      <!-- v:ActClassComposition -->
+      <originalText>Definition: A context representing a grouped commitment of information to the EHR. It is considered the unit of modification of
+         the record, the unit of transmission in record extracts, and the unit of attestation by authorizing clinicians.</originalText>
+   </code>
+   <code code="DOC" codeSystem="2.16.840.1.113883.5.6" displayName="document">
+      <!-- v:ActClassDocument -->
+      <originalText>Definition: The notion of a document comes particularly from the paper world, where it corresponds to the contents recorded on
+         discrete pieces of paper. In the electronic world, a document is a kind of composition that bears resemblance to their paper world
+         counter-parts. Documents typically are meant to be human-readable.</originalText>
+   </code>
+   <code code="DOCCLIN" codeSystem="2.16.840.1.113883.5.6" displayName="clinical document">
+      <!-- v:ActClassClinicalDocument -->
+      <originalText>Definition: A clinical document is a documentation of clinical observations and services, with the following
+         characteristics:</originalText>
+   </code>
+   <code code="CDALVLONE" codeSystem="2.16.840.1.113883.5.6" displayName="CDA Level One clinical document">
+      <originalText>Definition: A clinical document that conforms to Level One of the HL7 Clinical Document Architecture (CDA)</originalText>
+   </code>
+   <code code="CONTAINER" codeSystem="2.16.840.1.113883.5.6" displayName="record container">
+      <!-- v:ActClassContainer -->
+      <originalText>Definition: Description: Container of clinical statements. Navigational. No semantic content. Knowledge of the section code is not
+         required to interpret contained observations. Represents a heading in a heading structure, or "container tree".</originalText>
+   </code>
+   <code code="CATEGORY" codeSystem="2.16.840.1.113883.5.6" displayName="category">
+      <originalText>Definition: A group of entries within a composition or topic that have a common characteristic - for example, Examination,
+         Diagnosis, Management OR Subjective, Objective, Analysis, Plan.</originalText>
+   </code>
+   <code code="DOCBODY" codeSystem="2.16.840.1.113883.5.6" displayName="document body">
+      <originalText>Definition: A context that distinguishes the body of a document from the document header. This is seen, for instance, in HTML
+         documents, which have discrete &lt;head&gt; and &lt;body&gt; elements.</originalText>
+   </code>
+   <code code="DOCSECT" codeSystem="2.16.840.1.113883.5.6" displayName="document sectionSection&#xA;               ">
+      <originalText>Definition: A context that subdivides the body of a document. Document sections are typically used for human navigation, to give a
+         reader a clue as to the expected content. Document sections are used to organize and provide consistency to the contents of a document body.
+         Document sections can contain document sections and can contain entries.</originalText>
+   </code>
+   <code code="TOPIC" codeSystem="2.16.840.1.113883.5.6" displayName="topic">
+      <originalText>Definition: A group of entries within a composition that are related to a common clinical theme - such as a specific disorder or
+         problem, prevention, screening and provision of contraceptive services.</originalText>
+   </code>
+   <code code="EXTRACT" codeSystem="2.16.840.1.113883.5.6" displayName="extract">
+      <!-- v:ActClassExtract -->
+      <originalText>Definition: This context represents the part of a patient record conveyed in a single communication. It is drawn from a providing
+         system for the purposes of communication to a requesting process (which might be another repository, a client application or a middleware
+         service such as an electronic guideline engine), and supporting the faithful inclusion of the communicated data in the receiving
+         system.</originalText>
+   </code>
+   <code code="EHR" codeSystem="2.16.840.1.113883.5.6" displayName="electronic health record">
+      <originalText>Definition: A context that comprises all compositions. The EHR is an extract that includes the entire chart.</originalText>
+   </code>
+   <code code="FOLDER" codeSystem="2.16.840.1.113883.5.6" displayName="folder">
+      <originalText>Definition: A context representing the high-level organization of an extract e.g. to group parts of the record by episode, care
+         team, clinical specialty, clinical condition, or source application. Internationally, this kind of organizing structure is used variably: in
+         some centers and systems the folder is treated as an informal compartmentalization of the overall health record; in others it might represent
+         a significant legal portion of the EHR relating to the originating enterprise or team.</originalText>
+   </code>
+   <code code="GROUPER" codeSystem="2.16.840.1.113883.5.6" displayName="grouper">
+      <!-- v:ActClassGrouper v:ActClassCompositeOrder -->
+      <originalText>Definition: Definition: An ACT that organizes a set of component acts into a semantic grouping that share a particular context
+         such as timeframe, patient, etc.</originalText>
+   </code>
+   <code code="CLUSTER" codeSystem="2.16.840.1.113883.5.6" displayName="Cluster">
+      <originalText>Definition: Description:An ACT that organizes a set of component acts into a semantic grouping that have a shared subject. The
+         subject may be either a subject participation (SBJ), subject act relationship (SUBJ), or child participation/act relationship
+         types.</originalText>
+   </code>
+</codeSystem>

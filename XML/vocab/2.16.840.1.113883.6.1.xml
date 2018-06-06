@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3" codeStrength="CWE">
+    <name>LOINC</name>
+    <desc>LOINC Labcode tabel. Wordt gebruikt voor registratie van gegevenssoort voor E-pathologie.</desc>
+    <code code="11502-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY REPORT.TOTAL"/>
+    <code code="11526-1" codeSystem="2.16.840.1.113883.6.1" displayName="Onderzoeksverslag pathologie">
+        <reference root="2.16.840.1.113883.5.6" extension="DOCCLIN"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="18743-5" codeSystem="2.16.840.1.113883.6.1" displayName="Obductie verslag"/>
+    <code code="22036-8" codeSystem="2.16.840.1.113883.6.1" displayName="Histologie verslag"/>
+    <code code="26435-8" codeSystem="2.16.840.1.113883.6.1" displayName="Moleculair onderzoeksverslag"/>
+    <code code="33716-2" codeSystem="2.16.840.1.113883.6.1" displayName="Non gyn. cytologie verslag (overige cytologie)"/>
+    <code code="47527-7" codeSystem="2.16.840.1.113883.6.1" displayName="Cervix cytologie verslag"/>
+    <code code="X-LAB-ORDER" codeSystem="2.16.840.1.113883.6.1" displayName="Aanvraag/Opdracht (LABORATORY ORDER)"/>
+    <code code="X-LAB-SPMCOL" codeSystem="2.16.840.1.113883.6.1" displayName="Afnameresulaat (LABORATORY SPECIMEN DETAILS)"/>
+</codeSystem>

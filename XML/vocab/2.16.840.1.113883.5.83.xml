@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>Observation Interpretation</name>
+    <desc> Tabel met interpretatie codes t.b.v. metingen.</desc>
+    <!-- Observation Interpretation codes -->
+    <code code="B" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="better">
+        <originalText>Verbetering (van strengheid of nominale waarneming)</originalText>
+    </code>
+    <code code="D" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="decreased">
+        <originalText>Significante verslechtering (kwantitatieve waarneming, uitgezonderd B of W)</originalText>
+    </code>
+    <code code="U" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="increased">
+        <originalText>Significante verbetering (kwantitatieve waarneming, uitgezonderd B of W</originalText>
+    </code>
+    <code code="W" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="worse">
+        <originalText>Verslechtering (van strengheid of nominale waarneming)</originalText>
+    </code>
+    <code code="&lt;" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="low off scale">
+        <originalText>Boven absoluut laagste waarde op instrumentschaal. Afhankelijk van instrument, hiermee wordt niet bedoeld L of LL (bijv. als instrument niet adequaat is). Als deze waarde ook hoog of kritiek is moet er respectievelijk ook een L of LL gerapporteerd worden.</originalText>
+    </code>
+    <code code="&gt;" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="high off scale">
+        <originalText>Boven absoluut hoogste waarde op instrumentschaal. Afhankelijk van instrument, hiermee wordt niet bedoeld H of HH (bijv. als instrument niet adequaat is). Als deze waarde ook hoog of kritiek is moet er respectievelijk ook een H of HH gerapporteerd worden.</originalText>
+    </code> 
+    <code code="A" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="abnormal">
+        <originalText>Abnormaal (voor nominale waarneming, alle service types)</originalText>
+    </code>
+    <code code="AA" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="abnormal alert">
+        <originalText>Abnormaal (voor nominale waarneming, alle service types)</originalText>
+    </code>
+    <code code="HH" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="high alert">
+        <originalText>Boven hoogste waarschuwingsgrens (voor kwantitatieve waarnemingen)</originalText>
+    </code>
+    <code code="LL" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="low alert">
+        <originalText>Onder laagste waarschuwingsgrens (voor kwantitatieve waarnemingen)</originalText>
+    </code>
+    <code code="H" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="high">
+        <originalText>Boven normale bovengrens (voor kwantitatieve waarnemingen)</originalText>
+    </code>
+    <code code="L" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="low">
+        <originalText>Onder normale ondergrens (voor kwantitatieve waarnemingen)</originalText>
+    </code>
+    <code code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="normal">
+        <originalText>Normaal (voor alle servicetypes)</originalText>
+    </code>
+    <code code="I" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="intermediate">
+        <originalText>Gemiddeld</originalText>
+    </code>
+    <code code="MS" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="moderately susceptible">
+        <originalText>Matig vatbaar</originalText>
+    </code>
+    <code code="R" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="resistent">
+        <originalText>Resistent</originalText>
+    </code>
+    <code code="S" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="susceptible">
+        <originalText>Vatbaar</originalText>
+    </code>
+    <code code="VS" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="very susceptible">
+        <originalText>Extreem vatbaar</originalText>
+    </code>
+    <code code="EX" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="extreme">
+        <originalText>De waarneming/testresultaten vallen buiten het bereik gedefinieerd in een specifiek protocol waarop de resultaten zijn beoordeeld.</originalText>
+    </code>
+    <code code="HX" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="above high threshold">
+        <originalText>De numerieke waarneming/testresultaten vallen boven de bovengrens gedefinieerd in een specifiek protocol waarop de resultaten zijn beoordeeld.</originalText>
+    </code>
+    <code code="LX" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="below low threshold">
+        <originalText>De numerieke waarneming/testresultaten vallen onder de ondergrens gedefinieerd in een specifiek protocol waarop de resultaten zijn beoordeeld.</originalText>
+    </code>
+    <code code="IND" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="indeterminate">
+        <originalText>De waarde van de waarneming mag niet beoordeeld worden als positief of negatief.</originalText>
+    </code>
+    <code code="NEG" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="negative">
+        <originalText>De waarde van deze waarneming wordt geïnterpreteerd alsof de chemische substantie of indicator niet aanwezig is.</originalText>
+    </code>
+    <code code="POS" codeSystem="2.16.840.1.113883.5.83" codeSystemName="ObservationInterpretation" displayName="positive">
+        <originalText>De waarde van deze waarneming wordt geïnterpreteerd alsof de chemische substantie of indicator aanwezig is.</originalText>
+    </code>
+    
+    
+</codeSystem>

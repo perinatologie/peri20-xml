@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?nictiz status="test"?>
+<?xml-model href="../schematron_closed_warnings/peri20-acufov.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schematron/peri20-acufov.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<REPC_IN002120NL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../schemas/REPC_IN002120NL.xsd" xmlns="urn:hl7-org:v3">
+
+    <!--     Acute Zorg Overdrachtsbericht    -->
+
+    <!-- Unieke identificatie van dit HL7v3 bericht zoals uitgegeven door het zendende systeem-->
+    <id extension="4536546534" root="2.16.840.1.113883.2.4.6.6.31.1.1.2.1"/>
+    <creationTime value="20130315101458"/>
+    <versionCode code="NICTIZEd2005-Okt"/>
+    <interactionId extension="REPC_IN002120NL" root="2.16.840.1.113883.1.6"/>
+    <profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
+
+    <!-- Bij 'real life' berichten een "P" gebruiken voor processingCode. -->
+    <processingCode code="P"/>
+    <processingModeCode code="T"/>
+    <acceptAckCode code="AL"/>
+
+    <receiver typeCode="RCV">
+        <device classCode="DEV" determinerCode="INSTANCE">
+            <!-- ID van de ontvangende softwareapplicatie -->
+            <id extension="2" root="2.16.840.1.113883.2.4.6.6"/>
+            <name>Systeem Y van gynaecoloog X</name>
+        </device>
+    </receiver>
+
+    <sender typeCode="SND">
+        <device classCode="DEV" determinerCode="INSTANCE">
+            <!-- ID van de zendende softwareapplicatie -->
+            <id extension="31" root="2.16.840.1.113883.2.4.6.6"/>
+            <name>Verloskundige software applicatie B van praktijk ABC</name>
+        </device>
+    </sender>
+
+    <ControlActProcess classCode="ACTN" moodCode="EVN">
+        <effectiveTime value="20130315101455"/>
+        <authorOrPerformer typeCode="AUT">
+            <participant>
+                <AssignedPerson>
+                    <!-- ID van verloskundige, hier een UZI code -->
+                    <id root="2.16.528.1.1007.3.1" extension="000012349"/>
+                    <!-- Zorgverlenertype = verloskundige -->
+                    <code codeSystem="2.16.840.1.113883.2.4.15.111" code="03.000"/>
+                    <assignedPrincipalChoiceList>
+                        <assignedPerson>
+                            <name>
+                                <given>Victor</given>
+                                <family>Verloskundige</family>
+                            </name>
+                        </assignedPerson>
+                    </assignedPrincipalChoiceList>
+                    <Organization>
+                        <!-- ID van de organisatie waartoe de auteur behoort, URA -->
+                        <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                        <!-- Organisatietype = verloskundigenpraktijk -->
+                        <code codeSystem="2.16.840.1.113883.2.4.15.1060" code="G3"/>
+                        <name>ABC Verloskundigenpraktijk</name>
+                    </Organization>
+                </AssignedPerson>
+            </participant>
+        </authorOrPerformer>
+        <overseer typeCode="RESP">
+            <AssignedPerson>
+                <!-- ID van verloskundige, hier een UZI code -->
+                <id root="2.16.528.1.1007.3.1" extension="000012349"/>
+                <!-- Zorgverlenertype = verloskundige -->
+                <code codeSystem="2.16.840.1.113883.2.4.15.111" code="03.000"/>
+                <assignedPrincipalChoiceList>
+                    <assignedPerson>
+                        <name>
+                            <given>Victor</given>
+                            <family>Verloskundige</family>
+                        </name>
+                    </assignedPerson>
+                </assignedPrincipalChoiceList>
+                <Organization>
+                    <!-- ID van de organisatie waartoe de auteur behoort, URA -->
+                    <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                    <!-- Organisatietype = verloskundigenpraktijk -->
+                    <code codeSystem="2.16.840.1.113883.2.4.15.1060" code="G3"/>
+                    <name>ABC Verloskundigenpraktijk</name>
+                    <addr>
+                        <city>Vestigingsplaats</city>
+                    </addr>
+                </Organization>
+            </AssignedPerson>
+        </overseer>
+        
+        <subject typeCode="SUBJ">
+
+            <careProvisionRequest classCode="PCPR" moodCode="RQO">
+                <!-- template id acute zorg postpartum -->
+                <templateId root="2.16.840.1.113883.2.4.6.10.90.63"/>
+                <id extension="cp2757632" root="2.16.840.1.113883.2.4.6.6.31.1.1.2.2"/>
+                <statusCode code="active"/>
+                <!-- Vrouw -->
+                <subject typeCode="SBJ">
+                    <patient classCode="PAT">
+                        <!-- Burgerservicenummer -->
+                        <id root="2.16.840.1.113883.2.4.6.3" extension="100202020"/>
+                        <statusCode code="active"/>
+                        <patientPerson classCode="PSN" determinerCode="INSTANCE">
+                            <!-- Naam -->
+                            <name use="OR">
+                                <given>Diny</given>
+                                <family>Bos</family>
+                            </name>
+                            <!-- Geboortedatum -->
+                            <birthTime value="19810804"/>
+                           
+                            <!-- Taalvaardigheid Nederlandse taal -->
+                            <languageCommunication>
+                                <languageCode code="nl-NL" codeSystem="2.16.840.1.113883.6.121"/>
+                                <proficiencyLevelCode code="G" codeSystem="2.16.840.1.113883.5.61"/>
+                            </languageCommunication>
+                        </patientPerson>
+                    </patient>
+                </subject>
+
+                <!-- Zorgverlener / Zorginstelling die aanvraagt -->
+                <author typeCode="AUT">
+                    <time value="20130315101455"/>
+
+                    <!-- modeCode en signatureCode zien niet van toepassing voor dit bericht -->
+                    <modeCode nullFlavor="NA"/>
+                    <signatureCode nullFlavor="NA"/>
+
+                    <responsibleParty classCode="ASSIGNED">
+                        <telecom value="tel:+317025463726"/>
+                        <agentPerson classCode="PSN" determinerCode="INSTANCE">
+                            <name use="L">
+                                <given>Victor</given>
+                                <prefix qualifier="VV SP">de </prefix>
+                                <family>Verloskundige</family>
+                            </name>
+<!--                            <name use="L">
+                                <given>Aatje</given>
+                                <family qualifier="BR">Klein</family>
+                                <delimiter>-</delimiter>
+                                <prefix qualifier="VV SP">de </prefix>
+                                <family qualifier="SP">Groot</family>
+                            </name>-->
+                        </agentPerson>
+                        <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                            <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                            <name>ABC Verloskundigenpraktijk</name>
+                        </representedOrganization>
+                    </responsibleParty>
+                </author>
+
+                <!-- Reden aanvraag -->
+
+                <!-- Reden acute overdracht -->
+                <reason typeCode="RSON">
+                    <conditionEvent classCode="COND" moodCode="EVN">
+                        <id nullFlavor="NI"/>
+                        <code code="38341003" codeSystem="2.16.840.1.113883.6.96" displayName="hypertensieve aandoeningen"/>
+                        <text>Zwangerschapshypertensie, diast 2x gemeten 115 mmHg</text>
+                    </conditionEvent>
+                </reason>
+                <reason typeCode="RSON">
+                    <conditionEvent classCode="COND" moodCode="EVN">
+                        <id nullFlavor="NI"/>
+                        <code code="276601004" codeSystem="2.16.840.1.113883.6.96" displayName="verdenking foetale nood"/>
+                        <text>Voelt minder leven.</text>
+                    </conditionEvent>
+                </reason>
+<!--                <reason typeCode="RSON">
+                    <conditionEvent classCode="COND" moodCode="EVN">
+                        <!-\- geen informatie over de reden  -\->
+                        <id nullFlavor="NI"/>
+                        b<code nullFlavor="NI"/>
+                    </conditionEvent>
+                </reason>-->
+                
+                <!-- bijzonderheden algemene anamnese -->
+                <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+                    <careProvisionEvent classCode="PCPR" moodCode="EVN">
+                        <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+                            <actList classCode="LIST" moodCode="EVN">
+                                <code code="VERLIND" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <component typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="VERLIND" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                        <value xsi:type="BL" value="true"/>
+                                        <inboundRelationship typeCode="COMP">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <code code="VERLIND" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                                <value xsi:type="CD" code="1070" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.1" displayName="Astma preëxistente"/>
+                                            </observation>
+                                        </inboundRelationship>
+                                        <inboundRelationship typeCode="COMP">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <code code="VERLIND" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                                <value xsi:type="CD" code="1160" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.1" displayName="Hypertensie, preëxistente"/>
+                                            </observation>                                            
+                                        </inboundRelationship>
+                                    </observation>
+                                </component>
+                            </actList>
+                        </pertinentInformation2>
+                    </careProvisionEvent>
+                </pertinentInformation2>
+
+                <!-- bijzonderheden obstetrische anamnese -->
+                <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+                    <careProvisionEvent classCode="PCPR" moodCode="EVN">
+                        <pertinentInformation2 typeCode="PERT" contextConductionInd="true">
+                            <actList classCode="LIST" moodCode="EVN">
+                                <code code="OBSTANAM" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <component typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="OBSTANAM" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                        <value xsi:type="BL" value="true"/>
+                                        <inboundRelationship typeCode="COMP">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <code code="OBSTANAM" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                                <value xsi:type="CD" code="3032" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.1" displayName="abortus provocatus in anamnese"/>
+                                            </observation>
+                                        </inboundRelationship>
+                                    </observation>
+                                </component>
+                            </actList>
+                        </pertinentInformation2>
+                    </careProvisionEvent>
+                </pertinentInformation2>
+
+                <!-- Hoeveelheid bloedverlies tot acute overdracht -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="364332008" codeSystem="2.16.840.1.113883.6.96" displayName="Blood loss in labor (observable entity)"/>
+                        <value xsi:type="PQ" value="250"  unit="ml"/>
+                    </observation>
+                </pertinentInformation3>
+
+                <!-- IUVD -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="59291004" codeSystem="2.16.840.1.113883.6.96" displayName="Undelivered in utero fetal death (finding)"/>
+                        <value xsi:type="BL" value="false"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- Allergieen -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="106190000" codeSystem="2.16.840.1.113883.6.96"/>
+                        <value xsi:type="CE" code="300916003" codeSystem="2.16.840.1.113883.6.96" displayName="Latex allergy (disorder)"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- Actuele medicatie: Ventolin en nog iets, maar onbekend wat -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="129019007" codeSystem="2.16.840.1.113883.6.96" displayName="Taking medication (observable entity)"/>
+                        <value xsi:type="BL" value="true"/>
+                        <inboundRelationship typeCode="COMP">
+                            <substanceAdministration classCode="SBADM" moodCode="EVN">
+                                <consumable typeCode="CSM">
+                                    <manufacturedProduct classCode="MANU">
+                                        <manufacturedProduct classCode="MMAT" determinerCode="KIND">
+                                            <name>Ventolin</name>
+                                        </manufacturedProduct>
+                                    </manufacturedProduct>
+                                </consumable>
+                            </substanceAdministration>
+                        </inboundRelationship>
+                        <inboundRelationship typeCode="COMP">
+                            <substanceAdministration classCode="SBADM" moodCode="EVN">
+                                <consumable typeCode="CSM">
+                                    <manufacturedProduct classCode="MANU">
+                                        <manufacturedProduct classCode="MMAT" determinerCode="KIND">
+                                            <name nullFlavor="UNK"/>
+                                        </manufacturedProduct>
+                                    </manufacturedProduct>
+                                </consumable>
+                            </substanceAdministration>
+                        </inboundRelationship>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- neg seksuele ervaring? -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="NEGSE" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                        <value xsi:type="BL" value="true"/>
+                    </observation>
+                </pertinentInformation3>
+            
+                <!-- MRSA besmetting aangetoond? -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="266096002" codeSystem="2.16.840.1.113883.6.96" displayName="MRSA infection"/>
+                        <value xsi:type="BL" value="false"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- Bloedtransfusie? -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="161664006" codeSystem="2.16.840.1.113883.6.96" displayName="H/O: blood transfusion"/>
+                        <value xsi:type="BL" value="false"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- BMI -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" displayName="Body mass index (BMI) [Ratio]"/>
+                        <effectiveTime value="20130301153049"/>
+                        <value xsi:type="PQ" value="22.45" unit="kg/m2"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- Actuele bloedruk -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <organizer classCode="CONTAINER" moodCode="EVN">
+                        <code code="75367002" codeSystem="2.16.840.1.113883.6.96" displayName="Blood pressure (observable entity)"/>
+                        <component typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="271649006" codeSystem="2.16.840.1.113883.6.96" displayName="Systolic blood pressure (observable entity)"/>
+                                <value xsi:type="PQ" value="170" unit="mm[Hg]"/>
+                            </observation>
+                        </component>
+                        <component typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="271650006" codeSystem="2.16.840.1.113883.6.96" displayName="Diastolic blood pressure (observable entity)"/>
+                                <value xsi:type="PQ" value="115" unit="mm[Hg]"/>
+                            </observation>
+                        </component>
+                    </organizer>
+                </pertinentInformation3>
+                
+                <!-- Bloedgroep -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="883-9" codeSystem="2.16.840.1.113883.6.1" displayName="ABO group [Type] in Blood"/>
+                        <value xsi:type="CE" code="112144000" codeSystem="2.16.840.1.113883.6.96" displayName="bloedgroep A"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- Rhesus D Factor vrouw -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="978-7" codeSystem="2.16.840.1.113883.6.1" displayName="D Ag [Presence] on Red Blood Cells"/>
+                        <value xsi:type="CE" code="165746003" codeSystem="2.16.840.1.113883.6.96" displayName="Rh D Negatief"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- Irregulaire antistoffen -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false" nullFlavor="NA">
+                        <code code="312457003" codeSystem="2.16.840.1.113883.6.96" displayName="Finding of irregular blood group antibody present (finding)"/>
+                        <value xsi:type="CE" code="405844003" codeSystem="2.16.840.1.113883.6.96" displayName="Kell"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- Rhesus c Factor -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="948-0" codeSystem="2.16.840.1.113883.6.1" displayName="C Ag [Presence] on Red Blood Cells"/>
+                        <value xsi:type="CE" code="rhcpos" codeSystem="2.16.840.1.113883.2.4.4.13.45" displayName="Rh C positief"/>
+                        </observation>
+                </pertinentInformation3>
+                
+                <!-- HBsAg -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                        <code code="165806002" codeSystem="2.16.840.1.113883.6.96" displayName="Hepatitis B surface antigen positive (finding)"/>
+                        <value xsi:type="BL" value="false"/>
+                    </observation>
+                </pertinentInformation3>
+                
+                <!-- 
+                     Voorgaande zwangerschappen, obstetrische anamnese
+                     de pertinentInformation3 kan herhaald worden per 
+                     voorgaande zwangerschap  
+                -->
+
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <organizer classCode="CONTAINER" moodCode="EVN">
+                         <!-- 
+                             obstetrische anamnese van deze voorgaande zwangerschap
+                         -->
+                        <code code="248983002" codeSystem="2.16.840.1.113883.6.96" displayName="Obstetric history (observable entity)"/>
+                        
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <!-- Identificatie (nummer) van deze voorgaande zwangerschap -->
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="X_PREGNBR" codeSystem="2.16.840.1.113883.6.1" displayName="Identificatie van de zwangerschap"/>
+                                <value xsi:type="INT" value="721"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- Wijze einde zwangerschap -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="EindeZw" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Wijze einde zwangerschap"/>
+                                <value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.46" displayName="Partus"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- deze voorgaande zwangerschap: zwangerschapsduur bij einde zwangerschap -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="412726003" codeSystem="2.16.840.1.113883.6.96" displayName="Length of gestation at birth (observable entity)"/>
+                                <value xsi:type="PQ" value="272" unit="d"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- deze voorgaande zwangerschap: Eerdere bevalling (partus) -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <procedure classCode="PROC" moodCode="EVN">
+                                <id nullFlavor="NI"/>
+                                <code code="236973005" codeSystem="2.16.840.1.113883.6.96" displayName="Delivery procedure (procedure)"/>
+                                <!-- deze voorgaande partus: Hoeveelheid bloedverlies -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="364332008" codeSystem="2.16.840.1.113883.6.96" displayName="Blood loss in labor (observable entity)"/>
+                                        <value xsi:type="PQ" value="120" unit="ml"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- deze voorgaande partus: Ontsluitingsduur -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="169821004" codeSystem="2.16.840.1.113883.6.96" displayName="Duration of first stage of labor (observable entity)"/>
+                                        <value xsi:type="PQ" value="6" unit="h"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- deze voorgaande partus: Uitdrijvingsduur -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="169822006" codeSystem="2.16.840.1.113883.6.96" displayName="Duration of second stage of labor (observable entity)"/>
+                                        <value xsi:type="PQ" value="34" unit="min"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- deze voorgaande partus: Conditie perineum postpartum -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="PRN5704" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" displayName="Conditie perineum postpartum"/>
+                                        <value xsi:type="CE" code="B" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.62" displayName="1e graads perineumruptuur"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- uitkomst per kind voor deze voorgaande zwangerschap -->
+                                <inboundRelationship typeCode="COMP">
+                                    <procedure classCode="PROC" moodCode="EVN">
+                                        <id nullFlavor="NI"/>
+                                        <code code="Baring" codeSystem="2.16.840.1.113883.2.4.3.22.1.3"/>
+                                        <subject typeCode="SBJ">
+                                            <personalRelationship classCode="PRS">
+                                                <code code="CHILD" codeSystem="2.16.840.1.113883.5.111"/>
+                                                <relationshipHolder classCode="PSN" determinerCode="INSTANCE"/>
+                                            </personalRelationship>
+                                        </subject>
+                                        <!-- Kindspecifieke gegevens vorige uitkomsten -->
+                                        <!-- Type partus -->
+                                        <inboundRelationship typeCode="COMP">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <code code="289258004" codeSystem="2.16.840.1.113883.6.96" displayName="Finding of pattern of delivery (finding)"/>
+                                                <value xsi:type="CE" code="48782003" codeSystem="2.16.840.1.113883.6.96" displayName="Delivery normal (finding)"/>
+                                            </observation>
+                                        </inboundRelationship>
+                                        <!-- Geboortegewicht -->
+                                        <inboundRelationship typeCode="COMP">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <code code="8339-4" codeSystem="2.16.840.1.113883.6.1" displayName="Body weight Measured --at birth"/>
+                                                <value xsi:type="PQ" value="3500" unit="g"/>
+                                            </observation>
+                                        </inboundRelationship>
+                                        <!-- Percentiel van het geboortegewicht -->
+                                        <inboundRelationship typeCode="COMP">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <code code="301334000" codeSystem="2.16.840.1.113883.6.96" displayName="Birth weight centile (observable entity)"/>
+                                                <value xsi:type="CE" code="4" codeSystem="2.16.840.1.113883.2.4.4.13.50"/>
+                                            </observation>
+                                        </inboundRelationship>
+                                        <!-- Apgarscorena5min -->
+                                        <inboundRelationship typeCode="COMP">
+                                            <observation classCode="OBS" moodCode="EVN">
+                                                <code code="9274-2" codeSystem="2.16.840.1.113883.6.1" displayName="5 minute Apgar Score"/>
+                                                <value xsi:type="INT" value="8"/>
+                                            </observation>
+                                        </inboundRelationship>
+                                        <!-- Vaginale kunstverlossing procedure -->
+                                        <inboundRelationship typeCode="COMP">
+                                            <procedure classCode="PROC" moodCode="EVN" negationInd="true">
+                                                <id nullFlavor="NI"/>
+                                                <code code="KuVerl" codeSystem="2.16.840.1.113883.2.4.4.14" displayName="Vaginale kunstverlossing"/>
+                                            </procedure>
+                                        </inboundRelationship>
+                                        <!-- Beslismoment sectio caesarea -->
+                                        <inboundRelationship typeCode="COMP">
+                                            <procedure classCode="PROC" moodCode="INT" negationInd="true">
+                                                <id nullFlavor="NI"/>
+                                                <code code="SectioCae" codeSystem="2.16.840.1.113883.2.4.3.22.1.3"/>
+                                            </procedure>
+                                        </inboundRelationship>
+                                    </procedure>
+                                </inboundRelationship>
+                            </procedure>
+                        </component>
+                    </organizer>
+                </pertinentInformation3>
+
+                <!-- 
+                    Huidige Zwangerschap   
+                    ====================
+                -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <organizer classCode="CONTAINER" moodCode="EVN">
+                        <!-- huidige zwangerschap -->
+                        <code code="364320009" codeSystem="2.16.840.1.113883.6.96" displayName="Pregnancy observable (observable entity"/>
+
+                        <!-- Identificatie -->
+                        <!-- 
+                                Identificatie (nummer) van deze voorgaande zwangerschap
+                                Voor de identificatie van de zwangerschap van de vrouw wordt 
+                                de leeftijd van de vrouw in dagen op de datum van conceptie bepaald 
+                                en dan het aantal episodes van veertien dagen berekend.
+                                De conceptiedatum wordt geschat op basis van de á terme datum 
+                                (estimated delivery date EDD): A terme datum – 267 dagen. Dan wordt de
+                                zwangerschapsnummer berekend door: leeftijd van de vrouw in dagen
+                                op de datum van conceptie div 14 (geheeltallige deling).
+                                
+                                In het voorbeeld is het
+                                geboortedatum vrouw:.............1981-08-04
+                                actuele a terme datum:...........2012-05-03
+                                geschatte conceptiedatum:........2011-08-10
+                                leeftijd vrouw op dag conceptie: 10963 d
+                                div 14 (=zwangerschapsnummer):...783 -->       
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="X_PREGNBR" codeSystem="2.16.840.1.113883.6.1"/>
+                                <value xsi:type="INT" value="783"/>
+                            </observation>
+                        </component>
+        
+                        <!-- Graviditeit -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="Gravidity" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Graviditeit"/>
+                                <value xsi:type="INT" value="2"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- Pariteit -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="Parturit" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Pariteit"/>
+                                <value xsi:type="INT" value="1"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- Aantal levende kinderen -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="AantalLevendeKinderen" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Aantal levende kinderen"/>
+                                <value xsi:type="INT" value="1"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- Actuele a terme datum -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="EDD" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="A terme datum"/>
+                                <!-- A terme datum -->
+                                <value xsi:type="TS" value="20120503"/>
+                                <inboundRelationship typeCode="PERT">
+                                    <!-- Aanduiding dat dit de actuele à terme datum is -->
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="ActualEDD" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Actuele à terme datum"/>
+                                        <value xsi:type="BL" value="true"/>
+                                    </observation>
+                                </inboundRelationship>
+                            </observation>
+                        </component>
+                        
+                        <!-- Voornemens -->
+                        <!-- Bevalplan -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="Bevalplan" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Bevalplan"/>
+                                <value xsi:type="ED" representation="B64" mediaType="application/pdf">SOMEBASE64ENCODEDSTRING</value>
+                            </observation>
+                        </component>
+                    </organizer>
+                </pertinentInformation3>
+ 
+                <!--  Huidige Bevalling
+                    ====================
+                -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <organizer classCode="CONTAINER" moodCode="EVN">
+                        <code code="236973005" codeSystem="2.16.840.1.113883.6.96" displayName="Delivery procedure (procedure)"/>
+                        <!-- Wijze waarop de baring begon -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="BeginDeliv" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Wijze waarop de baring begon"/>
+                                <value xsi:type="CE" code="3" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.46" displayName="interventie om baring op gang te brengen"/>
+                            </observation>
+                        </component>
+                        <!-- Tijdstip begin actieve ontsluiting -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="249120008" codeSystem="2.16.840.1.113883.6.96" displayName="Onset of labour first stage"/>
+                                <effectiveTime value="201205081213"/>
+                            </observation>
+                        </component>
+                        <!-- Kleur vruchtwater -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="38386-9" codeSystem="2.16.840.1.113883.6.1" displayName="Color of Amniotic fluid "/>
+                                <value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.18" displayName="kleurloos"/>
+                            </observation>
+                        </component>
+                        <!-- conditie perineum postpartum -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="PRN5704" codeSystem="2.16.840.1.113883.2.4.3.22.1.1"/>
+                                <value xsi:type="CE" code="B" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.62" displayName="1e graads perineumruptuur"/>
+                            </observation>
+                        </component>
+                    </organizer>
+                </pertinentInformation3>
+                
+                <!-- Uitkomst per kind -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="false">
+                    <procedure classCode="PROC" moodCode="EVN">
+                        <id nullFlavor="NI"/>
+                        <code code="Baring" codeSystem="2.16.840.1.113883.2.4.3.22.1.3"/>
+                        <subject typeCode="SBJ">
+                            <personalRelationship classCode="PRS">
+                                <code code="CHILD" codeSystem="2.16.840.1.113883.5.111"/>
+                                <relationshipHolder classCode="PSN" determinerCode="INSTANCE">
+                                    <!-- lokaal id -->
+                                    <id root="2.16.528.1.1007.3.3.23444.1.2.3.1.1.1.5.1" extension="0301001"/>
+                                    <!-- PRN id -->
+                                    <id root="2.16.840.1.113883.2.4.3.22.6.3" extension="100202020-20100812-1"/>
+                                    <!-- Geboortedatum -->
+                                    <birthTime value="201205081847"/>
+                                    <deceasedInd value="false"/>
+                                </relationshipHolder>
+                            </personalRelationship>
+                        </subject>
+                        
+                        <!-- Geslacht (medische observatie) -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="46098-0" codeSystem="2.16.840.1.113883.6.1" displayName="Gender"/>
+                                <value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.21" displayName="mannelijk"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- kindspecifieke maternale gegevens -->
+                        <!-- Tijdstip breken vliezen -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="289251005" codeSystem="2.16.840.1.113883.6.96" displayName="Tijdstip breken vliezen"/>
+                                <effectiveTime value="201205081250"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- Tijdstip actief meepersen -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="249160009" codeSystem="2.16.840.1.113883.6.96" displayName="Tijdstip actief meepersen"/>
+                                <effectiveTime value="201208051813"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- kindspecifieke uitkomstgegevens -->
+                        <!-- Type partus -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="289258004" codeSystem="2.16.840.1.113883.6.96" displayName="Finding of pattern of delivery (finding)"/>
+                                <value xsi:type="CE" code="48782003" codeSystem="2.16.840.1.113883.6.96" displayName="Delivery normal (finding)"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- Geboortegewicht -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="8339-4" codeSystem="2.16.840.1.113883.6.1" displayName="Body weight Measured --at birth"/>
+                                <value xsi:type="PQ" value="3850" unit="g"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- Percentiel van het geboortegewicht -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="301334000" codeSystem="2.16.840.1.113883.6.96" displayName="Birth weight centile (observable entity)"/>
+                                <value xsi:type="CE" code="4" codeSystem="2.16.840.1.113883.2.4.4.13.50"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- Apgarscore na 5 min. -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="9274-2" codeSystem="2.16.840.1.113883.6.1" displayName="5 minute Apgar Score"/>
+                                <value xsi:type="INT" value="10"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- Congenitale afwijkingen -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="66091009" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital disease (disorder)"/>
+                                <value xsi:type="BL" value="false"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- Ligging bij geboorte -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="LigGbrt" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" displayName="Ligging bij geboorte"/>
+                                <value xsi:type="CE" code="2" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.50" displayName="achterhoofd-achter"/>
+                            </observation>
+                        </inboundRelationship>
+                        
+                        <!-- Overige interventies -->
+                        <inboundRelationship typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                                <code code="Interv" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" displayName="Overige interventies"/>
+                            </observation>
+                        </inboundRelationship>
+                    </procedure>
+                </pertinentInformation3>
+                
+               
+                <!-- Foetusspecifieke (onderzoeks)gegevens, mag meerdere keren voorkomen (voor iedere echo) -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="false">
+                    <organizer classCode="CONTAINER" moodCode="EVN">
+                        <code code="12130-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Study observation.general^Fetus"/>
+                        <!-- Datum van onderzoek = datum van bepaling zwangerschapsduur -->
+                        <effectiveTime value="20120112"/>
+                        
+                        <subject typeCode="SBJ">
+                            <personalRelationship classCode="PRS">
+                                <code code="CHILD" codeSystem="2.16.840.1.113883.5.111"/>
+                                <relationshipHolder classCode="PSN" determinerCode="INSTANCE"/>
+                            </personalRelationship>
+                        </subject>
+                        
+                        <!-- Zwangerschapsduur op datum onderzoek -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="445872007" codeSystem="2.16.840.1.113883.6.96" displayName="Length of gestation at time of procedure (observable entity)"/>
+                                <value xsi:type="PQ" value="134" unit="d"/>
+                            </observation>
+                        </component>
+                                               
+                        <!-- BPD -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="11820-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diameter.biparietal"/>
+                                <value xsi:type="PQ" value="5.1" unit="mm"/>
+                            </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="X_BPD_PRCTL" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Abdominal circumference^Fetus Percentile"/>
+                                <value xsi:type="PQ" value="98" unit="%"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- HCs -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="11984-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Head circumference"/>
+                                <value xsi:type="PQ" value="5.2" unit="mm"/>
+                            </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="X_HC_PRCTL" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Head circumference^Fetus Percentile"/>
+                                <value xsi:type="PQ" value="98" unit="%"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- ACs -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="11979-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Abdominal circumference^Fetus"/>
+                                <value xsi:type="PQ" value="162.1" unit="mm"/>
+                            </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="X_AC_PRCTL" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Abdominal circumference^Fetus Percentile"/>
+                                <value xsi:type="PQ" value="98" unit="%"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- FLs -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="11963-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Fetal Femur diaphysis [Length] US"/>
+                                <value xsi:type="PQ" value="5.3" unit="mm"/>
+                            </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="X_FL_PRCTL" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Fetal Femur diaphysis [Length]^Fetus Percentile"/>
+                                <value xsi:type="PQ" value="98" unit="%"/>
+                            </observation>
+                        </component>
+                        
+                        <!-- Echoparameters -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="Echoparameters" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <value xsi:type="ED" representation="B64" mediaType="application/pdf">SOMEBASE64ENCODEDSTRING</value>
+                            </observation>
+                        </component>
+                    </organizer>
+                </pertinentInformation3>
+                
+                <!-- Medisch onderzoek - maternaal, komt 1 keer voor -->
+                <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                    <organizer classCode="CONTAINER" moodCode="EVN">
+                        <code code="12131-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Study observation.general^Patient"/>
+                        <!-- Hb zwangere - alleen de meest actuele, dus maximaal één keer -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="59260-0" codeSystem="2.16.840.1.113883.6.1" displayName="Hemoglobin [Moles/volume] in Blood"/>
+                                <!-- Datum van onderzoek = datum van bepaling zwangerschapsduur -->
+                                <!--<effectiveTime value="20120312"/>-->
+                                <value xsi:type="PQ" nullFlavor="NA"/>
+<!--                                <value xsi:type="PQ" unit="mmol/L" value="8.2"/>
+                                <inboundRelationship typeCode="PERT" contextConductionInd="true">
+                                    <!-\- Zwangerschapsduur op datum onderzoek -\->
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="445872007" codeSystem="2.16.840.1.113883.6.96" displayName="Length of gestation at time of procedure (observable entity)"/>
+                                        <value xsi:type="PQ" value="215" unit="d"/>
+                                    </observation>
+                                </inboundRelationship>-->
+                            </observation>
+                        </component>
+                        <!-- Rhesus D factor foetus gevonden in bloed zwangere - maximaal één keer -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="X_RHFETBM" codeSystem="2.16.840.1.113883.6.1"/>
+                                <!-- Datum van onderzoek = datum van bepaling zwangerschapsduur -->
+                                <effectiveTime value="20120215"/>
+                                <value xsi:type="CE" code="165747007" codeSystem="2.16.840.1.113883.6.96" displayName="RhD positive (finding)"/>
+                                <!-- Zwangerschapsduur op datum onderzoek -->
+                                <inboundRelationship typeCode="PERT" contextConductionInd="true">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="445872007" codeSystem="2.16.840.1.113883.6.96" displayName="Length of gestation at time of procedure (observable entity)"/>
+                                        <value xsi:type="PQ" value="189" unit="d"/>
+                                    </observation>
+                                </inboundRelationship>
+                            </observation>
+                        </component>
+                        <!-- Vaginaal toucher - De beschikbare uitkomsten van uitgevoerde VTs. Kan meerdere keren voorkomen -->
+                        <component typeCode="COMP" contextConductionInd="true">
+                            <!-- VT -->
+                            <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                <id nullFlavor="NI"/>
+                                <code code="51597003" codeSystem="2.16.840.1.113883.6.96" displayName="Manual palpation of vagina (procedure)"/>
+                                <!-- Datum van onderzoek = datum van bepaling zwangerschapsduur -->
+                                <effectiveTime value="201205081255"/>
+                                <!-- Zwangerschapsduur op datum onderzoek -->
+                                <inboundRelationship typeCode="PERT" contextConductionInd="true">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="445872007" codeSystem="2.16.840.1.113883.6.96" displayName="Length of gestation at time of procedure (observable entity)"/>
+                                        <value xsi:type="PQ" value="272" unit="d"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- Portio -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="249021005" codeSystem="2.16.840.1.113883.6.96" displayName="Effacement of cervix (observable entity)"/>
+                                        <value xsi:type="CE" code="19337000" codeSystem="2.16.840.1.113883.6.96" displayName="Fully effaced cervix"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- Ontsluiting -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="289761004" codeSystem="2.16.840.1.113883.6.96" displayName="Finding of cervical dilatation (finding)"/>
+                                        <value xsi:type="CE" code="58699001" codeSystem="2.16.840.1.113883.6.96" displayName="Cervical dilatation, 2cm"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- Vliezen -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="112074005" codeSystem="2.16.840.1.113883.6.96" displayName="Amniotic membrane feature (observable entity)"/>
+                                        <value xsi:type="CE" code="2" codeSystem="2.16.840.1.113883.2.4.4.13.47" displayName="Gebroken"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- Indaling -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="364611006" codeSystem="2.16.840.1.113883.6.96" displayName="Fetal descent in relation to ischial spines (observable entity)"/>
+                                        <value xsi:type="CE" code="289379002" codeSystem="2.16.840.1.113883.6.96" displayName="H1"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- Aard van het voorliggend deel -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="364612004" codeSystem="2.16.840.1.113883.6.96" displayName="Presenting part palpable vaginally (observable entity)"/>
+                                        <value xsi:type="CE" code="249081007" codeSystem="2.16.840.1.113883.6.96" displayName="Both fontanelles presenting"/>
+                                    </observation>
+                                </inboundRelationship>
+                                <!-- Stand -->
+                                <inboundRelationship typeCode="COMP">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <code code="163520002" codeSystem="2.16.840.1.113883.6.96" displayName="On examination - presenting part position (finding)"/>
+                                        <value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.48" displayName="Voor"/>
+                                    </observation>
+                                </inboundRelationship>
+                            </procedure>
+                        </component>
+                    </organizer>
+                </pertinentInformation3>
+            </careProvisionRequest>
+        </subject>
+    </ControlActProcess>
+</REPC_IN002120NL>

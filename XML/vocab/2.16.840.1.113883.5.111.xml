@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/codeSystem2html.xsl" type="text/xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+      <name>RoleCode</name>
+      <desc>Codes voor rollen</desc>
+      <code code="_PersonalRelationshipRoleType" codeSystem="2.16.840.1.113883.5.111" displayName="PersonalRelationshipRoleType">
+            <originalText>Concept Properties: internalId: 21131 </originalText>
+      </code>
+      <code code="FAMMEMB" codeSystem="2.16.840.1.113883.5.111" displayName="Family Member">
+            <originalText>A relationship between two people characterizing their "familial" relationship</originalText>
+      </code>
+      <code code="CHILD" codeSystem="2.16.840.1.113883.5.111" displayName="Child">
+            <originalText>The player of the role is a child of the scoping entity.</originalText>
+      </code>
+      <code code="CHLDADOPT" codeSystem="2.16.840.1.113883.5.111" displayName="adopted child">
+            <originalText>The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his
+                  or her own child. </originalText>
+      </code>
+      <code code="DAUADOPT" codeSystem="2.16.840.1.113883.5.111" displayName="adopted daughter">
+            <originalText>The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent)
+                  as his or her own child. </originalText>
+      </code>
+      <code code="SONADOPT" codeSystem="2.16.840.1.113883.5.111" displayName="adopted son">
+            <originalText>The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as
+                  his or her own child. </originalText>
+      </code>
+      <code code="CHLDFOST" codeSystem="2.16.840.1.113883.5.111" displayName="foster child">
+            <originalText>The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to
+                  him or her through legal or blood ties. </originalText>
+      </code>
+      <code code="DAUFOST" codeSystem="2.16.840.1.113883.5.111" displayName="foster daughter">
+            <originalText>The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not
+                  related to him or her through legal or blood ties. </originalText>
+      </code>
+      <code code="SONFOST" codeSystem="2.16.840.1.113883.5.111" displayName="foster son">
+            <originalText>The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related
+                  to him or her through legal or blood ties. </originalText>
+      </code>
+      <code code="CHLDINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="child in-law">
+            <originalText>The player of the role is the spouse of scoping person's child.</originalText>
+      </code>
+      <code code="DAUINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="daughter in-law">
+            <originalText>The player of the role is the wife of scoping person's son.</originalText>
+      </code>
+      <code code="SONINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="son in-law">
+            <originalText>The player of the role is the husband of scoping person's daughter.</originalText>
+      </code>
+      <code code="DAUC" codeSystem="2.16.840.1.113883.5.111" displayName="Daughter">
+            <originalText> The player of the role is a female child (of any type) of scoping entity (parent) </originalText>
+      </code>
+      <code code="DAU" codeSystem="2.16.840.1.113883.5.111" displayName="natural daughterDaughter ">
+            <originalText>The player of the role is a female offspring of the scoping entity (parent).</originalText>
+      </code>
+      <code code="STPDAU" codeSystem="2.16.840.1.113883.5.111" displayName="stepdaughter">
+            <originalText>The player of the role is a daughter of the scoping person's spouse by a previous union.</originalText>
+      </code>
+      <code code="NCHILD" codeSystem="2.16.840.1.113883.5.111" displayName="natural child">
+            <originalText>The player of the role is an offspring of the scoping entity as determined by birth.</originalText>
+      </code>
+      <code code="SON" codeSystem="2.16.840.1.113883.5.111" displayName="natural sonSon ">
+            <originalText>The player of the role is a male offspring of the scoping entity (parent).</originalText>
+      </code>
+      <code code="SONC" codeSystem="2.16.840.1.113883.5.111" displayName="son">
+            <originalText> The player of the role is a male child (of any type) of scoping entity (parent) </originalText>
+      </code>
+      <code code="STPSON" codeSystem="2.16.840.1.113883.5.111" displayName="stepson">
+            <originalText>The player of the role is a son of the scoping person's spouse by a previous union.</originalText>
+      </code>
+      <code code="STPCHLD" codeSystem="2.16.840.1.113883.5.111" displayName="step child">
+            <originalText>The player of the role is a child of the scoping person's spouse by a previous union.</originalText>
+      </code>
+      <code code="EXT" codeSystem="2.16.840.1.113883.5.111" displayName="extended family member">
+            <originalText> A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild,
+                  grandparent, niece, nephew or uncle. </originalText>
+      </code>
+      <code code="AUNT" codeSystem="2.16.840.1.113883.5.111" displayName="aunt">
+            <originalText>The player of the role is a sister of the scoping person's mother or father.</originalText>
+      </code>
+      <code code="MAUNT" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalAunt">
+            <originalText>The player of the role is a biological sister of the scoping person's biological mother. </originalText>
+      </code>
+      <code code="PAUNT" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalAunt">
+            <originalText>The player of the role is a biological sister of the scoping person's biological father. </originalText>
+      </code>
+      <code code="COUSN" codeSystem="2.16.840.1.113883.5.111" displayName="cousin">
+            <originalText>The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two
+                  or more steps in a diverging line. </originalText>
+      </code>
+      <code code="MCOUSN" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalCousin">
+            <originalText>The player of the role is a biological relative of the scoping person descended from a common ancestor on the player's
+                  mother's side, such as a grandparent, by two or more steps in a diverging line. </originalText>
+      </code>
+      <code code="PCOUSN" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalCousin">
+            <originalText>The player of the role is a biological relative of the scoping person descended from a common ancestor on the player's
+                  father's side, such as a grandparent, by two or more steps in a diverging line. </originalText>
+      </code>
+      <code code="GGRPRN" codeSystem="2.16.840.1.113883.5.111" displayName="great grandparent">
+            <originalText>The player of the role is a parent of the scoping person's grandparent.</originalText>
+      </code>
+      <code code="GGRFTH" codeSystem="2.16.840.1.113883.5.111" displayName="great grandfather">
+            <originalText>The player of the role is the father of the scoping person's grandparent.</originalText>
+      </code>
+      <code code="GGRMTH" codeSystem="2.16.840.1.113883.5.111" displayName="great grandmother">
+            <originalText>The player of the role is the mother of the scoping person's grandparent.</originalText>
+      </code>
+      <code code="MGGRFTH" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalGreatgrandfather">
+            <originalText>The player of the role is the biological father of the scoping person's biological mother's parent. </originalText>
+      </code>
+      <code code="MGGRMTH" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalGreatgrandmother">
+            <originalText>The player of the role is the biological mother of the scoping person's biological mother's parent. </originalText>
+      </code>
+      <code code="MGGRPRN" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalGreatgrandparent">
+            <originalText>The player of the role is a biological parent of the scoping person's biological mother's parent. </originalText>
+      </code>
+      <code code="PGGRFTH" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalGreatgrandfather">
+            <originalText>The player of the role is the biological father of the scoping person's biological father's parent. </originalText>
+      </code>
+      <code code="PGGRMTH" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalGreatgrandmother">
+            <originalText>The player of the role is the biological mother of the scoping person's biological father's parent. </originalText>
+      </code>
+      <code code="PGGRPRN" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalGreatgrandparent">
+            <originalText>The player of the role is a biological parent of the scoping person's biological father's parent. </originalText>
+      </code>
+      <code code="GRNDCHILD" codeSystem="2.16.840.1.113883.5.111" displayName="grandchild">
+            <originalText>The player of the role is a child of the scoping person's son or daughter.</originalText>
+      </code>
+      <code code="GRNDDAU" codeSystem="2.16.840.1.113883.5.111" displayName="granddaughter">
+            <originalText>The player of the role is a daughter of the scoping person's son or daughter.</originalText>
+      </code>
+      <code code="GRNDSON" codeSystem="2.16.840.1.113883.5.111" displayName="grandson">
+            <originalText>The player of the role is a son of the scoping person's son or daughter.</originalText>
+      </code>
+      <code code="GRPRN" codeSystem="2.16.840.1.113883.5.111" displayName="Grandparent">
+            <originalText>The player of the role is a parent of the scoping person's mother or father.</originalText>
+      </code>
+      <code code="GRFTH" codeSystem="2.16.840.1.113883.5.111" displayName="Grandfather">
+            <originalText>The player of the role is the father of the scoping person's mother or father.</originalText>
+      </code>
+      <code code="GRMTH" codeSystem="2.16.840.1.113883.5.111" displayName="Grandmother">
+            <originalText>The player of the role is the mother of the scoping person's mother or father.</originalText>
+      </code>
+      <code code="MGRFTH" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalGrandfather">
+            <originalText>The player of the role is the biological father of the scoping person's biological mother. </originalText>
+      </code>
+      <code code="MGRMTH" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalGrandmother">
+            <originalText>The player of the role is the biological mother of the scoping person's biological mother. </originalText>
+      </code>
+      <code code="MGRPRN" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalGrandparent">
+            <originalText>The player of the role is the biological parent of the scoping person's biological mother. </originalText>
+      </code>
+      <code code="PGRFTH" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalGrandfather">
+            <originalText>The player of the role is the biological father of the scoping person's biological father. </originalText>
+      </code>
+      <code code="PGRMTH" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalGrandmother">
+            <originalText>The player of the role is the biological mother of the scoping person's biological father. </originalText>
+      </code>
+      <code code="PGRPRN" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalGrandparent">
+            <originalText>The player of the role is the biological parent of the scoping person's biological father. </originalText>
+      </code>
+      <code code="NIENEPH" codeSystem="2.16.840.1.113883.5.111" displayName="niece/nephew">
+            <originalText>The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's
+                  spouse. </originalText>
+      </code>
+      <code code="NEPHEW" codeSystem="2.16.840.1.113883.5.111" displayName="nephew">
+            <originalText>The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping
+                  person's spouse. </originalText>
+      </code>
+      <code code="NIECE" codeSystem="2.16.840.1.113883.5.111" displayName="niece">
+            <originalText>The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping
+                  person's spouse. </originalText>
+      </code>
+      <code code="UNCLE" codeSystem="2.16.840.1.113883.5.111" displayName="uncle">
+            <originalText>The player of the role is a brother of the scoping person's mother or father.</originalText>
+      </code>
+      <code code="MUNCLE" codeSystem="2.16.840.1.113883.5.111" displayName="MaternalUncle">
+            <originalText>The player of the role is a biological brother of the scoping person's biological mother. </originalText>
+      </code>
+      <code code="PUNCLE" codeSystem="2.16.840.1.113883.5.111" displayName="PaternalUncle">
+            <originalText>The player of the role is a biological brother of the scoping person's biological father. </originalText>
+      </code>
+      <code code="PRN" codeSystem="2.16.840.1.113883.5.111" displayName="Parent">
+            <originalText>The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child).</originalText>
+      </code>
+      <code code="FTH" codeSystem="2.16.840.1.113883.5.111" displayName="Father">
+            <originalText>The player of the role is a male who begets or raises or nurtures the scoping entity (child).</originalText>
+      </code>
+      <code code="MTH" codeSystem="2.16.840.1.113883.5.111" displayName="Mother">
+            <originalText>The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity
+                  (child).</originalText>
+      </code>
+      <code code="NPRN" codeSystem="2.16.840.1.113883.5.111" displayName="natural parent">
+            <originalText>Concept Properties: internalId: 19764 </originalText>
+      </code>
+      <code code="NFTH" codeSystem="2.16.840.1.113883.5.111" displayName="natural father">
+            <originalText>The player of the role is a male who begets the scoping entity (child).</originalText>
+      </code>
+      <code code="NFTHF" codeSystem="2.16.840.1.113883.5.111" displayName="natural father of fetus">
+            <originalText>Indicates the biologic male parent of a fetus.</originalText>
+      </code>
+      <code code="NMTH" codeSystem="2.16.840.1.113883.5.111" displayName="natural mother">
+            <originalText>The player of the role is a female who conceives or gives birth to the scoping entity (child).</originalText>
+      </code>
+      <code code="PRNINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="parent in-law">
+            <originalText>The player of the role is the parent of scoping person's husband or wife.</originalText>
+      </code>
+      <code code="FTHINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="father-in-law">
+            <originalText>The player of the role is the father of the scoping person's husband or wife.</originalText>
+      </code>
+      <code code="MTHINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="mother-in-law">
+            <originalText>The player of the role is the mother of the scoping person's husband or wife.</originalText>
+      </code>
+      <code code="STPPRN" codeSystem="2.16.840.1.113883.5.111" displayName="step parent">
+            <originalText>The player of the role is the spouse of the scoping person's parent and not the scoping person's natural
+                  parent.</originalText>
+      </code>
+      <code code="STPFTH" codeSystem="2.16.840.1.113883.5.111" displayName="stepfather">
+            <originalText>The player of the role is the husband of scoping person's mother and not the scoping person's natural father.</originalText>
+      </code>
+      <code code="STPMTH" codeSystem="2.16.840.1.113883.5.111" displayName="stepmother">
+            <originalText>The player of the role is the wife of scoping person's father and not the scoping person's natural mother.</originalText>
+      </code>
+      <code code="SIB" codeSystem="2.16.840.1.113883.5.111" displayName="Sibling">
+            <originalText>The player of the role shares one or both parents in common with the scoping entity.</originalText>
+      </code>
+      <code code="BRO" codeSystem="2.16.840.1.113883.5.111" displayName="Brother">
+            <originalText>The player of the role is a male sharing one or both parents in common with the scoping entity.</originalText>
+      </code>
+      <code code="HSIB" codeSystem="2.16.840.1.113883.5.111" displayName="half-sibling">
+            <originalText>The player of the role is related to the scoping entity by sharing only one biological parent.</originalText>
+      </code>
+      <code code="HBRO" codeSystem="2.16.840.1.113883.5.111" displayName="half-brother">
+            <originalText>The player of the role is a male related to the scoping entity by sharing only one biological parent.</originalText>
+      </code>
+      <code code="HSIS" codeSystem="2.16.840.1.113883.5.111" displayName="half-sister">
+            <originalText>The player of the role is a female related to the scoping entity by sharing only one biological parent.</originalText>
+      </code>
+      <code code="NSIB" codeSystem="2.16.840.1.113883.5.111" displayName="natural sibling">
+            <originalText>The player of the role has both biological parents in common with the scoping entity.</originalText>
+      </code>
+      <code code="NBRO" codeSystem="2.16.840.1.113883.5.111" displayName="natural brother">
+            <originalText>The player of the role is a male having the same biological parents as the scoping entity.</originalText>
+      </code>
+      <code code="NSIS" codeSystem="2.16.840.1.113883.5.111" displayName="natural sister">
+            <originalText>The player of the role is a female having the same biological parents as the scoping entity.</originalText>
+      </code>
+      <code code="SIBINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="sibling in-law">
+            <originalText>The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling,
+                  or (3) the spouse of a sibling of the scoping person's spouse. </originalText>
+      </code>
+      <code code="BROINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="brother-in-law">
+            <originalText>The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister,
+                  or (3) the husband of a sister of the scoping person's spouse. </originalText>
+      </code>
+      <code code="SISINLAW" codeSystem="2.16.840.1.113883.5.111" displayName="sister-in-law">
+            <originalText>The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or
+                  (3) the wife of a brother of the scoping person's spouse. </originalText>
+      </code>
+      <code code="SIS" codeSystem="2.16.840.1.113883.5.111" displayName="Sister">
+            <originalText>The player of the role is a female sharing one or both parents in common with the scoping entity.</originalText>
+      </code>
+      <code code="STPSIB" codeSystem="2.16.840.1.113883.5.111" displayName="step sibling">
+            <originalText>The player of the role is a child of the scoping person's stepparent.</originalText>
+      </code>
+      <code code="STPBRO" codeSystem="2.16.840.1.113883.5.111" displayName="stepbrother">
+            <originalText>The player of the role is a son of the scoping person's stepparent.</originalText>
+      </code>
+      <code code="STPSIS" codeSystem="2.16.840.1.113883.5.111" displayName="stepsister">
+            <originalText>The player of the role is a daughter of the scoping person's stepparent.</originalText>
+      </code>
+      <code code="SIGOTHR" codeSystem="2.16.840.1.113883.5.111" displayName="significant other">
+            <originalText>A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one
+                  who is important) </originalText>
+      </code>
+      <code code="DOMPART" codeSystem="2.16.840.1.113883.5.111" displayName="domestic partner">
+            <originalText>The player of the role cohabits with the scoping person but is not the scoping person's spouse.</originalText>
+      </code>
+      <code code="SPS" codeSystem="2.16.840.1.113883.5.111" displayName="spouse">
+            <originalText>The player of the role is a marriage partner of the scoping person.</originalText>
+      </code>
+      <code code="HUSB" codeSystem="2.16.840.1.113883.5.111" displayName="husband">
+            <originalText>The player of the role is a man joined to a woman (scoping person) in marriage.</originalText>
+      </code>
+      <code code="WIFE" codeSystem="2.16.840.1.113883.5.111" displayName="wife">
+            <originalText>The player of the role is a woman joined to a man (scoping person) in marriage.</originalText>
+      </code>
+      <code code="FRND" codeSystem="2.16.840.1.113883.5.111" displayName="unrelated friend">
+            <originalText>The player of the role is a person who is known, liked, and trusted by the scoping person.</originalText>
+      </code>
+      <code code="NBOR" codeSystem="2.16.840.1.113883.5.111" displayName="neighbor">
+            <originalText>The player of the role lives near or next to the scoping person.</originalText>
+      </code>
+      <code code="ROOM" codeSystem="2.16.840.1.113883.5.111" displayName="Roommate">
+            <originalText>One who shares living quarters with the subject.</originalText>
+      </code>
+      <code code="NOK" codeSystem="2.16.840.1.113883.5.111" displayName="Next of Kin">
+            <originalText>Familielid (of andere naaste)</originalText>
+      </code>
+      <code code="ECON" codeSystem="2.16.840.1.113883.5.111" displayName="Emergency contact">
+            <originalText>Contactpersoon bij noodgevallen</originalText>
+      </code>
+      <code code="GENRL" codeSystem="2.16.840.1.113883.5.111" displayName="General">
+            <originalText>General care performed by a general practitioner or family doctor as a responsible provider for a patient.</originalText>
+      </code>
+</codeSystem>

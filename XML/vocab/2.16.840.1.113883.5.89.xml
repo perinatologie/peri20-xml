@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+      <name>ParticipationSignature</name>
+      <desc>A set of codes specifying whether and how the participant has attested his participation through a signature and or whether such a
+            signature is needed. </desc>
+      <code code="I" codeSystem="2.16.840.1.113883.5.89" displayName="intended">
+            <originalText>Definition: The particpant intends to provide a signature.</originalText>
+      </code>
+      <code code="S" codeSystem="2.16.840.1.113883.5.89" displayName="signed">
+            <originalText>Definition: Signature has been affixed, either written on file, or electronic (incl. digital) signature in
+                  Participation.signatureText.</originalText>
+      </code>
+      <code code="X" codeSystem="2.16.840.1.113883.5.89" displayName="required">
+            <originalText>Definition: A signature for the service is required of this actor.</originalText>
+      </code>
+</codeSystem>

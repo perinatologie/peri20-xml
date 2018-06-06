@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CNE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>ISO 639-1</name>
+    <desc>Taalcodes - twee tekens</desc>
+    <code code="aa" codeSystem="1.0.639.1" displayName="Afar, Hamitisch">
+        <reference extension="aar" root="1.0.639.2"/>
+        <reference extension="aar" root="1.0.639.3"/>
+    </code>
+    <code code="ab" codeSystem="1.0.639.1" displayName="Abchazisch">
+        <reference extension="abk" root="1.0.639.2"/>
+        <reference extension="abk" root="1.0.639.3"/>
+    </code>
+    <code code="ae" codeSystem="1.0.639.1" displayName="Avestisch">
+        <reference extension="ave" root="1.0.639.2"/>
+        <reference extension="ave" root="1.0.639.3"/>
+    </code>
+    <code code="af" codeSystem="1.0.639.1" displayName="Afrikaans">
+        <reference extension="afr" root="1.0.639.2"/>
+        <reference extension="afr" root="1.0.639.3"/>
+    </code>
+    <code code="ak" codeSystem="1.0.639.1" displayName="Akan">
+        <reference extension="aka" root="1.0.639.2"/>
+        <reference extension="aka" root="1.0.639.3"/>
+    </code>
+    <code code="am" codeSystem="1.0.639.1" displayName="Amhaars, Amharisch">
+        <reference extension="amh" root="1.0.639.2"/>
+        <reference extension="amh" root="1.0.639.3"/>
+    </code>
+    <code code="an" codeSystem="1.0.639.1" displayName="Aragonees">
+        <reference extension="arg" root="1.0.639.2"/>
+        <reference extension="arg" root="1.0.639.3"/>
+    </code>
+    <code code="ar" codeSystem="1.0.639.1" displayName="Arabisch">
+        <reference extension="ara" root="1.0.639.2"/>
+        <reference extension="ara" root="1.0.639.3"/>
+    </code>
+    <code code="as" codeSystem="1.0.639.1" displayName="Assamees, Assami">
+        <reference extension="asm" root="1.0.639.2"/>
+        <reference extension="asm" root="1.0.639.3"/>
+    </code>
+    <code code="av" codeSystem="1.0.639.1" displayName="Avaars">
+        <reference extension="ava" root="1.0.639.2"/>
+        <reference extension="ava" root="1.0.639.3"/>
+    </code>
+    <code code="ay" codeSystem="1.0.639.1" displayName="Aymara, Aymará">
+        <reference extension="aym" root="1.0.639.2"/>
+        <reference extension="aym" root="1.0.639.3"/>
+    </code>
+    <code code="az" codeSystem="1.0.639.1" displayName="Azeri, Azerbeidzjaans">
+        <reference extension="aze" root="1.0.639.2"/>
+        <reference extension="aze" root="1.0.639.3"/>
+    </code>
+    <code code="ba" codeSystem="1.0.639.1" displayName="Basjkiers, Basjkirisch">
+        <reference extension="bak" root="1.0.639.2"/>
+        <reference extension="bak" root="1.0.639.3"/>
+    </code>
+    <code code="be" codeSystem="1.0.639.1" displayName="Wit-Russisch, Belarussisch">
+        <reference extension="bel" root="1.0.639.2"/>
+        <reference extension="bel" root="1.0.639.3"/>
+    </code>
+    <code code="bg" codeSystem="1.0.639.1" displayName="Bulgaars">
+        <reference extension="bul" root="1.0.639.2"/>
+        <reference extension="bul" root="1.0.639.3"/>
+    </code>
+    <code code="bh" codeSystem="1.0.639.1" displayName="Bihari">
+        <reference extension="bih" root="1.0.639.2"/>
+    </code>
+    <code code="bi" codeSystem="1.0.639.1" displayName="Bislama">
+        <reference extension="bis" root="1.0.639.2"/>
+        <reference extension="bis" root="1.0.639.3"/>
+    </code>
+    <code code="bm" codeSystem="1.0.639.1" displayName="Bambara">
+        <reference extension="bam" root="1.0.639.2"/>
+        <reference extension="bam" root="1.0.639.3"/>
+    </code>
+    <code code="bn" codeSystem="1.0.639.1" displayName="Bengaals">
+        <reference extension="ben" root="1.0.639.2"/>
+        <reference extension="ben" root="1.0.639.3"/>
+    </code>
+    <code code="bo" codeSystem="1.0.639.1" displayName="Tibetaans">
+        <reference extension="tib" root="1.0.639.2"/>
+        <reference extension="bod" root="1.0.639.2"/>
+        <reference extension="bod" root="1.0.639.3"/>
+    </code>
+    <code code="br" codeSystem="1.0.639.1" displayName="Bretons">
+        <reference extension="bre" root="1.0.639.2"/>
+        <reference extension="bre" root="1.0.639.3"/>
+    </code>
+    <code code="bs" codeSystem="1.0.639.1" displayName="Bosnisch">
+        <reference extension="bos" root="1.0.639.2"/>
+        <reference extension="bos" root="1.0.639.3"/>
+    </code>
+    <code code="ca" codeSystem="1.0.639.1" displayName="Catalaans">
+        <reference extension="cat" root="1.0.639.2"/>
+        <reference extension="cat" root="1.0.639.3"/>
+    </code>
+    <code code="ce" codeSystem="1.0.639.1" displayName="Tsjetsjeens">
+        <reference extension="che" root="1.0.639.2"/>
+        <reference extension="che" root="1.0.639.3"/>
+    </code>
+    <code code="ch" codeSystem="1.0.639.1" displayName="Chamorro">
+        <reference extension="cha" root="1.0.639.2"/>
+        <reference extension="cha" root="1.0.639.3"/>
+    </code>
+    <code code="co" codeSystem="1.0.639.1" displayName="Corsicaans">
+        <reference extension="cos" root="1.0.639.2"/>
+        <reference extension="cos" root="1.0.639.3"/>
+    </code>
+    <code code="cr" codeSystem="1.0.639.1" displayName="Cree">
+        <reference extension="cre" root="1.0.639.2"/>
+        <reference extension="cre" root="1.0.639.3"/>
+    </code>
+    <code code="cs" codeSystem="1.0.639.1" displayName="Tsjechisch">
+        <reference extension="cze" root="1.0.639.2"/>
+        <reference extension="ces" root="1.0.639.2"/>
+        <reference extension="ces" root="1.0.639.3"/>
+    </code>
+    <code code="cu" codeSystem="1.0.639.1" displayName="Kerkslavisch">
+        <reference extension="chu" root="1.0.639.2"/>
+        <reference extension="chu" root="1.0.639.3"/>
+    </code>
+    <code code="cv" codeSystem="1.0.639.1" displayName="Tsjoevasjisch">
+        <reference extension="chv" root="1.0.639.2"/>
+        <reference extension="chv" root="1.0.639.3"/>
+    </code>
+    <code code="cy" codeSystem="1.0.639.1" displayName="Welsh">
+        <reference extension="wel" root="1.0.639.2"/>
+        <reference extension="cym" root="1.0.639.2"/>
+        <reference extension="cym" root="1.0.639.3"/>
+    </code>
+    <code code="da" codeSystem="1.0.639.1" displayName="Deens">
+        <reference extension="dan" root="1.0.639.2"/>
+        <reference extension="dan" root="1.0.639.3"/>
+    </code>
+    <code code="de" codeSystem="1.0.639.1" displayName="Duits">
+        <reference extension="ger" root="1.0.639.2"/>
+        <reference extension="deu" root="1.0.639.2"/>
+        <reference extension="deu" root="1.0.639.3"/>
+    </code>
+    <code code="dv" codeSystem="1.0.639.1" displayName="Divehi">
+        <reference extension="div" root="1.0.639.2"/>
+        <reference extension="div" root="1.0.639.3"/>
+    </code>
+    <code code="dz" codeSystem="1.0.639.1" displayName="Dzongkha">
+        <reference extension="dzo" root="1.0.639.2"/>
+        <reference extension="dzo" root="1.0.639.3"/>
+    </code>
+    <code code="ee" codeSystem="1.0.639.1" displayName="Ewe">
+        <reference extension="ewe" root="1.0.639.2"/>
+        <reference extension="ewe" root="1.0.639.3"/>
+    </code>
+    <code code="el" codeSystem="1.0.639.1" displayName="Grieks">
+        <reference extension="gre" root="1.0.639.2"/>
+        <reference extension="ell" root="1.0.639.2"/>
+        <reference extension="ell" root="1.0.639.3"/>
+    </code>
+    <code code="en" codeSystem="1.0.639.1" displayName="Engels">
+        <reference extension="eng" root="1.0.639.2"/>
+        <reference extension="eng" root="1.0.639.3"/>
+    </code>
+    <code code="eo" codeSystem="1.0.639.1" displayName="Esperanto">
+        <reference extension="epo" root="1.0.639.2"/>
+        <reference extension="epo" root="1.0.639.3"/>
+    </code>
+    <code code="es" codeSystem="1.0.639.1" displayName="Spaans">
+        <reference extension="spa" root="1.0.639.2"/>
+        <reference extension="spa" root="1.0.639.3"/>
+    </code>
+    <code code="et" codeSystem="1.0.639.1" displayName="Estisch, Ests">
+        <reference extension="est" root="1.0.639.2"/>
+        <reference extension="est" root="1.0.639.3"/>
+    </code>
+    <code code="eu" codeSystem="1.0.639.1" displayName="Baskisch">
+        <reference extension="baq" root="1.0.639.2"/>
+        <reference extension="eus" root="1.0.639.2"/>
+        <reference extension="eus" root="1.0.639.3"/>
+    </code>
+    <code code="fa" codeSystem="1.0.639.1" displayName="Perzisch, Farsi">
+        <reference extension="per" root="1.0.639.2"/>
+        <reference extension="fas" root="1.0.639.2"/>
+        <reference extension="fas" root="1.0.639.3"/>
+    </code>
+    <code code="ff" codeSystem="1.0.639.1" displayName="Fula">
+        <reference extension="ful" root="1.0.639.2"/>
+        <reference extension="ful" root="1.0.639.3"/>
+    </code>
+    <code code="fi" codeSystem="1.0.639.1" displayName="Fins">
+        <reference extension="fin" root="1.0.639.2"/>
+        <reference extension="fin" root="1.0.639.3"/>
+    </code>
+    <code code="fj" codeSystem="1.0.639.1" displayName="Fijisch">
+        <reference extension="fij" root="1.0.639.2"/>
+        <reference extension="fij" root="1.0.639.3"/>
+    </code>
+    <code code="fo" codeSystem="1.0.639.1" displayName="Faeröers">
+        <reference extension="fao" root="1.0.639.2"/>
+        <reference extension="fao" root="1.0.639.3"/>
+    </code>
+    <code code="fr" codeSystem="1.0.639.1" displayName="Frans">
+        <reference extension="fre" root="1.0.639.2"/>
+        <reference extension="fra" root="1.0.639.2"/>
+        <reference extension="fra" root="1.0.639.3"/>
+    </code>
+    <code code="fy" codeSystem="1.0.639.1" displayName="Fries">
+        <reference extension="fry" root="1.0.639.2"/>
+        <reference extension="fry" root="1.0.639.3"/>
+    </code>
+    <code code="ga" codeSystem="1.0.639.1" displayName="Iers-Gaelisch">
+        <reference extension="gle" root="1.0.639.2"/>
+        <reference extension="gle" root="1.0.639.3"/>
+    </code>
+    <code code="gd" codeSystem="1.0.639.1" displayName="Schots-Gaelisch">
+        <reference extension="gla" root="1.0.639.2"/>
+        <reference extension="gla" root="1.0.639.3"/>
+    </code>
+    <code code="gl" codeSystem="1.0.639.1" displayName="Galicisch">
+        <reference extension="glg" root="1.0.639.2"/>
+        <reference extension="glg" root="1.0.639.3"/>
+    </code>
+    <code code="gn" codeSystem="1.0.639.1" displayName="Guaraní">
+        <reference extension="grn" root="1.0.639.2"/>
+        <reference extension="grn" root="1.0.639.3"/>
+    </code>
+    <code code="gu" codeSystem="1.0.639.1" displayName="Gujarati">
+        <reference extension="guj" root="1.0.639.2"/>
+        <reference extension="guj" root="1.0.639.3"/>
+    </code>
+    <code code="gv" codeSystem="1.0.639.1" displayName="Manx-Gaelisch">
+        <reference extension="glv" root="1.0.639.2"/>
+        <reference extension="glv" root="1.0.639.3"/>
+    </code>
+    <code code="ha" codeSystem="1.0.639.1" displayName="Hausa">
+        <reference extension="hau" root="1.0.639.2"/>
+        <reference extension="hau" root="1.0.639.3"/>
+    </code>
+    <code code="he" codeSystem="1.0.639.1" displayName="Hebreeuws">
+        <reference extension="heb" root="1.0.639.2"/>
+        <reference extension="heb" root="1.0.639.3"/>
+    </code>
+    <code code="hi" codeSystem="1.0.639.1" displayName="Hindi">
+        <reference extension="hin" root="1.0.639.2"/>
+        <reference extension="hin" root="1.0.639.3"/>
+    </code>
+    <code code="ho" codeSystem="1.0.639.1" displayName="Hiri Motu">
+        <reference extension="hmo" root="1.0.639.2"/>
+        <reference extension="hmo" root="1.0.639.3"/>
+    </code>
+    <code code="hr" codeSystem="1.0.639.1" displayName="Kroatisch">
+        <reference extension="scr" root="1.0.639.2"/>
+        <reference extension="hrv" root="1.0.639.2"/>
+        <reference extension="hrv" root="1.0.639.3"/>
+    </code>
+    <code code="ht" codeSystem="1.0.639.1" displayName="Kreyòl">
+        <reference extension="hat" root="1.0.639.2"/>
+        <reference extension="hat" root="1.0.639.3"/>
+    </code>
+    <code code="hu" codeSystem="1.0.639.1" displayName="Hongaars">
+        <reference extension="hun" root="1.0.639.2"/>
+        <reference extension="hun" root="1.0.639.3"/>
+    </code>
+    <code code="hy" codeSystem="1.0.639.1" displayName="Armeens">
+        <reference extension="arm" root="1.0.639.2"/>
+        <reference extension="hye" root="1.0.639.2"/>
+        <reference extension="hye" root="1.0.639.3"/>
+    </code>
+    <code code="hz" codeSystem="1.0.639.1" displayName="Herero">
+        <reference extension="her" root="1.0.639.2"/>
+        <reference extension="her" root="1.0.639.3"/>
+    </code>
+    <code code="ia" codeSystem="1.0.639.1" displayName="Interlingua">
+        <reference extension="ina" root="1.0.639.2"/>
+        <reference extension="ina" root="1.0.639.3"/>
+    </code>
+    <code code="id" codeSystem="1.0.639.1" displayName="Indonesisch">
+        <reference extension="ind" root="1.0.639.2"/>
+        <reference extension="ind" root="1.0.639.3"/>
+    </code>
+    <code code="ie" codeSystem="1.0.639.1" displayName="Interlingue">
+        <reference extension="ile" root="1.0.639.2"/>
+        <reference extension="ile" root="1.0.639.3"/>
+    </code>
+    <code code="ig" codeSystem="1.0.639.1" displayName="Igbo">
+        <reference extension="ibo" root="1.0.639.2"/>
+        <reference extension="ibo" root="1.0.639.3"/>
+    </code>
+    <code code="ii" codeSystem="1.0.639.1" displayName="Yi">
+        <reference extension="iii" root="1.0.639.2"/>
+        <reference extension="iii" root="1.0.639.3"/>
+    </code>
+    <code code="ik" codeSystem="1.0.639.1" displayName="Inupiak">
+        <reference extension="ipk" root="1.0.639.2"/>
+        <reference extension="ipk" root="1.0.639.3"/>
+    </code>
+    <code code="io" codeSystem="1.0.639.1" displayName="Ido">
+        <reference extension="ido" root="1.0.639.2"/>
+        <reference extension="ido" root="1.0.639.3"/>
+    </code>
+    <code code="is" codeSystem="1.0.639.1" displayName="IJslands">
+        <reference extension="ice" root="1.0.639.2"/>
+        <reference extension="isl" root="1.0.639.2"/>
+        <reference extension="isl" root="1.0.639.3"/>
+    </code>
+    <code code="it" codeSystem="1.0.639.1" displayName="Italiaans">
+        <reference extension="ita" root="1.0.639.2"/>
+        <reference extension="ita" root="1.0.639.3"/>
+    </code>
+    <code code="iu" codeSystem="1.0.639.1" displayName="Inuktitut">
+        <reference extension="iku" root="1.0.639.2"/>
+        <reference extension="iku" root="1.0.639.3"/>
+    </code>
+    <code code="ja" codeSystem="1.0.639.1" displayName="Japans">
+        <reference extension="jpn" root="1.0.639.2"/>
+        <reference extension="jpn" root="1.0.639.3"/>
+    </code>
+    <code code="jv" codeSystem="1.0.639.1" displayName="Javaans">
+        <reference extension="jav" root="1.0.639.2"/>
+        <reference extension="jav" root="1.0.639.3"/>
+    </code>
+    <code code="ka" codeSystem="1.0.639.1" displayName="Georgisch">
+        <reference extension="geo" root="1.0.639.2"/>
+        <reference extension="kat" root="1.0.639.2"/>
+        <reference extension="kat" root="1.0.639.3"/>
+    </code>
+    <code code="kg" codeSystem="1.0.639.1" displayName="Kikongo">
+        <reference extension="kon" root="1.0.639.2"/>
+        <reference extension="kon" root="1.0.639.3"/>
+    </code>
+    <code code="ki" codeSystem="1.0.639.1" displayName="Gikuyu">
+        <reference extension="kik" root="1.0.639.2"/>
+        <reference extension="kik" root="1.0.639.3"/>
+    </code>
+    <code code="kj" codeSystem="1.0.639.1" displayName="Kwanyama">
+        <reference extension="kua" root="1.0.639.2"/>
+        <reference extension="kua" root="1.0.639.3"/>
+    </code>
+    <code code="kk" codeSystem="1.0.639.1" displayName="Kazachs">
+        <reference extension="kaz" root="1.0.639.2"/>
+        <reference extension="kaz" root="1.0.639.3"/>
+    </code>
+    <code code="kl" codeSystem="1.0.639.1" displayName="Groenlands">
+        <reference extension="kal" root="1.0.639.2"/>
+        <reference extension="kal" root="1.0.639.3"/>
+    </code>
+    <code code="km" codeSystem="1.0.639.1" displayName="Khmer, Cambodjaans">
+        <reference extension="khm" root="1.0.639.2"/>
+        <reference extension="khm" root="1.0.639.3"/>
+    </code>
+    <code code="kn" codeSystem="1.0.639.1" displayName="Kannada, Kanarees, Kanara">
+        <reference extension="kan" root="1.0.639.2"/>
+        <reference extension="kan" root="1.0.639.3"/>
+    </code>
+    <code code="ko" codeSystem="1.0.639.1" displayName="Koreaans">
+        <reference extension="kor" root="1.0.639.2"/>
+        <reference extension="kor" root="1.0.639.3"/>
+    </code>
+    <code code="kr" codeSystem="1.0.639.1" displayName="Kanuri">
+        <reference extension="kau" root="1.0.639.2"/>
+        <reference extension="kau" root="1.0.639.3"/>
+    </code>
+    <code code="ks" codeSystem="1.0.639.1" displayName="Kasjmiri, Kasjmiers, Kasjmirs">
+        <reference extension="kas" root="1.0.639.2"/>
+        <reference extension="kas" root="1.0.639.3"/>
+    </code>
+    <code code="ku" codeSystem="1.0.639.1" displayName="Koerdisch">
+        <reference extension="kur" root="1.0.639.2"/>
+        <reference extension="kur" root="1.0.639.3"/>
+    </code>
+    <code code="kv" codeSystem="1.0.639.1" displayName="Zurjeens">
+        <reference extension="kom" root="1.0.639.2"/>
+        <reference extension="kom" root="1.0.639.3"/>
+    </code>
+    <code code="kw" codeSystem="1.0.639.1" displayName="Cornisch">
+        <reference extension="cor" root="1.0.639.2"/>
+        <reference extension="cor" root="1.0.639.3"/>
+    </code>
+    <code code="ky" codeSystem="1.0.639.1" displayName="Kirgizisch">
+        <reference extension="kir" root="1.0.639.2"/>
+        <reference extension="kir" root="1.0.639.3"/>
+    </code>
+    <code code="la" codeSystem="1.0.639.1" displayName="Latijn">
+        <reference extension="lat" root="1.0.639.2"/>
+        <reference extension="lat" root="1.0.639.3"/>
+    </code>
+    <code code="lb" codeSystem="1.0.639.1" displayName="Luxemburgs">
+        <reference extension="ltz" root="1.0.639.2"/>
+        <reference extension="ltz" root="1.0.639.3"/>
+    </code>
+    <code code="lg" codeSystem="1.0.639.1" displayName="Luganda">
+        <reference extension="lug" root="1.0.639.2"/>
+        <reference extension="lug" root="1.0.639.3"/>
+    </code>
+    <code code="li" codeSystem="1.0.639.1" displayName="Limburgs">
+        <reference extension="lim" root="1.0.639.2"/>
+        <reference extension="lim" root="1.0.639.3"/>
+    </code>
+    <code code="ln" codeSystem="1.0.639.1" displayName="Lingala">
+        <reference extension="lin" root="1.0.639.2"/>
+        <reference extension="lin" root="1.0.639.3"/>
+    </code>
+    <code code="lo" codeSystem="1.0.639.1" displayName="Laotiaans">
+        <reference extension="lao" root="1.0.639.2"/>
+        <reference extension="lao" root="1.0.639.3"/>
+    </code>
+    <code code="lt" codeSystem="1.0.639.1" displayName="Litouws">
+        <reference extension="lit" root="1.0.639.2"/>
+        <reference extension="lit" root="1.0.639.3"/>
+    </code>
+    <code code="lu" codeSystem="1.0.639.1" displayName="Katanga">
+        <reference extension="lub" root="1.0.639.2"/>
+        <reference extension="lub" root="1.0.639.3"/>
+    </code>
+    <code code="lv" codeSystem="1.0.639.1" displayName="Lets">
+        <reference extension="lav" root="1.0.639.2"/>
+        <reference extension="lav" root="1.0.639.3"/>
+    </code>
+    <code code="mg" codeSystem="1.0.639.1" displayName="Plateaumalagasi">
+        <reference extension="mlg" root="1.0.639.2"/>
+        <reference extension="mlg" root="1.0.639.3"/>
+    </code>
+    <code code="mh" codeSystem="1.0.639.1" displayName="Marshallees">
+        <reference extension="mah" root="1.0.639.2"/>
+        <reference extension="mah" root="1.0.639.3"/>
+    </code>
+    <code code="mi" codeSystem="1.0.639.1" displayName="Maori">
+        <reference extension="mao" root="1.0.639.2"/>
+        <reference extension="mri" root="1.0.639.2"/>
+        <reference extension="mri" root="1.0.639.3"/>
+    </code>
+    <code code="mk" codeSystem="1.0.639.1" displayName="Macedonisch">
+        <reference extension="mac" root="1.0.639.2"/>
+        <reference extension="mkd" root="1.0.639.3"/>
+    </code>
+    <code code="ml" codeSystem="1.0.639.1" displayName="Malayalam">
+        <reference extension="mal" root="1.0.639.2"/>
+        <reference extension="mal" root="1.0.639.3"/>
+    </code>
+    <code code="mn" codeSystem="1.0.639.1" displayName="Mongools">
+        <reference extension="mon" root="1.0.639.2"/>
+        <reference extension="mon" root="1.0.639.3"/>
+    </code>
+    <code code="mo" codeSystem="1.0.639.1" displayName="Moldavisch">
+        <reference extension="mol" root="1.0.639.2"/>
+        <reference extension="mol" root="1.0.639.3"/>
+    </code>
+    <code code="mr" codeSystem="1.0.639.1" displayName="Marathi">
+        <reference extension="mar" root="1.0.639.2"/>
+        <reference extension="mar" root="1.0.639.3"/>
+    </code>
+    <code code="ms" codeSystem="1.0.639.1" displayName="Maleis">
+        <reference extension="mei" root="1.0.639.2"/>
+        <reference extension="msa" root="1.0.639.2"/>
+        <reference extension="msa" root="1.0.639.3"/>
+    </code>
+    <code code="mt" codeSystem="1.0.639.1" displayName="Maltees">
+        <reference extension="mlt" root="1.0.639.2"/>
+        <reference extension="mlt" root="1.0.639.3"/>
+    </code>
+    <code code="my" codeSystem="1.0.639.1" displayName="Birmaans, Birmees">
+        <reference extension="bur" root="1.0.639.2"/>
+        <reference extension="mya" root="1.0.639.2"/>
+        <reference extension="mya" root="1.0.639.3"/>
+    </code>
+    <code code="na" codeSystem="1.0.639.1" displayName="Nauruaans">
+        <reference extension="nau" root="1.0.639.2"/>
+        <reference extension="nau" root="1.0.639.3"/>
+    </code>
+    <code code="nb" codeSystem="1.0.639.1" displayName="Norwegian Bokmål">
+        <reference extension="nob" root="1.0.639.2"/>
+        <reference extension="nob" root="1.0.639.3"/>
+    </code>
+    <code code="nd" codeSystem="1.0.639.1" displayName="Noord-Ndebele">
+        <reference extension="nde" root="1.0.639.2"/>
+        <reference extension="nde" root="1.0.639.3"/>
+    </code>
+    <code code="ne" codeSystem="1.0.639.1" displayName="Nepalees, Nepali">
+        <reference extension="nep" root="1.0.639.2"/>
+        <reference extension="nep" root="1.0.639.3"/>
+    </code>
+    <code code="ng" codeSystem="1.0.639.1" displayName="Ndonga">
+        <reference extension="ndo" root="1.0.639.2"/>
+        <reference extension="ndo" root="1.0.639.3"/>
+    </code>
+    <code code="nl" codeSystem="1.0.639.1" displayName="Nederlands">
+        <reference extension="dut" root="1.0.639.2"/>
+        <reference extension="nld" root="1.0.639.2"/>
+        <reference extension="nld" root="1.0.639.3"/>
+    </code>
+    <code code="nn" codeSystem="1.0.639.1" displayName="Nynorsk">
+        <reference extension="nno" root="1.0.639.2"/>
+        <reference extension="nno" root="1.0.639.3"/>
+    </code>
+    <code code="no" codeSystem="1.0.639.1" displayName="Noors">
+        <reference extension="nor" root="1.0.639.2"/>
+        <reference extension="nor" root="1.0.639.3"/>
+    </code>
+    <code code="nr" codeSystem="1.0.639.1" displayName="Zuid-Ndebele">
+        <reference extension="nbl" root="1.0.639.2"/>
+        <reference extension="nbl" root="1.0.639.3"/>
+    </code>
+    <code code="nv" codeSystem="1.0.639.1" displayName="Navajo">
+        <reference extension="nav" root="1.0.639.2"/>
+        <reference extension="nav" root="1.0.639.3"/>
+    </code>
+    <code code="ny" codeSystem="1.0.639.1" displayName="Nyanja">
+        <reference extension="nya" root="1.0.639.2"/>
+        <reference extension="nya" root="1.0.639.3"/>
+    </code>
+    <code code="oc" codeSystem="1.0.639.1" displayName="Occitaans">
+        <reference extension="oci" root="1.0.639.2"/>
+        <reference extension="oci" root="1.0.639.3"/>
+    </code>
+    <code code="oj" codeSystem="1.0.639.1" displayName="Ojibweg">
+        <reference extension="oji" root="1.0.639.2"/>
+        <reference extension="oji" root="1.0.639.3"/>
+    </code>
+    <code code="om" codeSystem="1.0.639.1" displayName="Afaan Oromo">
+        <reference extension="orm" root="1.0.639.2"/>
+        <reference extension="orm" root="1.0.639.3"/>
+    </code>
+    <code code="or" codeSystem="1.0.639.1" displayName="Oriya">
+        <reference extension="ori" root="1.0.639.2"/>
+        <reference extension="ori" root="1.0.639.3"/>
+    </code>
+    <code code="os" codeSystem="1.0.639.1" displayName="Ossetisch">
+        <reference extension="oss" root="1.0.639.2"/>
+        <reference extension="oss" root="1.0.639.3"/>
+    </code>
+    <code code="pa" codeSystem="1.0.639.1" displayName="Punjabi">
+        <reference extension="pan" root="1.0.639.2"/>
+        <reference extension="pan" root="1.0.639.3"/>
+    </code>
+    <code code="pi" codeSystem="1.0.639.1" displayName="Pali">
+        <reference extension="pli" root="1.0.639.2"/>
+        <reference extension="pli" root="1.0.639.3"/>
+    </code>
+    <code code="pl" codeSystem="1.0.639.1" displayName="Pools">
+        <reference extension="pol" root="1.0.639.2"/>
+        <reference extension="pol" root="1.0.639.3"/>
+    </code>
+    <code code="ps" codeSystem="1.0.639.1" displayName="Pasjtoe, Pasjto, Pashtoe">
+        <reference extension="pus" root="1.0.639.2"/>
+        <reference extension="pus" root="1.0.639.3"/>
+    </code>
+    <code code="pt" codeSystem="1.0.639.1" displayName="Portugees">
+        <reference extension="por" root="1.0.639.2"/>
+        <reference extension="por" root="1.0.639.3"/>
+    </code>
+    <code code="qu" codeSystem="1.0.639.1" displayName="Quechua">
+        <reference extension="que" root="1.0.639.2"/>
+        <reference extension="que" root="1.0.639.3"/>
+    </code>
+    <code code="rm" codeSystem="1.0.639.1" displayName="Reto-Romaans">
+        <reference extension="roh" root="1.0.639.2"/>
+        <reference extension="roh" root="1.0.639.3"/>
+    </code>
+    <code code="rn" codeSystem="1.0.639.1" displayName="Kirundi">
+        <reference extension="run" root="1.0.639.2"/>
+        <reference extension="run" root="1.0.639.3"/>
+    </code>
+    <code code="ro" codeSystem="1.0.639.1" displayName="Roemeens">
+        <reference extension="rum" root="1.0.639.2"/>
+        <reference extension="ron" root="1.0.639.2"/>
+        <reference extension="ron" root="1.0.639.3"/>
+    </code>
+    <code code="ru" codeSystem="1.0.639.1" displayName="Russisch">
+        <reference extension="rus" root="1.0.639.2"/>
+        <reference extension="rus" root="1.0.639.3"/>
+    </code>
+    <code code="rw" codeSystem="1.0.639.1" displayName="Kinyarwanda">
+        <reference extension="kin" root="1.0.639.2"/>
+        <reference extension="kin" root="1.0.639.3"/>
+    </code>
+    <code code="sa" codeSystem="1.0.639.1" displayName="Sanskriet">
+        <reference extension="san" root="1.0.639.2"/>
+        <reference extension="san" root="1.0.639.3"/>
+    </code>
+    <code code="sc" codeSystem="1.0.639.1" displayName="Sardijns">
+        <reference extension="srd" root="1.0.639.2"/>
+        <reference extension="srd" root="1.0.639.3"/>
+    </code>
+    <code code="sd" codeSystem="1.0.639.1" displayName="Sindhi">
+        <reference extension="snd" root="1.0.639.2"/>
+        <reference extension="snd" root="1.0.639.3"/>
+    </code>
+    <code code="se" codeSystem="1.0.639.1" displayName="Noord-Samisch, Noord-Laps">
+        <reference extension="sme" root="1.0.639.2"/>
+        <reference extension="sme" root="1.0.639.3"/>
+    </code>
+    <code code="sg" codeSystem="1.0.639.1" displayName="Sangho">
+        <reference extension="sag" root="1.0.639.2"/>
+        <reference extension="sag" root="1.0.639.3"/>
+    </code>
+    <code code="sh" codeSystem="1.0.639.1" displayName="Servokroatisch">
+        <reference extension="hbs" root="1.0.639.3"/>
+    </code>
+    <code code="si" codeSystem="1.0.639.1" displayName="Singalees">
+        <reference extension="sin" root="1.0.639.2"/>
+        <reference extension="sin" root="1.0.639.3"/>
+    </code>
+    <code code="sk" codeSystem="1.0.639.1" displayName="Slowaaks, Slovaaks">
+        <reference extension="slo" root="1.0.639.2"/>
+        <reference extension="slk" root="1.0.639.2"/>
+        <reference extension="slk" root="1.0.639.3"/>
+    </code>
+    <code code="sl" codeSystem="1.0.639.1" displayName="Sloveens">
+        <reference extension="slv" root="1.0.639.2"/>
+        <reference extension="slv" root="1.0.639.3"/>
+    </code>
+    <code code="sm" codeSystem="1.0.639.1" displayName="Samoaans">
+        <reference extension="smo" root="1.0.639.2"/>
+        <reference extension="smo" root="1.0.639.3"/>
+    </code>
+    <code code="sn" codeSystem="1.0.639.1" displayName="Shona">
+        <reference extension="sna" root="1.0.639.2"/>
+        <reference extension="sna" root="1.0.639.3"/>
+    </code>
+    <code code="so" codeSystem="1.0.639.1" displayName="Somalisch">
+        <reference extension="som" root="1.0.639.2"/>
+        <reference extension="som" root="1.0.639.3"/>
+    </code>
+    <code code="sq" codeSystem="1.0.639.1" displayName="Albanees">
+        <reference extension="alb" root="1.0.639.2"/>
+        <reference extension="sqi" root="1.0.639.2"/>
+        <reference extension="sqi" root="1.0.639.3"/>
+    </code>
+    <code code="sr" codeSystem="1.0.639.1" displayName="Servisch">
+        <reference extension="scc" root="1.0.639.2"/>
+        <reference extension="srp" root="1.0.639.2"/>
+        <reference extension="srp" root="1.0.639.3"/>
+    </code>
+    <code code="ss" codeSystem="1.0.639.1" displayName="Swazi">
+        <reference extension="ssw" root="1.0.639.2"/>
+        <reference extension="ssw" root="1.0.639.3"/>
+    </code>
+    <code code="st" codeSystem="1.0.639.1" displayName="Zuid-Sotho">
+        <reference extension="sot" root="1.0.639.2"/>
+        <reference extension="sot" root="1.0.639.3"/>
+    </code>
+    <code code="su" codeSystem="1.0.639.1" displayName="Soendanees, Sundanees">
+        <reference extension="sun" root="1.0.639.2"/>
+        <reference extension="sun" root="1.0.639.3"/>
+    </code>
+    <code code="sv" codeSystem="1.0.639.1" displayName="Zweeds">
+        <reference extension="swe" root="1.0.639.2"/>
+        <reference extension="swe" root="1.0.639.3"/>
+    </code>
+    <code code="sw" codeSystem="1.0.639.1" displayName="Swahili">
+        <reference extension="swa" root="1.0.639.2"/>
+        <reference extension="swa" root="1.0.639.3"/>
+    </code>
+    <code code="ta" codeSystem="1.0.639.1" displayName="Tamil">
+        <reference extension="tam" root="1.0.639.2"/>
+        <reference extension="tam" root="1.0.639.3"/>
+    </code>
+    <code code="te" codeSystem="1.0.639.1" displayName="Telugu, Teloegoe">
+        <reference extension="tel" root="1.0.639.2"/>
+        <reference extension="tel" root="1.0.639.3"/>
+    </code>
+    <code code="tg" codeSystem="1.0.639.1" displayName="Tadzjieks">
+        <reference extension="tgk" root="1.0.639.2"/>
+        <reference extension="tgk" root="1.0.639.3"/>
+    </code>
+    <code code="th" codeSystem="1.0.639.1" displayName="Thai, Thais">
+        <reference extension="tha" root="1.0.639.2"/>
+        <reference extension="tha" root="1.0.639.3"/>
+    </code>
+    <code code="ti" codeSystem="1.0.639.1" displayName="Tigrinya">
+        <reference extension="tir" root="1.0.639.2"/>
+        <reference extension="tir" root="1.0.639.3"/>
+    </code>
+    <code code="tk" codeSystem="1.0.639.1" displayName="Turkmeens, Toerkmeens">
+        <reference extension="tuk" root="1.0.639.2"/>
+        <reference extension="tuk" root="1.0.639.3"/>
+    </code>
+    <code code="tl" codeSystem="1.0.639.1" displayName="Tagalog">
+        <reference extension="tgl" root="1.0.639.2"/>
+        <reference extension="tgl" root="1.0.639.3"/>
+    </code>
+    <code code="tn" codeSystem="1.0.639.1" displayName="Tswana">
+        <reference extension="tsn" root="1.0.639.2"/>
+        <reference extension="tsn" root="1.0.639.3"/>
+    </code>
+    <code code="to" codeSystem="1.0.639.1" displayName="Tongaans, Tonga">
+        <reference extension="ton" root="1.0.639.2"/>
+        <reference extension="ton" root="1.0.639.3"/>
+    </code>
+    <code code="tr" codeSystem="1.0.639.1" displayName="Turks">
+        <reference extension="tur" root="1.0.639.2"/>
+        <reference extension="tur" root="1.0.639.3"/>
+    </code>
+    <code code="ts" codeSystem="1.0.639.1" displayName="Tsonga">
+        <reference extension="tso" root="1.0.639.2"/>
+        <reference extension="tso" root="1.0.639.3"/>
+    </code>
+    <code code="tt" codeSystem="1.0.639.1" displayName="Tataars, Tartaars">
+        <reference extension="tat" root="1.0.639.2"/>
+        <reference extension="tat" root="1.0.639.3"/>
+    </code>
+    <code code="tw" codeSystem="1.0.639.1" displayName="Twi">
+        <reference extension="twi" root="1.0.639.2"/>
+        <reference extension="twi" root="1.0.639.3"/>
+    </code>
+    <code code="ty" codeSystem="1.0.639.1" displayName="Tahitiaans">
+        <reference extension="tah" root="1.0.639.2"/>
+        <reference extension="tah" root="1.0.639.3"/>
+    </code>
+    <code code="ug" codeSystem="1.0.639.1" displayName="Oeigoers, Oejgoers">
+        <reference extension="uig" root="1.0.639.2"/>
+        <reference extension="uig" root="1.0.639.3"/>
+    </code>
+    <code code="uk" codeSystem="1.0.639.1" displayName="Oekraïens">
+        <reference extension="ukr" root="1.0.639.2"/>
+        <reference extension="ukr" root="1.0.639.3"/>
+    </code>
+    <code code="ur" codeSystem="1.0.639.1" displayName="Urdu">
+        <reference extension="urd" root="1.0.639.2"/>
+        <reference extension="urd" root="1.0.639.3"/>
+    </code>
+    <code code="uz" codeSystem="1.0.639.1" displayName="Oezbeeks">
+        <reference extension="uzb" root="1.0.639.2"/>
+        <reference extension="uzb" root="1.0.639.3"/>
+    </code>
+    <code code="ve" codeSystem="1.0.639.1" displayName="Venda">
+        <reference extension="ven" root="1.0.639.2"/>
+        <reference extension="ven" root="1.0.639.3"/>
+    </code>
+    <code code="vi" codeSystem="1.0.639.1" displayName="Vietnamees">
+        <reference extension="vie" root="1.0.639.2"/>
+        <reference extension="vie" root="1.0.639.3"/>
+    </code>
+    <code code="vo" codeSystem="1.0.639.1" displayName="Volapük, Volapuk">
+        <reference extension="vol" root="1.0.639.2"/>
+        <reference extension="vol" root="1.0.639.3"/>
+    </code>
+    <code code="wa" codeSystem="1.0.639.1" displayName="Waals">
+        <reference extension="wln" root="1.0.639.2"/>
+        <reference extension="wln" root="1.0.639.3"/>
+    </code>
+    <code code="wo" codeSystem="1.0.639.1" displayName="Wolof">
+        <reference extension="wol" root="1.0.639.2"/>
+        <reference extension="wol" root="1.0.639.3"/>
+    </code>
+    <code code="xh" codeSystem="1.0.639.1" displayName="Xhosa">
+        <reference extension="xho" root="1.0.639.2"/>
+        <reference extension="xho" root="1.0.639.3"/>
+    </code>
+    <code code="yi" codeSystem="1.0.639.1" displayName="Jiddisch">
+        <reference extension="yid" root="1.0.639.2"/>
+        <reference extension="yid" root="1.0.639.3"/>
+    </code>
+    <code code="yo" codeSystem="1.0.639.1" displayName="Yoruba">
+        <reference extension="yor" root="1.0.639.2"/>
+        <reference extension="yor" root="1.0.639.3"/>
+    </code>
+    <code code="za" codeSystem="1.0.639.1" displayName="Zhuang, Tsjoeang">
+        <reference extension="zha" root="1.0.639.2"/>
+        <reference extension="zha" root="1.0.639.3"/>
+    </code>
+    <code code="zh" codeSystem="1.0.639.1" displayName="Chinees">
+        <reference extension="chi" root="1.0.639.2"/>
+        <reference extension="zho" root="1.0.639.2"/>
+        <reference extension="zho" root="1.0.639.3"/>
+    </code>
+    <code code="zu" codeSystem="1.0.639.1" displayName="Zulu">
+        <reference extension="zul" root="1.0.639.2"/>
+        <reference extension="zul" root="1.0.639.3"/>
+    </code>
+</codeSystem>

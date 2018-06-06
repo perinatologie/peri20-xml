@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/codeSystem2html.xsl" type="text/xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+      <name>ParticipationFunction</name>
+      <desc>This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local
+            extensions (CWE).</desc>
+      <code code="WEPDGEM" codeSystem="2.16.840.1.113883.5.88" displayName="Gemachtigde volgens Wet op het EPD"/>
+      <!-- _AuthorizedParticipationFunction 
+            This code is used to specify the exact function an actor is authorized to have in a service in all necessary detail.
+      -->
+      <!--
+            1-A	. _AuthorizedReceiverParticipationFunction
+            This code is used to specify the exact function an actor is authorized to have as a receiver of information that is the subject of a consent directive or consent override.
+      -->
+      <code code="AUCG" codeSystem="2.16.840.1.113883.5.88" displayName="caregiver information receiver">
+            <originalText>Description:Caregiver authorized to receive patient health information.</originalText>
+      </code>
+
+
+      <code code="AULR" codeSystem="2.16.840.1.113883.5.88" displayName="legitimate relationship information receiver">
+            <originalText>Description:Provider with legitimate relationship authorized to receive patient health information.</originalText>
+      </code>
+
+      <code code="AUTM" codeSystem="2.16.840.1.113883.5.88" displayName="care team information receiver">
+            <originalText>Description:Member of care team authorized to receive patient health information.</originalText>
+      </code>
+
+      <code code="AUWA" codeSystem="2.16.840.1.113883.5.88" displayName="work area information receiver">
+            <originalText>Description:Entities within specified work area authorized to receive patient health information.</originalText>
+      </code>
+
+      <!-- 
+            _ConsenterParticipationFunction
+            This code is used to specify the exact function an actor is authorized to have in authoring a consent directive.
+      -->
+      <code code="GRDCON" codeSystem="2.16.840.1.113883.5.88" displayName="legal guardian consent author">
+            <originalText>Description:Legal guardian of the subject of consent authorized to author a consent directive for the subject of
+                  consent.</originalText>
+      </code>
+
+      <code code="POACON" codeSystem="2.16.840.1.113883.5.88" displayName="healthcare power of attorney consent author">
+            <originalText>Description:Person authorized with healthcare power of attorney to author a consent directive for the subject of
+                  consent.</originalText>
+      </code>
+
+      <code code="PRCON" codeSystem="2.16.840.1.113883.5.88" displayName="personal representative consent author">
+            <originalText>Description:Personal representative of the subject of consent authorized to author a consent directive for the subject of
+                  consent.</originalText>
+      </code>
+
+      <code code="PROMSK" codeSystem="2.16.840.1.113883.5.88" displayName="authorized provider masking author">
+            <originalText>Definition:Provider authorized to mask information to protect the patient, a third party, or to ensure that the provider has
+                  consulted with the patient prior to release of this information.</originalText>
+      </code>
+
+      <code code="SUBCON" codeSystem="2.16.840.1.113883.5.88" displayName="subject of consent author">
+            <originalText>Description:Subject of consent authorized to author a consent directive.</originalText>
+      </code>
+
+      <!--
+            _OverriderParticipationFunction
+            This code is used to specify the exact function an actor is authorized to have in authoring a consent override.
+      -->
+
+      <code code="AUCOV" codeSystem="2.16.840.1.113883.5.88" displayName="consent overrider">
+            <originalText>Description:Entity authorized to override a consent directive.</originalText>
+      </code>
+
+      <code code="AUEMROV" codeSystem="2.16.840.1.113883.5.88" displayName="emergency overrider">
+            <originalText>Description:Entity authorized to override a consent directive or privacy policy in an emergency.</originalText>
+      </code>
+      <!-- 
+            _CoverageParticipationFunction
+            Definition: Set of codes indicating the manner in which sponsors, underwriters, and payers participate in a policy or program.
+      -->
+      <!-- 
+            _PayorParticipationFunction
+            Definition: Set of codes indicating the manner in which payors participate in a policy or program.
+      -->
+      <code code="CLMADJ" codeSystem="2.16.840.1.113883.5.88" displayName="claims adjudication">
+            <originalText>Definition: Manages all operations required to adjudicate fee for service claims or managed care encounter
+                  reports.</originalText>
+      </code>
+
+      <code code="ENROLL" codeSystem="2.16.840.1.113883.5.88" displayName="enrollment broker">
+            <originalText>Definition: Managing the enrollment of covered parties.</originalText>
+      </code>
+
+      <code code="FFSMGT" codeSystem="2.16.840.1.113883.5.88" displayName="ffs management">
+            <originalText>Definition: Managing all operations required to administer a fee for service or indemnity health plan including enrolling
+                  covered parties and providing customer service, provider contracting, claims payment, care management and utilization
+                  review.</originalText>
+      </code>
+
+      <code code="MCMGT" codeSystem="2.16.840.1.113883.5.88" displayName="managed care management">
+            <originalText>Definition: Managing all operations required to administer a managed care plan including enrolling covered parties and
+                  providing customer service,, provider contracting, claims payment, care management and utilization review.</originalText>
+      </code>
+
+      <code code="PROVMGT" codeSystem="2.16.840.1.113883.5.88" displayName="provider management">
+            <originalText>Definition: Managing provider contracting, provider services, credentialing, profiling, performance measures, and ensuring
+                  network adequacy.</originalText>
+      </code>
+
+      <code code="UMGT" codeSystem="2.16.840.1.113883.5.88" displayName="utilization management">
+            <originalText>Definition: Managing utilization of services by ensuring that providers adhere to, e.g., payeraTMs clinical protocols for
+                  medical appropriateness and standards of medical necessity. May include management of authorizations for services and
+                  referrals.</originalText>
+      </code>
+      <!--
+            . _SponsorParticipationFunction
+            Definition: Set of codes indicating the manner in which sponsors participate in a policy or program. NOTE: use only when the Sponsor is not further specified with a SponsorRoleType as being either a fully insured sponsor or a self insured sponsor.
+      -->
+
+      <code code="FULINRD" codeSystem="2.16.840.1.113883.5.88" displayName="fully insured">
+            <originalText>Definition: Responsibility taken by a sponsor to contract with one or more underwriters for the assumption of full
+                  responsibility for the risk and administration of a policy or program.</originalText>
+      </code>
+
+      <code code="SELFINRD" codeSystem="2.16.840.1.113883.5.88" displayName="self insured">
+            <originalText>Definition: Responsibility taken by a sponsor to organize the underwriting of risk and administration of a policy or
+                  program.</originalText>
+      </code>
+
+      <!-- 
+            _UnderwriterParticipationFunction
+            Definition: Set of codes indicating the manner in which underwriters participate in a policy or program.
+      -->
+
+      <code code="PAYORCNTR" codeSystem="2.16.840.1.113883.5.88" displayName="payor contracting">
+            <originalText>Definition: Contracting for the provision and administration of health services to payors while retaining the risk for
+                  coverage. Contracting may be for all provision and administration; or for provision of certain types of services; for provision of
+                  services by region; and by types of administration, e.g., claims adjudication, enrollment, provider management, and utilization
+                  management. Typically done by underwriters for sponsors who need coverage provided to covered parties in multiple regions. The
+                  underwriter may act as the payor in some, but not all of the regions in which coverage is provided.</originalText>
+      </code>
+
+      <code code="REINS" codeSystem="2.16.840.1.113883.5.88" displayName="reinsures">
+            <originalText>Definition: Underwriting reinsurance for another underwriter for the policy or program.</originalText>
+      </code>
+
+      <code code="RETROCES" codeSystem="2.16.840.1.113883.5.88" displayName="retrocessionaires">
+            <originalText>Definition: Underwriting reinsurance for another reinsurer.</originalText>
+      </code>
+
+      <code code="SUBCTRT" codeSystem="2.16.840.1.113883.5.88" displayName="subcontracting risk">
+            <originalText>Definition: Delegating risk for a policy or program to one or more subcontracting underwriters, e.g., a major health insurer
+                  may delegate risk for provision of coverage under a national health plan to other underwriters by region .</originalText>
+      </code>
+
+      <code code="UNDERWRTNG" codeSystem="2.16.840.1.113883.5.88" displayName="underwriting">
+            <originalText>Definition: Provision of underwriting analysis for another underwriter without assumption of risk.</originalText>
+      </code>
+
+      <code code="ADMPHYS" codeSystem="2.16.840.1.113883.5.88" displayName="admitting physician">
+            <originalText>A physician who admitted a patient to a hospital or other care unit that is the context of this service.</originalText>
+      </code>
+
+      <code code="ANEST" codeSystem="2.16.840.1.113883.5.88" displayName="anesthesist">
+            <originalText>In a typical anesthesia setting an anesthesiologist or anesthesia resident in charge of the anesthesia and life support, but
+                  only a witness to the surgical procedure itself. To clarify responsibilities anesthesia should always be represented as a separate
+                  service related to the surgery.</originalText>
+      </code>
+
+      <code code="ANRS" codeSystem="2.16.840.1.113883.5.88" displayName="anesthesia nurse">
+            <originalText>In a typical anesthesia setting the nurse principally assisting the anesthesiologist during the critical
+                  periods.</originalText>
+      </code>
+
+      <code code="ATTPHYS" codeSystem="2.16.840.1.113883.5.88" displayName="attending physician">
+            <originalText>A physician who is primarily responsible for a patient during the hospitalization, which is the context of the
+                  service.</originalText>
+      </code>
+
+      <code code="DISPHYS" codeSystem="2.16.840.1.113883.5.88" displayName="discharging physician">
+            <originalText>A physician who discharged a patient from a hospital or other care unit that is the context of this service.</originalText>
+      </code>
+
+      <code code="FASST" codeSystem="2.16.840.1.113883.5.88" displayName="first assistant surgeon">
+            <originalText>In a typical surgery setting the assistant facing the primary surgeon. The first assistant performs parts of the operation
+                  and assists in others (e.g., incision, approach, electrocoutering, ligatures, sutures).</originalText>
+      </code>
+
+      <code code="MDWF" codeSystem="2.16.840.1.113883.5.88" displayName="midwife">
+            <originalText>A person (usually female) helping a woman deliver a baby. Responsibilities vary locally, ranging from a mere optional
+                  assistant to a full required participant, responsible for (normal) births and pre- and post-natal care for both mother and
+                  baby.</originalText>
+      </code>
+
+      <code code="NASST" codeSystem="2.16.840.1.113883.5.88" displayName="nurse assistant">
+            <originalText>In a typical surgery setting the non-sterile nurse handles material supply from the stock, forwards specimen to pathology,
+                  and helps with other non-sterile tasks (e.g., phone calls, etc.).</originalText>
+      </code>
+
+      <code code="PCP" codeSystem="2.16.840.1.113883.5.88" displayName="primary care physician">
+            <originalText>The healthcare provider that holds primary responsibility for the overall care of a patient.</originalText>
+      </code>
+
+      <code code="PRISURG" codeSystem="2.16.840.1.113883.5.88" displayName="primary surgeon">
+            <originalText>In a typical surgery setting the primary performing surgeon.</originalText>
+      </code>
+
+      <code code="RNDPHYS" codeSystem="2.16.840.1.113883.5.88" displayName="rounding physician">
+            <originalText>A physician who made rounds on a patient in a hospital or other care center.</originalText>
+      </code>
+
+      <code code="SASST" codeSystem="2.16.840.1.113883.5.88" displayName="second assistant surgeon">
+            <originalText>In a typical surgery setting the assistant who primarily holds the hooks.</originalText>
+      </code>
+
+      <code code="SNRS" codeSystem="2.16.840.1.113883.5.88" displayName="scrub nurse">
+            <originalText>In a typical surgery setting the nurse in charge of the instrumentation.</originalText>
+      </code>
+
+      <code code="TASST" codeSystem="2.16.840.1.113883.5.88" displayName="third assistant">
+            <originalText>In a typical surgery setting there is rarely a third assistant (e.g., in some Hip operations the third assistant postures
+                  the affected leg).</originalText>
+      </code>
+</codeSystem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>RoleCodeNL - zorgaanbiedertype (organisaties)</name>
+    <desc>Dit codesysteem bevat waarden die het roltype bepaalt van een organisatie die als zorgaanbieder optreedt. De onderstaande tabel is een
+        invulling van het HL7v3 vocabulaire domein “RoleCode” en wel specifiek het concept “AssignedRoleType”.</desc>
+    <code code="V4" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Ziekenhuis"/>
+    <code code="V5" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Universitair Medisch Centrum"/>
+    <code code="V6" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Algemeen ziekenhuis"/>
+    <code code="Z4" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Zelfstandig behandelcentrum "/>
+    <code code="Z5" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Diagnostisch centrum"/>
+    <code code="B1" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Beeldvormende diagnostiek"/>
+    <code code="B2" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Echocentrum"/>
+    <code code="X3" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Verplegings- of verzorgingsinstelling"/>
+    <code code="R5" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Verpleeghuis"/>
+    <code code="M1" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Verzorgingstehuis"/>
+    <code code="J8" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Openbare apotheek"/>
+    <code code="K9" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Zelfstandig opererende ziekenhuisapotheek"/>
+    <code code="Z3" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Huisartspraktijk (zelfstandig of groepspraktijk)"/>
+    <code code="K3" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Apotheekhoudende huisartspraktijk"/>
+    <code code="N6" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Huisartsenpost (t.b.v. dienstwaarneming)"/>
+    <code code="L1" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Laboratorium"/>
+    <code code="P4" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Polikliniek (als onderdeel van een ziekenhuis)"/>
+    <code code="R8" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Revalidatiecentrum"/>
+    <code code="P6" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Preventieve gezondheidszorg (waaronder Bevolkingsonderzoek)"/>
+    <code code="G5" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Geestelijke Gezondheidszorg"/>
+    <code code="G6" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Verstandelijk gehandicaptenzorg"/>
+    <code code="T2" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Thuiszorg"/>
+    <code code="JGZ" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Jeugdgezondheidszorg"/>
+    <code code="G3" codeSystem="2.16.840.1.113883.2.4.15.1060" displayName="Verloskundigenpraktijk"/>
+</codeSystem>

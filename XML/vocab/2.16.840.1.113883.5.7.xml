@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>ActPriority</name>
+    <desc>A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to
+        happen, or is requested/demanded to happen. </desc>
+    <code code="A" codeSystem="2.16.840.1.113883.5.7" displayName="ASAP">
+        <originalText>Definition: As soon as possible, next highest priority after stat.</originalText>
+    </code>
+    <code code="CR" codeSystem="2.16.840.1.113883.5.7" displayName="callback results">
+        <originalText>Definition: Filler should contact the placer as soon as results are available, even for preliminary results. (Was "C" in HL7
+            verion 2.3's reporting priority.)</originalText>
+    </code>
+    <code code="CSP" codeSystem="2.16.840.1.113883.5.7" displayName="callback placer for scheduling">
+        <originalText>Definition: Filler should contact the placer to schedule the service. (Was "C" in HL7 version 2.3's TQ-priority
+            component.)</originalText>
+    </code>
+    <code code="CSR" codeSystem="2.16.840.1.113883.5.7" displayName="contact recipient for scheduling">
+        <originalText>Definition: Filler should contact the service recipient (target) to schedule the service. (Was "C" in HL7 version 2.3's
+            TQ-priority component.)</originalText>
+    </code>
+    <code code="EL" codeSystem="2.16.840.1.113883.5.7" displayName="elective">
+        <originalText>Definition: Beneficial to the patient but not essential for survival.</originalText>
+    </code>
+    <code code="EM" codeSystem="2.16.840.1.113883.5.7" displayName="emergency">
+        <originalText>Definition: An unforeseen combination of circumstances or the resulting state that calls for immediate action.</originalText>
+    </code>
+    <code code="P" codeSystem="2.16.840.1.113883.5.7" displayName="preop">
+        <originalText>Definition: Used to indicate that a service is to be performed prior to a scheduled surgery. When ordering a service and using
+            the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service. When the order is
+            placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled
+            operation.</originalText>
+    </code>
+    <code code="PRN" codeSystem="2.16.840.1.113883.5.7" displayName="as needed">
+        <originalText>Definition: An "as needed" order should be accompanied by a description of what constitutes a need. This description is
+            represented by an observation service predicate as a precondition.</originalText>
+    </code>
+    <code code="R" codeSystem="2.16.840.1.113883.5.7" displayName="routine">
+        <originalText>Definition: Routine service, do at usual work hours.</originalText>
+    </code>
+    <code code="RR" codeSystem="2.16.840.1.113883.5.7" displayName="rush reporting">
+        <originalText>Definition: A report should be prepared and sent as quickly as possible.</originalText>
+    </code>
+    <code code="S" codeSystem="2.16.840.1.113883.5.7" displayName="stat">
+        <originalText>Definition: With highest priority (e.g., emergency).</originalText>
+    </code>
+    <code code="T" codeSystem="2.16.840.1.113883.5.7" displayName="timing critical">
+        <originalText>Definition: It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial
+            level).</originalText>
+    </code>
+    <code code="UD" codeSystem="2.16.840.1.113883.5.7" displayName="use as directed">
+        <originalText>Definition: Drug is to be used as directed by the prescriber.</originalText>
+    </code>
+    <code code="UR" codeSystem="2.16.840.1.113883.5.7" displayName="urgent">
+        <originalText>Definition: Calls for prompt action.</originalText>
+    </code>
+</codeSystem>

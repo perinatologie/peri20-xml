@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>ISO 3166 Alpha 2 Landcodes</name>
+    <desc/>
+    <code code="AF" codeSystem="1.0.3166.1.2.2" displayName="Afghanistan">
+        <reference extension="AFG" root="1.0.3166.1.2.3"/>
+        <reference extension="004" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AX" codeSystem="1.0.3166.1.2.2" displayName="Åland">
+        <reference extension="ALA" root="1.0.3166.1.2.3"/>
+        <reference extension="248" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AL" codeSystem="1.0.3166.1.2.2" displayName="Albanië">
+        <reference extension="ALB" root="1.0.3166.1.2.3"/>
+        <reference extension="008" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="DZ" codeSystem="1.0.3166.1.2.2" displayName="Algerije">
+        <reference extension="DZA" root="1.0.3166.1.2.3"/>
+        <reference extension="012" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="VI" codeSystem="1.0.3166.1.2.2" displayName="Amerikaanse Maagdeneilanden">
+        <reference extension="VIR" root="1.0.3166.1.2.3"/>
+        <reference extension="850" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AS" codeSystem="1.0.3166.1.2.2" displayName="Amerikaans-Samoa">
+        <reference extension="ASM" root="1.0.3166.1.2.3"/>
+        <reference extension="016" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AD" codeSystem="1.0.3166.1.2.2" displayName="Andorra">
+        <reference extension="AND" root="1.0.3166.1.2.3"/>
+        <reference extension="020" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AO" codeSystem="1.0.3166.1.2.2" displayName="Angola">
+        <reference extension="AGO" root="1.0.3166.1.2.3"/>
+        <reference extension="024" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AI" codeSystem="1.0.3166.1.2.2" displayName="Anguilla">
+        <reference extension="AIA" root="1.0.3166.1.2.3"/>
+        <reference extension="660" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AQ" codeSystem="1.0.3166.1.2.2" displayName="Antarctica">
+        <reference extension="ATA" root="1.0.3166.1.2.3"/>
+        <reference extension="010" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AG" codeSystem="1.0.3166.1.2.2" displayName="Antigua en Barbuda">
+        <reference extension="ATG" root="1.0.3166.1.2.3"/>
+        <reference extension="028" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AR" codeSystem="1.0.3166.1.2.2" displayName="Argentinië">
+        <reference extension="ARG" root="1.0.3166.1.2.3"/>
+        <reference extension="032" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AM" codeSystem="1.0.3166.1.2.2" displayName="Armenië">
+        <reference extension="ARM" root="1.0.3166.1.2.3"/>
+        <reference extension="051" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AW" codeSystem="1.0.3166.1.2.2" displayName="Aruba">
+        <reference extension="ABW" root="1.0.3166.1.2.3"/>
+        <reference extension="533" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AU" codeSystem="1.0.3166.1.2.2" displayName="Australië">
+        <reference extension="AUS" root="1.0.3166.1.2.3"/>
+        <reference extension="036" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AZ" codeSystem="1.0.3166.1.2.2" displayName="Azerbeidzjan">
+        <reference extension="AZE" root="1.0.3166.1.2.3"/>
+        <reference extension="031" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BS" codeSystem="1.0.3166.1.2.2" displayName="Bahama's">
+        <reference extension="BHS" root="1.0.3166.1.2.3"/>
+        <reference extension="044" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BH" codeSystem="1.0.3166.1.2.2" displayName="Bahrein">
+        <reference extension="BHR" root="1.0.3166.1.2.3"/>
+        <reference extension="048" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BD" codeSystem="1.0.3166.1.2.2" displayName="Bangladesh">
+        <reference extension="BGD" root="1.0.3166.1.2.3"/>
+        <reference extension="050" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BB" codeSystem="1.0.3166.1.2.2" displayName="Barbados">
+        <reference extension="BRB" root="1.0.3166.1.2.3"/>
+        <reference extension="052" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BE" codeSystem="1.0.3166.1.2.2" displayName="België">
+        <reference extension="BEL" root="1.0.3166.1.2.3"/>
+        <reference extension="056" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BZ" codeSystem="1.0.3166.1.2.2" displayName="Belize">
+        <reference extension="BLZ" root="1.0.3166.1.2.3"/>
+        <reference extension="084" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BJ" codeSystem="1.0.3166.1.2.2" displayName="Benin">
+        <reference extension="BEN" root="1.0.3166.1.2.3"/>
+        <reference extension="204" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BM" codeSystem="1.0.3166.1.2.2" displayName="Bermuda">
+        <reference extension="BMU" root="1.0.3166.1.2.3"/>
+        <reference extension="060" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BT" codeSystem="1.0.3166.1.2.2" displayName="Bhutan">
+        <reference extension="BTN" root="1.0.3166.1.2.3"/>
+        <reference extension="064" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BO" codeSystem="1.0.3166.1.2.2" displayName="Bolivia">
+        <reference extension="BOL" root="1.0.3166.1.2.3"/>
+        <reference extension="068" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BA" codeSystem="1.0.3166.1.2.2" displayName="Bosnië en Herzegovina">
+        <reference extension="BIH" root="1.0.3166.1.2.3"/>
+        <reference extension="070" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BW" codeSystem="1.0.3166.1.2.2" displayName="Botswana">
+        <reference extension="BWA" root="1.0.3166.1.2.3"/>
+        <reference extension="072" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BV" codeSystem="1.0.3166.1.2.2" displayName="Bouvet">
+        <reference extension="BVT" root="1.0.3166.1.2.3"/>
+        <reference extension="074" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BR" codeSystem="1.0.3166.1.2.2" displayName="Brazilië">
+        <reference extension="BRA" root="1.0.3166.1.2.3"/>
+        <reference extension="076" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IO" codeSystem="1.0.3166.1.2.2" displayName="Brits Territorium in de Indische Oceaan">
+        <reference extension="IOT" root="1.0.3166.1.2.3"/>
+        <reference extension="086" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="VG" codeSystem="1.0.3166.1.2.2" displayName="Britse Maagdeneilanden">
+        <reference extension="VGB" root="1.0.3166.1.2.3"/>
+        <reference extension="092" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BN" codeSystem="1.0.3166.1.2.2" displayName="Brunei">
+        <reference extension="BRN" root="1.0.3166.1.2.3"/>
+        <reference extension="096" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BG" codeSystem="1.0.3166.1.2.2" displayName="Bulgarije">
+        <reference extension="BGR" root="1.0.3166.1.2.3"/>
+        <reference extension="100" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BF" codeSystem="1.0.3166.1.2.2" displayName="Burkina Faso">
+        <reference extension="BFA" root="1.0.3166.1.2.3"/>
+        <reference extension="854" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BI" codeSystem="1.0.3166.1.2.2" displayName="Burundi">
+        <reference extension="BDI" root="1.0.3166.1.2.3"/>
+        <reference extension="108" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KH" codeSystem="1.0.3166.1.2.2" displayName="Cambodja">
+        <reference extension="KHM" root="1.0.3166.1.2.3"/>
+        <reference extension="116" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CA" codeSystem="1.0.3166.1.2.2" displayName="Canada">
+        <reference extension="CAN" root="1.0.3166.1.2.3"/>
+        <reference extension="124" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CF" codeSystem="1.0.3166.1.2.2" displayName="Centraal-Afrikaanse Republiek">
+        <reference extension="CAF" root="1.0.3166.1.2.3"/>
+        <reference extension="140" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CL" codeSystem="1.0.3166.1.2.2" displayName="Chili">
+        <reference extension="CHL" root="1.0.3166.1.2.3"/>
+        <reference extension="152" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CN" codeSystem="1.0.3166.1.2.2" displayName="China">
+        <reference extension="CHN" root="1.0.3166.1.2.3"/>
+        <reference extension="156" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CX" codeSystem="1.0.3166.1.2.2" displayName="Christmaseiland">
+        <reference extension="CXR" root="1.0.3166.1.2.3"/>
+        <reference extension="162" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CC" codeSystem="1.0.3166.1.2.2" displayName="Cocoseilanden">
+        <reference extension="CCK" root="1.0.3166.1.2.3"/>
+        <reference extension="166" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CO" codeSystem="1.0.3166.1.2.2" displayName="Colombia">
+        <reference extension="COL" root="1.0.3166.1.2.3"/>
+        <reference extension="170" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KM" codeSystem="1.0.3166.1.2.2" displayName="Comoren">
+        <reference extension="COM" root="1.0.3166.1.2.3"/>
+        <reference extension="174" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CG" codeSystem="1.0.3166.1.2.2" displayName="Congo-Brazzaville">
+        <reference extension="COG" root="1.0.3166.1.2.3"/>
+        <reference extension="178" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CD" codeSystem="1.0.3166.1.2.2" displayName="Congo-Kinshasa">
+        <reference extension="COD" root="1.0.3166.1.2.3"/>
+        <reference extension="180" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CK" codeSystem="1.0.3166.1.2.2" displayName="Cookeilanden">
+        <reference extension="COK" root="1.0.3166.1.2.3"/>
+        <reference extension="184" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CR" codeSystem="1.0.3166.1.2.2" displayName="Costa Rica">
+        <reference extension="CRI" root="1.0.3166.1.2.3"/>
+        <reference extension="188" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CU" codeSystem="1.0.3166.1.2.2" displayName="Cuba">
+        <reference extension="CUB" root="1.0.3166.1.2.3"/>
+        <reference extension="192" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CY" codeSystem="1.0.3166.1.2.2" displayName="Cyprus">
+        <reference extension="CYP" root="1.0.3166.1.2.3"/>
+        <reference extension="196" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="DK" codeSystem="1.0.3166.1.2.2" displayName="Denemarken">
+        <reference extension="DNK" root="1.0.3166.1.2.3"/>
+        <reference extension="208" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="DJ" codeSystem="1.0.3166.1.2.2" displayName="Djibouti">
+        <reference extension="DJI" root="1.0.3166.1.2.3"/>
+        <reference extension="262" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="DM" codeSystem="1.0.3166.1.2.2" displayName="Dominica">
+        <reference extension="DMA" root="1.0.3166.1.2.3"/>
+        <reference extension="212" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="DO" codeSystem="1.0.3166.1.2.2" displayName="Dominicaanse Republiek">
+        <reference extension="DOM" root="1.0.3166.1.2.3"/>
+        <reference extension="214" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="DE" codeSystem="1.0.3166.1.2.2" displayName="Duitsland">
+        <reference extension="DEU" root="1.0.3166.1.2.3"/>
+        <reference extension="276" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="EC" codeSystem="1.0.3166.1.2.2" displayName="Ecuador">
+        <reference extension="ECU" root="1.0.3166.1.2.3"/>
+        <reference extension="218" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="EG" codeSystem="1.0.3166.1.2.2" displayName="Egypte">
+        <reference extension="EGY" root="1.0.3166.1.2.3"/>
+        <reference extension="818" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SV" codeSystem="1.0.3166.1.2.2" displayName="El Salvador">
+        <reference extension="SLV" root="1.0.3166.1.2.3"/>
+        <reference extension="222" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GQ" codeSystem="1.0.3166.1.2.2" displayName="Equatoriaal-Guinea">
+        <reference extension="GNQ" root="1.0.3166.1.2.3"/>
+        <reference extension="226" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ER" codeSystem="1.0.3166.1.2.2" displayName="Eritrea">
+        <reference extension="ERT" root="1.0.3166.1.2.3"/>
+        <reference extension="232" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="EE" codeSystem="1.0.3166.1.2.2" displayName="Estland">
+        <reference extension="EST" root="1.0.3166.1.2.3"/>
+        <reference extension="233" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ET" codeSystem="1.0.3166.1.2.2" displayName="Ethiopië">
+        <reference extension="ETH" root="1.0.3166.1.2.3"/>
+        <reference extension="231" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="FO" codeSystem="1.0.3166.1.2.2" displayName="Faeröer">
+        <reference extension="FRO" root="1.0.3166.1.2.3"/>
+        <reference extension="234" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="FK" codeSystem="1.0.3166.1.2.2" displayName="Falklandeilanden">
+        <reference extension="FLK" root="1.0.3166.1.2.3"/>
+        <reference extension="238" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="FJ" codeSystem="1.0.3166.1.2.2" displayName="Fiji">
+        <reference extension="FJI" root="1.0.3166.1.2.3"/>
+        <reference extension="242" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PH" codeSystem="1.0.3166.1.2.2" displayName="Filipijnen">
+        <reference extension="PHL" root="1.0.3166.1.2.3"/>
+        <reference extension="608" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="FI" codeSystem="1.0.3166.1.2.2" displayName="Finland">
+        <reference extension="FIN" root="1.0.3166.1.2.3"/>
+        <reference extension="246" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="FR" codeSystem="1.0.3166.1.2.2" displayName="Frankrijk">
+        <reference extension="FRA" root="1.0.3166.1.2.3"/>
+        <reference extension="250" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TF" codeSystem="1.0.3166.1.2.2" displayName="Franse Zuidelijke en Antarctische Gebieden">
+        <reference extension="ATF" root="1.0.3166.1.2.3"/>
+        <reference extension="260" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GF" codeSystem="1.0.3166.1.2.2" displayName="Frans-Guyana">
+        <reference extension="GUF" root="1.0.3166.1.2.3"/>
+        <reference extension="254" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PF" codeSystem="1.0.3166.1.2.2" displayName="Frans-Polynesië">
+        <reference extension="PYF" root="1.0.3166.1.2.3"/>
+        <reference extension="258" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GA" codeSystem="1.0.3166.1.2.2" displayName="Gabon">
+        <reference extension="GAB" root="1.0.3166.1.2.3"/>
+        <reference extension="266" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GM" codeSystem="1.0.3166.1.2.2" displayName="Gambia">
+        <reference extension="GMB" root="1.0.3166.1.2.3"/>
+        <reference extension="270" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GE" codeSystem="1.0.3166.1.2.2" displayName="Georgië">
+        <reference extension="GEO" root="1.0.3166.1.2.3"/>
+        <reference extension="268" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GH" codeSystem="1.0.3166.1.2.2" displayName="Ghana">
+        <reference extension="GHA" root="1.0.3166.1.2.3"/>
+        <reference extension="288" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GI" codeSystem="1.0.3166.1.2.2" displayName="Gibraltar">
+        <reference extension="GIB" root="1.0.3166.1.2.3"/>
+        <reference extension="292" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GD" codeSystem="1.0.3166.1.2.2" displayName="Grenada">
+        <reference extension="GRD" root="1.0.3166.1.2.3"/>
+        <reference extension="308" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GR" codeSystem="1.0.3166.1.2.2" displayName="Griekenland">
+        <reference extension="GRC" root="1.0.3166.1.2.3"/>
+        <reference extension="300" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GL" codeSystem="1.0.3166.1.2.2" displayName="Groenland">
+        <reference extension="GRL" root="1.0.3166.1.2.3"/>
+        <reference extension="304" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GP" codeSystem="1.0.3166.1.2.2" displayName="Guadeloupe">
+        <reference extension="GLP" root="1.0.3166.1.2.3"/>
+        <reference extension="312" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GU" codeSystem="1.0.3166.1.2.2" displayName="Guam">
+        <reference extension="GUM" root="1.0.3166.1.2.3"/>
+        <reference extension="316" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GT" codeSystem="1.0.3166.1.2.2" displayName="Guatemala">
+        <reference extension="GTM" root="1.0.3166.1.2.3"/>
+        <reference extension="320" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GG" codeSystem="1.0.3166.1.2.2" displayName="Guernsey">
+        <reference extension="GGY" root="1.0.3166.1.2.3"/>
+        <reference extension="831" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GN" codeSystem="1.0.3166.1.2.2" displayName="Guinee">
+        <reference extension="GIN" root="1.0.3166.1.2.3"/>
+        <reference extension="324" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GW" codeSystem="1.0.3166.1.2.2" displayName="Guinee-Bissau">
+        <reference extension="GNB" root="1.0.3166.1.2.3"/>
+        <reference extension="624" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GY" codeSystem="1.0.3166.1.2.2" displayName="Guyana">
+        <reference extension="GUY" root="1.0.3166.1.2.3"/>
+        <reference extension="328" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="HT" codeSystem="1.0.3166.1.2.2" displayName="Haïti">
+        <reference extension="HTI" root="1.0.3166.1.2.3"/>
+        <reference extension="332" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="HM" codeSystem="1.0.3166.1.2.2" displayName="Heard en McDonaldeilanden">
+        <reference extension="HMD" root="1.0.3166.1.2.3"/>
+        <reference extension="334" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="HN" codeSystem="1.0.3166.1.2.2" displayName="Honduras">
+        <reference extension="HND" root="1.0.3166.1.2.3"/>
+        <reference extension="340" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="HU" codeSystem="1.0.3166.1.2.2" displayName="Hongarije">
+        <reference extension="HUN" root="1.0.3166.1.2.3"/>
+        <reference extension="348" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="HK" codeSystem="1.0.3166.1.2.2" displayName="Hongkong">
+        <reference extension="HKG" root="1.0.3166.1.2.3"/>
+        <reference extension="344" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IE" codeSystem="1.0.3166.1.2.2" displayName="Ierland">
+        <reference extension="IRL" root="1.0.3166.1.2.3"/>
+        <reference extension="372" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IS" codeSystem="1.0.3166.1.2.2" displayName="IJsland">
+        <reference extension="ISL" root="1.0.3166.1.2.3"/>
+        <reference extension="352" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IN" codeSystem="1.0.3166.1.2.2" displayName="India">
+        <reference extension="IND" root="1.0.3166.1.2.3"/>
+        <reference extension="356" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ID" codeSystem="1.0.3166.1.2.2" displayName="Indonesië">
+        <reference extension="IDN" root="1.0.3166.1.2.3"/>
+        <reference extension="360" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IQ" codeSystem="1.0.3166.1.2.2" displayName="Irak">
+        <reference extension="IRQ" root="1.0.3166.1.2.3"/>
+        <reference extension="368" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IR" codeSystem="1.0.3166.1.2.2" displayName="Iran">
+        <reference extension="IRN" root="1.0.3166.1.2.3"/>
+        <reference extension="364" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IM" codeSystem="1.0.3166.1.2.2" displayName="Isle of Man">
+        <reference extension="IMN" root="1.0.3166.1.2.3"/>
+        <reference extension="833" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IL" codeSystem="1.0.3166.1.2.2" displayName="Israël">
+        <reference extension="ISR" root="1.0.3166.1.2.3"/>
+        <reference extension="376" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="IT" codeSystem="1.0.3166.1.2.2" displayName="Italië">
+        <reference extension="ITA" root="1.0.3166.1.2.3"/>
+        <reference extension="380" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CI" codeSystem="1.0.3166.1.2.2" displayName="Ivoorkust">
+        <reference extension="CIV" root="1.0.3166.1.2.3"/>
+        <reference extension="384" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="JM" codeSystem="1.0.3166.1.2.2" displayName="Jamaica">
+        <reference extension="JAM" root="1.0.3166.1.2.3"/>
+        <reference extension="388" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="JP" codeSystem="1.0.3166.1.2.2" displayName="Japan">
+        <reference extension="JPN" root="1.0.3166.1.2.3"/>
+        <reference extension="392" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="YE" codeSystem="1.0.3166.1.2.2" displayName="Jemen">
+        <reference extension="YEM" root="1.0.3166.1.2.3"/>
+        <reference extension="887" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="JE" codeSystem="1.0.3166.1.2.2" displayName="Jersey">
+        <reference extension="JEY" root="1.0.3166.1.2.3"/>
+        <reference extension="832" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="JO" codeSystem="1.0.3166.1.2.2" displayName="Jordanië">
+        <reference extension="JOR" root="1.0.3166.1.2.3"/>
+        <reference extension="400" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KY" codeSystem="1.0.3166.1.2.2" displayName="Kaaimaneilanden">
+        <reference extension="CYM" root="1.0.3166.1.2.3"/>
+        <reference extension="136" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CV" codeSystem="1.0.3166.1.2.2" displayName="Kaapverdië">
+        <reference extension="CPV" root="1.0.3166.1.2.3"/>
+        <reference extension="132" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CM" codeSystem="1.0.3166.1.2.2" displayName="Kameroen">
+        <reference extension="CMR" root="1.0.3166.1.2.3"/>
+        <reference extension="120" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KZ" codeSystem="1.0.3166.1.2.2" displayName="Kazachstan">
+        <reference extension="KAZ" root="1.0.3166.1.2.3"/>
+        <reference extension="398" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KE" codeSystem="1.0.3166.1.2.2" displayName="Kenia">
+        <reference extension="KEN" root="1.0.3166.1.2.3"/>
+        <reference extension="404" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KG" codeSystem="1.0.3166.1.2.2" displayName="Kirgizië">
+        <reference extension="KGZ" root="1.0.3166.1.2.3"/>
+        <reference extension="417" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KI" codeSystem="1.0.3166.1.2.2" displayName="Kiribati">
+        <reference extension="KIR" root="1.0.3166.1.2.3"/>
+        <reference extension="296" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="UM" codeSystem="1.0.3166.1.2.2" displayName="Kleine Pacifische eilanden van de Verenigde Staten">
+        <reference extension="UMI" root="1.0.3166.1.2.3"/>
+        <reference extension="581" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KW" codeSystem="1.0.3166.1.2.2" displayName="Koeweit">
+        <reference extension="KWT" root="1.0.3166.1.2.3"/>
+        <reference extension="414" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="HR" codeSystem="1.0.3166.1.2.2" displayName="Kroatië">
+        <reference extension="HRV" root="1.0.3166.1.2.3"/>
+        <reference extension="191" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LA" codeSystem="1.0.3166.1.2.2" displayName="Laos">
+        <reference extension="LAO" root="1.0.3166.1.2.3"/>
+        <reference extension="418" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LS" codeSystem="1.0.3166.1.2.2" displayName="Lesotho">
+        <reference extension="LSO" root="1.0.3166.1.2.3"/>
+        <reference extension="426" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LV" codeSystem="1.0.3166.1.2.2" displayName="Letland">
+        <reference extension="LVA" root="1.0.3166.1.2.3"/>
+        <reference extension="428" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LB" codeSystem="1.0.3166.1.2.2" displayName="Libanon">
+        <reference extension="LBN" root="1.0.3166.1.2.3"/>
+        <reference extension="422" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LR" codeSystem="1.0.3166.1.2.2" displayName="Liberia">
+        <reference extension="LBR" root="1.0.3166.1.2.3"/>
+        <reference extension="430" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LY" codeSystem="1.0.3166.1.2.2" displayName="Libië">
+        <reference extension="LBY" root="1.0.3166.1.2.3"/>
+        <reference extension="434" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LI" codeSystem="1.0.3166.1.2.2" displayName="Liechtenstein">
+        <reference extension="LIE" root="1.0.3166.1.2.3"/>
+        <reference extension="438" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LT" codeSystem="1.0.3166.1.2.2" displayName="Litouwen">
+        <reference extension="LTU" root="1.0.3166.1.2.3"/>
+        <reference extension="440" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LU" codeSystem="1.0.3166.1.2.2" displayName="Luxemburg">
+        <reference extension="LUX" root="1.0.3166.1.2.3"/>
+        <reference extension="442" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MO" codeSystem="1.0.3166.1.2.2" displayName="Macau">
+        <reference extension="MAC" root="1.0.3166.1.2.3"/>
+        <reference extension="446" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MK" codeSystem="1.0.3166.1.2.2" displayName="Macedonië">
+        <reference extension="MKD" root="1.0.3166.1.2.3"/>
+        <reference extension="807" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MG" codeSystem="1.0.3166.1.2.2" displayName="Madagaskar">
+        <reference extension="MDG" root="1.0.3166.1.2.3"/>
+        <reference extension="450" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MW" codeSystem="1.0.3166.1.2.2" displayName="Malawi">
+        <reference extension="MWI" root="1.0.3166.1.2.3"/>
+        <reference extension="454" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MV" codeSystem="1.0.3166.1.2.2" displayName="Maldiven">
+        <reference extension="MDV" root="1.0.3166.1.2.3"/>
+        <reference extension="462" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MY" codeSystem="1.0.3166.1.2.2" displayName="Maleisië">
+        <reference extension="MYS" root="1.0.3166.1.2.3"/>
+        <reference extension="458" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ML" codeSystem="1.0.3166.1.2.2" displayName="Mali">
+        <reference extension="MLI" root="1.0.3166.1.2.3"/>
+        <reference extension="466" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MT" codeSystem="1.0.3166.1.2.2" displayName="Malta">
+        <reference extension="MLT" root="1.0.3166.1.2.3"/>
+        <reference extension="470" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MA" codeSystem="1.0.3166.1.2.2" displayName="Marokko">
+        <reference extension="MAR" root="1.0.3166.1.2.3"/>
+        <reference extension="504" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MH" codeSystem="1.0.3166.1.2.2" displayName="Marshalleilanden">
+        <reference extension="MHL" root="1.0.3166.1.2.3"/>
+        <reference extension="584" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MQ" codeSystem="1.0.3166.1.2.2" displayName="Martinique">
+        <reference extension="MTQ" root="1.0.3166.1.2.3"/>
+        <reference extension="474" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MR" codeSystem="1.0.3166.1.2.2" displayName="Mauritanië">
+        <reference extension="MRT" root="1.0.3166.1.2.3"/>
+        <reference extension="478" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MU" codeSystem="1.0.3166.1.2.2" displayName="Mauritius">
+        <reference extension="MUS" root="1.0.3166.1.2.3"/>
+        <reference extension="480" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="YT" codeSystem="1.0.3166.1.2.2" displayName="Mayotte">
+        <reference extension="MYT" root="1.0.3166.1.2.3"/>
+        <reference extension="175" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MX" codeSystem="1.0.3166.1.2.2" displayName="Mexico">
+        <reference extension="MEX" root="1.0.3166.1.2.3"/>
+        <reference extension="484" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="FM" codeSystem="1.0.3166.1.2.2" displayName="Micronesia">
+        <reference extension="FSM" root="1.0.3166.1.2.3"/>
+        <reference extension="583" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MD" codeSystem="1.0.3166.1.2.2" displayName="Moldavië">
+        <reference extension="MDA" root="1.0.3166.1.2.3"/>
+        <reference extension="498" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MC" codeSystem="1.0.3166.1.2.2" displayName="Monaco">
+        <reference extension="MCO" root="1.0.3166.1.2.3"/>
+        <reference extension="492" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MN" codeSystem="1.0.3166.1.2.2" displayName="Mongolië">
+        <reference extension="MNG" root="1.0.3166.1.2.3"/>
+        <reference extension="496" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ME" codeSystem="1.0.3166.1.2.2" displayName="Montenegro">
+        <reference extension="MNE" root="1.0.3166.1.2.3"/>
+        <reference extension="499" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MS" codeSystem="1.0.3166.1.2.2" displayName="Montserrat">
+        <reference extension="MSR" root="1.0.3166.1.2.3"/>
+        <reference extension="500" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MZ" codeSystem="1.0.3166.1.2.2" displayName="Mozambique">
+        <reference extension="MOZ" root="1.0.3166.1.2.3"/>
+        <reference extension="508" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MM" codeSystem="1.0.3166.1.2.2" displayName="Myanmar">
+        <reference extension="MMR" root="1.0.3166.1.2.3"/>
+        <reference extension="104" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NA" codeSystem="1.0.3166.1.2.2" displayName="Namibië">
+        <reference extension="NAM" root="1.0.3166.1.2.3"/>
+        <reference extension="516" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NR" codeSystem="1.0.3166.1.2.2" displayName="Nauru">
+        <reference extension="NRU" root="1.0.3166.1.2.3"/>
+        <reference extension="520" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NL" codeSystem="1.0.3166.1.2.2" displayName="Nederland">
+        <reference extension="NLD" root="1.0.3166.1.2.3"/>
+        <reference extension="528" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AN" codeSystem="1.0.3166.1.2.2" displayName="Nederlandse Antillen">
+        <reference extension="ANT" root="1.0.3166.1.2.3"/>
+        <reference extension="530" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NP" codeSystem="1.0.3166.1.2.2" displayName="Nepal">
+        <reference extension="NPL" root="1.0.3166.1.2.3"/>
+        <reference extension="524" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NI" codeSystem="1.0.3166.1.2.2" displayName="Nicaragua">
+        <reference extension="NIC" root="1.0.3166.1.2.3"/>
+        <reference extension="558" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NC" codeSystem="1.0.3166.1.2.2" displayName="Nieuw-Caledonië">
+        <reference extension="NCL" root="1.0.3166.1.2.3"/>
+        <reference extension="540" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NZ" codeSystem="1.0.3166.1.2.2" displayName="Nieuw-Zeeland">
+        <reference extension="NZL" root="1.0.3166.1.2.3"/>
+        <reference extension="554" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NE" codeSystem="1.0.3166.1.2.2" displayName="Niger">
+        <reference extension="NER" root="1.0.3166.1.2.3"/>
+        <reference extension="562" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NG" codeSystem="1.0.3166.1.2.2" displayName="Nigeria">
+        <reference extension="NGA" root="1.0.3166.1.2.3"/>
+        <reference extension="566" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NU" codeSystem="1.0.3166.1.2.2" displayName="Niue">
+        <reference extension="NIU" root="1.0.3166.1.2.3"/>
+        <reference extension="570" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MP" codeSystem="1.0.3166.1.2.2" displayName="Noordelijke Marianen">
+        <reference extension="MNP" root="1.0.3166.1.2.3"/>
+        <reference extension="580" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KP" codeSystem="1.0.3166.1.2.2" displayName="Noord-Korea">
+        <reference extension="PRK" root="1.0.3166.1.2.3"/>
+        <reference extension="408" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NO" codeSystem="1.0.3166.1.2.2" displayName="Noorwegen">
+        <reference extension="NOR" root="1.0.3166.1.2.3"/>
+        <reference extension="578" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="NF" codeSystem="1.0.3166.1.2.2" displayName="Norfolk">
+        <reference extension="NFK" root="1.0.3166.1.2.3"/>
+        <reference extension="574" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="UA" codeSystem="1.0.3166.1.2.2" displayName="Oekraïne">
+        <reference extension="UKR" root="1.0.3166.1.2.3"/>
+        <reference extension="804" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="UZ" codeSystem="1.0.3166.1.2.2" displayName="Oezbekistan">
+        <reference extension="UZB" root="1.0.3166.1.2.3"/>
+        <reference extension="860" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="OM" codeSystem="1.0.3166.1.2.2" displayName="Oman">
+        <reference extension="OMN" root="1.0.3166.1.2.3"/>
+        <reference extension="512" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AT" codeSystem="1.0.3166.1.2.2" displayName="Oostenrijk">
+        <reference extension="AUT" root="1.0.3166.1.2.3"/>
+        <reference extension="040" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TL" codeSystem="1.0.3166.1.2.2" displayName="Oost-Timor">
+        <reference extension="TLS" root="1.0.3166.1.2.3"/>
+        <reference extension="626" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PK" codeSystem="1.0.3166.1.2.2" displayName="Pakistan">
+        <reference extension="PAK" root="1.0.3166.1.2.3"/>
+        <reference extension="586" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PW" codeSystem="1.0.3166.1.2.2" displayName="Palau">
+        <reference extension="PLW" root="1.0.3166.1.2.3"/>
+        <reference extension="585" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PS" codeSystem="1.0.3166.1.2.2" displayName="Palestijnse Autoriteit">
+        <reference extension="PSE" root="1.0.3166.1.2.3"/>
+        <reference extension="275" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PA" codeSystem="1.0.3166.1.2.2" displayName="Panama">
+        <reference extension="PAN" root="1.0.3166.1.2.3"/>
+        <reference extension="591" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PG" codeSystem="1.0.3166.1.2.2" displayName="Papoea-Nieuw-Guinea">
+        <reference extension="PNG" root="1.0.3166.1.2.3"/>
+        <reference extension="598" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PY" codeSystem="1.0.3166.1.2.2" displayName="Paraguay">
+        <reference extension="PRY" root="1.0.3166.1.2.3"/>
+        <reference extension="600" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PE" codeSystem="1.0.3166.1.2.2" displayName="Peru">
+        <reference extension="PER" root="1.0.3166.1.2.3"/>
+        <reference extension="604" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PN" codeSystem="1.0.3166.1.2.2" displayName="Pitcairneilanden">
+        <reference extension="PCN" root="1.0.3166.1.2.3"/>
+        <reference extension="612" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PL" codeSystem="1.0.3166.1.2.2" displayName="Polen">
+        <reference extension="POL" root="1.0.3166.1.2.3"/>
+        <reference extension="616" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PT" codeSystem="1.0.3166.1.2.2" displayName="Portugal">
+        <reference extension="PRT" root="1.0.3166.1.2.3"/>
+        <reference extension="620" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PR" codeSystem="1.0.3166.1.2.2" displayName="Puerto Rico">
+        <reference extension="PRI" root="1.0.3166.1.2.3"/>
+        <reference extension="630" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="QA" codeSystem="1.0.3166.1.2.2" displayName="Qatar">
+        <reference extension="QAT" root="1.0.3166.1.2.3"/>
+        <reference extension="634" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="RE" codeSystem="1.0.3166.1.2.2" displayName="Réunion">
+        <reference extension="REU" root="1.0.3166.1.2.3"/>
+        <reference extension="638" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="RO" codeSystem="1.0.3166.1.2.2" displayName="Roemenië">
+        <reference extension="ROU" root="1.0.3166.1.2.3"/>
+        <reference extension="642" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="RU" codeSystem="1.0.3166.1.2.2" displayName="Rusland">
+        <reference extension="RUS" root="1.0.3166.1.2.3"/>
+        <reference extension="643" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="RW" codeSystem="1.0.3166.1.2.2" displayName="Rwanda">
+        <reference extension="RWA" root="1.0.3166.1.2.3"/>
+        <reference extension="646" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KN" codeSystem="1.0.3166.1.2.2" displayName="Saint Kitts en Nevis">
+        <reference extension="KNA" root="1.0.3166.1.2.3"/>
+        <reference extension="659" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LC" codeSystem="1.0.3166.1.2.2" displayName="Saint Lucia">
+        <reference extension="LCA" root="1.0.3166.1.2.3"/>
+        <reference extension="662" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="VC" codeSystem="1.0.3166.1.2.2" displayName="Saint Vincent en de Grenadines">
+        <reference extension="VCT" root="1.0.3166.1.2.3"/>
+        <reference extension="670" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BL" codeSystem="1.0.3166.1.2.2" displayName="Saint-Barthélemy">
+        <reference extension="BLM" root="1.0.3166.1.2.3"/>
+        <reference extension="652" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="PM" codeSystem="1.0.3166.1.2.2" displayName="Saint-Pierre en Miquelon">
+        <reference extension="SPM" root="1.0.3166.1.2.3"/>
+        <reference extension="666" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SB" codeSystem="1.0.3166.1.2.2" displayName="Salomonseilanden">
+        <reference extension="SLB" root="1.0.3166.1.2.3"/>
+        <reference extension="090" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="WS" codeSystem="1.0.3166.1.2.2" displayName="Samoa">
+        <reference extension="WSM" root="1.0.3166.1.2.3"/>
+        <reference extension="882" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SM" codeSystem="1.0.3166.1.2.2" displayName="San Marino">
+        <reference extension="SMR" root="1.0.3166.1.2.3"/>
+        <reference extension="674" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ST" codeSystem="1.0.3166.1.2.2" displayName="Sao Tomé en Principe">
+        <reference extension="STP" root="1.0.3166.1.2.3"/>
+        <reference extension="678" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SA" codeSystem="1.0.3166.1.2.2" displayName="Saoedi-Arabië">
+        <reference extension="SAU" root="1.0.3166.1.2.3"/>
+        <reference extension="682" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SN" codeSystem="1.0.3166.1.2.2" displayName="Senegal">
+        <reference extension="SEN" root="1.0.3166.1.2.3"/>
+        <reference extension="686" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="RS" codeSystem="1.0.3166.1.2.2" displayName="Servië">
+        <reference extension="SRB" root="1.0.3166.1.2.3"/>
+        <reference extension="688" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SC" codeSystem="1.0.3166.1.2.2" displayName="Seychellen">
+        <reference extension="SYC" root="1.0.3166.1.2.3"/>
+        <reference extension="690" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SL" codeSystem="1.0.3166.1.2.2" displayName="Sierra Leone">
+        <reference extension="SLE" root="1.0.3166.1.2.3"/>
+        <reference extension="694" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SG" codeSystem="1.0.3166.1.2.2" displayName="Singapore">
+        <reference extension="SGP" root="1.0.3166.1.2.3"/>
+        <reference extension="702" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SH" codeSystem="1.0.3166.1.2.2" displayName="Sint-Helena, Ascension en Tristan da Cunha">
+        <reference extension="SHN" root="1.0.3166.1.2.3"/>
+        <reference extension="654" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="MF" codeSystem="1.0.3166.1.2.2" displayName="Sint Maarten">
+        <reference extension="MAF" root="1.0.3166.1.2.3"/>
+        <reference extension="663" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SI" codeSystem="1.0.3166.1.2.2" displayName="Slovenië">
+        <reference extension="SVN" root="1.0.3166.1.2.3"/>
+        <reference extension="705" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SK" codeSystem="1.0.3166.1.2.2" displayName="Slowakije">
+        <reference extension="SVK" root="1.0.3166.1.2.3"/>
+        <reference extension="703" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SD" codeSystem="1.0.3166.1.2.2" displayName="Soedan">
+        <reference extension="SDN" root="1.0.3166.1.2.3"/>
+        <reference extension="736" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SO" codeSystem="1.0.3166.1.2.2" displayName="Somalië">
+        <reference extension="SOM" root="1.0.3166.1.2.3"/>
+        <reference extension="706" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ES" codeSystem="1.0.3166.1.2.2" displayName="Spanje">
+        <reference extension="ESP" root="1.0.3166.1.2.3"/>
+        <reference extension="724" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SJ" codeSystem="1.0.3166.1.2.2" displayName="Spitsbergen en Jan Mayen">
+        <reference extension="SJM" root="1.0.3166.1.2.3"/>
+        <reference extension="744" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="LK" codeSystem="1.0.3166.1.2.2" displayName="Sri Lanka">
+        <reference extension="LKA" root="1.0.3166.1.2.3"/>
+        <reference extension="144" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SR" codeSystem="1.0.3166.1.2.2" displayName="Suriname">
+        <reference extension="SUR" root="1.0.3166.1.2.3"/>
+        <reference extension="740" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SZ" codeSystem="1.0.3166.1.2.2" displayName="Swaziland">
+        <reference extension="SWZ" root="1.0.3166.1.2.3"/>
+        <reference extension="748" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SY" codeSystem="1.0.3166.1.2.2" displayName="Syrië">
+        <reference extension="SYR" root="1.0.3166.1.2.3"/>
+        <reference extension="760" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TJ" codeSystem="1.0.3166.1.2.2" displayName="Tadzjikistan">
+        <reference extension="TJK" root="1.0.3166.1.2.3"/>
+        <reference extension="762" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TW" codeSystem="1.0.3166.1.2.2" displayName="Taiwan">
+        <reference extension="TWN" root="1.0.3166.1.2.3"/>
+        <reference extension="158" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TZ" codeSystem="1.0.3166.1.2.2" displayName="Tanzania">
+        <reference extension="TZA" root="1.0.3166.1.2.3"/>
+        <reference extension="834" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TH" codeSystem="1.0.3166.1.2.2" displayName="Thailand">
+        <reference extension="THA" root="1.0.3166.1.2.3"/>
+        <reference extension="764" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TG" codeSystem="1.0.3166.1.2.2" displayName="Togo">
+        <reference extension="TGO" root="1.0.3166.1.2.3"/>
+        <reference extension="768" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TK" codeSystem="1.0.3166.1.2.2" displayName="Tokelau-eilanden">
+        <reference extension="TKL" root="1.0.3166.1.2.3"/>
+        <reference extension="772" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TO" codeSystem="1.0.3166.1.2.2" displayName="Tonga">
+        <reference extension="TON" root="1.0.3166.1.2.3"/>
+        <reference extension="776" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TT" codeSystem="1.0.3166.1.2.2" displayName="Trinidad en Tobago">
+        <reference extension="TTO" root="1.0.3166.1.2.3"/>
+        <reference extension="780" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TD" codeSystem="1.0.3166.1.2.2" displayName="Tsjaad">
+        <reference extension="TCD" root="1.0.3166.1.2.3"/>
+        <reference extension="148" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CZ" codeSystem="1.0.3166.1.2.2" displayName="Tsjechië">
+        <reference extension="CZE" root="1.0.3166.1.2.3"/>
+        <reference extension="203" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TN" codeSystem="1.0.3166.1.2.2" displayName="Tunesië">
+        <reference extension="TUN" root="1.0.3166.1.2.3"/>
+        <reference extension="788" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TR" codeSystem="1.0.3166.1.2.2" displayName="Turkije">
+        <reference extension="TUR" root="1.0.3166.1.2.3"/>
+        <reference extension="792" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TM" codeSystem="1.0.3166.1.2.2" displayName="Turkmenistan">
+        <reference extension="TKM" root="1.0.3166.1.2.3"/>
+        <reference extension="795" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TC" codeSystem="1.0.3166.1.2.2" displayName="Turks- en Caicoseilanden">
+        <reference extension="TCA" root="1.0.3166.1.2.3"/>
+        <reference extension="796" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="TV" codeSystem="1.0.3166.1.2.2" displayName="Tuvalu">
+        <reference extension="TUV" root="1.0.3166.1.2.3"/>
+        <reference extension="798" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="UG" codeSystem="1.0.3166.1.2.2" displayName="Uganda">
+        <reference extension="UGA" root="1.0.3166.1.2.3"/>
+        <reference extension="800" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="UY" codeSystem="1.0.3166.1.2.2" displayName="Uruguay">
+        <reference extension="URY" root="1.0.3166.1.2.3"/>
+        <reference extension="858" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="VU" codeSystem="1.0.3166.1.2.2" displayName="Vanuatu">
+        <reference extension="VUT" root="1.0.3166.1.2.3"/>
+        <reference extension="548" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="VA" codeSystem="1.0.3166.1.2.2" displayName="Vaticaanstad">
+        <reference extension="VAT" root="1.0.3166.1.2.3"/>
+        <reference extension="336" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="VE" codeSystem="1.0.3166.1.2.2" displayName="Venezuela">
+        <reference extension="VEN" root="1.0.3166.1.2.3"/>
+        <reference extension="862" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GB" codeSystem="1.0.3166.1.2.2" displayName="Verenigd Koninkrijk">
+        <reference extension="GBR" root="1.0.3166.1.2.3"/>
+        <reference extension="826" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="AE" codeSystem="1.0.3166.1.2.2" displayName="Verenigde Arabische Emiraten">
+        <reference extension="ARE" root="1.0.3166.1.2.3"/>
+        <reference extension="784" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="US" codeSystem="1.0.3166.1.2.2" displayName="Verenigde Staten">
+        <reference extension="USA" root="1.0.3166.1.2.3"/>
+        <reference extension="840" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="VN" codeSystem="1.0.3166.1.2.2" displayName="Vietnam">
+        <reference extension="VNM" root="1.0.3166.1.2.3"/>
+        <reference extension="704" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="WF" codeSystem="1.0.3166.1.2.2" displayName="Wallis en Futuna">
+        <reference extension="WLF" root="1.0.3166.1.2.3"/>
+        <reference extension="876" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="EH" codeSystem="1.0.3166.1.2.2" displayName="Westelijke Sahara">
+        <reference extension="ESH" root="1.0.3166.1.2.3"/>
+        <reference extension="732" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="BY" codeSystem="1.0.3166.1.2.2" displayName="Wit-Rusland">
+        <reference extension="BLR" root="1.0.3166.1.2.3"/>
+        <reference extension="112" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ZM" codeSystem="1.0.3166.1.2.2" displayName="Zambia">
+        <reference extension="ZMB" root="1.0.3166.1.2.3"/>
+        <reference extension="894" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ZW" codeSystem="1.0.3166.1.2.2" displayName="Zimbabwe">
+        <reference extension="ZWE" root="1.0.3166.1.2.3"/>
+        <reference extension="716" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="ZA" codeSystem="1.0.3166.1.2.2" displayName="Zuid-Afrika">
+        <reference extension="ZAF" root="1.0.3166.1.2.3"/>
+        <reference extension="710" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="GS" codeSystem="1.0.3166.1.2.2" displayName="Zuid-Georgië en de Zuidelijke Sandwicheilanden">
+        <reference extension="SGS" root="1.0.3166.1.2.3"/>
+        <reference extension="239" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="KR" codeSystem="1.0.3166.1.2.2" displayName="Zuid-Korea">
+        <reference extension="KOR" root="1.0.3166.1.2.3"/>
+        <reference extension="410" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="SE" codeSystem="1.0.3166.1.2.2" displayName="Zweden">
+        <reference extension="SWE" root="1.0.3166.1.2.3"/>
+        <reference extension="752" root="1.0.3166.1.2.1"/>
+    </code>
+    <code code="CH" codeSystem="1.0.3166.1.2.2" displayName="Zwitserland">
+        <reference extension="CHE" root="1.0.3166.1.2.3"/>
+        <reference extension="756" root="1.0.3166.1.2.1"/>
+    </code>
+</codeSystem>

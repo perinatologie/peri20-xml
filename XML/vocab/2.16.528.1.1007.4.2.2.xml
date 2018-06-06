@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>SBV-Z Zoekresultaat Meldingsteksten </name>
+    <desc>SBV-Z Zoekresultaat Meldingsteksten</desc>
+    <code code="C1" codeSystem="2.16.528.1.1007.4.2.2" displayName="Het antwoord bevat gegevens afwijkend van de gegevens in de vraag."/>
+    <code code="C2" codeSystem="2.16.528.1.1007.4.2.2" displayName="De gevonden naamgegevens zijn gelijk aan de naamgegevens in de vraag."/>
+    <code code="HL01" codeSystem="2.16.528.1.1007.4.2.2" displayName="&lt;Persoonsgegevens in onderzoek&gt;."/>
+    <code code="HL02" codeSystem="2.16.528.1.1007.4.2.2" displayName="&lt;Overlijdensgegevens in onderzoek&gt;."/>
+    <code code="HL03" codeSystem="2.16.528.1.1007.4.2.2" displayName="&lt;Adresgegevens in onderzoek&gt;."/>
+    <code code="HL04" codeSystem="2.16.528.1.1007.4.2.2" displayName="Er is een beperking op de gegevensverstrekking van toepassing."/>
+    <code code="HL05" codeSystem="2.16.528.1.1007.4.2.2" displayName="De gegevens zijn opgeschort op grond van overlijden."/>
+    <code code="HL06" codeSystem="2.16.528.1.1007.4.2.2" displayName="De gegevens zijn opgeschort op grond van emigratie."/>
+    <code code="HL07" codeSystem="2.16.528.1.1007.4.2.2" displayName="De gegevens zijn opgeschort op grond van een ministerieel besluit."/>
+</codeSystem>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>RoleCodeNL - zorgverlenertype (natuurlijke personen)</name>
+    <desc>Dit codesysteem bevat waarden die het roltype bepaalt van een zorgverlener of andere medewerker in de gezondheidszorg. De onderstaande tabel
+        is een invulling van het HL7v3 vocabulaire domein “RoleCode” en wel specifiek het concept “AssignedRoleType”.</desc>
+    <code code="01.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Arts"/>
+    <code code="01.002" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Internist-Allergoloog"/>
+    <code code="01.003" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Anesthesioloog"/>
+    <code code="01.004" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Apotheekhoudende huisarts"/>
+    <code code="01.008" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Bedrijfsarts"/>
+    <code code="01.010" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Cardioloog"/>
+    <code code="01.011" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Cardiothoracaal chirurg"/>
+    <code code="01.012" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Dermatoloog"/>
+    <code code="01.013" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Arts v. maag-darm-leverziekten"/>
+    <code code="01.014" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Chirurg"/>
+    <code code="01.015" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Huisarts"/>
+    <code code="01.016" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Internist"/>
+    <code code="01.018" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Keel- neus- en oorarts"/>
+    <code code="01.019" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Kinderarts"/>
+    <code code="01.020" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Arts klinische chemie"/>
+    <code code="01.021" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Klinisch geneticus"/>
+    <code code="01.022" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Klinisch geriater"/>
+    <code code="01.023" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Longarts"/>
+    <code code="01.024" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Arts-microbioloog"/>
+    <code code="01.025" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Neurochirurg"/>
+    <code code="01.026" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Neuroloog"/>
+    <code code="01.030" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Nucleair geneeskundige"/>
+    <code code="01.031" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Oogarts"/>
+    <code code="01.032" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Orthopedisch chirurg"/>
+    <code code="01.033" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Patholoog"/>
+    <code code="01.034" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Plastisch chirurg"/>
+    <code code="01.035" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Psychiater"/>
+    <code code="01.039" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Radioloog"/>
+    <code code="01.040" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Radiotherapeut"/>
+    <code code="01.041" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Reumatoloog"/>
+    <code code="01.042" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Revalidatiearts"/>
+    <code code="01.045" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Uroloog"/>
+    <code code="01.046" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Gynaecoloog"/>
+    <code code="01.047" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Specialist ouderengeneeskunde"/>
+    <code code="01.048" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Verzekeringsarts"/>
+    <code code="01.050" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Zenuwarts"/>
+    <code code="01.055" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Arts maatschappij en gezondheid"/>
+    <code code="01.056" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Arts voor verstandelijk gehandicapten"/>
+    <code code="01.070" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Jeugdarts"/>
+    <code code="01.071" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Spoedeisende hulp arts"/>
+    <code code="02.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Tandarts"/>
+    <code code="02.053" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Orthodontist"/>
+    <code code="02.054" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Kaakchirurg"/>
+    <code code="03.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Verloskundige"/>
+    <code code="04.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Fysiotherapeut"/>
+    <code code="16.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Psychotherapeut"/>
+    <code code="17.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Apotheker"/>
+    <code code="17.060" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Ziekenhuisapotheker"/>
+    <code code="25.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Gezondheidszorgpsycholoog"/>
+    <code code="25.061" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Klinisch psycholoog"/>
+    <code code="25.063" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Klinisch neuropsycholoog"/>
+    <code code="30.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Verpleegkundige"/>
+    <code code="30.065" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Verpl. spec. prev. zorg bij som. aandoeningen"/>
+    <code code="30.066" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Verpl. spec. acute zorg bij som. aandoeningen"/>
+    <code code="30.067" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Verpl. spec. intensieve zorg bij som. aandoeningen"/>
+    <code code="30.068" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Verpl. spec. chronische zorg bij som. aandoeningen"/>
+    <code code="30.069" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Verpl. spec. geestelijke gezondheidszorg"/>
+    <code code="83.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Apothekersassistent"/>
+    <code code="84.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Klinisch fysicus"/>
+    <code code="85.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Tandprotheticus"/>
+    <code code="86.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="VIG-er"/>
+    <code code="87.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Optometrist"/>
+    <code code="88.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Huidtherapeut"/>
+    <code code="89.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Diëtist"/>
+    <code code="90.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Ergotherapeut"/>
+    <code code="91.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Logopedist"/>
+    <code code="92.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Mondhygiënist"/>
+    <code code="93.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Oefentherapeut Mensendieck"/>
+    <code code="94.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Oefentherapeut Cesar"/>
+    <code code="95.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Orthoptist"/>
+    <code code="96.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Podotherapeut"/>
+    <code code="97.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Radiodiagnistisch laborant"/>
+    <code code="98.000" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="Radiotherapeutisch laborant"/>
+</codeSystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>SBV-Z Identificatiedocumenttypes</name>
+    <desc/>
+    <code code="1" codeSystem="2.16.840.1.113883.2.4.6.70"
+        displayName="reisdocument uitgegeven door de Nederlandse overheid (paspoorten, identiteitskaart)"/>
+    <code code="2" codeSystem="2.16.840.1.113883.2.4.6.70"
+        displayName="rijbewijs, uitgegeven door de Nederlandse overheid (Rijksdienst voor het wegverkeer)"/>
+    <code code="3" codeSystem="2.16.840.1.113883.2.4.6.70"
+        displayName="vreemdelingendocument, uitgegeven door de Nederlandse overheid (IND, Ministerie van Justitie)"/>
+</codeSystem>

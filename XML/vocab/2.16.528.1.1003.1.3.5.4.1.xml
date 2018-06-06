@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3" codeStrength="CWE">
+    <name>Getronics CSP Organisatie CA</name>
+    <desc>Getronics CSP Organisatie CA – G2; zie ook het Getronics CPS versie 4.8. CA voor PKI-Overheid</desc>
+</codeSystem>

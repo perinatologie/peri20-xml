@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/codeSystem2html.xsl" type="text/xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd"
+    xmlns="urn:hl7-org:v3">
+    <name>NullFlavor</name>
+    <code code="NI" codeSystem="2.16.840.1.113883.5.1008" displayName="NoInformation">
+        <originalText>No information whatsoever can be inferred from this exceptional value. This is the most general
+            exceptional value. It is also the default exceptional value.</originalText>
+    </code>
+    <code code="MSK" codeSystem="2.16.840.1.113883.5.1008" displayName="masked">
+        <originalText>There is information on this item available but it has not been provided by the sender due to
+            security, privacy or other reasons. There may be an alternate mechanism for gaining access to this
+            information.</originalText>
+    </code>
+    <code code="NA" codeSystem="2.16.840.1.113883.5.1008" displayName="not applicable">
+        <originalText>Known to have no proper value (e.g., last menstrual period for a male).</originalText>
+    </code>
+    <code code="OTH" codeSystem="2.16.840.1.113883.5.1008" displayName="Other">
+        <originalText>The actual value is not an element in the value domain of a variable. (e.g., concept not provided
+            by required code system).</originalText>
+    </code>
+    <code code="NINF" codeSystem="2.16.840.1.113883.5.1008" displayName="negative infinity">
+        <originalText>Negative infinity of numbers.</originalText>
+    </code>
+    <code code="PINF" codeSystem="2.16.840.1.113883.5.1008" displayName="positive infinity">
+        <originalText>Positive infinity of numbers.</originalText>
+    </code>
+    <code code="UNC" codeSystem="2.16.840.1.113883.5.1008" displayName="un-encoded">
+        <originalText>Definition: The actual value has not yet been encoded within the approved valueset for the domain.
+            Example: Original text or a local code has been specified but translation or encoding to the approved
+            valueset has not yet occurred. Usage Notes: If it is known that it is not possible to encode the concept,
+            OTH should be used instead.</originalText>
+    </code>
+    <code code="UNK" codeSystem="2.16.840.1.113883.5.1008" displayName="unknown">
+        <originalText>A proper value is applicable, but not known.</originalText>
+    </code>
+    <code code="ASKU" codeSystem="2.16.840.1.113883.5.1008" displayName="asked but unknown">
+        <originalText>Information was sought but not found (e.g., patient was asked but didn't know)</originalText>
+    </code>
+    <code code="NAV" codeSystem="2.16.840.1.113883.5.1008" displayName="temporarily unavailable">
+        <originalText>Information is not available at this time but it is expected that it will be available
+            later.</originalText>
+    </code>
+    <code code="NASK" codeSystem="2.16.840.1.113883.5.1008" displayName="not asked">
+        <originalText>This information has not been sought (e.g., patient was not asked)</originalText>
+    </code>
+    <code code="QS" codeSystem="2.16.840.1.113883.5.1008" displayName="Sufficient Quantity">
+        <originalText>The specific quantity is not known, but is known to be non-zero and is not specified because it
+            makes up the bulk of the material. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity
+            of water to 100mL.' The null flavor would be used to express the quantity of water.</originalText>
+    </code>
+    <code code="TRC" codeSystem="2.16.840.1.113883.5.1008" displayName="trace">
+        <originalText>The content is greater than zero, but too small to be quantified.</originalText>
+    </code>
+</codeSystem>

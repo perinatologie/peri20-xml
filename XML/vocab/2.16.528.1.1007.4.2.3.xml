@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>SBV-Z Business-Rule Meldingsteksten</name>
+    <desc>SBV-Z Business-Rule Meldingsteksten</desc>
+
+    <code code="BR01" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde gegevens voldoen niet aan een zoekpad"/>
+    <code code="BR02" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde waarde voor het veld BSN voldoet niet aan de 11-proef."/>
+    <code code="BR05" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde waarde voor het veld Geboortedatum moet in het verleden liggen."/>
+    <code code="BR06" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde waarde voor het veld Geboortedatum ligt meer dan 150 jaar in het verleden."/>
+    <code
+        code="BR09" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde waarde voor het veld Geslachtsaanduiding moet voldoen aan één van de volgende waarden: ‘M’ (= Male) of ‘F’ (= Female)."/>
+    <code code="2002" codeSystem="2.16.528.1.1007.4.2.3" displayName="Nummer is geen BSN."/>
+    <code code="20042" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag voldoet niet aan een toegestaan zoekpad."/>
+    <code code="230043" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag voldoet niet aan een toegestaan zoekpad."/>
+    <code code="23006" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag heeft niet tot één persoon geleid."/>
+    <code
+        code="MD013" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag afgekeurd door het overschrijden van het maximaal aantal vragen per dag (&lt;systeemparameter MaximaalAantalVragen IV&gt; vragen)."/>
+    <code
+        code="MD024" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag afgekeurd vanwege het overschrijden van het maximaal aantal vragen voor dit tijdsinterval (&lt;systeemparameter MaximaalAantalVragenPerInterval&gt; vragen per &lt;systeemparameter duurTijdsinterval&gt; minuten)."/>
+    <code code="350043" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag voldoet niet aan een toegestaan zoekpad."/>
+    <code code="35006" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag heeft niet tot één persoon geleid."/>
+    <code code="TF05" codeSystem="2.16.528.1.1007.4.2.3" displayName="Het verifiëren van een BSN wordt niet gefaciliteerd door door Initiële vulling."/>
+    <code code="IV88" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag afgekeurd wegens geen gevonden afspraak voor datum en tijdstip."/>
+    <code code="IV99" codeSystem="2.16.528.1.1007.4.2.3" displayName="Vraag afgekeurd wegens overschrijding van het opgegeven aantal te verwerken vragen."/>
+    <code code="TF02" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde waarde voor het veld Gebruikersidentificatie/UZI-nummer voldoet niet aan het formaat N(9)."/>
+    <code code="TF03" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde waarde voor het veld Gebruikersidentificatie/Naam pashouder voldoet niet aan het formaat A(64)."/>
+    <code code="TF04" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde waarde voor het veld Gebruikersidentificatie/Naam organisatie voldoet niet aan het formaat A(64)."/>
+    <code code="TF06" codeSystem="2.16.528.1.1007.4.2.3" displayName="De ingevoerde waarde voor het veld Gebruikersidentificatie/Abonneenummer voldoet niet aan het formaat N(8)."/>
+</codeSystem>

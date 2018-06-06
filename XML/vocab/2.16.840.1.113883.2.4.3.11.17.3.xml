@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>ActNotificationChannelNL: x_DataDomainNL</name>
+    <desc>Deze tabel bevat de waarden die gelden voor notificatie kanalen.</desc>
+    <code code="EMAIL" codeSystem="2.16.840.1.113883.2.4.3.11.17.3" displayName="E-mail adres"/>
+    <code code="PHONE" codeSystem="2.16.840.1.113883.2.4.3.11.17.3" displayName="Telefoonnummer"/>
+</codeSystem>

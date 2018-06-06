@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>RoleCodeWettelijkeVertegenwoordigerNL</name>
+    <desc>Rolcodes voor gebruik in controlAct wrapper wanner een wettelijk gemachtigde auteur en/of
+        overseer is.</desc>
+    <!-- LET OP: OID is gewijzigd! -->
+    <code code="O" codeSystem="2.16.840.1.113883.2.4.3.11.6" displayName="Ouder">
+        <originalText>Ouderlijk gezag - voor patiënten tot 18 jaar. Ouderlijk gezag wordt altijd
+            uitgeoefend door personen</originalText>
+    </code>
+
+    <code code="V" codeSystem="2.16.840.1.113883.2.4.3.11.6" displayName="Voogd">
+        <originalText>(provisionele) Voogdij - voor patiënten tot 18 jaar. De voogdij kan of bij een
+            persoon liggen (bijv. een pleegouder), of bij een organisatie (een
+            stichting)</originalText>
+    </code>
+
+    <code code="C" codeSystem="2.16.840.1.113883.2.4.3.11.6" displayName="Curator">
+        <originalText>(provisionele) Curatele - voor volwassenen. Vindt plaats op basis van een
+            rechtbankbeschikking. Een ondercuratelestelling wordt bekendgemaakt in de Staatscourant.
+            Ook wordt de ondercuratelestelling geregistreerd in het centrale register van
+            ondercuratelestellingen bij de rechtbank in Den Haag. De curator is altijd een
+            persoon.</originalText>
+    </code>
+
+    <code code="M" codeSystem="2.16.840.1.113883.2.4.3.11.6" displayName="Mentor">
+        <originalText>Mentor (provisioneel) Mentorschap (BW 1:450(boek 1), en tevens BW 1:453 (boek
+            1)) - voor volwassenen. Vindt plaats op basis van een rechtbankbeschikking. Het
+            mentorschap beperkt zich tot belangen 'van niet-vermogensrechtelijke aard' (dat wil
+            zeggen: bijvoorbeeld wel zorgaspecten, meer geen financiële zaken). De mentor is altijd
+            een persoon. Zie tevens deze nadere uitleg over Curatele, Bewind en Mentorschap via
+            http://www.justitie.nl/onderwerpen/familie_en_gezin/curatele_bewind_mentorschap/</originalText>
+    </code>
+</codeSystem>

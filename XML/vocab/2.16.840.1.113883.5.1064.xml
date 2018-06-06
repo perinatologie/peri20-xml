@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>ParticipationMode</name>
+    <desc>Wijze van deelname</desc>
+    <code code="PHYSICAL" codeSystem="2.16.840.1.113883.5.1064" displayName="Fysiek aanwezig">
+        <originalText>Deelname door directe actie waarbij subject en actor op dezlfde locatie zijn.</originalText>
+    </code>
+    <code code="REMOTE" codeSystem="2.16.840.1.113883.5.1064" displayName="Externe aanwezigheid">
+        <originalText>Deelname door directe actie waarbij subject en actor zich in gescheiden locaties bevinden en de acties van de actor via
+            electronische of mechanische middelen worden overgebracht.</originalText>
+    </code>
+    <code code="VERBAL" codeSystem="2.16.840.1.113883.5.1064" displayName="Verbaal">
+        <originalText>Deelname door middel van stemcommunicatie</originalText>
+    </code>
+    <code code="DICTATE" codeSystem="2.16.840.1.113883.5.1064" displayName="Gedicteerd">
+        <originalText>Deelname via vooraf opgenomen stem. Communicatie is beperkt tot één richting (van opgenomene naar ontvanger.</originalText>
+    </code>
+    <code code="FACE" codeSystem="2.16.840.1.113883.5.1064" displayName="Face-to-Face">
+        <originalText>Deelname door middel van stemcommunicatie waarbij partijen elkaar direct spreken.</originalText>
+    </code>
+    <code code="PHONE" codeSystem="2.16.840.1.113883.5.1064" displayName="Telefoon">
+        <originalText>Deelname door middel van stemcommunicatie waarbij partijen elkaar via een electronisch medium spreken spreken.</originalText>
+    </code>
+    <code code="VIDEOCONF" codeSystem="2.16.840.1.113883.5.1064" displayName="Videoconferencing">
+        <originalText>Deelname via stem en visuele communicatie waarbij de stemmen en beelden van de communicerende partijen over een electronisch
+            medium worden overgebracht.</originalText>
+    </code>
+    <code code="WRITTEN" codeSystem="2.16.840.1.113883.5.1064" displayName="Geschreven">
+        <originalText>Deelname door middel van menselijke taal die is vastgelegd op een fysiek medium</originalText>
+    </code>
+    <code code="EMAILWRIT" codeSystem="2.16.840.1.113883.5.1064" displayName="E-mail">
+        <originalText>Deelname door middel van tekst of diagrammen overgedragen met behulp van een electronisch postsysteem</originalText>
+    </code>
+    <code code="FAXWRIT" codeSystem="2.16.840.1.113883.5.1064" displayName="Telefax">
+        <originalText>Deelname door middel van tekst of diagrammen overgedragen met behulp van een electronisch faxsysteem</originalText>
+    </code>
+    <code code="HANDWRIT" codeSystem="2.16.840.1.113883.5.1064" displayName="Handgeschreven">
+        <originalText>Handgeschreven Deelname door middel van tekst of diagrammen afgebeeld op papier of ander opnamemedium</originalText>
+    </code>
+    <code code="TYPEWRIT" codeSystem="2.16.840.1.113883.5.1064" displayName="Getypt">
+        <originalText>Deelname door middel van tekst of diagrammen afgebeeld op papier of ander opnamemedium waarbij de opname is uitgevoerd met
+            behulp van een typmachnie, typesetter, computer of vergelijkbaar mechanisme</originalText>
+    </code>
+
+
+</codeSystem>

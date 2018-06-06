@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3" codeStrength="CWE">
+    <name>G-Standaard GPK</name>
+    <desc>Generieke productcode merkloze aanduiding op basis van de werkzame stof, maar inclusief de sterkte, de farmaceutische vorm (doseervorm) en
+        soms toedieningsweg</desc>
+    <code code="2194" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Paracetamol 500 mg tablet"/>
+    <code code="20303" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="ACENOCOUMAROL CF TABLET 1MG"/>
+    <code code="87424" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="SEREVENT DISKUS INHPDR 50MCG 60DO"/>
+    <code code="95575" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="TRUSOPT OOGDRUPPELS 20MG/ML FLACON 5ML"/>
+    <code code="1465" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Clemastine inj. opl. 2 mg."/>
+    <!--    <code code="2194" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Paracetamol tbl. 500 mg."/>-->
+    <code code="4618" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Biperideen inj. opl. 5 mg."/>
+    <code code="6262" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Furosemide inj. opl. 100 mg."/>
+    <code code="10154" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Aspegic inj. Subst. 500 mg."/>
+    <code code="15334" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Fentanyl inj. opl. 0,1 mg."/>
+    <code code="15849" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Glucagon inj. subst. 1 mg."/>
+    <code code="16101" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Heparine amp. 5000E"/>
+    <code code="19100" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Natriumchloride 0,9% inf. 500 ml. zak"/>
+    <code code="20591" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Diazepam rectiole 5 mg."/>
+    <code code="20605" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Diazepam rectiole 10 mg."/>
+    <code code="20850" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Oxytocine inj. Opl. 5 EH"/>
+    <code code="28746" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Morfine inj. opl. 10 mg."/>
+    <code code="38172" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="MSalbutamol inj. opl. 0,5 mg."/>
+    <code code="39144" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Natriumchloride 0,9% inj. opl. 10 ml. amp"/>
+    <code code="55344" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Metoclopramide inj. opl. 10 mg."/>
+    <code code="60399" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Dexamethasondinatriumfosfaat inj. opl. 5 mg."/>
+    <code code="61913" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Glucose inf. 10% 100 ml."/>
+    <code code="62014" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Glucose inf. 50% 100 ml."/>
+    <code code="75124" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Salbutamol nebule 2,5 mg."/>
+    <code code="81175" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Midazolam 15 mg."/>
+    <code code="81329" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Midazolam 5 mg."/>
+    <code code="87130" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Budesonide nebule 1 mg."/>
+    <code code="91189" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Gelofusine inf. 4% 500 ml."/>
+    <code code="92789" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Adenosine inj. opl. 6 mg."/>
+    <code code="99821" codeSystem="2.16.840.1.113883.2.4.4.1" displayName="Droperidol 2,5 mg."/>
+</codeSystem>

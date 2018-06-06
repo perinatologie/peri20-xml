@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:hl7="urn:hl7-org:v3"
+             targetNamespace="urn:hl7-org:v3"
+             name="RegistreerPersoon">
+   <documentation> WSDL implementatie van RegistreerPersoon</documentation>
+   <types>
+      <xsd:schema targetNamespace="urn:hl7-org:v3" elementFormDefault="qualified">
+         <xsd:include schemaLocation="../schemas_codeGen/MCCI_IN000002.xsd"/>
+      </xsd:schema>
+      <xsd:schema targetNamespace="urn:hl7-org:v3" elementFormDefault="qualified">
+         <xsd:include schemaLocation="../schemas_codeGen/PRPA_IN101301NL.xsd"/>
+      </xsd:schema>
+   </types>
+   <message name="MCCI_IN000002">
+      <part name="body" element="hl7:MCCI_IN000002"/>
+   </message>
+   <message name="PRPA_IN101301NL">
+      <part name="body" element="hl7:PRPA_IN101301NL"/>
+   </message>
+   <portType name="RegistreerPersoon_PortType">
+      <operation name="RegistreerPersoon_RegistreerPersoon">
+         <input message="hl7:PRPA_IN101301NL"/>
+         <output message="hl7:MCCI_IN000002"/>
+      </operation>
+   </portType>
+   <binding type="hl7:RegistreerPersoon_PortType" name="RegistreerPersoon_Binding">
+      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <operation name="RegistreerPersoon_RegistreerPersoon">
+         <soap:operation soapAction="urn:hl7-org:v3/RegistreerPersoon_RegistreerPersoon"/>
+         <input>
+            <soap:body use="literal"/>
+         </input>
+         <output>
+            <soap:body use="literal"/>
+         </output>
+      </operation>
+   </binding>
+   <service name="RegistreerPersoon_Service">
+      <port binding="hl7:RegistreerPersoon_Binding" name="RegistreerPersoon_Port">
+<!-- Deze service location URI verwijst niet naar een echt bestaande webservice. -->
+<soap:address location="http://www.xis.nl/RegistreerPersoon"/>
+      </port>
+   </service>
+</definitions>

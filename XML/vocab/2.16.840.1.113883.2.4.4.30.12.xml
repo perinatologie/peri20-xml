@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+	<name>NHG Tabel 12 Code specialisme</name>
+	<desc></desc>
+	<code code="1" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="alg.maatschappelijk werk"/>
+	<code code="2" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="apotheek"/>
+	<code code="3" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="cardiologie"/>
+	<code code="4" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="chirurgie"/>
+	<code code="5" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="cytologie"/>
+	<code code="6" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="dermatologie"/>
+	<code code="7" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="cardiochirurgie"/>
+	<code code="8" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="allergologie"/>
+	<code code="9" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="fysiotherapie"/>
+	<code code="10" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="gynaecologie"/>
+	<code code="11" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="gezinsverzorging"/>
+	<code code="12" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="interne geneeskunde"/>
+	<code code="13" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="keel-, neus- en oorheelkunde"/>
+	<code code="14" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="laboratorium"/>
+	<code code="15" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="longziekten"/>
+	<code code="16" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="neurologie"/>
+	<code code="17" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="oogheelkunde"/>
+	<code code="18" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="haematologie"/>
+	<code code="19" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="orthopaedie"/>
+	<code code="20" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="kindergeneeskunde"/>
+	<code code="21" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="plastische chirurgie"/>
+	<code code="22" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="politie"/>
+	<code code="23" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="pastorale zorg"/>
+	<code code="24" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="psychiatrie"/>
+	<code code="25" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="rheumatologie"/>
+	<code code="26" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="revalidatiegeneeskunde"/>
+	<code code="27" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="RIAGG"/>
+	<code code="28" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="röntgenologie"/>
+	<code code="29" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="radiotherapie"/>
+	<code code="30" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="sociale dienst"/>
+	<code code="31" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="tandheelkunde"/>
+	<code code="32" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="urologie"/>
+	<code code="33" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="verloskunde (eerste lijn)"/>
+	<code code="34" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="wijkverpleegkunde"/>
+	<code code="35" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="phlebologie"/>
+	<code code="36" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="neurochirurgie"/>
+	<code code="37" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="huisartsgeneeskunde"/>
+	<code code="38" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="homeopathie"/>
+	<code code="39" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="acupunctuur"/>
+	<code code="40" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="manuele therapie"/>
+	<code code="41" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="psychologische zorg"/>
+	<code code="42" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="waarneming"/>
+	<code code="43" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="tropische geneeskunde"/>
+	<code code="44" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="nucleaire geneeskunde"/>
+	<code code="45" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="endocrinologie"/>
+	<code code="46" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="dialyse"/>
+	<code code="47" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="anaesthesie"/>
+	<code code="49" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="diëtiek"/>
+	<code code="50" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="elektrocardiografie"/>
+	<code code="51" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="echografie"/>
+	<code code="52" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="eerste-lijnspsychologie"/>
+	<code code="53" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="gemeensch.admin.kantoor"/>
+	<code code="54" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="gemeent.gezondheidsd."/>
+	<code code="55" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="kaakchirurgie"/>
+	<code code="56" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="keuring"/>
+	<code code="57" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="klinisch genetisch centrum"/>
+	<code code="58" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="logopaedie"/>
+	<code code="59" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="militair geneesk. dienst"/>
+	<code code="60" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="medisch kleuterdagverblijf"/>
+	<code code="61" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="opname in ziekenhuis"/>
+	<code code="62" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="pathologische anatomie"/>
+	<code code="63" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="scopie-afdeling"/>
+	<code code="64" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="neonatologie"/>
+	<code code="65" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="pijnbestrijding"/>
+	<code code="66" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="traumatologie"/>
+	<code code="67" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="vaatchirurgie"/>
+	<code code="68" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="fertiliteitsonderzoek"/>
+	<code code="69" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="intensive care unit"/>
+	<code code="70" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="alternatieve geneeskunde"/>
+	<code code="71" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="audiologisch centrum"/>
+	<code code="72" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="basisgezondheidsdienst"/>
+	<code code="73" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="bedrijfsgeneeskundige dienst"/>
+	<code code="74" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="cesartherapie"/>
+	<code code="75" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="cons. bureau zuigelingenzorg"/>
+	<code code="76" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="cons. bureau alcohol&amp;drugs"/>
+	<code code="77" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="cons. bureau kleuterzorg"/>
+	<code code="78" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="consultatiebureau TBC"/>
+	<code code="79" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="coronary care unit"/>
+	<code code="80" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="diabetologie"/>
+	<code code="81" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="foniatrie"/>
+	<code code="82" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="gastro-enterologie"/>
+	<code code="83" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="gemeensch. med. dienst"/>
+	<code code="84" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="geriatrie"/>
+	<code code="85" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="geslachtsziekten"/>
+	<code code="86" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="gnathologie"/>
+	<code code="87" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="haptonomie"/>
+	<code code="88" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="huidtherapie"/>
+	<code code="89" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="intensieve thuiszorg"/>
+	<code code="91" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="jeugdgezondheidszorg"/>
+	<code code="92" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="klinische chemie"/>
+	<code code="93" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="kruiswerk"/>
+	<code code="94" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="med. microbiologie"/>
+	<code code="95" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="mensendiecktherapie"/>
+	<code code="96" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="nefrologie"/>
+	<code code="97" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="obstetrie (als specialisme)"/>
+	<code code="98" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="oncologie"/>
+	<code code="100" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="optiek (opticiën)"/>
+	<code code="101" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="optometrie"/>
+	<code code="102" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="orthodontie"/>
+	<code code="103" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="orthopaedagogiek"/>
+	<code code="104" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="orthopaed. schoen- en hulpmidd."/>
+	<code code="105" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="paedagogiek"/>
+	<code code="106" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="pedicure-behandeling"/>
+	<code code="107" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="podotherapie"/>
+	<code code="108" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="prenatale diagnostiek"/>
+	<code code="109" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="psychotherapie"/>
+	<code code="110" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="schoolartsendienst"/>
+	<code code="111" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="sexuologie"/>
+	<code code="112" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="sociale geneeskunde"/>
+	<code code="113" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="sport medisch adviescentrum"/>
+	<code code="114" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="sportgeneeskunde"/>
+	<code code="115" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="thoraxchirugie"/>
+	<code code="116" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="verzekeringsgeneeskunde"/>
+	<code code="117" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="eerste hulp"/>
+	<code code="118" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="psychogeriatrie"/>
+	<code code="119" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="ergotherapie"/>
+	<code code="120" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="CARA verpleegkundige"/>
+	<code code="121" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="diabetes verpleegkundige"/>
+	<code code="122" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="longfunctie lab"/>
+	<code code="123" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="vaatlab"/>
+	<code code="124" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="functie lab"/>
+	<code code="125" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="medisch diagnostisch centrum"/>
+	<code code="126" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="diabetes centrum"/>
+	<code code="127" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="verpleeghuisarts"/>
+	<code code="128" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="regionaal indicatie orgaan"/>
+	<code code="129" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="sociaal psyciatrisch verpleegkundige"/>
+	<!-- Voor 'onbekend' en 'overig' moeten nullFlavors gebruikt worden -->
+	<!--<code code="900" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="onbekend"/>
+	<code code="999" codeSystem="2.16.840.1.113883.2.4.4.30.12" codeSystemVersion="v5" displayName="overig"/>-->
+</codeSystem>

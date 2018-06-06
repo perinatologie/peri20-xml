@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>ZorgRapportage</title>
+      <link rel="stylesheet" type="text/css" href="../css/nictiz.css" />
+   </head>
+   <body>
+      <table width="100%">
+         <tr>
+            <td valign="bottom">
+               <h1>ZorgRapportage</h1>
+            </td>
+            <td align="right">
+               <div class="logo"></div>
+            </td>
+         </tr>
+      </table>
+      <p></p>
+      <table class="container">
+         <tr>
+            <td class="content">
+               <!-- Normale interacties -->
+               <!-- WSDL name -->
+               <table class="values">
+                  <tr>
+                     <td class="value-label"> WSDL </td>
+                     <td class="value"><a href="./ZorgRapportage.wsdl">ZorgRapportage.wsdl</a></td>
+                  </tr>
+               </table>
+               <!-- MEP  Message Exchange Pattern (XML):ZorgRapportage_mep.xml-->
+               <!-- Service name -->
+               <table class="values">
+                  <tr>
+                     <td class="value-label"> Service </td>
+                     <td class="value">ZorgRapportage_Service</td>
+                  </tr>
+               </table>
+               <!--Service Location-->
+               <table class="values">
+                  <tr>
+                     <td class="value-label"> Service Location </td>
+                     <td class="value">http://www.xis.nl/ZorgRapportage</td>
+                  </tr>
+               </table>
+               <!--Diagram-->
+               <table class="values">
+                  <tr>
+                     <td class="value-label"> Diagram </td>
+                     <td class="value">
+                        <table>
+                           <tr>
+                              <td> Communicatie op HTTP-niveau: <br /> Iedere pijl van client naar server is een
+                                 															HTTP-request, <br /> iedere pijl terug van server naar client daaronder is de bijbehorende
+                                 															HTTP response. 
+                              </td>
+                           </tr>
+                           <tr>
+                              <td><img alt="Grafische weergave webservice" title="./graphics/ZorgRapportage.png"
+                                      src="./graphics/ZorgRapportage.png" /></td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+               <table class="values">
+                  <tr>
+                     <td>
+                        <h3>Operations</h3>
+                     </td>
+                  </tr>
+               </table>
+               <div class="level2">
+                  <!--Operation-->
+                  <h4>ZorgRapportage_ZorgRapportage</h4>
+                  <div class="level2">
+                     <table width="100%">
+                        <!--SOAP Action-->
+                        <tr>
+                           <td class="labelSmall"> SOAP Action </td>
+                           <td class="value">"urn:hl7-org:v3/ZorgRapportage_ZorgRapportage"</td>
+                        </tr>
+                        <!--Input-->
+                        <tr>
+                           <td class="labelSmall"> Input </td>
+                           <td>
+                              <table>
+                                 <tr>
+                                    <td class="value">
+                                       <table>
+                                          <tr>
+                                             <td class="value-label" colspan="2">hl7:REPC_IN004014NL</td>
+                                          </tr>
+                                          <tr>
+                                             <td>
+                                                <table>
+                                                   <tr>
+                                                      <td class="labelSmall">Schema</td>
+                                                      <td><a href="../schemas_codeGen/REPC_IN004014NL.xsd">REPC_IN004014NL.xsd</a></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td class="labelSmall">Voorbeelden</td>
+                                                      <td>
+                                                         	                <a href="../XML/REPC_EX004014_PRNAanlevering.xml">REPC_EX004014_PRNAanlevering.xml</a> 
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                        <!--Output-->
+                        <tr>
+                           <td class="labelSmall"> Output </td>
+                           <td>
+                              <table>
+                                 <tr>
+                                    <td class="value">
+                                       <table>
+                                          <tr>
+                                             <td class="value-label" colspan="2">hl7:MCCI_IN000002</td>
+                                          </tr>
+                                          <tr>
+                                             <td>
+                                                <table>
+                                                   <tr>
+                                                      <td class="labelSmall">Schema</td>
+                                                      <td><a href="../schemas_codeGen/MCCI_IN000002.xsd">MCCI_IN000002.xsd</a></td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td class="labelSmall">Voorbeelden</td>
+                                                      <td>
+                                                         	                <a href="../xml-Gedeeld/MCCI_EX000002_01.xml">MCCI_EX000002_01.xml</a> 
+                                                         	                <a href="../xml-Applicatiebeheer/MCCI_EX000002_01_TOCK.xml">MCCI_EX000002_01_TOCK.xml</a> 
+                                                         	                <a href="../xml-Gedeeld/MCCI_EX000002_02.xml">MCCI_EX000002_02.xml</a> 
+                                                         	                <a href="../xml-Gedeeld/MCCI_EX000002_03.xml">MCCI_EX000002_03.xml</a> 
+                                                         	                <a href="../xml-Gedeeld/MCCI_EX000002_05.xml">MCCI_EX000002_05.xml</a> 
+                                                         	                <a href="../XML/MCCI_EX000002_Geboortebericht_01.xml">MCCI_EX000002_Geboortebericht_01.xml</a> 
+                                                         	                <a href="../XML/MCCI_EX000002_Geboortebericht_02.xml">MCCI_EX000002_Geboortebericht_02.xml</a> 
+                                                         	                <a href="../XML/MCCI_EX000002_Geboortebericht_03.xml">MCCI_EX000002_Geboortebericht_03.xml</a> 
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <p></p>
+               </div>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3"
+    codeStrength="CWE">
+    <name>AORTA Foutcodes</name>
+    <desc/>
+    <!-- Niet in gebruik op het LSP. -->
+    <code code="ACTIDNF" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Deze actid is niet bekend in de verwijsindex.">
+        <originalText>De verwijsindex is niet bijgewerkt Inhoudelijk</originalText>
+    </code>
+    <code code="AUTERR_ACCOORD" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Patiënt stelt geen gegevens beschikbaar">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AUTERR_ALG" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="U heeft geen toegang tot deze gegevens">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AUTERR_MEDISCH" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Op basis van uw functie bent u niet geautoriseerd voor deze gegevenssoort">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Niet meer actief. --> 
+    <code code="AUTERR_NOOD" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="U heeft geen toegang tot deze gegevens, behalve in noodgevallen">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="CONFEXCXTK" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="De opgegeven HL7 interactie (%1) wordt niet ondersteund door de gekozen XIS-versie">
+        <originalText>Applicatieregister Inhoudelijk</originalText>
+    </code>
+    <code code="FORMAAT_BSN" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuist formaat van de BSN; deze hoort 9 posities numeriek te zijn.">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="FORMAAT_URA" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuist formaat van de URA; deze hoort 8 posities numeriek te zijn.">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="FORMAAT_UZI" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuist formaat van de UZI; deze hoort 9 posities numeriek te zijn.">
+        <originalText>Syntax</originalText>
+    </code>
+    <!-- Dit veld staat nog niet beschreven bij CSC in de foutentabel. Communiceren richting CSC.  
+        <code code="FORMAAT_PKIo" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuist formaat van de BSN">
+        <originalText>BSN hoort 9 posities numeriek te zijn Syntax</originalText>
+    </code>-->
+    <code code="INTEXCROL" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="HL7 interactie %1 valt buiten de toepassingsrol.">
+        <originalText>Applicatieregister Inhoudelijk</originalText>
+    </code>
+    <code code="INVALAPPL" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Applicatie-id valt onder andere URA.">
+        <originalText>Signaleringen Inhoudelijk</originalText>
+    </code>
+    <code code="INVALAPPLGBZ" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="De in het bericht vermelde GBZ %1 komt niet overeen met de in het applicatieregister opgeslagen GBZ voor de applicatie.">
+        <originalText>Applicatieregister Inhoudelijk</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP. --> 
+    <code code="INVALCERT" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Ongeldige certificaat/berichtinhoud combinatie">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INVALIDEANTW" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Antwoord van GBZ correspondeert niet bij gevraagde QueryId of PatientId. Antwoord van GBZ niet vrijgegeven door de ZIM">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INVALIDEDATUM" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuiste datum is opgegeven">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="INVALIDEFUNCTIE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuiste functie: %1">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="INVALIDEGSOORT" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuiste gegevenssoort: %1">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="INVALIDEPROFILE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Profile ID %1 wordt niet ondersteund">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="INVALIDETKID" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Opgenomen TKID (%1) is niet geldig. Overige TKIDs verwerkt.">
+        <originalText>Inhoudelijk</originalText>      
+    </code>
+    <!-- Niet in gebruik op het LSP. --> 
+    <code code="INVALRESPCODE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Invalide response code">
+        <originalText>Ongeldige waarde in het QueryAck. queryResponseCode Syntax</originalText>
+    </code>
+    <code code="INVALQUERYSTART" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="startResultNumber wordt niet ondersteund">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="INVALQUERYID" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="De gebruikte queryID is niet valide">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="INVALIDEXML" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Antwoord van GBZ kan niet door de ZIM verwerkt worden">
+        <originalText>Syntax</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="ROLEXCGBZK" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Zorgtoepassingrol valt buiten GBZ kwalificatie">
+        <originalText>Applicatieregister Inhoudelijk</originalText>
+    </code>
+    <code code="ROLEXCXTK" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Zorgtoepassingrol valt buiten XIS-type kwalificatie">
+        <originalText>Applicatieregister Inhoudelijk</originalText>
+    </code>
+    <code code="RTUDESTZIM" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Deze vraag is niet gericht aan de ZIM">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="SYNZIM" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Er is een technische fout opgetreden">
+        <originalText>Ensemble foutboodschap </originalText>
+    </code>
+    <code code="SYNGBX" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Er is een http-fout %1 opgetreden bij versturen naar %2">
+        <originalText>Details worden opgegeven in meegeleverde tekst.</originalText>
+    </code>
+    <code code="VERSIE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="VersieCode %1 wordt niet ondersteund">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="ZIMBEZIG" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="De ZIM is nog bezig met de afhandeling van de vorige dosering van de query">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="BUS.IEA.001" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="PatiëntId in de transmissionwrapper komt niet overeen met de PatiëntId in de payload">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.001" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="UZI mandaterende niet correct">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.002" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="UZI verlener niet correct">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.003" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="UZI gemandateerde niet correct">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.004" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Rolcode niet correct">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.005" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="URA niet correct">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.006" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Niet binnen geldigheidsduur">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.007" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Mandaattokens of token mandaterende/gemandateerde ontbreekt in register">
+        <originalText>Soap</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.008" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Mandaat is niet geldig">
+        <originalText>Soap</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.009" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Geldigheidsduur verlopen">
+        <originalText>Soap</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.010" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Mandaterende niet correct geregistreerd">
+        <originalText>Soap</originalText>
+    </code>
+    <!-- Niet in gebruik op het LSP.  -->
+    <code code="BUS.MDT.011" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Verlener niet correct geregistreerd">
+        <originalText>Soap</originalText>
+    </code>
+    <code code="BUS.SGL.001" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Maximale duur abonnement overschreden">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!--Foutieve tekst bij CSC -->
+    <code code="BUS.SGL.002" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="De organisatie-id bij het abonnement komt niet overeen met het organisatie-id van de afzender">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!--Wel bekend in foutentabel, maar niet bij CSC. Dit komt overigens niet overeen met de informatie in foutentabel. Aanpassen! -->
+    <code code="BUS.SGL.003" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Het einde van de looptijd van het abonnement is bereikt">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="ACTIONMODELOCKED" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="De actiemodus is door een LSP-beheerder gelocked en kan dus niet worden gewijzigd.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AORTARELEASENOTVALID" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Opgegeven Aorta release niet geldig.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AORTARELEASESCARRSNOTEQUAL" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Aorta releases van de zorgtoepassingsrollen zijn niet alle gelijk.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="APPUNKNOWN" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Applicatie met ID %1 is niet bekend">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AUTERR_CONFRCV" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="De geadresseerde applicatie kan dit interactietype niet verwerken.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AUTERR_CONFSND" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Uw applicatie is op het LSP niet ingesteld voor dit interactietype of versie daarvan.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AUTERR_SWV_FALSE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Er zijn gegevens buiten uw samenwerkingsverband/regio. Informeer bij de patiënt. ">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AUTERR_SWV_GEG" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="U bent niet geautoriseerd voor het opvragen van patientgegevens door zorgaanbieder %1. Wel een samenwerkingsverband gevonden, maar geen match met gegevenssoort %2.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AUTHAPPNOTASXIS" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Authenticatiemethode van de applicatie komt niet overeen met die van het XIS type.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="AUTHENTICATIE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuist verzoek.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="CARRDOESNOTEXIST" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Zorgtoepassingsrol bestaat niet.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="CONFEXCXTKRECEIVE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="De opgegeven HL7 interactie (%1) wordt niet ondersteund voor ontvangen door de gekozen XIS-versie.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="CONFEXCXTKSEND" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="De opgegeven HL7 interactie (%1) wordt niet ondersteund voor versturen door de gekozen XIS-versie.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="ERR_ALG" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="1%">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="GBZQUERYCOUNT" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Vanwege tijdelijke drukte bij de ontvangende applicatie wordt uw verzoek niet doorgestuurd naar de ontvangende applicatie. Probeer het later nog eens.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="HL7INTERACTIONNOTINCARRRECEIVE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="HL7 interactie %1 valt buiten de zorgtoepassingsrol voor ontvangen">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="HL7INTERACTIONNOTINCARRSEND" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="HL7 interactie %1 valt buiten de zorgtoepassingsrol voor versturen">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INACTIVEAPP" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Applicatie met ID %1 is niet actief">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INACTIVEGBZ" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="GBZ met ID %1 is niet actief">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INSPARW" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Het antwoord op uw vraag leverde meer dan het maximum van %1 resultaten op. Wijzig uw vraag om het aantal resultaten te beperken.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INVALIDECODE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="De gebruikte code %1 voor %2 mag hier niet gebruikt worden.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INVALIDEQUALIFIER" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Er staat een ongeldige qualifier %1 in het HL7 bericht.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INVALIDEUSE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Er staat een ongeldige code %1 in het HL7 bericht.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="INVALQUERYACT" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="De combinatie van query parameters is ongeldig.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="KEY204" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Dit patiëntstuk is niet bekend in de verwijsindex. De verwijsindex is niet bijgewerkt.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="KEY205" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Dit patiëntstuk is al bekend in de verwijsindex. De verwijsindex is niet bijgewerkt.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NAT" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onvoldoende autorisatie.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NOGUESTEXTERNAL" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="U gebruikt uw pas in een andere organisatie terwijl uw eigen organisatie nog geen toestemming voor gastgebruik heeft gegeven.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NOGUESTINDIVIDUAL" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="U gebruikt uw pas in een andere organisatie. Gastgebruik is echter alleen toegestaan met een individuele zorgverlenerpas.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NOGUESTINTERNAL" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="U gebruikt uw pas in een organisatie die nog niet heeft aangegeven gastgebruik toe te staan.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Typo hieronder als wel bij CSC. Het woord "voor" moet worden verwijderd. -->
+    <code code="NOGUESTEXTERNALGBK" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Systeem type GBK niet toegestaan voor omdat de gekoppelde organisatie extern gastgebruik toestaat.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NOGUESTINDIVIDUALGBK" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Gastgebruik indivuduele zorgverleners is niet toegestaan bij GBK.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NOGUESTINTERNALGBK" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Intern gastgebruik is niet toegestaan bij GBK.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!-- Typo hieronder als wel bij CSC. Het woord "voor" moet worden verwijderd. -->
+    <code code="NOGUESTEXTERNALGBP" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Systeem type GBP niet toegestaan voor omdat de gekoppelde organisatie extern gastgebruik toestaat.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NOGUESTINDIVIDUALGBP" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Gastgebruik indivuduele zorgverleners is niet toegestaan bij GBP.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NOGUESTINTERNALGBP" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Intern gastgebruik is niet toegestaan bij GBP.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="NOTRANSACTION" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Er is geen verzoek tot overdracht bij de ZIM bekend, of het verzoek is geëxpireerd.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="TRANSACTIONEXISTS" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Bestemde %GB% heeft verzoek mbt patiëntstuk-id reeds verwerkt.">
+        <originalText>Inhoudelijk</originalText>
+    </code>  
+    <code code="NOCONTEXT" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Onbekende Contextcode %1.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    
+    <code code="NS101" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Een verplichte waarde is niet in het bericht aanwezig: %1.">
+        <originalText>Syntax</originalText>
+    </code>
+    <!-- QABRTTI vs QABRTITI --> 
+    <code code="QABRTTI" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Query sessie afgebroken vanwege een time-out. Het responsebericht is niet (op tijd) ontvangen van %1.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="QTITI" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Na ontvangst van de query is vastgesteld dat het niet mogelijk is deze binnen de gestelde tijd uit te voeren.">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="REQUIREDHL7INTERACTIONMISSINGRECEIVE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="HL7 interactie %1 is volgens de zorgtoepassingsrol en/of XIS type verplicht voor ontvangen, maar is niet aanwezig in de conformancetabel van de applicatie.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="REQUIREDHL7INTERACTIONMISSINGSEND" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="HL7 interactie %1 is volgens de zorgtoepassingsrol en/of XIS type verplicht voor versturen, maar is niet aanwezig in de conformancetabel van de applicatie.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <!--Tekst staat verkeerd in ZIM -->
+    <code code="RTEDEST" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="De doelapplicatie %1 is weliswaar bekend bij de ZIM, maar is niet bereikbaar via GBZ %2.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="RTUDEST" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="De doelapplicatie %1 is niet bekend bij de ZIM.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="SCHEMAFOUT" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onjuist verzoek.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="SOAPMOD" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="De modaliteitscode %1 wordt niet ondersteund voor deze interactie.">
+        <originalText>Syntax</originalText>
+    </code>
+    <code code="UNSUPPORTEDQUERYPARAMETER" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Het queryparameter %1 is niet geldig omdat het queryattribuut %2 niet wordt ondersteund.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="USRQUERYCOUNT" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="De waarde voor gebruiker-max-queries is overschreden.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="XISVERSIONDOESNOTEXIST" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Opgegeven XIStype bestaat niet.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    <code code="XISVERSIONNOTPROVIDED" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="XIS typekwalificatie ontbreekt.">
+        <originalText>Inhoudelijk</originalText>
+    </code>   
+    <code code="AuthTokenMessageMismatch" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="Authenticatietoken en bericht stemmen niet overeen.">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="ExpirationTimeError" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="ExpirationTimeError">
+       <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="FailedAuthentication" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="FailedAuthentication">
+       <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="AUTHTOKENINVALID" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="AuthTokenInvalid">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="AUTHTOKENMESSAGEMISMATCH" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="AuthTokenMessageMismatch">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="AUTHTOKENMISMATCH" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="AuthTokenMismatch">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="UNSUPPORTEDSECURITYTOKEN" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="UnsupportedSecurityToken">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="UNSUPPORTEDSOAPACTION" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="UnsupportedSoapAction">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="TOKENVALIDITYPERIOD" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="TokenValidityPeriod">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="NONCEREJECTED" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="NonceRejected">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="ONGELDIGEBERICHTSTRUCTUUR" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="OngeldigeBerichtStructuur">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="ONGELDIGEOVERSEER" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="OngeldigeOverseer">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="ONGELDIGEOVERSEERFUNCTIE" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="OngeldigeOverseerFunctie">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="ONGELDIGESTRUCTUUR" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="OngeldigeStructuur">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="ONGELDIGEWRAPPER" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="OngeldigeWrapper">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code>
+    <code code="ONGELDIGTOKEN" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="OngeldigToken">
+        <originalText>XSG Inhoudelijk</originalText>
+    </code> 
+    <code code="HL7INTERACTIONNOTSUPPORTED" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000"
+        displayName="HL7 interactie %1 zal niet tot een antwoord leiden, omdat deze niet wordt ondersteund.">
+        <originalText>Inhoudelijk</originalText>
+    </code>
+    
+    <!-- Laboratorium -->
+    <code code="OND100" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onderliggend onderzoek wordt niet ondersteund">
+        <originalText>Kan gevraagde document niet aanmaken omdat onderliggend onderzoek / onderliggende procedure niet uitgevoerd kan worden</originalText>
+    </code>
+    <code code="LAB200" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Geen monster(s) ten bate van onderliggend onderzoek.">
+        <originalText>Kan gevraagde labuitslagdocument niet aanmaken omdat de voor het onderliggende onderzoek benodigde monsters niet aanwezig zijn.</originalText>
+    </code>
+    <code code="LAB201" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Onderliggend onderzoek is redundant.">
+        <originalText>Kan gevraagde labuitslagdocument niet aanmaken omdat onderliggend onderzoek redundant is.</originalText>
+    </code>
+    <code code="MON100" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Patient niet nuchter bij monsterafname.">
+        <originalText>Kan gevraagde labafnamedocument niet aanmaken want patient was niet nuchter bij de monsterafname (voedsel/medicatie/andere factoren van invloed)</originalText>
+    </code>
+    <code code="MON101" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Patient kon materiaal niet produceren bij monsterafname">
+        <originalText>Kan gevraagde labafnamedocument niet aanmaken want patient kon materiaal niet produceren</originalText>
+    </code>
+    <code code="MON102" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Monsterafname alleen op afspraak.">
+        <originalText>Kan gevraagde labafnamedocument niet aanmaken omdat patient alleen op afspraak terecht kan voor monsterafname</originalText>
+    </code>
+    <code code="MON103" codeSystem="2.16.840.1.113883.2.4.6.6.1.1000" displayName="Patiënt niet teruggekomen."/>
+</codeSystem>

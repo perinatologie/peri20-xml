@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>G-Standaard Tabel 40</name>
+    <desc>G-Standaard Tabel 40</desc>
+    <code code="18" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="HYPERTENSIE"/>
+    <code code="24" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="ASTMA EN CHRONISCH OBSTRUCTIEVE LONGZIEKTEN"/>
+    <code code="38" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="DEPRESSIE"/>
+    <code code="42" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="EPILEPSIE"/>
+    <code code="64" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="GLAUCOOM, NAUWE KAMERHOEK"/>                           
+    <code code="66" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="GLAUCOOM, OPEN KAMERHOEK, ONBEHANDELD"/>   
+    <code code="67" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="GLAUCOOM, NAUWE-KAMERHOEK &amp; PRIMAIR OPEN-KAMERHOEK"/>                 
+    <code code="70" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="ANGINA PECTORIS"/>
+    <code code="72" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="HARTFALEN"/>
+    <code code="78" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="GLUCOSE-6-FOSFAAT-DEHYDROGENASE-DEFICIENTIE"/>  
+    <code code="98" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="JICHT"/>
+    <!--code code="108" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="LACTATIE (vanaf 1/4/07 vervangen door 1330)"/-->                                           
+    <code code="118" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="LEVERFUNCTIESTOORNIS"/>
+    <code code="136" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="MYASTHENIA GRAVIS"/>
+    <code code="137" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="VERMINDERDE NIERFUNCTIE"/>
+    <code code="158" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="ULCUS PEPTICUM"/>
+    <code code="162" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="PARKINSON, ZIEKTE VAN"/>                               
+    <code code="178" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="PSORIASIS"/>
+    <code code="183" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="SCHILDKLIERAANDOENING"/>
+    <code code="190" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="DIABETES MELLITUS"/>
+    <!--code code="200" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="ZWANGERSCHAP/KINDERWENS (vanaf 1/4/07 vervangen door 1310 of 1320)"/--> 
+    <code code="207" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="RISICOGROEP VOOR INFLUENZAVACCINATIE"/>
+    <code code="209" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="PORFYRIE"/>
+    <code code="210" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="DOPING"/>
+    <code code="211" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="BENIGNE PROSTAATHYPERPLASIE"/>
+    <code code="212" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="COELIAKIE"/>
+    <code code="213" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="FENYLKETONURIE"/>
+    <code code="214" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="REFLUXZIEKTE"/>
+    <code code="215" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="SLAAPAPNEU"/>
+    <code code="216" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="VENEUZE TROMBOSE"/>
+    <code code="217" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="ARTERIELE TROMBOSE"/>
+    <code code="500" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="501" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="502" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="503" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="504" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="505" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="506" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="507" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="508" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="509" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="510" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="511" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="512" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="513" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="514" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="515" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="516" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="517" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="518" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="519" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="520" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="521" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="522" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="523" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="524" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="525" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="526" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="diverse genetische kenmerken"/>
+    <code code="1300" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="KINDERWENS (MAN)"/> 
+    <code code="1310" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="KINDERWENS (VROUW)"/> 
+    <code code="1320" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="ZWANGERSCHAP"/>
+    <code code="1330" codeSystem="2.16.840.1.113883.2.4.4.1.902.40" displayName="BORSTVOEDING"/>
+</codeSystem>

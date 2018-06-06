@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>ActUncertainty</name>
+    <desc>Mate van zekerheid/onzekerheid</desc>
+    <code code="N" codeSystem="2.16.840.1.113883.5.1053" displayName="Geen uitspraak over onzekerheid">
+        <originalText>Het verzendende systeem doet geen uitspraak over de mate van 
+            onzekerheid omtrent de inhoud van het betreffende gegeven. 
+            
+            Let op: dit is dus niet hetzelfde als ‘zeker’. Er is bewust voor gekozen om 
+            hiervoor geen code toe te voegen, aangezien zekerheid altijd een 
+            subjectief begrip is. Het domein ActUncertainty biedt dus alleen de 
+            mogelijkheid om onzekerheid (maar geen zekerheid) expliciet te maken.</originalText>
+    </code>
+    <code code="U" codeSystem="2.16.840.1.113883.5.1053" displayName="Onzeker">
+        <originalText>Het verzendende systeem geeft expliciet aan dat er onzekerheid bestaat 
+            over de betrouwbaarheid of accuraatheid van het betreffende gegeven. </originalText>
+    </code>
+</codeSystem>

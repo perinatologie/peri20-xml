@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schematron_closed_warnings/peri20-admgeb-22.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schematron/peri20-admgeb-22.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<PRPA_IN101301NL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:hl7-org:v3 ../schemas/PRPA_IN101301NL.xsd" xmlns="urn:hl7-org:v3">
+    <!-- GEBOORTEBERICHT. Doodgeborene zonder BSN, moeder met BSN -->
+    <!-- ABC Verloskundige praktijk registreert de geboorte van een 
+    	zoon van An Klein (met BSN 900000107) -->
+    
+    <!-- Unieke identificatie (lopend nummer) van dit HL7v3 bericht  zoals uitgegeven door het zendende systeem-->
+	<id extension="3948373" root="2.16.840.1.113883.2.4.6.1.2344.17"/>
+	<creationTime value="20150202134200"/>
+	<versionCode code="NICTIZEd2005-Okt"/>
+	<!-- Interactie is een activatie van een person record (PRPA_IN101301NL). Dit is een HL7 interne code, 
+	de OID is afkomstig van de HL7 organisatie zelf -->
+	<interactionId extension="PRPA_IN101301NL" root="2.16.840.1.113883.1.6"/>
+	<!-- ProfileId is een vaste waarde die de implementatiegids voor dit berichttype identificeert -->
+	<profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
+	<processingCode code="P"/>
+	<processingModeCode code="T"/>
+	<acceptAckCode code="AL"/>
+	<receiver>
+		<device>
+			<!-- ID van de ontvangende softwareapplicatie -->
+			<id extension="3" root="2.16.840.1.113883.2.4.6.6"/>
+		</device>
+	</receiver>
+	<sender>
+		<device>
+			<!-- ID van de zendende softwareapplicatie -->
+			<id extension="1" root="2.16.840.1.113883.2.4.6.1.2344.3"/>
+			<name>Verloskundige software applicatie X van praktijk ABC</name>
+		</device>
+	</sender>
+	<ControlActProcess moodCode="EVN">
+		<!-- De auteur hoeft niet verzonden te worden.
+			Het HL7 schema stelt een authorOrPerformer verplicht, 
+			dit is de identificatie van het verzendende systeem.
+			Deze mag leeg (met nullFlavor) blijven, of een id van de applicatie bevatten. -->
+		<authorOrPerformer typeCode="AUT">
+			<participant>
+				<AssignedDevice>
+					<id nullFlavor="NI"/>
+				</AssignedDevice>
+			</participant>
+		</authorOrPerformer>
+		<subject>
+			<registrationProcess moodCode="EVN">
+				<!-- 118118 is een vaste waarde voor Persoonsregisters -->
+				<code code="118118" codeSystem="2.16.840.1.113883.2.4.15.4"/>
+				<statusCode code="active"/>
+				<effectiveTime value="20150202134200"/>
+				<subject1>
+					<!-- Gegevens nieuwgeborene -->
+					<identifiedPerson classCode="IDENT">
+						<!-- BSN van het kind (als bekend) -->
+						<id nullFlavor="NI"/>
+						<addr use="HP">
+							<streetName>Vondelstraat</streetName>
+							<houseNumber>23a</houseNumber>
+							<postalCode>1200 BR</postalCode>
+							<city>Den Haag</city>
+						</addr>
+						<statusCode code="active"/>
+						<identifiedPerson>
+							<name use="L">
+								<!-- Achternaam kind moet gevuld zijn -->
+								<family>Klein</family>
+							</name>
+							<telecom use="HP" value="tel:0201002000"/>
+							<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
+							<birthTime value="201502021230"/>
+							<deceasedInd value="true"/>
+							<deceasedTime value="201502021230"/>
+							<multipleBirthInd value="true"/>
+							<multipleBirthOrderNumber value="2"/>
+							<personalRelationship>
+								<!-- NMTH = Natural mother -->
+								<code code="NMTH" codeSystem="2.16.840.1.113883.5.111"/>
+								<relationshipHolder>
+									<id root="2.16.840.1.113883.2.4.6.3" extension="900000107"/>
+									<name>
+										<given>An</given>
+										<family>Klein</family>
+									</name>
+								</relationshipHolder>
+							</personalRelationship>
+							<birthPlace>
+								<addr>
+									<city>Amsterdam</city>
+								</addr>
+							</birthPlace>
+						</identifiedPerson>
+						<!-- De inzendende organisatie hoeft niet aan PRN doorgegeven te worden.
+							Het HL7 schema verplicht dit wel, inhoud mag leeg (m et nullFlavor) blijven. -->
+						<assigningOrganization classCode="ORG" determinerCode="INSTANCE">
+							<id nullFlavor="NI"/>
+							<contactParty classCode="CON"/>
+						</assigningOrganization>
+					</identifiedPerson>
+				</subject1>
+			</registrationProcess>
+		</subject>
+	</ControlActProcess>
+</PRPA_IN101301NL>

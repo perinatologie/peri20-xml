@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>ActRegistryCode: x_DataDomainNL</name>
+    <desc>Deze tabel bevat de waarden die de gegevenssoort van de in de verwijsindex opgeslagen gegevens bepalen.</desc>
+    <code code="272353" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Medicatieverstrekking">
+        <reference root="2.16.840.1.113883.5.6" extension="SPLY"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="585626" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Medicatietoediening">
+        <reference root="2.16.840.1.113883.5.6" extension="SBADM"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="722933" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Medicatievoorschrift">
+        <reference root="2.16.840.1.113883.5.6" extension="SBADM"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="RQO"/>
+    </code>
+    <code code="902200" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Care Provision">
+        <reference root="2.16.840.1.113883.5.6" extension="PCPR"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="460320" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Huisarts Care Provision">
+        <reference root="2.16.840.1.113883.5.6" extension="PCPR"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="380630" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="JGZ Care Provision">
+        <reference root="2.16.840.1.113883.5.6" extension="PCPR"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="900000" codeSystem="2.16.840.1.113883.2.4.15.4" codeSystemName="ActRegistryCode" displayName="Perinatale Care Provision">
+        <reference root="2.16.840.1.113883.5.6" extension="PCPR"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="115115" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Patiëntprofiel"/>
+    <code code="117117" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Organisatie- identificerende /demografische gegevens"/>
+    <code code="118118" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Persoon- identificerende /demografische gegevens"/>
+    <code code="603508" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Zorgverlener-identificerende/ demografische gegevens"/>
+    <code code="302850" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Applicatie identificerende en beschrijvende gegevens"/>
+    <code code="116116" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Autorisatieprofiel EPD voor zorgconsumenten">
+        <reference root="2.16.840.1.113883.5.6" extension="CONS"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="585858" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Mandaattoken">
+        <reference root="2.16.840.1.113883.5.6" extension="CONS"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="118400" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Document"/>
+    <code code="288432" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Conditie">
+        <reference root="2.16.840.1.113883.5.6" extension="COND"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="800310" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Overgevoeligheid">
+        <reference root="2.16.840.1.113883.5.6" extension="COND"/>
+        <reference root="2.16.840.1.113883.5.1001" extension="EVN"/>
+    </code>
+    <code code="834295" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Monstergerelateerd onderzoek"/>
+    <code code="188011" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Beeldvormend onderzoek"/>
+<!-- Toevoegingen e-Lab -->
+    <code code="703406" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="CDA-labuitslagdocument"/>
+    <code code="504871" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="CDA-labafnamedocument"/>
+    <code code="872304" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="CDA-labaanvraagdocument"/>
+    <code code="908809" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Procesgerichte aanmelding van een labuitslagaanvraag"/>
+    <code code="909909" codeSystem="2.16.840.1.113883.2.4.15.4" displayName="Procesgerichte aanmelding van een labafnameaanvraag"/>
+</codeSystem>

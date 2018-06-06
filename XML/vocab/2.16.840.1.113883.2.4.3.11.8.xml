@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <!-- Oude naam: VertegenwoordigingstypenWetEPD -->
+    <name>RoleCodeToegangPatiëntNL</name>
+    <desc>Rolcodes voor gebruik in controlAct wrapper wanneer de patiënt of het klantenloket auteur en/of overseer is.</desc>
+    <!-- LET OP: OID is gewijzigd! -->
+    <code code="P" codeSystem="2.16.840.1.113883.2.4.3.11.8" displayName="Patiënt"/>
+    <code code="KLANTENLOKET" codeSystem="2.16.840.1.113883.2.4.3.11.8" displayName="Medewerker klantenloket"/>
+</codeSystem>

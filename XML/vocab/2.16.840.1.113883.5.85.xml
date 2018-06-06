@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>OrderableDrugForm</name>
+    <desc/>
+    <!-- 0-A _AdministrableDrugForm ()-->
+    <code code="APPFUL" codeSystem="2.16.840.1.113883.5.85" displayName="Applicatorful">
+        <originalText> Concept Properties: internalId: 14572</originalText>
+    </code>
+    <code code="NDROP" codeSystem="2.16.840.1.113883.5.85" displayName="Nasal Drops">
+        <originalText> Concept Properties: internalId: 14422</originalText>
+    </code>
+    <code code="OPDROP" codeSystem="2.16.840.1.113883.5.85" displayName="Ophthalmic Drops">
+        <originalText> Concept Properties: internalId: 14421</originalText>
+    </code>
+    <code code="ORDROP" codeSystem="2.16.840.1.113883.5.85" displayName="Oral Drops">
+        <originalText> Concept Properties: internalId: 14423</originalText>
+    </code>
+    <code code="OTDROP" codeSystem="2.16.840.1.113883.5.85" displayName="Otic Drops">
+        <originalText> Concept Properties: internalId: 14424</originalText>
+    </code>
+    <code code="PUFF" codeSystem="2.16.840.1.113883.5.85" displayName="Puff">
+        <originalText> Concept Properties: internalId: 14571</originalText>
+    </code>
+    <code code="SCOOP" codeSystem="2.16.840.1.113883.5.85" displayName="Scoops">
+        <originalText> Concept Properties: internalId: 14574</originalText>
+    </code>
+    <code code="SPRY" codeSystem="2.16.840.1.113883.5.85" displayName="Sprays">
+        <originalText> Concept Properties: internalId: 14573</originalText>
+    </code>
+    <!-- 0-A _DispensableDrugForm (v:DispensableDrugForm)-->
+    <!-- 1-A _GasDrugForm (v:GasDrugForm)-->
+    <code code="GASINHL" codeSystem="2.16.840.1.113883.5.85" displayName="Gas for Inhalation">
+        <originalText> Concept Properties: internalId: 14569</originalText>
+    </code>
+    <!-- 1-A _GasLiquidMixture (v:GasLiquidMixture)-->
+    <code code="BAINHL" codeSystem="2.16.840.1.113883.5.85" displayName="Breath Activated Inhaler">
+        <originalText> Concept Properties: internalId: 14553</originalText>
+    </code>
+    <code code="INHLSOL" codeSystem="2.16.840.1.113883.5.85" displayName="Inhalant Solution">
+        <originalText> Concept Properties: internalId: 14555</originalText>
+    </code>
+    <code code="MDINHL" codeSystem="2.16.840.1.113883.5.85" displayName="Metered Dose Inhaler">
+        <originalText> Concept Properties: internalId: 14552</originalText>
+    </code>
+    <code code="NASSPRY" codeSystem="2.16.840.1.113883.5.85" displayName="Nasal Spray">
+        <originalText> Concept Properties: internalId: 14554</originalText>
+    </code>
+    <code code="DERMSPRY" codeSystem="2.16.840.1.113883.5.85" displayName="Dermal Spray">
+        <originalText> Concept Properties: internalId: 14556</originalText>
+    </code>
+    <code code="FOAMAPL" codeSystem="2.16.840.1.113883.5.85" displayName="Foam with Applicator">
+        <originalText> Concept Properties: internalId: 14547</originalText>
+    </code>
+    <code code="RECFORM" codeSystem="2.16.840.1.113883.5.85" displayName="Rectal foam">
+        <originalText> Concept Properties: internalId: 14548</originalText>
+    </code>
+    <code code="VAGFOAMAPL" codeSystem="2.16.840.1.113883.5.85" displayName="Vaginal foam with applicator">
+        <originalText> Concept Properties: internalId: 14550</originalText>
+    </code>
+    <code code="RECSPRY" codeSystem="2.16.840.1.113883.5.85" displayName="Rectal Spray">
+        <originalText> Concept Properties: internalId: 14557</originalText>
+    </code>
+    <code code="VAGSPRY" codeSystem="2.16.840.1.113883.5.85" displayName="Vaginal Spray">
+        <originalText> Concept Properties: internalId: 14558</originalText>
+    </code>
+    <!-- 1-A _GasSolidSpray (v:GasSolidSpray)-->
+    <code code="BAINHLPWD" codeSystem="2.16.840.1.113883.5.85" displayName="Breath Activated Powder Inhaler">
+        <originalText> Concept Properties: internalId: 14562</originalText>
+    </code>
+    <code code="INHLPWD" codeSystem="2.16.840.1.113883.5.85" displayName="Inhalant Powder">
+        <originalText> Concept Properties: internalId: 14561</originalText>
+    </code>
+    <code code="MDINHLPWD" codeSystem="2.16.840.1.113883.5.85" displayName="Metered Dose Powder Inhaler">
+        <originalText> Concept Properties: internalId: 14563</originalText>
+    </code>
+    <code code="NASINHL" codeSystem="2.16.840.1.113883.5.85" displayName="Nasal Inhalant">
+        <originalText> Concept Properties: internalId: 14564</originalText>
+    </code>
+    <code code="ORINHL" codeSystem="2.16.840.1.113883.5.85" displayName="Oral Inhalant">
+        <originalText> Concept Properties: internalId: 14565</originalText>
+    </code>
+    <code code="PWDSPRY" codeSystem="2.16.840.1.113883.5.85" displayName="Powder Spray">
+        <originalText> Concept Properties: internalId: 14567</originalText>
+    </code>
+    <code code="SPRYADAPT" codeSystem="2.16.840.1.113883.5.85" displayName="Spray with Adaptor">
+        <originalText> Concept Properties: internalId: 14566</originalText>
+    </code>
+    <!-- 1-A _Liquid (v:Liquid)-->
+    <code code="LIQSOAP" codeSystem="2.16.840.1.113883.5.85" displayName="Medicated Liquid Soap">
+        <originalText> Concept Properties: internalId: 14415</originalText>
+    </code>
+    <code code="SHMP" codeSystem="2.16.840.1.113883.5.85" displayName="Shampoo">
+        <originalText>Definition: A liquid soap or detergent used to clean the hair and scalp and is often used as a vehicle for dermatologic
+            agents.</originalText>
+    </code>
+    <code code="TOPOIL" codeSystem="2.16.840.1.113883.5.85" displayName="Topical Oil">
+        <originalText> Concept Properties: internalId: 14418</originalText>
+    </code>
+    <code code="IPSOL" codeSystem="2.16.840.1.113883.5.85" displayName="Intraperitoneal Solution">
+        <originalText> Concept Properties: internalId: 14425</originalText>
+    </code>
+    <code code="DOUCHE" codeSystem="2.16.840.1.113883.5.85" displayName="Douche">
+        <originalText>Definition: A liquid preparation, intended for the irrigative cleansing of the vagina, that is prepared from powders, liquid
+            solutions, or liquid concentrates and contains one or more chemical substances dissolved in a suitable solvent or mutually miscible
+            solvents.</originalText>
+    </code>
+    <code code="ENEMA" codeSystem="2.16.840.1.113883.5.85" displayName="Enema">
+        <originalText>Definition: A rectal preparation for therapeutic, diagnostic, or nutritive purposes.</originalText>
+    </code>
+    <code code="OPIRSOL" codeSystem="2.16.840.1.113883.5.85" displayName="Ophthalmic Irrigation Solution">
+        <originalText> Concept Properties: internalId: 14430</originalText>
+    </code>
+    <code code="IVSOL" codeSystem="2.16.840.1.113883.5.85" displayName="Intravenous Solution">
+        <originalText> Concept Properties: internalId: 14426</originalText>
+    </code>
+    <code code="ELIXIR" codeSystem="2.16.840.1.113883.5.85" displayName="Elixir">
+        <originalText>Definition: A clear, pleasantly flavored, sweetened hydroalcoholic liquid containing dissolved medicinal agents; it is intended
+            for oral use.</originalText>
+    </code>
+    <code code="RINSE" codeSystem="2.16.840.1.113883.5.85" displayName="Mouthwash/Rinse">
+        <originalText>Definition: An aqueous solution which is most often used for its deodorant, refreshing, or antiseptic effect.</originalText>
+    </code>
+    <code code="SYRUP" codeSystem="2.16.840.1.113883.5.85" displayName="Syrup">
+        <originalText>Definition: An oral solution containing high concentrations of sucrose or other sugars; the term has also been used to include
+            any other liquid dosage form prepared in a sweet and viscid vehicle, including oral suspensions.</originalText>
+    </code>
+    <code code="RECSOL" codeSystem="2.16.840.1.113883.5.85" displayName="Rectal Solution">
+        <originalText> Concept Properties: internalId: 14436</originalText>
+    </code>
+    <code code="LIN" codeSystem="2.16.840.1.113883.5.85" displayName="Liniment">
+        <originalText>Definition: A solution or mixture of various substances in oil, alcoholic solutions of soap, or emulsions intended for external
+            application.</originalText>
+    </code>
+    <code code="MUCTOPSOL" codeSystem="2.16.840.1.113883.5.85" displayName="Mucous Membrane Topical Solution">
+        <originalText> Concept Properties: internalId: 14440</originalText>
+    </code>
+    <code code="TINC" codeSystem="2.16.840.1.113883.5.85" displayName="Tincture">
+        <originalText> Concept Properties: internalId: 14439</originalText>
+    </code>
+    <!-- 1-A _LiquidLiquidEmulsion (v:LiquidLiquidEmulsion)-->
+    <code code="NASCRM" codeSystem="2.16.840.1.113883.5.85" displayName="Nasal Cream">
+        <originalText> Concept Properties: internalId: 14467</originalText>
+    </code>
+    <code code="OPCRM" codeSystem="2.16.840.1.113883.5.85" displayName="Ophthalmic Cream">
+        <originalText> Concept Properties: internalId: 14468</originalText>
+    </code>
+    <code code="ORCRM" codeSystem="2.16.840.1.113883.5.85" displayName="Oral Cream">
+        <originalText> Concept Properties: internalId: 14469</originalText>
+    </code>
+    <code code="OTCRM" codeSystem="2.16.840.1.113883.5.85" displayName="Otic Cream">
+        <originalText> Concept Properties: internalId: 14470</originalText>
+    </code>
+    <code code="RECCRM" codeSystem="2.16.840.1.113883.5.85" displayName="Rectal Cream">
+        <originalText> Concept Properties: internalId: 14471</originalText>
+    </code>
+    <code code="TOPCRM" codeSystem="2.16.840.1.113883.5.85" displayName="Topical Cream">
+        <originalText> Concept Properties: internalId: 14472</originalText>
+    </code>
+    <code code="VAGCRMAPL" codeSystem="2.16.840.1.113883.5.85" displayName="Vaginal Cream with Applicator">
+        <originalText> Concept Properties: internalId: 14474</originalText>
+    </code>
+    <code code="TOPLTN" codeSystem="2.16.840.1.113883.5.85" displayName="Topical Lotion">
+        <originalText> Concept Properties: internalId: 14465</originalText>
+    </code>
+    <code code="NASOINT" codeSystem="2.16.840.1.113883.5.85" displayName="Nasal Ointment">
+        <originalText> Concept Properties: internalId: 14479</originalText>
+    </code>
+    <code code="OINTAPL" codeSystem="2.16.840.1.113883.5.85" displayName="Ointment with Applicator">
+        <originalText> Concept Properties: internalId: 14476</originalText>
+    </code>
+    <code code="OPOINT" codeSystem="2.16.840.1.113883.5.85" displayName="Ophthalmic Ointment">
+        <originalText> Concept Properties: internalId: 14477</originalText>
+    </code>
+    <code code="OTOINT" codeSystem="2.16.840.1.113883.5.85" displayName="Otic Ointment">
+        <originalText> Concept Properties: internalId: 14478</originalText>
+    </code>
+    <code code="RECOINT" codeSystem="2.16.840.1.113883.5.85" displayName="Rectal Ointment">
+        <originalText> Concept Properties: internalId: 14480</originalText>
+    </code>
+    <code code="TOPOINT" codeSystem="2.16.840.1.113883.5.85" displayName="Topical Ointment">
+        <originalText> Concept Properties: internalId: 14481</originalText>
+    </code>
+    <code code="VAGOINTAPL" codeSystem="2.16.840.1.113883.5.85" displayName="Vaginal Ointment with Applicator">
+        <originalText> Concept Properties: internalId: 14483</originalText>
+    </code>
+    <!-- 1-A _LiquidSolidSuspension (v:LiquidSolidSuspension)-->
+    <code code="GELAPL" codeSystem="2.16.840.1.113883.5.85" displayName="Gel with Applicator">
+        <originalText> Concept Properties: internalId: 14443</originalText>
+    </code>
+    <code code="NASGEL" codeSystem="2.16.840.1.113883.5.85" displayName="Nasal Gel">
+        <originalText> Concept Properties: internalId: 14444</originalText>
+    </code>
+    <code code="OPGEL" codeSystem="2.16.840.1.113883.5.85" displayName="Ophthalmic Gel">
+        <originalText> Concept Properties: internalId: 14445</originalText>
+    </code>
+    <code code="OTGEL" codeSystem="2.16.840.1.113883.5.85" displayName="Otic Gel">
+        <originalText> Concept Properties: internalId: 14446</originalText>
+    </code>
+    <code code="TOPGEL" codeSystem="2.16.840.1.113883.5.85" displayName="Topical Gel">
+        <originalText> Concept Properties: internalId: 14447</originalText>
+    </code>
+    <code code="URETHGEL" codeSystem="2.16.840.1.113883.5.85" displayName="Urethral Gel">
+        <originalText> Concept Properties: internalId: 14448</originalText>
+    </code>
+    <code code="VGELAPL" codeSystem="2.16.840.1.113883.5.85" displayName="Vaginal Gel with Applicator">
+        <originalText> Concept Properties: internalId: 14450</originalText>
+    </code>
+    <code code="PUD" codeSystem="2.16.840.1.113883.5.85" displayName="Pudding">
+        <originalText> Concept Properties: internalId: 14453</originalText>
+    </code>
+    <code code="TPASTE" codeSystem="2.16.840.1.113883.5.85" displayName="Toothpaste">
+        <originalText>Definition: A paste formulation intended to clean and/or polish the teeth, and which may contain certain additional
+            agents.</originalText>
+    </code>
+    <code code="ITSUSP" codeSystem="2.16.840.1.113883.5.85" displayName="Intrathecal Suspension">
+        <originalText> Concept Properties: internalId: 14455</originalText>
+    </code>
+    <code code="OPSUSP" codeSystem="2.16.840.1.113883.5.85" displayName="Ophthalmic Suspension">
+        <originalText> Concept Properties: internalId: 14456</originalText>
+    </code>
+    <code code="ERSUSP12" codeSystem="2.16.840.1.113883.5.85" displayName="12 Hour Extended-Release Suspension">
+        <originalText> Concept Properties: internalId: 14459</originalText>
+    </code>
+    <code code="ERSUSP24" codeSystem="2.16.840.1.113883.5.85" displayName="24 Hour Extended Release Suspension">
+        <originalText> Concept Properties: internalId: 14460</originalText>
+    </code>
+    <code code="OTSUSP" codeSystem="2.16.840.1.113883.5.85" displayName="Otic Suspension">
+        <originalText> Concept Properties: internalId: 14461</originalText>
+    </code>
+    <code code="RECSUSP" codeSystem="2.16.840.1.113883.5.85" displayName="Rectal Suspension">
+        <originalText> Concept Properties: internalId: 14462</originalText>
+    </code>
+    <!-- 1-A _SolidDrugForm (v:SolidDrugForm)-->
+    <code code="MEDBAR" codeSystem="2.16.840.1.113883.5.85" displayName="Medicated Bar Soap">
+        <originalText> Concept Properties: internalId: 14487</originalText>
+    </code>
+    <code code="CHEWBAR" codeSystem="2.16.840.1.113883.5.85" displayName="Chewable Bar">
+        <originalText>Definition: A solid dosage form usually in the form of a rectangle that is meant to be chewed.</originalText>
+    </code>
+    <code code="BEAD" codeSystem="2.16.840.1.113883.5.85" displayName="Beads">
+        <originalText>Definition: A solid dosage form in the shape of a small ball.</originalText>
+    </code>
+    <code code="CAKE" codeSystem="2.16.840.1.113883.5.85" displayName="Cake">
+        <originalText> Concept Properties: internalId: 14490</originalText>
+    </code>
+    <code code="CEMENT" codeSystem="2.16.840.1.113883.5.85" displayName="Cement">
+        <originalText>Definition: A substance that serves to produce solid union between two surfaces.</originalText>
+    </code>
+    <code code="CRYS" codeSystem="2.16.840.1.113883.5.85" displayName="Crystals">
+        <originalText>Definition: A naturally produced angular solid of definite form in which the ultimate units from which it is built up are
+            systematically arranged; they are usually evenly spaced on a regular space lattice.</originalText>
+    </code>
+    <code code="DISK" codeSystem="2.16.840.1.113883.5.85" displayName="Disk">
+        <originalText>Definition: A circular plate-like organ or structure.</originalText>
+    </code>
+    <code code="FLAKE" codeSystem="2.16.840.1.113883.5.85" displayName="Flakes">
+        <originalText> Concept Properties: internalId: 14494</originalText>
+    </code>
+    <code code="GRAN" codeSystem="2.16.840.1.113883.5.85" displayName="Granules">
+        <originalText>Definition: A small particle or grain.</originalText>
+    </code>
+    <code code="GUM" codeSystem="2.16.840.1.113883.5.85" displayName="ChewingGum">
+        <originalText>Definition: A sweetened and flavored insoluble plastic material of various shapes which when chewed, releases a drug substance
+            into the oral cavity.</originalText>
+    </code>
+    <code code="MEDPAD" codeSystem="2.16.840.1.113883.5.85" displayName="Medicated Pad">
+        <originalText> Concept Properties: internalId: 14498</originalText>
+    </code>
+    <code code="TPATH16" codeSystem="2.16.840.1.113883.5.85" displayName="16 Hour Transdermal Patch">
+        <originalText> Concept Properties: internalId: 14501</originalText>
+    </code>
+    <code code="TPATH24" codeSystem="2.16.840.1.113883.5.85" displayName="24 Hour Transdermal Patch">
+        <originalText> Concept Properties: internalId: 14502</originalText>
+    </code>
+    <code code="TPATH2WK" codeSystem="2.16.840.1.113883.5.85" displayName="Biweekly Transdermal Patch">
+        <originalText> Concept Properties: internalId: 14505</originalText>
+    </code>
+    <code code="TPATH72" codeSystem="2.16.840.1.113883.5.85" displayName="72 Hour Transdermal Patch">
+        <originalText> Concept Properties: internalId: 14503</originalText>
+    </code>
+    <code code="TPATHWK" codeSystem="2.16.840.1.113883.5.85" displayName="Weekly Transdermal Patch">
+        <originalText> Concept Properties: internalId: 14504</originalText>
+    </code>
+    <code code="PELLET" codeSystem="2.16.840.1.113883.5.85" displayName="Pellet">
+        <originalText>Definition: A small sterile solid mass consisting of a highly purified drug (with or without excipients) made by the formation
+            of granules, or by compression and molding.</originalText>
+    </code>
+    <code code="ERENTCAP" codeSystem="2.16.840.1.113883.5.85" displayName="Extended Release Enteric Coated Capsule">
+        <originalText> Concept Properties: internalId: 14510</originalText>
+    </code>
+    <code code="ERCAP12" codeSystem="2.16.840.1.113883.5.85" displayName="12 Hour Extended Release Capsule">
+        <originalText> Concept Properties: internalId: 14513</originalText>
+    </code>
+    <code code="ERCAP24" codeSystem="2.16.840.1.113883.5.85" displayName="24 Hour Extended Release Capsule">
+        <originalText> Concept Properties: internalId: 14514</originalText>
+    </code>
+    <code code="ERECCAP" codeSystem="2.16.840.1.113883.5.85" displayName="Extended Release Enteric Coated Capsule">
+        <originalText> Concept Properties: internalId: 14512</originalText>
+    </code>
+    <code code="SRBUCTAB" codeSystem="2.16.840.1.113883.5.85" displayName="Sustained Release Buccal Tablet">
+        <originalText> Concept Properties: internalId: 14519</originalText>
+    </code>
+    <code code="CAPLET" codeSystem="2.16.840.1.113883.5.85" displayName="Caplet">
+        <originalText> Concept Properties: internalId: 14517</originalText>
+    </code>
+    <code code="CHEWTAB" codeSystem="2.16.840.1.113883.5.85" displayName="Chewable Tablet">
+        <originalText>Definition: A solid dosage form containing medicinal substances with or without suitable diluents that is intended to be chewed,
+            producing a pleasant tasting residue in the oral cavity that is easily swallowed and does not leave a bitter or unpleasant
+            after-taste.</originalText>
+    </code>
+    <code code="CPTAB" codeSystem="2.16.840.1.113883.5.85" displayName="Coated Particles Tablet">
+        <originalText> Concept Properties: internalId: 14521</originalText>
+    </code>
+    <code code="DISINTAB" codeSystem="2.16.840.1.113883.5.85" displayName="Disintegrating Tablet">
+        <originalText>Definition: A solid dosage form containing medicinal substances which disintegrates rapidly, usually within a matter of seconds,
+            when placed upon the tongue.</originalText>
+    </code>
+    <code code="DRTAB" codeSystem="2.16.840.1.113883.5.85" displayName="Delayed Release Tablet">
+        <originalText> Concept Properties: internalId: 14522</originalText>
+    </code>
+    <code code="ERECTAB" codeSystem="2.16.840.1.113883.5.85" displayName="Extended Release Enteric Coated Tablet">
+        <originalText> Concept Properties: internalId: 14525</originalText>
+    </code>
+    <code code="ERTAB12" codeSystem="2.16.840.1.113883.5.85" displayName="12 Hour Extended Release Tablet">
+        <originalText> Concept Properties: internalId: 14528</originalText>
+    </code>
+    <code code="ERTAB24" codeSystem="2.16.840.1.113883.5.85" displayName="24 Hour Extended Release Tablet">
+        <originalText> Concept Properties: internalId: 14527</originalText>
+    </code>
+    <code code="ORTROCHE" codeSystem="2.16.840.1.113883.5.85" displayName="Lozenge/Oral Troche">
+        <originalText>Definition: A solid preparation containing one or more medicaments, usually in a flavored, sweetened base which is intended to
+            dissolve or disintegrate slowly in the mouth.</originalText>
+    </code>
+    <code code="SLTAB" codeSystem="2.16.840.1.113883.5.85" displayName="Sublingual Tablet">
+        <originalText> Concept Properties: internalId: 14531</originalText>
+    </code>
+    <code code="VAGTAB" codeSystem="2.16.840.1.113883.5.85" displayName="Vaginal Tablet">
+        <originalText> Concept Properties: internalId: 14532</originalText>
+    </code>
+    <code code="RECPWD" codeSystem="2.16.840.1.113883.5.85" displayName="Rectal Powder">
+        <originalText> Concept Properties: internalId: 14536</originalText>
+    </code>
+    <code code="VAGPWD" codeSystem="2.16.840.1.113883.5.85" displayName="Vaginal Powder">
+        <originalText> Concept Properties: internalId: 14537</originalText>
+    </code>
+    <code code="RECSUPP" codeSystem="2.16.840.1.113883.5.85" displayName="Rectal Suppository">
+        <originalText> Concept Properties: internalId: 14539</originalText>
+    </code>
+    <code code="URETHSUPP" codeSystem="2.16.840.1.113883.5.85" displayName="Urethral suppository">
+        <originalText> Concept Properties: internalId: 14541</originalText>
+    </code>
+    <code code="VAGSUPP" codeSystem="2.16.840.1.113883.5.85" displayName="Vaginal Suppository">
+        <originalText> Concept Properties: internalId: 14540</originalText>
+    </code>
+    <code code="MEDSWAB" codeSystem="2.16.840.1.113883.5.85" displayName="Medicated swab">
+        <originalText> Concept Properties: internalId: 14543</originalText>
+    </code>
+    <code code="WAFER" codeSystem="2.16.840.1.113883.5.85" displayName="Wafer">
+        <originalText>Definition: A thin slice of material containing a medicinal agent.</originalText>
+    </code>
+</codeSystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>AttentionLineElementTypeNL</name>
+    <desc>Wordt gebruikt voor attentionLine in de wrapper</desc>
+    <code code="PATID" codeSystem="2.16.840.1.113883.2.4.15.1" displayName="Patientnummer"/>
+    <code code="FICID" codeSystem="2.16.840.1.113883.2.4.15.1" displayName="FictiefPatientnummer"/>
+    <code code="CONTEXT" codeSystem="2.16.840.1.113883.2.4.15.1" displayName="ContextCode"/>
+</codeSystem>

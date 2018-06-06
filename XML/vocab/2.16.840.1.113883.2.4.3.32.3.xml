@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/codeSystem2html.xsl"
+                        type="text/xsl"?><codeSystem xmlns="urn:hl7-org:v3">
+   <name>Zorgaanvrager (melder/verwijzer/klant)</name>
+   <code code="001" codeSystem="2.16.840.1.113883.2.4.3.32.3"
+         displayName="Burger (via 112)"/>
+   <code code="002" codeSystem="2.16.840.1.113883.2.4.3.32.3" displayName="Brandweer"/>
+   <code code="003" codeSystem="2.16.840.1.113883.2.4.3.32.3"
+         displayName="Huisartsenpost"/>
+   <code code="004" codeSystem="2.16.840.1.113883.2.4.3.32.3" displayName="Huisarts"/>
+   <code code="005" codeSystem="2.16.840.1.113883.2.4.3.32.3"
+         displayName="Zorginstelling"/>
+   <code code="006" codeSystem="2.16.840.1.113883.2.4.3.32.3"
+         displayName="Officier van Dienst Geneeskundig (OvDG)"/>
+   <code code="007" codeSystem="2.16.840.1.113883.2.4.3.32.3" displayName="Politie"/>
+   <code code="008" codeSystem="2.16.840.1.113883.2.4.3.32.3"
+         displayName="Rapid Responder"/>
+   <code code="009" codeSystem="2.16.840.1.113883.2.4.3.32.3"
+         displayName="Verloskundige"/>
+   <code code="010" codeSystem="2.16.840.1.113883.2.4.3.32.3" displayName="Andere MKA"/>
+   <code code="99" codeSystem="2.16.840.1.113883.2.4.3.32.3" displayName="Overige"/>
+</codeSystem>

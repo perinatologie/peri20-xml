@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?nictiz status="test"?>
+<?xml-model href="../schematron_closed_warnings/peri20-aanmelding-zwangerschap-22.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schematron/peri20-aanmelding-zwangerschap-22.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<REPC_IN004014NL xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../schemas/REPC_IN004014NL.xsd">
+
+    <!-- Aanmelding zwangerschap -->
+
+    <!-- Unieke identificatie (lopend nummer) van dit HL7v3 bericht  zoals uitgegeven door het zendende systeem-->
+    <id extension="86572343" root="2.16.840.1.113883.2.4.6.6.99.23444.17"/>
+    <creationTime value="20140102101112"/>
+    <versionCode code="NICTIZEd2005-Okt"/>
+    <interactionId extension="REPC_IN004014NL" root="2.16.840.1.113883.1.6"/>
+    <profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
+    <processingCode code="P"/>
+    <processingModeCode code="T"/>
+    <acceptAckCode code="AL"/>
+    <receiver typeCode="RCV">
+        <device classCode="DEV" determinerCode="INSTANCE">
+            <!-- ID van de ontvangende softwareapplicatie -->
+            <id extension="2" root="2.16.840.1.113883.2.4.99.104.2"/>
+            <name>Systeem Y van organisatie EFG</name>
+        </device>
+    </receiver>
+    <sender typeCode="SND">
+        <device classCode="DEV" determinerCode="INSTANCE">
+            <!-- ID van de zendende softwareapplicatie -->
+            <id extension="3-1" root="2.16.840.1.113883.2.4.99.105.3"/>
+            <name>Verloskundige software applicatie X van praktijk ABC</name>
+        </device>
+    </sender>
+    <ControlActProcess classCode="CACT" moodCode="EVN">
+        <authorOrPerformer typeCode="AUT">
+            <participant>
+                <AssignedPerson>
+                    <!-- ID van verloskundige, hier een UZI code -->
+                    <id root="2.16.528.1.1007.3.1" extension="000015678"/>
+                    <!-- Zorgverlenertype = verloskundige -->
+                    <code codeSystem="2.16.840.1.113883.2.4.15.111" code="03.000"/>
+                    <assignedPrincipalChoiceList>
+                        <assignedPerson>
+                            <name>
+                                <given>Victor</given>
+                                <family>Verloskundige</family>
+                            </name>
+                        </assignedPerson>
+                    </assignedPrincipalChoiceList>
+                    <Organization>
+                        <!-- ID van de organisatie waartoe de auteur behoort, URA -->
+                        <id root="2.16.528.1.1007.3.3" extension="00013482"/>
+
+                        <!-- Organisatietype = verloskundigenpraktijk -->
+                        <code codeSystem="2.16.840.1.113883.2.4.15.1060" code="G3"/>
+                        <name>ABC Verloskundigenpraktijk</name>
+                        <addr>
+                            <city>Lutjebroek</city>
+                        </addr>
+                    </Organization>
+                </AssignedPerson>
+            </participant>
+        </authorOrPerformer>
+        <overseer typeCode="RESP">
+            <AssignedPerson>
+                <!-- ID van verloskundige, hier een UZI code -->
+                <id root="2.16.528.1.1007.3.1" extension="000012349"/>
+                <!-- Zorgverlenertype = verloskundige -->
+                <code codeSystem="2.16.840.1.113883.2.4.15.111" code="03.000"/>
+                <assignedPrincipalChoiceList>
+                    <assignedPerson>
+                        <name>
+                            <given>Victor</given>
+                            <family>Verloskundige</family>
+                        </name>
+                    </assignedPerson>
+                </assignedPrincipalChoiceList>
+                <Organization>
+                    <!-- ID van de organisatie waartoe de auteur behoort, URA -->
+                    <id root="2.16.528.1.1007.3.3" extension="00013482"/>
+                    <!-- Organisatietype = verloskundigenpraktijk -->
+                    <code code="G3" codeSystem="2.16.840.1.113883.2.4.15.1060"/>
+                    <name>ABC Verloskundigenpraktijk</name>
+                    <addr>
+                        <city>Vestigingsplaats</city>
+                    </addr>
+                </Organization>
+            </AssignedPerson>
+        </overseer>
+        <subject typeCode="SUBJ" contextConductionInd="false">
+            <registrationProcess moodCode="EVN">
+                <!-- een id voor het registration proces om later voor update doeleinden
+                    daaraan te kunnen refereren -->
+                <id root="2.16.840.1.113883.2.4.99.23444.6" extension="rps4632856243"/>
+
+                <!-- fixed 900000 -->
+                <code code="900000" codeSystem="2.16.840.1.113883.2.4.15.4"/>
+
+                <!-- registration process is active now -->
+                <statusCode code="active"/>
+
+                <!-- registration process date and time -->
+                <effectiveTime>
+                    <low value="20120229123745"/>
+                </effectiveTime>
+                <subject2 typeCode="SUBJ" contextConductionInd="false">
+                    <CareProvisionEvent classCode="PCPR" moodCode="EVN">
+
+                        <!-- Item: 29040 - (HL7: template id Counseling) 1..1 M -->
+                        <templateId root="2.16.840.1.113883.2.4.6.10.90.900927"/>
+
+                        <!-- Item: 20280 - Care Provision ID 1..1 M -->
+                        <id root="2.16.840.1.113883.2.4.99.23444.6" extension="cp12345"/>
+                        <statusCode code="active"/>
+
+                        <!-- Item: Vrouw 1..1 M -->
+                        <subject typeCode="SBJ">
+                            <patient classCode="PAT">
+                                <!-- BSN van de moeder -->
+                                <id root="2.16.840.1.113883.2.4.6.3" extension="900000016"/>
+<!--                                <addr use="PHYS">
+                                    <postalCode>1012 AK</postalCode>
+                                </addr>-->
+                                <statusCode code="active"/>
+                                <patientPerson classCode="PSN" determinerCode="INSTANCE">
+                                    <!-- naam van de moeder -->
+                                    <name use="OR">
+                                        <given>Zara</given>
+                                        <family>Zwangere</family>
+                                    </name>
+                                    <!-- geboortedatum moeder -->
+                                    <birthTime value="19850312"/>
+                                    <!-- Item: 10400 - Etniciteit 1..1 R -->
+                                    <ethnicGroupCode code="12" codeSystem="2.16.840.1.113883.2.4.4.13.28"/>
+                                </patientPerson>
+                            </patient>
+                        </subject>
+
+                        <!-- Zorgverlener / Zorgaanbieder -->
+                        <performer typeCode="PPRF">
+                            <responsibleParty classCode="ASSIGNED">
+                                <!-- Item: 10001 - Zorgverlener (UZI-nummer) 0..1 C 0001 -->
+                                <!-- Item: 10003 - Zorgverlener (AGB-ID) 0..1 C 0001 -->
+                                <!-- Item: 10004 - Zorgverlener (LVR1-ID) 0..1 C 0001 -->
+                                <id root="2.16.528.1.1007.3.1" extension="000123459"/>
+                                <agentPerson>
+                                    <!-- Item: 10006 - Naam zorgverlener 1..1 M -->
+                                    <name>
+                                        <given>Victor</given>
+                                        <family>Verloskundige</family>
+                                    </name>
+                                </agentPerson>
+                                <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                                    <!-- Item: 10020 - Zorgaanbieder (URA) 0..1 C 0004 -->
+                                    <!-- Item: 10021 - Zorgaanbieder (OID) 0..1 C 0004 -->
+                                    <!-- Item: 10022 - Zorgaanbieder (AGB-id) 0..1 C 0004 -->
+                                    <!-- Item: 10023 - Zorgaanbieder (LVR1-ID) 0..1 C 0004 -->
+                                    <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                                    <id root="2.16.840.1.113883.2.4.3.46.99.5.6.1.1" extension="12"/>
+                                    <!-- Item: 10026 - Naam zorgaanbieder 1..1 M -->
+                                    <name>ABC Verloskundigenpraktijk</name>
+                                </representedOrganization>
+                            </responsibleParty>
+                        </performer>
+
+                        <!-- Reden verzending -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="RedenVerzending" codeSystem="2.16.840.1.113883.2.4.4.13.53"/>
+                                <value xsi:type="CE" code="aan" codeSystem="2.16.840.1.113883.2.4.4.13.53"/>
+                            </observation>
+                        </pertinentInformation3>
+                    </CareProvisionEvent>
+                </subject2>
+            </registrationProcess>
+        </subject>
+    </ControlActProcess>
+</REPC_IN004014NL>

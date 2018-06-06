@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>Mate van overgevoeligheid</name>
+    <desc>Mate van overgevoeligheid</desc>
+    <code code="MILD" codeSystem="2.16.840.1.113883.2.4.15.20" displayName="Mild">
+        <originalText>Kan medicatie of stof, ondanks bekende overgevoeligheid, wel toepassen.</originalText>
+    </code>
+    <code code="MOD" codeSystem="2.16.840.1.113883.2.4.15.20" displayName="Matig ernstig">
+        <originalText>Medicatie of stof alleen toepassen indien de ernst van de indicatie dit 
+            vereist. Alleen toepassen in combinatie met dosisaanpassing, extra maatregel of 
+            extra controle. 
+        </originalText>
+    </code>
+    <code code="SEV" codeSystem="2.16.840.1.113883.2.4.15.20" displayName="Ernstig">
+        <originalText>Medicatie of stof niet (meer) toepassen i.v.m. bekend gevaar voor ernstige 
+            reacties.</originalText>
+    </code>
+</codeSystem>

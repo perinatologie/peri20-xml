@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3" codeStrength="CWE">
+    <name>NTS Ketenbrede urgentiecategoriën</name>
+    <desc>Nederlandse Triage Standaard ketenbrede urgentiecategoriën</desc>
+    <code code="U0" codeSystem="2.16.840.1.113883.2.4.4.50.1" displayName="Reanimatie"/>
+    <code code="U1" codeSystem="2.16.840.1.113883.2.4.4.50.1" displayName="Levensbedreigend"/>
+    <code code="U2" codeSystem="2.16.840.1.113883.2.4.4.50.1" displayName="Spoed"/>
+    <code code="U3" codeSystem="2.16.840.1.113883.2.4.4.50.1" displayName="Dringend"/>
+    <code code="U4" codeSystem="2.16.840.1.113883.2.4.4.50.1" displayName="Niet dringend"/>
+    <code code="U5" codeSystem="2.16.840.1.113883.2.4.4.50.1" displayName="Advies"/>
+</codeSystem>

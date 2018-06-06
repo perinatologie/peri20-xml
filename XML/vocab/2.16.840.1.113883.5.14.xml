@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/codeSystem2html.xsl" type="text/xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+      <name>ActStatus</name>
+      <code code="normal" codeSystem="2.16.840.1.113883.5.14" displayName="normal"/>
+      <code code="aborted" codeSystem="2.16.840.1.113883.5.14" displayName="aborted"/>
+      <code code="active" codeSystem="2.16.840.1.113883.5.14" displayName="active"/>
+      <code code="cancelled" codeSystem="2.16.840.1.113883.5.14" displayName="cancelled"/>
+      <code code="completed" codeSystem="2.16.840.1.113883.5.14" displayName="completed"/>
+      <code code="held" codeSystem="2.16.840.1.113883.5.14" displayName="held"/>
+      <code code="new" codeSystem="2.16.840.1.113883.5.14" displayName="new"/>
+      <code code="suspended" codeSystem="2.16.840.1.113883.5.14" displayName="suspended"/>
+      <code code="nullified" codeSystem="2.16.840.1.113883.5.14" displayName="nullified"/>
+      <code code="obsolete" codeSystem="2.16.840.1.113883.5.14" displayName="obsolete"/>
+      <code code="executing" codeSystem="2.16.840.1.113883.5.14" displayName="executing"/>
+</codeSystem>

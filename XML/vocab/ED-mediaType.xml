@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>ED-mediaType</name>
+    <desc>Tabel van ondersteunde (IANA) MIME types</desc>
+    <code code="text/plain" codeSystem="ED-mediaType" displayName="Vrije tekst"/>
+    <code code="text/html" codeSystem="ED-mediaType" displayName="HTML"/>
+    <code code="audio/basic" codeSystem="ED-mediaType" displayName="Enkelkanaals audio"/>
+    <code code="audio/mpeg" codeSystem="ED-mediaType" displayName="MP3"/>
+    <code code="audio/png" codeSystem="ED-mediaType" displayName="Portable Network Graphics"/>
+    <code code="audio/jpeg" codeSystem="ED-mediaType" displayName="Joint Picture Expert Group"/>
+    <code code="video/mpeg" codeSystem="ED-mediaType" displayName="Motion Picture Expert Group"/>
+    <code code="text/rtf" codeSystem="ED-mediaType" displayName="Rich Text Formatting"/>
+    <code code="application/pdf" codeSystem="ED-mediaType" displayName="Portable Document Format"/>
+    <code code="application/dicom" codeSystem="ED-mediaType" displayName="Digital Imaging and Communication in Medicine"/>
+</codeSystem>

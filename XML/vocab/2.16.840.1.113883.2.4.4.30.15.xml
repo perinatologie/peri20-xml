@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>Code verrichtingen</name>
+    <desc>WCIAv3 Tabel 15 Code verrichtingen</desc>
+    <!-- code code="115" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <code code="117" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="consult tbv lijders aan beroepsziekten"/>
+    <code code="118" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="visite tbv lijders aan beroepsziekten"/>
+    <code code="121" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="toeslag farmaceutische hulp"/>
+    <code code="122" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vergoeding klaarmaken voorschrift"/>
+    <code code="123" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vergoeding klaarmaken voorschrift tijdens diensturen"/>
+    <!-- code code="130" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+        <!-- code code="140" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <code code="141" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="hechtmateriaal"/>
+    <code code="142" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="uricult"/>
+    <!-- code code="143" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <code code="144" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="zwangerschapstest"/>
+    <code code="145" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vloeibare stikstof/histofreezer"/>
+    <code code="146" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="bloedsuikerstrips"/>
+    <!-- code code="147" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <code code="148" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="wondtoilet/wondhechting"/>
+    <code code="149" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="kleine chirurgische ingreep"/>
+    <code code="150" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="tape materiaal tbv enkeldistorsies"/>
+    <code code="151" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="dipslides (urineweginfecties)"/>
+    <code code="152" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vasectomie"/>
+    <code code="153" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="circumcisie"/>
+    <code code="154" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="spirometrie"/>
+    <code code="155" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="tympanogram"/>
+    <code code="156" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="audiogram"/>
+    <code code="157" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="oogheelkundig onderzoek"/>
+    <code code="158" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="allergietesten"/>
+    <code code="159" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="corticosteroid-injecties (cyriax)"/>
+    <code code="160" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="instellen op insuline"/>
+    <code code="161" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="tapen (incl. materiaal)"/>
+    <code code="162" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="insertie iud"/>
+    <code code="163" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="reizigers advisering"/>
+    <code code="164" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="ECG maken"/>
+    <code code="165" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="controle van insuline instelling"/>
+    <code code="166" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="desensibilisatie vaccinatie"/>
+    <code code="167" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="inbrengen suprapubische catheter"/>
+    <code code="168" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="verwijderen hechtmateriaal"/>
+    <code code="169" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="ambulante compressietherapie  bij ulcus cruris"/>
+    <code code="170" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="cognitieve test MMSE"/>
+    <code code="171" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="MRSA kweek"/>
+    <code code="172" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="doppler onderzoek van beenvaten"/>
+    <code code="173" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="flebologie, wegspuiten varices"/>
+    <code code="201" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="consult"/>
+    <code code="202" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="consult tijdens diensturen *"/>
+    <code code="203" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="extra tijdvergend consult"/>
+    <code code="204" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="extra tijdvergend consult tijdens diensturen *"/>
+    <code code="205" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="telefonisch consult"/>
+    <code code="206" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="telefonisch consult tijdens diensturen *"/>
+    <code code="207" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="extra tijdvergend telefonisch consult"/>
+    <code code="208" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="extra tijdvergend telefonisch consult tijdens diensturen *"/>
+    <!-- code code="209" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <code code="211" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="visite"/>
+    <code code="212" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="visite tijdens diensturen *"/>
+    <code code="213" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="extra tijdvergende visite"/>
+    <code code="214" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="extra tijdvergende visite tijdens diensturen *"/>
+    <code code="221" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="(herhaal) recept"/>
+    <code code="222" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="herhaalrecept tijdens diensturen *"/>
+    <code code="230" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="km vergoeding particulieren"/>
+    <code code="231" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="kort consult: laboratorium onderzoek"/>
+    <code code="232" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="kort consult: vaccinatie"/>
+    <code code="233" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vaccinatie tijdens diensturen *"/>
+    <code code="234" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="entstoffen"/>
+    <code code="235" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="laboratoriumkosten"/>
+    <!-- code code="240" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <!-- code code="241" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <code code="242" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="uitstrijkje gemaakt in het kader van bevolkingsonderzoek"/>
+    <code code="243" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="griepvaccinatie"/>
+    <code code="250" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="telefonische informatieverstrekking"/>
+    <code code="251" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="schriftelijke informatieverstrekking"/>
+    <code code="299" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="niet declareren"/>
+    <code code="301" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="totale verloskundige zorg, ziekenfonds art.6.1"/>
+    <code code="302" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="prenatale hulp, ziekenfonds art.6.1.a"/>
+    <code code="303" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="hulp bij bevalling,ziekenfonds art.6.1.b"/>
+    <code code="304" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="postnatale hulp, ziekenfonds art.6.1.c"/>
+    <code code="311" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="totale verloskundige zorg"/>
+    <code code="312" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="prenatale hulp"/>
+    <code code="313" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="hulp bij bevalling"/>
+    <code code="314" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="postnatale hulp"/>
+    <code code="320" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.5.1"/>
+    <code code="321" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.5.4"/>
+    <code code="322" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.7.1"/>
+    <code code="323" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.7.2"/>
+    <code code="324" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.8"/>
+    <code code="325" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.9.1.a"/>
+    <code code="326" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.9.1.b"/>
+    <code code="327" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.9.2"/>
+    <code code="328" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.9.3"/>
+    <code code="329" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.10.1"/>
+    <code code="330" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.10.2"/>
+    <code code="331" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.10.3"/>
+    <code code="332" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.11.1"/>
+    <code code="333" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.11.2"/>
+    <code code="334" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.13.1.a"/>
+    <code code="335" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.13.1.b"/>
+    <code code="336" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.13.1.c"/>
+    <code code="337" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.13.1a+b+c"/>
+    <code code="338" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gedeeltelijke verloskundige hulp art.13.2"/>
+    <code code="401" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="spreekuurcontrole"/>
+    <code code="402" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="gericht klein onderzoek"/>
+    <code code="403" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="visitecontrole"/>
+    <code code="404" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="kleine keuring"/>
+    <code code="405" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="periodiek geneeskundig onderzoek (beperkt)"/>
+    <code code="406" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="periodiek geneeskundig onderzoek uitgebreid vlg LHV-richtlijnen"/>
+    <code code="407" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="grote keuring"/>
+    <code code="408" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="invaliditeitskeuring met rapport"/>
+    <code code="409" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="rijbewijskeuring"/>
+    <!-- code code="410" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <!-- code code="411" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <code code="412" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="bedrijfs- sollicitatiekeuring"/>
+    <!-- code code="413" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="vervallen"/-->
+    <code code="415" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="keuring parkeerkaart kort"/>
+    <code code="416" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="keuring parkeerkaart lang"/>
+    <code code="417" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="scheepvaartkeuring"/>
+    <code code="418" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="sportkeuring"/>
+    <code code="501" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="eerste hulp"/>
+    <code code="502" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="alcoholbepaling"/>
+    <code code="503" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="in bewaring stellen"/>
+    <code code="504" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="lijkschouw"/>
+    <code code="601" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="module per consult"/>
+    <code code="603" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="module per consult langer dan 20 minuten"/>
+    <code code="605" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="module per telefonisch consult"/>
+    <code code="607" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="module per telefonisch consult langer dan 20 minuten"/>
+    <code code="611" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="module per visite"/>
+    <code code="613" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="module per visite langer dan 20 minuten"/>
+    <code code="621" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="module per herhaalrecept"/>
+    <code code="632" codeSystem="2.16.840.1.113883.2.4.4.30.15" codeSystemVersion="v3" displayName="module per vaccinatie"/>
+
+</codeSystem>

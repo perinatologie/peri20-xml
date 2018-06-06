@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/codeSystem2html.xsl" type="text/xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd"
+    xmlns="urn:hl7-org:v3">
+    <name>Soort adres</name>
+    <code code="HP" codeSystem="2.16.840.1.113883.5.1012" displayName="GBA/COA-adres"/>
+    <code code="PHYS" codeSystem="2.16.840.1.113883.5.1012" displayName="Woonadres"/>
+    <code code="PST" codeSystem="2.16.840.1.113883.5.1012" displayName="Postadres"/>
+    <code code="TMP" codeSystem="2.16.840.1.113883.5.1012" displayName="Tijdelijk adres"/>
+</codeSystem>

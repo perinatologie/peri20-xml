@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3"
+    codeStrength="CWE">
+    <name>G-Standaard HPK</name>
+    <desc>Handelsproductcode HPK incl. merkaanduiding van specifieke fabrikant</desc>
+    <code code="4711" codeSystem="2.16.840.1.113883.2.4.4.7" displayName="PANTOZOL TABLET MSR 40MG"/>
+    <code code="850144" codeSystem="2.16.840.1.113883.2.4.4.7" displayName="TRUSOPT OOGDRUPPELS 20MG/ML FLACON 5ML"/>
+    <code code="888567" codeSystem="2.16.840.1.113883.2.4.4.7" displayName="FLUIMUCIL INHVLST 100MG/ML AMPUL 4ML"/>
+    <code code="1009621" codeSystem="2.16.840.1.113883.2.4.4.7" displayName="OXAZEPAM A TABLET 10MG"/>
+    <code code="1858858" codeSystem="2.16.840.1.113883.2.4.4.7" displayName="HUIDTONICUM"/>
+    <code code="930" codeSystem="2.16.840.1.113883.2.4.4.7" displayName="PENICILLAMINE"/>
+</codeSystem>

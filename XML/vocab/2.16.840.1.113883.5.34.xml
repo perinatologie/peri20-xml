@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>DocumentStorage</name>
+    <desc>Identifies the storage status of a document.</desc>
+    <code code="AC" codeSystem="2.16.840.1.113883.5.34" displayName="active">
+        <!-- v:DocumentStorageActive -->
+        <originalText>Definition: A storage status in which a document is available on-line.</originalText>
+    </code>
+    <code code="AA" codeSystem="2.16.840.1.113883.5.34" displayName="active and archived">
+        <originalText>Definition: A storage status in which a document is available on-line and is also stored off-line for long-term
+            access.</originalText>
+    </code>
+    <code code="AR" codeSystem="2.16.840.1.113883.5.34" displayName="archived (not active)">
+        <originalText>Definition: A storage status in which a document has been stored off-line for long-term access.</originalText>
+    </code>
+    <code code="PU" codeSystem="2.16.840.1.113883.5.34" displayName="purged">
+        <originalText>Definition: A storage status in which a document is no longer available in this system.</originalText>
+    </code>
+</codeSystem>

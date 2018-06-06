@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>TimingEvent</name>
+    <desc>Tabel met gebeurtenissen gerelateerd aan tijd (EIVL_TS)</desc>
+    <code code="AC" codeSystem="2.16.840.1.113883.5.139" displayName="before meal (from lat. ante cibus)"/>
+    <code code="ACD" codeSystem="2.16.840.1.113883.5.139" displayName="before lunch (from lat. ante cibus diurnus)"/>
+    <code code="ACM" codeSystem="2.16.840.1.113883.5.139" displayName="before breakfast (from lat. ante cibus matutinus)"/>
+    <code code="ACV" codeSystem="2.16.840.1.113883.5.139" displayName="before dinner (from lat. ante cibus vespertinus)"/>
+    <code code="HS" codeSystem="2.16.840.1.113883.5.139" displayName="the hour of sleep"/>
+    <code code="IC" codeSystem="2.16.840.1.113883.5.139" displayName="between meals (from lat. inter cibus)"/>
+    <code code="ICD" codeSystem="2.16.840.1.113883.5.139" displayName="between lunch and dinner"/>
+    <code code="ICM" codeSystem="2.16.840.1.113883.5.139" displayName="between breakfast and lunch"/>
+    <code code="ICV" codeSystem="2.16.840.1.113883.5.139" displayName="between dinner and the hour of sleep"/>
+    <code code="PC" codeSystem="2.16.840.1.113883.5.139" displayName="after meal (from lat. post cibus)"/>
+    <code code="PCD" codeSystem="2.16.840.1.113883.5.139" displayName="after lunch (from lat. post cibus diurnus)"/>
+    <code code="PCM" codeSystem="2.16.840.1.113883.5.139" displayName="after breakfast (from lat. post cibus matutinus)"/>
+    <code code="PCV" codeSystem="2.16.840.1.113883.5.139" displayName="after dinner (from lat. post cibus vespertinus)"/>
+</codeSystem>

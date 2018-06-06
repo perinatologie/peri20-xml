@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>NHG Tabel 11 Code sociale laag</name>
+    <desc></desc>
+    <code code="01" codeSystem="2.16.840.1.113883.2.4.4.30.11" codeSystemVersion="v3" displayName="ongeschoolde arbeid"/>
+    <code code="02" codeSystem="2.16.840.1.113883.2.4.4.30.11" codeSystemVersion="v3" displayName="geschoolde arbeid"/>
+    <code code="03" codeSystem="2.16.840.1.113883.2.4.4.30.11" codeSystemVersion="v3" displayName="lager employée"/>
+    <code code="04" codeSystem="2.16.840.1.113883.2.4.4.30.11" codeSystemVersion="v3" displayName="kleine zelfstandige"/>
+    <code code="05" codeSystem="2.16.840.1.113883.2.4.4.30.11" codeSystemVersion="v3" displayName="middelbaar employée"/>
+    <code code="06" codeSystem="2.16.840.1.113883.2.4.4.30.11" codeSystemVersion="v3" displayName="hogere beroepen"/>
+    <code code="07" codeSystem="2.16.840.1.113883.2.4.4.30.11" codeSystemVersion="v3" displayName="zonder beroep"/>
+    <code code="09" codeSystem="2.16.840.1.113883.2.4.4.30.11" codeSystemVersion="v3" displayName="huishoudelijk werk (gezin)"/>
+</codeSystem>

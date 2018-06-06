@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>GBA tabel  Nationaliteiten (32) </name>
+    <desc>Nederlandse invulling van HL7v2 tabel 0212 voor nationaliteiten</desc>
+    <code code="0000" codeSystem="2.16.840.1.113883.12.212" displayName="Onbekend"/>
+    <code code="0001" codeSystem="2.16.840.1.113883.12.212" displayName="Nederlandse"/>
+    <code code="0002" codeSystem="2.16.840.1.113883.12.212" displayName="Behandeld als Nederlander"/>
+    <code code="0027" codeSystem="2.16.840.1.113883.12.212" displayName="Slowaakse"/>
+    <code code="0028" codeSystem="2.16.840.1.113883.12.212" displayName="Tsjechische"/>
+    <code code="0029" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Bosnië-Herzegovina"/>
+    <code code="0030" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Georgië"/>
+    <code code="0031" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Toerkmenistan"/>
+    <code code="0032" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Tadzjikistan"/>
+    <code code="0033" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Oezbekistan"/>
+    <code code="0034" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Oekraine"/>
+    <code code="0035" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Kyrgyzstan"/>
+    <code code="0036" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Moldavië"/>
+    <code code="0037" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Kazachstan"/>
+    <code code="0038" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Belarus (Wit-Rusland)"/>
+    <code code="0039" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Azerbajdsjan"/>
+    <code code="0040" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Armenië"/>
+    <code code="0041" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Rusland"/>
+    <code code="0042" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Slovenië"/>
+    <code code="0043" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Kroatië"/>
+    <code code="0044" codeSystem="2.16.840.1.113883.12.212" displayName="Letse"/>
+    <code code="0045" codeSystem="2.16.840.1.113883.12.212" displayName="Estnische"/>
+    <code code="0046" codeSystem="2.16.840.1.113883.12.212" displayName="Litouwse"/>
+    <code code="0047" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van de Marshalleilanden"/>
+    <code code="0048" codeSystem="2.16.840.1.113883.12.212" displayName="Myanmarese"/>
+    <code code="0049" codeSystem="2.16.840.1.113883.12.212" displayName="Namibische"/>
+    <code code="0050" codeSystem="2.16.840.1.113883.12.212" displayName="Albanese"/>
+    <code code="0051" codeSystem="2.16.840.1.113883.12.212" displayName="Andorrese"/>
+    <code code="0052" codeSystem="2.16.840.1.113883.12.212" displayName="Belgische"/>
+    <code code="0053" codeSystem="2.16.840.1.113883.12.212" displayName="Bulgaarse"/>
+    <code code="0054" codeSystem="2.16.840.1.113883.12.212" displayName="Deense"/>
+    <code code="0055" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van de Bondsrepubliek Duitsland"/>
+    <code code="0056" codeSystem="2.16.840.1.113883.12.212" displayName="Finse"/>
+    <code code="0057" codeSystem="2.16.840.1.113883.12.212" displayName="Franse"/>
+    <code code="0058" codeSystem="2.16.840.1.113883.12.212" displayName="Jemenitische"/>
+    <code code="0059" codeSystem="2.16.840.1.113883.12.212" displayName="Griekse"/>
+    <code code="0060" codeSystem="2.16.840.1.113883.12.212" displayName="Brits burger"/>
+    <code code="0061" codeSystem="2.16.840.1.113883.12.212" displayName="Hongaarse"/>
+    <code code="0062" codeSystem="2.16.840.1.113883.12.212" displayName="Ierse"/>
+    <code code="0063" codeSystem="2.16.840.1.113883.12.212" displayName="IJslandse"/>
+    <code code="0064" codeSystem="2.16.840.1.113883.12.212" displayName="Italiaanse"/>
+    <code code="0065" codeSystem="2.16.840.1.113883.12.212" displayName="Joegoslavische"/>
+    <code code="0066" codeSystem="2.16.840.1.113883.12.212" displayName="Liechtensteinse"/>
+    <code code="0067" codeSystem="2.16.840.1.113883.12.212" displayName="Luxemburgse"/>
+    <code code="0068" codeSystem="2.16.840.1.113883.12.212" displayName="Maltese"/>
+    <code code="0069" codeSystem="2.16.840.1.113883.12.212" displayName="Monegaskische"/>
+    <code code="0070" codeSystem="2.16.840.1.113883.12.212" displayName="Noorse"/>
+    <code code="0071" codeSystem="2.16.840.1.113883.12.212" displayName="Oostenrijkse"/>
+    <code code="0072" codeSystem="2.16.840.1.113883.12.212" displayName="Poolse"/>
+    <code code="0073" codeSystem="2.16.840.1.113883.12.212" displayName="Portugese"/>
+    <code code="0074" codeSystem="2.16.840.1.113883.12.212" displayName="Roemeense"/>
+    <code code="0075" codeSystem="2.16.840.1.113883.12.212" displayName="Burger Sovjetunie"/>
+    <code code="0076" codeSystem="2.16.840.1.113883.12.212" displayName="Sanmarinese"/>
+    <code code="0077" codeSystem="2.16.840.1.113883.12.212" displayName="Spaanse"/>
+    <code code="0078" codeSystem="2.16.840.1.113883.12.212" displayName="Tsjechoslowaakse"/>
+    <code code="0079" codeSystem="2.16.840.1.113883.12.212" displayName="Vaticaanse"/>
+    <code code="0080" codeSystem="2.16.840.1.113883.12.212" displayName="Zweedse"/>
+    <code code="0081" codeSystem="2.16.840.1.113883.12.212" displayName="Zwitserse"/>
+    <code code="0082" codeSystem="2.16.840.1.113883.12.212" displayName="Oostduitse"/>
+    <code code="0083" codeSystem="2.16.840.1.113883.12.212" displayName="Brits onderdaan"/>
+    <code code="0084" codeSystem="2.16.840.1.113883.12.212" displayName="Eritrese"/>
+    <code code="0085" codeSystem="2.16.840.1.113883.12.212" displayName="Brits overzees burger"/>
+    <code code="0086" codeSystem="2.16.840.1.113883.12.212" displayName="Macedonische"/>
+    <code code="0087" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Kosovo"/>
+    <code code="0100" codeSystem="2.16.840.1.113883.12.212" displayName="Algerijnse"/>
+    <code code="0101" codeSystem="2.16.840.1.113883.12.212" displayName="Angolese"/>
+    <code code="0104" codeSystem="2.16.840.1.113883.12.212" displayName="Burundische"/>
+    <code code="0105" codeSystem="2.16.840.1.113883.12.212" displayName="Botswaanse"/>
+    <code code="0106" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Burkina Faso"/>
+    <code code="0108" codeSystem="2.16.840.1.113883.12.212" displayName="Centrafrikaanse"/>
+    <code code="0109" codeSystem="2.16.840.1.113883.12.212" displayName="Comorese"/>
+    <code code="0110" codeSystem="2.16.840.1.113883.12.212" displayName="Kongolese"/>
+    <code code="0111" codeSystem="2.16.840.1.113883.12.212" displayName="Beninse"/>
+    <code code="0112" codeSystem="2.16.840.1.113883.12.212" displayName="Egyptische"/>
+    <code code="0113" codeSystem="2.16.840.1.113883.12.212" displayName="Equatoriaalguinese"/>
+    <code code="0114" codeSystem="2.16.840.1.113883.12.212" displayName="Etiopische"/>
+    <code code="0115" codeSystem="2.16.840.1.113883.12.212" displayName="Djiboutiaanse"/>
+    <code code="0116" codeSystem="2.16.840.1.113883.12.212" displayName="Gabonese"/>
+    <code code="0117" codeSystem="2.16.840.1.113883.12.212" displayName="Gambiaanse"/>
+    <code code="0118" codeSystem="2.16.840.1.113883.12.212" displayName="Ghanese"/>
+    <code code="0119" codeSystem="2.16.840.1.113883.12.212" displayName="Guinese"/>
+    <code code="0120" codeSystem="2.16.840.1.113883.12.212" displayName="Ivoriaanse"/>
+    <code code="0121" codeSystem="2.16.840.1.113883.12.212" displayName="Kaapverdische"/>
+    <code code="0122" codeSystem="2.16.840.1.113883.12.212" displayName="Kameroense"/>
+    <code code="0123" codeSystem="2.16.840.1.113883.12.212" displayName="Kenyaanse"/>
+    <code code="0124" codeSystem="2.16.840.1.113883.12.212" displayName="Zaïrese"/>
+    <code code="0125" codeSystem="2.16.840.1.113883.12.212" displayName="Lesothaanse"/>
+    <code code="0126" codeSystem="2.16.840.1.113883.12.212" displayName="Liberiaanse"/>
+    <code code="0127" codeSystem="2.16.840.1.113883.12.212" displayName="Libische"/>
+    <code code="0128" codeSystem="2.16.840.1.113883.12.212" displayName="Malagassische"/>
+    <code code="0129" codeSystem="2.16.840.1.113883.12.212" displayName="Malawische"/>
+    <code code="0130" codeSystem="2.16.840.1.113883.12.212" displayName="Malinese"/>
+    <code code="0131" codeSystem="2.16.840.1.113883.12.212" displayName="Marokkaanse"/>
+    <code code="0132" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Mauritanië"/>
+    <code code="0133" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Mauritius"/>
+    <code code="0134" codeSystem="2.16.840.1.113883.12.212" displayName="Mozambiquaanse"/>
+    <code code="0135" codeSystem="2.16.840.1.113883.12.212" displayName="Swazische"/>
+    <code code="0136" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Niger"/>
+    <code code="0137" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Nigeria"/>
+    <code code="0138" codeSystem="2.16.840.1.113883.12.212" displayName="Ugandese"/>
+    <code code="0139" codeSystem="2.16.840.1.113883.12.212" displayName="Guineebissause"/>
+    <code code="0140" codeSystem="2.16.840.1.113883.12.212" displayName="Zuidafrikaanse"/>
+    <code code="0142" codeSystem="2.16.840.1.113883.12.212" displayName="Zimbabwaanse"/>
+    <code code="0143" codeSystem="2.16.840.1.113883.12.212" displayName="Rwandese"/>
+    <code code="0144" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van São Tomé en Principe"/>
+    <code code="0145" codeSystem="2.16.840.1.113883.12.212" displayName="Senegalese"/>
+    <code code="0147" codeSystem="2.16.840.1.113883.12.212" displayName="Sierraleoonse"/>
+    <code code="0148" codeSystem="2.16.840.1.113883.12.212" displayName="Soedanese"/>
+    <code code="0149" codeSystem="2.16.840.1.113883.12.212" displayName="Somalische"/>
+    <code code="0151" codeSystem="2.16.840.1.113883.12.212" displayName="Tanzaniaanse"/>
+    <code code="0152" codeSystem="2.16.840.1.113883.12.212" displayName="Togolese"/>
+    <code code="0154" codeSystem="2.16.840.1.113883.12.212" displayName="Tsjadische"/>
+    <code code="0155" codeSystem="2.16.840.1.113883.12.212" displayName="Tunesische"/>
+    <code code="0156" codeSystem="2.16.840.1.113883.12.212" displayName="Zambiaanse"/>
+    <code code="0200" codeSystem="2.16.840.1.113883.12.212" displayName="Bahamaanse"/>
+    <code code="0202" codeSystem="2.16.840.1.113883.12.212" displayName="Belizaanse"/>
+    <code code="0204" codeSystem="2.16.840.1.113883.12.212" displayName="Canadese"/>
+    <code code="0205" codeSystem="2.16.840.1.113883.12.212" displayName="Costaricaanse"/>
+    <code code="0206" codeSystem="2.16.840.1.113883.12.212" displayName="Cubaanse"/>
+    <code code="0207" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Dominicaanse Republiek"/>
+    <code code="0208" codeSystem="2.16.840.1.113883.12.212" displayName="Salvadoraanse"/>
+    <code code="0211" codeSystem="2.16.840.1.113883.12.212" displayName="Guatemalteekse"/>
+    <code code="0212" codeSystem="2.16.840.1.113883.12.212" displayName="Haïtiaanse"/>
+    <code code="0213" codeSystem="2.16.840.1.113883.12.212" displayName="Hondurese"/>
+    <code code="0214" codeSystem="2.16.840.1.113883.12.212" displayName="Jamaicaanse"/>
+    <code code="0216" codeSystem="2.16.840.1.113883.12.212" displayName="Mexicaanse"/>
+    <code code="0218" codeSystem="2.16.840.1.113883.12.212" displayName="Nicaraguaanse"/>
+    <code code="0219" codeSystem="2.16.840.1.113883.12.212" displayName="Panamese"/>
+    <code code="0222" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Trinidad en Tobago"/>
+    <code code="0223" codeSystem="2.16.840.1.113883.12.212" displayName="Amerikaans burger"/>
+    <code code="0250" codeSystem="2.16.840.1.113883.12.212" displayName="Argentijnse"/>
+    <code code="0251" codeSystem="2.16.840.1.113883.12.212" displayName="Barbadaanse"/>
+    <code code="0252" codeSystem="2.16.840.1.113883.12.212" displayName="Boliviaanse"/>
+    <code code="0253" codeSystem="2.16.840.1.113883.12.212" displayName="Braziliaanse"/>
+    <code code="0254" codeSystem="2.16.840.1.113883.12.212" displayName="Chileense"/>
+    <code code="0255" codeSystem="2.16.840.1.113883.12.212" displayName="Colombiaanse"/>
+    <code code="0256" codeSystem="2.16.840.1.113883.12.212" displayName="Ecuadoraanse"/>
+    <code code="0259" codeSystem="2.16.840.1.113883.12.212" displayName="Guyaanse"/>
+    <code code="0261" codeSystem="2.16.840.1.113883.12.212" displayName="Paraguayaanse"/>
+    <code code="0262" codeSystem="2.16.840.1.113883.12.212" displayName="Peruaanse"/>
+    <code code="0263" codeSystem="2.16.840.1.113883.12.212" displayName="Surinaamse"/>
+    <code code="0264" codeSystem="2.16.840.1.113883.12.212" displayName="Uruguayaanse"/>
+    <code code="0265" codeSystem="2.16.840.1.113883.12.212" displayName="Venezolaanse"/>
+    <code code="0267" codeSystem="2.16.840.1.113883.12.212" displayName="Grenadaanse"/>
+    <code code="0268" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Saint Kitts-Nevis"/>
+    <code code="0300" codeSystem="2.16.840.1.113883.12.212" displayName="Afgaanse"/>
+    <code code="0301" codeSystem="2.16.840.1.113883.12.212" displayName="Bahreinse"/>
+    <code code="0302" codeSystem="2.16.840.1.113883.12.212" displayName="Bhutaanse"/>
+    <code code="0303" codeSystem="2.16.840.1.113883.12.212" displayName="Burmaanse"/>
+    <code code="0304" codeSystem="2.16.840.1.113883.12.212" displayName="Bruneise"/>
+    <code code="0305" codeSystem="2.16.840.1.113883.12.212" displayName="Kambodjaanse"/>
+    <code code="0306" codeSystem="2.16.840.1.113883.12.212" displayName="Srilankaanse"/>
+    <code code="0307" codeSystem="2.16.840.1.113883.12.212" displayName="Chinese"/>
+    <code code="0308" codeSystem="2.16.840.1.113883.12.212" displayName="Cyprische"/>
+    <code code="0309" codeSystem="2.16.840.1.113883.12.212" displayName="Filipijnse"/>
+    <code code="0310" codeSystem="2.16.840.1.113883.12.212" displayName="Taiwanese"/>
+    <code code="0312" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van India"/>
+    <code code="0313" codeSystem="2.16.840.1.113883.12.212" displayName="Indonesische"/>
+    <code code="0314" codeSystem="2.16.840.1.113883.12.212" displayName="Iraakse"/>
+    <code code="0315" codeSystem="2.16.840.1.113883.12.212" displayName="Iraanse"/>
+    <code code="0316" codeSystem="2.16.840.1.113883.12.212" displayName="Israëlische"/>
+    <code code="0317" codeSystem="2.16.840.1.113883.12.212" displayName="Japanse"/>
+    <code code="0318" codeSystem="2.16.840.1.113883.12.212" displayName="Noordjemenitische"/>
+    <code code="0319" codeSystem="2.16.840.1.113883.12.212" displayName="Jordaanse"/>
+    <code code="0320" codeSystem="2.16.840.1.113883.12.212" displayName="Koeweitse"/>
+    <code code="0321" codeSystem="2.16.840.1.113883.12.212" displayName="Laotiaanse"/>
+    <code code="0322" codeSystem="2.16.840.1.113883.12.212" displayName="Libanese"/>
+    <code code="0324" codeSystem="2.16.840.1.113883.12.212" displayName="Maldivische"/>
+    <code code="0325" codeSystem="2.16.840.1.113883.12.212" displayName="Maleisische"/>
+    <code code="0326" codeSystem="2.16.840.1.113883.12.212" displayName="Mongolische"/>
+    <code code="0327" codeSystem="2.16.840.1.113883.12.212" displayName="Omanitische"/>
+    <code code="0328" codeSystem="2.16.840.1.113883.12.212" displayName="Nepalese"/>
+    <code code="0329" codeSystem="2.16.840.1.113883.12.212" displayName="Noordkoreaanse"/>
+    <code code="0331" codeSystem="2.16.840.1.113883.12.212" displayName="Pakistaanse"/>
+    <code code="0333" codeSystem="2.16.840.1.113883.12.212" displayName="Katarese"/>
+    <code code="0334" codeSystem="2.16.840.1.113883.12.212" displayName="Saoediarabische"/>
+    <code code="0335" codeSystem="2.16.840.1.113883.12.212" displayName="Singaporaanse"/>
+    <code code="0336" codeSystem="2.16.840.1.113883.12.212" displayName="Syrische"/>
+    <code code="0337" codeSystem="2.16.840.1.113883.12.212" displayName="Thaise"/>
+    <code code="0338" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van de Ver.  Arabische Emiraten"/>
+    <code code="0339" codeSystem="2.16.840.1.113883.12.212" displayName="Turkse"/>
+    <code code="0340" codeSystem="2.16.840.1.113883.12.212" displayName="Zuidjemenitische"/>
+    <code code="0341" codeSystem="2.16.840.1.113883.12.212" displayName="Zuidkoreaanse"/>
+    <code code="0342" codeSystem="2.16.840.1.113883.12.212" displayName="Viëtnamese"/>
+    <code code="0345" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Bangladesh"/>
+    <code code="0400" codeSystem="2.16.840.1.113883.12.212" displayName="Australische"/>
+    <code code="0401" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Papua-Nieuwguinea"/>
+    <code code="0402" codeSystem="2.16.840.1.113883.12.212" displayName="Nieuwzeelandse"/>
+    <code code="0404" codeSystem="2.16.840.1.113883.12.212" displayName="Westsamoaanse"/>
+    <code code="0421" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Antigua en Barbuda"/>
+    <code code="0424" codeSystem="2.16.840.1.113883.12.212" displayName="Vanuatuse"/>
+    <code code="0425" codeSystem="2.16.840.1.113883.12.212" displayName="Fijische"/>
+    <code code="0429" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Britse afhankelijke gebieden"/>
+    <code code="0430" codeSystem="2.16.840.1.113883.12.212" displayName="Tongaanse"/>
+    <code code="0431" codeSystem="2.16.840.1.113883.12.212" displayName="Nauruaanse"/>
+    <code code="0437" codeSystem="2.16.840.1.113883.12.212" displayName="Amerikaans onderdaan"/>
+    <code code="0442" codeSystem="2.16.840.1.113883.12.212" displayName="Solomoneilandse"/>
+    <code code="0444" codeSystem="2.16.840.1.113883.12.212" displayName="Seychelse"/>
+    <code code="0445" codeSystem="2.16.840.1.113883.12.212" displayName="Kiribatische"/>
+    <code code="0446" codeSystem="2.16.840.1.113883.12.212" displayName="Tuvaluaanse"/>
+    <code code="0447" codeSystem="2.16.840.1.113883.12.212" displayName="Sintluciaanse"/>
+    <code code="0448" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Dominica"/>
+    <code code="0449" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Sint Vincent en de Grenadinen"/>
+    <code code="0450" codeSystem="2.16.840.1.113883.12.212" displayName="British National (overseas)"/>
+    <code code="0451" codeSystem="2.16.840.1.113883.12.212" displayName="Zaïrese (Congolese)"/>
+    <code code="0452" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Timor Leste"/>
+    <code code="0453" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Servië en Montenegro"/>
+    <code code="0454" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Servië"/>
+    <code code="0455" codeSystem="2.16.840.1.113883.12.212" displayName="Burger van Montenegro"/>
+    <code code="0499" codeSystem="2.16.840.1.113883.12.212" displayName="Staatloos"/>
+    <code code="0500" codeSystem="2.16.840.1.113883.12.212" displayName="Vastgesteld niet-Nederlander"/>
+</codeSystem>

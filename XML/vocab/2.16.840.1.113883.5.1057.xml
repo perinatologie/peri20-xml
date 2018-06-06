@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:mif2="urn:hl7-org:v3/mif2" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ns="http://www.w3.org/1999/xhtml" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" codeStrength="CNE">
+    <name>ContextControl</name>
+    <desc>A code that specifies how an ActRelationship or Participation contributes to the context of an Act, and whether it may be propagated to
+        descendent Acts whose association allows such propagation (see also attributes Participation.contextControlCode,
+        ActRelationship.contextControlCode, ActRelationship.contextConductionInd). </desc>
+    <!-- 0-A _ContextControlAdditive (v:ContextControlAdditive)-->
+    <code code="AN" codeSystem="2.16.840.1.113883.5.1057" displayName="additive, non-propagating">
+        <originalText>Definition: The association adds to the existing context associated with the Act, but will not propagate 
+            to any descendant Acts reached by conducting ActRelationships (see contextControlCode). Examples: If an 'Author' 
+            Participation were marked as "Additive, Non-Propagating" it means that the author will be added to the set of author 
+            participations that have propagated from ancestor Acts for the purpose of this Act. However only the previously 
+            propagated authors will propagate to any child Acts that allow context to be propagated.</originalText>
+    </code>
+    <code code="AP" codeSystem="2.16.840.1.113883.5.1057" displayName="additive, propagating">
+        <originalText>Definition: The association adds to the existing context associated with the Act, and will propagate to 
+            any descendant Acts reached by conducting ActRelationships (see contextControlCode). Examples: If an 'Author' 
+            Participation were marked as "Additive, Propagating" it means that the author will be added to the set of author 
+            participations that have propagated from ancestor Acts, and will itself propagate with the other authors to any 
+            child Acts that allow context to be propagated.</originalText>
+    </code>
+    <!-- 0-A _ContextControlNonPropagating (v:ContextControlNonPropagating)-->
+    <code code="ON" codeSystem="2.16.840.1.113883.5.1057" displayName="overriding, non-propagating">
+        <originalText>Definition: The association is added to the existing context associated with the Act, but overrides an 
+            association with the same typeCode. However, this overriding association will not propagate to any descendant Acts 
+            reached by conducting ActRelationships (see contextControlCode). Examples: If an 'Author' Participation were marked 
+            as "Overriding, Non-Propagating" it means that the author will replace the set of author participations that have 
+            propagated from ancestor Acts. Furthermore, no author participations whatsoever will propagate to any child Acts 
+            that allow context to be propagated.</originalText>
+    </code>
+    <!-- 0-A _ContextControlOverriding (v:ContextControlOverriding)-->
+    <code code="OP" codeSystem="2.16.840.1.113883.5.1057" displayName="overriding, propagating">
+        <originalText>Definition: The association is added to the existing context associated with the Act, but overrides an 
+            association with the same typeCode. This overriding association will propagate to any descendant Acts reached by 
+            conducting ActRelationships (see contextControlCode). Examples: If an 'Author' Participation were marked as 
+            "Overriding, Propagating" it means that the author will replace the set of author participations that have 
+            propagated from ancestor Acts, and will itself be the only author to propagate to any child Acts that allow 
+            context to be propagated.</originalText>
+    </code>
+    <!-- 0-A _ContextControlPropagating (v:ContextControlPropagating)-->
+</codeSystem>

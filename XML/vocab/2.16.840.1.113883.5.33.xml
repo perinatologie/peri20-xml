@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:mif2="urn:hl7-org:v3/mif2" xmlns:ns="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>DocumentCompletion</name>
+    <desc>Identifies the current completion state of a clinical document.</desc>
+    <code code="AU" codeSystem="2.16.840.1.113883.5.33" displayName="authenticated">
+        <originalText>Definition: A completion status in which a document has been signed manually or electronically by one or more individuals who
+            attest to its accuracy. No explicit determination is made that the assigned individual has performed the authentication. While the
+            standard allows multiple instances of authentication, it would be typical to have a single instance of authentication, usually by the
+            assigned individual.</originalText>
+    </code>
+    <code code="DI" codeSystem="2.16.840.1.113883.5.33" displayName="dictated">
+        <originalText>Definition: A completion status in which information has been orally recorded but not yet transcribed.</originalText>
+    </code>
+    <code code="DO" codeSystem="2.16.840.1.113883.5.33" displayName="documented">
+        <originalText>Definition: A completion status in which document content, other than dictation, has been received but has not been translated
+            into the final electronic format. Examples include paper documents, whether hand-written or typewritten, and intermediate electronic
+            forms, such as voice to text.</originalText>
+    </code>
+    <code code="IN" codeSystem="2.16.840.1.113883.5.33" displayName="incomplete">
+        <originalText>Definition: A completion status in which information is known to be missing from a transcribed document.</originalText>
+    </code>
+    <code code="IP" codeSystem="2.16.840.1.113883.5.33" displayName="in progress">
+        <originalText>Definition: A workflow status where the material has been assigned to personnel to perform the task of transcription. The
+            document remains in this state until the document is transcribed.</originalText>
+    </code>
+    <code code="LA" codeSystem="2.16.840.1.113883.5.33" displayName="legally authenticated">
+        <originalText>Definition: A completion status in which a document has been signed manually or electronically by the individual who is legally
+            responsible for that document. This is the most mature state in the workflow progression.</originalText>
+    </code>
+    <code code="PA" codeSystem="2.16.840.1.113883.5.33" displayName="pre-authenticated">
+        <originalText>Definition: A completion status in which a document is transcribed but not authenticated.</originalText>
+    </code>
+</codeSystem>

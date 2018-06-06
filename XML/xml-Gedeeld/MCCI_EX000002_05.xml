@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?nictiz status="example"?>
+<?oxygen SCHSchema="../schematron/MCCI_IN000002.sch"?>
+<!-- example accept-level NAK interactie -->
+<!--This is an example only. Examples are not normative, see the implementation guide for normative descriptions.-->
+<MCCI_IN000002 xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../schemas/MCCI_IN000002.xsd">
+	<!-- Transport Wrapper -->
+	<id extension="34234" root="2.16.528.1.1007.3.3.700222.1"/>
+	<creationTime value="20040417161000"/>
+	<versionCode code="NICTIZEd2005-Okt"/>
+	<interactionId extension="MCCI_IN000002" root="2.16.840.1.113883.1.6"/>
+	<profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
+	<processingCode code="P"/>
+	<processingModeCode code="T"/>
+	<!-- accept acks dienen zelf nooit ge-acked te worden -->
+	<acceptAckCode code="NE"/>
+	<!-- CE = accept/commit-level error -->
+	<acknowledgement typeCode="CE">
+		<acknowledgementDetail typeCode="E">
+			<!-- Zie codetabel in NL implementatiegids infrastructurele domeinen  -->
+			<code code="NS200" displayName="Unsupported InteractionID" codeSystem="2.16.840.1.113883.5.1100"/>
+		</acknowledgementDetail>
+		<targetMessage>
+			<!-- id van het bericht waar deze ACK bijhoort -->
+			<id extension="500" root="2.16.528.1.1007.3.2.2222.22"/>
+		</targetMessage>
+	</acknowledgement>
+	<receiver>
+		<device>
+			<id extension="910" root="2.16.840.1.113883.2.4.6.6"/>
+		</device>
+	</receiver>
+	<sender>
+		<device>
+			<!-- sending application, ID of sending system -->
+			<id extension="911" root="2.16.840.1.113883.2.4.6.6"/>
+		</device>
+	</sender>
+</MCCI_IN000002>

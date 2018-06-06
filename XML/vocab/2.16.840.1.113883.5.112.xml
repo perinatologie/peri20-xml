@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type"text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns="urn:hl7-org:v3" xmlns:ns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeStrength="CWE"
+    xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd">
+    <name>RouteOfAdministration</name>
+    <desc/>
+    <!-- 0-A _RouteByMethod (v:RouteByMethod)-->
+    <!-- 1-A _Chew (v:Chew)-->
+    <code code="CHEW" codeSystem="2.16.840.1.113883.5.112" displayName="Chew, oral">
+        <originalText>Definition: Chew, oral</originalText>
+    </code>
+    <!-- 1-A _Diffusion (v:Diffusion)-->
+    <code code="EXTCORPDIF" codeSystem="2.16.840.1.113883.5.112" displayName="Diffusion, extracorporeal">
+        <originalText>Definition: Diffusion, extracorporeal</originalText>
+    </code>
+    <code code="HEMODIFF" codeSystem="2.16.840.1.113883.5.112" displayName="Diffusion, hemodialysis">
+        <originalText>Definition: Diffusion, hemodialysis</originalText>
+    </code>
+    <code code="TRNSDERMD" codeSystem="2.16.840.1.113883.5.112" displayName="Diffusion, transdermal">
+        <originalText>Definition: Diffusion, transdermal</originalText>
+    </code>
+    <!-- 1-A _Dissolve (v:Dissolve)-->
+    <code code="DISSOLVE" codeSystem="2.16.840.1.113883.5.112" displayName="Dissolve, oral">
+        <originalText>Definition: Dissolve, oral</originalText>
+    </code>
+    <code code="SL" codeSystem="2.16.840.1.113883.5.112" displayName="Dissolve, sublingual">
+        <originalText>Definition: Dissolve, sublingual</originalText>
+    </code>
+    <!-- 1-A _Douche (v:Douche)-->
+    <code code="DOUCHE" codeSystem="2.16.840.1.113883.5.112" displayName="Douche, vaginal">
+        <originalText>Definition: Douche, vaginal</originalText>
+    </code>
+    <!-- 1-A _ElectroOsmosisRoute (v:ElectroOsmosisRoute)-->
+    <code code="ELECTOSMOS" codeSystem="2.16.840.1.113883.5.112" displayName="Electro-osmosis">
+        <originalText>Definition: Electro-osmosis</originalText>
+    </code>
+    <!-- 1-A _Enema (v:Enema)-->
+    <code code="ENEMA" codeSystem="2.16.840.1.113883.5.112" displayName="Enema, rectal">
+        <originalText>Definition: Enema, rectal</originalText>
+    </code>
+    <code code="RETENEMA" codeSystem="2.16.840.1.113883.5.112" displayName="Enema, rectal retention">
+        <originalText>Definition: Enema, rectal retention</originalText>
+    </code>
+    <!-- 1-A _Flush (v:Flush)-->
+    <code code="IVFLUSH" codeSystem="2.16.840.1.113883.5.112" displayName="Flush, intravenous catheter">
+        <originalText>Definition: Flush, intravenous catheter</originalText>
+    </code>
+    <!-- 1-A _Implantation (v:Implantation)-->
+    <code code="IDIMPLNT" codeSystem="2.16.840.1.113883.5.112" displayName="Implantation, intradermal">
+        <originalText>Definition: Implantation, intradermal</originalText>
+    </code>
+    <code code="IVITIMPLNT" codeSystem="2.16.840.1.113883.5.112" displayName="Implantation, intravitreal">
+        <originalText>Definition: Implantation, intravitreal</originalText>
+    </code>
+    <code code="SQIMPLNT" codeSystem="2.16.840.1.113883.5.112" displayName="Implantation, subcutaneous">
+        <originalText>Definition: Implantation, subcutaneous</originalText>
+    </code>
+    <code code="_InfiltrationRoute" codeSystem="2.16.840.1.113883.5.112" displayName="InfiltrationRoute">
+        <originalText>Definition: Infiltration</originalText>
+    </code>
+    <!-- 1-A _Infusion (v:Infusion)-->
+    <code code="EPI" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, epidural">
+        <originalText>Definition: Infusion, epidural</originalText>
+    </code>
+    <code code="IA" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intraarterial catheter">
+        <originalText>Definition: Infusion, intraarterial catheter</originalText>
+    </code>
+    <code code="IC" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intracardiac">
+        <originalText>Definition: Infusion, intracardiac</originalText>
+    </code>
+    <code code="ICOR" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intracoronary">
+        <originalText>Definition: Infusion, intracoronary</originalText>
+    </code>
+    <code code="IOSSC" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intraosseous, continuous">
+        <originalText>Definition: Infusion, intraosseous, continuous</originalText>
+    </code>
+    <code code="IT" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intrathecal">
+        <originalText>Definition: Infusion, intrathecal</originalText>
+    </code>
+    <code code="IVC" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intravenous catheter">
+        <originalText>Definition: Infusion, intravenous catheter</originalText>
+    </code>
+    <code code="IVCC" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intravenous catheter, continuous">
+        <originalText>Definition: Infusion, intravenous catheter, continuous</originalText>
+    </code>
+    <code code="IVCI" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intravenous catheter, intermittent">
+        <originalText>Definition: Infusion, intravenous catheter, intermittent</originalText>
+    </code>
+    <code code="PCA" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intravenous catheter, pca pump">
+        <originalText>Definition: Infusion, intravenous catheter, pca pump</originalText>
+    </code>
+    <code code="IVASCINFUS" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, intravascular">
+        <originalText>Definition: Infusion, intravascular</originalText>
+    </code>
+    <code code="SQINFUS" codeSystem="2.16.840.1.113883.5.112" displayName="Infusion, subcutaneous">
+        <originalText>Definition: Infusion, subcutaneous</originalText>
+    </code>
+    <!-- 1-A _Inhalation (v:Inhalation)-->
+    <code code="ORIFINHL" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, oral intermittent flow">
+        <originalText>Definition: Inhalation, oral intermittent flow</originalText>
+    </code>
+    <code code="REBREATH" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, oral rebreather mask">
+        <originalText>Definition: Inhalation, oral rebreather mask</originalText>
+    </code>
+    <code code="IPPB" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, intermittent positive pressure breathing (ippb)">
+        <originalText>Definition: Inhalation, intermittent positive pressure breathing (ippb)</originalText>
+    </code>
+    <code code="NASINHLC" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, nasal cannulaInhalation, nasal, prongs ">
+        <originalText>Definition: Inhalation, nasal, prongs</originalText>
+    </code>
+    <code code="NP" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, nasal cannulaInhalation, nasal, prongs ">
+        <originalText>Definition: Inhalation, nasal, prongs</originalText>
+    </code>
+    <code code="NASNEB" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, nebulization, nasal">
+        <originalText>Definition: Inhalation, nebulization, nasal</originalText>
+    </code>
+    <code code="ORNEB" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, nebulization, oral">
+        <originalText>Definition: Inhalation, nebulization, oral</originalText>
+    </code>
+    <code code="TRACH" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, tracheostomy">
+        <originalText>Definition: Inhalation, tracheostomy</originalText>
+    </code>
+    <code code="VENT" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, ventilator">
+        <originalText>Definition: Inhalation, ventilator</originalText>
+    </code>
+    <code code="VENTMASK" codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation, ventimask">
+        <originalText>Definition: Inhalation, ventimask</originalText>
+    </code>
+    <!-- 1-A _Injection (v:Injection)-->
+    <code code="AMNINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, amniotic fluid">
+        <originalText>Definition: Injection, amniotic fluid</originalText>
+    </code>
+    <code code="BILINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, biliary tract">
+        <originalText>Definition: Injection, biliary tract</originalText>
+    </code>
+    <code code="BLADINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, urinary bladder">
+        <originalText>Definition: Injection, urinary bladder</originalText>
+    </code>
+    <code code="CERVINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, cervical">
+        <originalText>Definition: Injection, cervical</originalText>
+    </code>
+    <code code="CHOLINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, for cholangiography">
+        <originalText>Definition: Injection, for cholangiography</originalText>
+    </code>
+    <code code="ENDOSININJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, endosinusial">
+        <originalText>Definition: Injection, endosinusial</originalText>
+    </code>
+    <code code="EPIDURINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, epidural">
+        <originalText>Definition: Injection, epidural</originalText>
+    </code>
+    <code code="EPIINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, epidural, push">
+        <originalText>Definition: Injection, epidural, push</originalText>
+    </code>
+    <code code="EPINJSP" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, epidural, slow push">
+        <originalText>Definition: Injection, epidural, slow push</originalText>
+    </code>
+    <code code="EXTCORPINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, extracorporeal">
+        <originalText>Definition: Injection, extracorporeal</originalText>
+    </code>
+    <code code="EXTRAMNINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, extra-amniotic">
+        <originalText>Definition: Injection, extra-amniotic</originalText>
+    </code>
+    <code code="GBINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, gastric button">
+        <originalText>Definition: Injection, gastric button</originalText>
+    </code>
+    <code code="GINGINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, gingival">
+        <originalText>Definition: Injection, gingival</originalText>
+    </code>
+    <code code="HEMOPORT" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, hemodialysis port">
+        <originalText>Definition: Injection, hemodialysis port</originalText>
+    </code>
+    <code code="IABDINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intra-abdominal">
+        <originalText>Definition: Injection, intra-abdominal</originalText>
+    </code>
+    <code code="IAINJP" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraarterial, push">
+        <originalText>Definition: Injection, intraarterial, push</originalText>
+    </code>
+    <code code="IAINJSP" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraarterial, slow push">
+        <originalText>Definition: Injection, intraarterial, slow push</originalText>
+    </code>
+    <code code="IARTINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraarticular">
+        <originalText>Definition: Injection, intraarticular</originalText>
+    </code>
+    <code code="IBURSINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrabursal">
+        <originalText>Definition: Injection, intrabursal</originalText>
+    </code>
+    <code code="ICARDINJRP" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracardiac, rapid push">
+        <originalText>Definition: Injection, intracardiac, rapid push</originalText>
+    </code>
+    <code code="ICARDINJSP" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracardiac, slow push">
+        <originalText>Definition: Injection, intracardiac, slow push</originalText>
+    </code>
+    <code code="ICARINJP" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracardiac, push">
+        <originalText>Definition: Injection, intracardiac, push</originalText>
+    </code>
+    <code code="ICARTINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracartilaginous">
+        <originalText>Definition: Injection, intracartilaginous</originalText>
+    </code>
+    <code code="ICAUDINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracaudal">
+        <originalText>Definition: Injection, intracaudal</originalText>
+    </code>
+    <code code="ICAVINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracavernous">
+        <originalText>Definition: Injection, intracavernous</originalText>
+    </code>
+    <code code="ICAVITINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracavitary">
+        <originalText>Definition: Injection, intracavitary</originalText>
+    </code>
+    <code code="ICEREBINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracerebral">
+        <originalText>Definition: Injection, intracerebral</originalText>
+    </code>
+    <code code="ICISTERNINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracisternal">
+        <originalText>Definition: Injection, intracisternal</originalText>
+    </code>
+    <code code="ICORONINJP" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracoronary, push">
+        <originalText>Definition: Injection, intracoronary, push</originalText>
+    </code>
+    <code code="ICORPCAVINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracorpus cavernosum">
+        <originalText>Definition: Injection, intracorpus cavernosum</originalText>
+    </code>
+    <code code="IDINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intradermal">
+        <originalText>Definition: Injection, intradermal</originalText>
+    </code>
+    <code code="IDISCINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intradiscal">
+        <originalText>Definition: Injection, intradiscal</originalText>
+    </code>
+    <code code="IDUCTINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraductal">
+        <originalText>Definition: Injection, intraductal</originalText>
+    </code>
+    <code code="IDURINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intradural">
+        <originalText>Definition: Injection, intradural</originalText>
+    </code>
+    <code code="IEPIDINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraepidermal">
+        <originalText>Definition: Injection, intraepidermal</originalText>
+    </code>
+    <code code="IEPITHINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraepithelial">
+        <originalText>Definition: Injection, intraepithelial</originalText>
+    </code>
+    <code code="ILESINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intralesional">
+        <originalText>Definition: Injection, intralesional</originalText>
+    </code>
+    <code code="ILUMINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraluminal">
+        <originalText>Definition: Injection, intraluminal</originalText>
+    </code>
+    <code code="ILYMPJINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intralymphatic">
+        <originalText>Definition: Injection, intralymphatic</originalText>
+    </code>
+    <code code="IMD" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intramuscular, deep">
+        <originalText>Definition: Injection, intramuscular, deep</originalText>
+    </code>
+    <code code="IMZ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intramuscular, z track">
+        <originalText>Definition: Injection, intramuscular, z track</originalText>
+    </code>
+    <code code="IMEDULINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intramedullary">
+        <originalText>Definition: Injection, intramedullary</originalText>
+    </code>
+    <code code="INTERMENINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, interameningeal">
+        <originalText>Definition: Injection, interameningeal</originalText>
+    </code>
+    <code code="INTERSTITINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, interstitial">
+        <originalText>Definition: Injection, interstitial</originalText>
+    </code>
+    <code code="IOINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraocular">
+        <originalText>Definition: Injection, intraocular</originalText>
+    </code>
+    <code code="IOSSINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraosseous">
+        <originalText>Definition: Injection, intraosseous</originalText>
+    </code>
+    <code code="IOVARINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraovarian">
+        <originalText>Definition: Injection, intraovarian</originalText>
+    </code>
+    <code code="IPCARDINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrapericardial">
+        <originalText>Definition: Injection, intrapericardial</originalText>
+    </code>
+    <code code="IPERINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraperitoneal">
+        <originalText>Definition: Injection, intraperitoneal</originalText>
+    </code>
+    <code code="IPINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrapulmonary">
+        <originalText>Definition: Injection, intrapulmonary</originalText>
+    </code>
+    <code code="IPLRINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrapleural">
+        <originalText>Definition: Injection, intrapleural</originalText>
+    </code>
+    <code code="IPROSTINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraprostatic">
+        <originalText>Definition: Injection, intraprostatic</originalText>
+    </code>
+    <code code="IPUMPINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, insulin pump">
+        <originalText>Definition: Injection, insulin pump</originalText>
+    </code>
+    <code code="ISINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraspinal">
+        <originalText>Definition: Injection, intraspinal</originalText>
+    </code>
+    <code code="ISTERINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrasternal">
+        <originalText>Definition: Injection, intrasternal</originalText>
+    </code>
+    <code code="ISYNINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrasynovial">
+        <originalText>Definition: Injection, intrasynovial</originalText>
+    </code>
+    <code code="ITENDINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intratendinous">
+        <originalText>Definition: Injection, intratendinous</originalText>
+    </code>
+    <code code="ITESTINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intratesticular">
+        <originalText>Definition: Injection, intratesticular</originalText>
+    </code>
+    <code code="ITHORINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrathoracic">
+        <originalText>Definition: Injection, intrathoracic</originalText>
+    </code>
+    <code code="ITINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrathecal">
+        <originalText>Definition: Injection, intrathecal</originalText>
+    </code>
+    <code code="ITUBINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intratubular">
+        <originalText>Definition: Injection, intratubular</originalText>
+    </code>
+    <code code="ITUMINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intratumor">
+        <originalText>Definition: Injection, intratumor</originalText>
+    </code>
+    <code code="ITYMPINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intratympanic">
+        <originalText>Definition: Injection, intratympanic</originalText>
+    </code>
+    <code code="IUINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intrauterine">
+        <originalText>Definition: Injection, intracervical (uterus)</originalText>
+    </code>
+    <code code="IUINJC" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intracervical (uterus)">
+        <originalText>Definition: Injection, intracervical (uterus)</originalText>
+    </code>
+    <code code="IURETINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraureteral, retrograde">
+        <originalText>Definition: Injection, intraureteral, retrograde</originalText>
+    </code>
+    <code code="IVASCINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intravascular">
+        <originalText>Definition: Injection, intravascular</originalText>
+    </code>
+    <code code="IVENTINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intraventricular (heart)">
+        <originalText>Definition: Injection, intraventricular (heart)</originalText>
+    </code>
+    <code code="IVESINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intravesicle">
+        <originalText>Definition: Injection, intravesicle</originalText>
+    </code>
+    <code code="IVINJBOL" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intravenous, bolus">
+        <originalText>Definition: Injection, intravenous, bolus</originalText>
+    </code>
+    <code code="IVPUSH" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intravenous, push">
+        <originalText>Definition: Injection, intravenous, push</originalText>
+    </code>
+    <code code="IVRPUSH" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intravenous, rapid push">
+        <originalText>Definition: Injection, intravenous, rapid push</originalText>
+    </code>
+    <code code="IVSPUSH" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intravenous, slow push">
+        <originalText>Definition: Injection, intravenous, slow push</originalText>
+    </code>
+    <code code="IVITINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, intravitreal">
+        <originalText>Definition: Injection, intravitreal</originalText>
+    </code>
+    <code code="PAINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, periarticular">
+        <originalText>Definition: Injection, periarticular</originalText>
+    </code>
+    <code code="PARENTINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, parenteral">
+        <originalText>Definition: Injection, parenteral</originalText>
+    </code>
+    <code code="PDONTINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, periodontal">
+        <originalText>Definition: Injection, periodontal</originalText>
+    </code>
+    <code code="PDPINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, peritoneal dialysis port">
+        <originalText>Definition: Injection, peritoneal dialysis port</originalText>
+    </code>
+    <code code="PDURINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, peridural">
+        <originalText>Definition: Injection, peridural</originalText>
+    </code>
+    <code code="PNINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, perineural">
+        <originalText>Definition: Injection, perineural</originalText>
+    </code>
+    <code code="PNSINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, paranasal sinuses">
+        <originalText>Definition: Injection, paranasal sinuses</originalText>
+    </code>
+    <code code="RBINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, retrobulbar">
+        <originalText>Definition: Injection, retrobulbar</originalText>
+    </code>
+    <code code="SCINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, subconjunctival">
+        <originalText>Definition: Injection, subconjunctival</originalText>
+    </code>
+    <code code="SLESINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, sublesional">
+        <originalText>Definition: Injection, sublesional</originalText>
+    </code>
+    <code code="SOFTISINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, soft tissue">
+        <originalText>Definition: Injection, soft tissue</originalText>
+    </code>
+    <code code="SQ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, subcutaneous">
+        <originalText>Definition: Injection, subcutaneous</originalText>
+    </code>
+    <code code="SUBARACHINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, subarachnoid">
+        <originalText>Definition: Injection, subarachnoid</originalText>
+    </code>
+    <code code="SUBMUCINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, submucosal">
+        <originalText>Definition: Injection, submucosal</originalText>
+    </code>
+    <code code="TRPLACINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, transplacental">
+        <originalText>Definition: Injection, transplacental</originalText>
+    </code>
+    <code code="TRTRACHINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, transtracheal">
+        <originalText>Definition: Injection, transtracheal</originalText>
+    </code>
+    <code code="URETHINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, urethral">
+        <originalText>Definition: Injection, urethral</originalText>
+    </code>
+    <code code="URETINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Injection, ureteral">
+        <originalText>Definition: Injection, ureteral</originalText>
+    </code>
+    <!-- 1-A _Insertion (v:Insertion)-->
+    <code code="CERVINS" codeSystem="2.16.840.1.113883.5.112" displayName="Insertion, cervical (uterine)">
+        <originalText>Definition: Insertion, cervical (uterine)</originalText>
+    </code>
+    <code code="IOSURGINS" codeSystem="2.16.840.1.113883.5.112" displayName="Insertion, intraocular, surgical">
+        <originalText>Definition: Insertion, intraocular, surgical</originalText>
+    </code>
+    <code code="IU" codeSystem="2.16.840.1.113883.5.112" displayName="Insertion, intrauterine">
+        <originalText>Definition: Insertion, intrauterine</originalText>
+    </code>
+    <code code="LPINS" codeSystem="2.16.840.1.113883.5.112" displayName="Insertion, lacrimal puncta">
+        <originalText>Definition: Insertion, lacrimal puncta</originalText>
+    </code>
+    <code code="PR" codeSystem="2.16.840.1.113883.5.112" displayName="Insertion, rectal">
+        <originalText>Definition: Insertion, rectal</originalText>
+    </code>
+    <code code="SQSURGINS" codeSystem="2.16.840.1.113883.5.112" displayName="Insertion, subcutaneous, surgical">
+        <originalText>Definition: Insertion, subcutaneous, surgical</originalText>
+    </code>
+    <code code="URETHINS" codeSystem="2.16.840.1.113883.5.112" displayName="Insertion, urethral">
+        <originalText>Definition: Insertion, urethral</originalText>
+    </code>
+    <code code="VAGINSI" codeSystem="2.16.840.1.113883.5.112" displayName="Insertion, vaginal">
+        <originalText>Definition: Insertion, vaginal</originalText>
+    </code>
+    <!-- 1-A _Instillation (v:Instillation)-->
+    <code code="BLADINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, urinary catheter">
+        <originalText>Definition: Instillation, urinary catheter</originalText>
+    </code>
+    <code code="CAPDINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, continuous ambulatory peritoneal dialysis port">
+        <originalText>Definition: Instillation, continuous ambulatory peritoneal dialysis port</originalText>
+    </code>
+    <code code="CECINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, cecostomy">
+        <originalText>Definition: Instillation, cecostomy</originalText>
+    </code>
+    <code code="CTINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, chest tube">
+        <originalText>Definition: Instillation, chest tube</originalText>
+    </code>
+    <code code="EFT" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, enteral feeding tube">
+        <originalText>Definition: Instillation, enteral feeding tube</originalText>
+    </code>
+    <code code="ENTINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, enteral">
+        <originalText>Definition: Instillation, enteral</originalText>
+    </code>
+    <code code="ETINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, endotracheal tube">
+        <originalText>Definition: Instillation, endotracheal tube</originalText>
+    </code>
+    <code code="GJT" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, gastro-jejunostomy tube">
+        <originalText>Definition: Instillation, gastro-jejunostomy tube</originalText>
+    </code>
+    <code code="GT" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, gastrostomy tube">
+        <originalText>Definition: Instillation, gastrostomy tube</originalText>
+    </code>
+    <code code="IBRONCHINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intrabronchial">
+        <originalText>Definition: Instillation, intrabronchial</originalText>
+    </code>
+    <code code="IDUODINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intraduodenal">
+        <originalText>Definition: Instillation, intraduodenal</originalText>
+    </code>
+    <code code="IESOPHINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intraesophageal">
+        <originalText>Definition: Instillation, intraesophageal</originalText>
+    </code>
+    <code code="IGASTINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intragastric">
+        <originalText>Definition: Instillation, intragastric</originalText>
+    </code>
+    <code code="IILEALINJ" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intraileal">
+        <originalText>Definition: Instillation, intraileal</originalText>
+    </code>
+    <code code="IOINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intraocular">
+        <originalText>Definition: Instillation, intraocular</originalText>
+    </code>
+    <code code="ISININSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intrasinal">
+        <originalText>Definition: Instillation, intrasinal</originalText>
+    </code>
+    <code code="ITRACHINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intratracheal">
+        <originalText>Definition: Instillation, intratracheal</originalText>
+    </code>
+    <code code="IUINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, intrauterine">
+        <originalText>Definition: Instillation, intrauterine</originalText>
+    </code>
+    <code code="JJTINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, jejunostomy tube">
+        <originalText>Definition: Instillation, jejunostomy tube</originalText>
+    </code>
+    <code code="LARYNGINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, laryngeal">
+        <originalText>Definition: Instillation, laryngeal</originalText>
+    </code>
+    <code code="NASALINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, nasal">
+        <originalText>Definition: Instillation, nasal</originalText>
+    </code>
+    <code code="NASOGASINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, nasogastric">
+        <originalText>Definition: Instillation, nasogastric</originalText>
+    </code>
+    <code code="NGT" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, nasogastric tube">
+        <originalText>Definition: Instillation, nasogastric tube</originalText>
+    </code>
+    <code code="NTT" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, nasotracheal tube">
+        <originalText>Definition: Instillation, nasotracheal tube</originalText>
+    </code>
+    <code code="OGT" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, orogastric tube">
+        <originalText>Definition: Instillation, orogastric tube</originalText>
+    </code>
+    <code code="OJJ" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, orojejunum tube">
+        <originalText>Definition: Instillation, orojejunum tube</originalText>
+    </code>
+    <code code="OT" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, otic">
+        <originalText>Definition: Instillation, otic</originalText>
+    </code>
+    <code code="PDPINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, peritoneal dialysis port">
+        <originalText>Definition: Instillation, peritoneal dialysis port</originalText>
+    </code>
+    <code code="PNSINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, paranasal sinuses">
+        <originalText>Definition: Instillation, paranasal sinuses</originalText>
+    </code>
+    <code code="RECTINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, rectal tube">
+        <originalText>Definition: Instillation, rectal tube</originalText>
+    </code>
+    <code code="SININSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, sinus, unspecified">
+        <originalText>Definition: Instillation, sinus, unspecified</originalText>
+    </code>
+    <code code="SOFTISINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, soft tissue">
+        <originalText>Definition: Instillation, soft tissue</originalText>
+    </code>
+    <code code="TRACHINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, tracheostomy">
+        <originalText>Definition: Instillation, tracheostomy</originalText>
+    </code>
+    <code code="TRTYMPINSTIL" codeSystem="2.16.840.1.113883.5.112" displayName="Instillation, transtympanic">
+        <originalText>Definition: Instillation, transtympanic</originalText>
+    </code>
+    <code code="URETHINSTL" codeSystem="2.16.840.1.113883.5.112" displayName="instillation, urethral">
+        <originalText>Definition: Instillation, urethral</originalText>
+    </code>
+    <!-- 1-A _IontophoresisRoute (v:IontophoresisRoute)-->
+    <code code="IONTO" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, iontophoresis">
+        <originalText>Definition: Topical application, iontophoresis</originalText>
+    </code>
+    <!-- 1-A _Irrigation (v:Irrigation)-->
+    <code code="BLADIRRC" codeSystem="2.16.840.1.113883.5.112" displayName="Irrigation, urinary bladder, continuous">
+        <originalText>Definition: Irrigation, urinary bladder, continuous</originalText>
+    </code>
+    <code code="BLADIRRT" codeSystem="2.16.840.1.113883.5.112" displayName="Irrigation, urinary bladder, tidal">
+        <originalText>Definition: Irrigation, urinary bladder, tidal</originalText>
+    </code>
+    <code code="GUIRR" codeSystem="2.16.840.1.113883.5.112" displayName="Irrigation, genitourinary">
+        <originalText>Definition: Irrigation, genitourinary</originalText>
+    </code>
+    <code code="IGASTIRR" codeSystem="2.16.840.1.113883.5.112" displayName="Irrigation, intragastric">
+        <originalText>Definition: Irrigation, intragastric</originalText>
+    </code>
+    <code code="ILESIRR" codeSystem="2.16.840.1.113883.5.112" displayName="Irrigation, intralesional">
+        <originalText>Definition: Irrigation, intralesional</originalText>
+    </code>
+    <code code="IOIRR" codeSystem="2.16.840.1.113883.5.112" displayName="Irrigation, intraocular">
+        <originalText>Definition: Irrigation, intraocular</originalText>
+    </code>
+    <code code="RECIRR" codeSystem="2.16.840.1.113883.5.112" displayName="Irrigation, rectal">
+        <originalText>Definition: Irrigation, rectal</originalText>
+    </code>
+    <!-- 1-A _LavageRoute (v:LavageRoute)-->
+    <code code="IGASTLAV" codeSystem="2.16.840.1.113883.5.112" displayName="Lavage, intragastric">
+        <originalText>Definition: Lavage, intragastric</originalText>
+    </code>
+    <!-- 1-A _MucosalAbsorptionRoute (v:MucosalAbsorptionRoute)-->
+    <code code="IDOUDMAB" codeSystem="2.16.840.1.113883.5.112" displayName="Mucosal absorption, intraduodenal">
+        <originalText>Definition: Mucosal absorption, intraduodenal</originalText>
+    </code>
+    <code code="ITRACHMAB" codeSystem="2.16.840.1.113883.5.112" displayName="Mucosal absorption, intratracheal">
+        <originalText>Definition: Mucosal absorption, intratracheal</originalText>
+    </code>
+    <code code="SMUCMAB" codeSystem="2.16.840.1.113883.5.112" displayName="Mucosal absorption, submucosal">
+        <originalText>Definition: Mucosal absorption, submucosal</originalText>
+    </code>
+    <!-- 1-A _Nebulization (v:Nebulization)-->
+    <code code="ETNEB" codeSystem="2.16.840.1.113883.5.112" displayName="Nebulization, endotracheal tube">
+        <originalText>Definition: Nebulization, endotracheal tube</originalText>
+    </code>
+    <!-- 1-A _Rinse (v:Rinse)-->
+    <code code="DENRINSE" codeSystem="2.16.840.1.113883.5.112" displayName="Rinse, dental">
+        <originalText>Definition: Rinse, dental</originalText>
+    </code>
+    <code code="ORRINSE" codeSystem="2.16.840.1.113883.5.112" displayName="Rinse, oral">
+        <originalText>Definition: Rinse, oral</originalText>
+    </code>
+    <!-- 1-A _SuppositoryRoute (v:SuppositoryRoute)-->
+    <code code="URETHSUP" codeSystem="2.16.840.1.113883.5.112" displayName="Suppository, urethral">
+        <originalText>Definition: Suppository, urethral</originalText>
+    </code>
+    <!-- 1-A _Swish (v:Swish)-->
+    <code code="SWISHSPIT" codeSystem="2.16.840.1.113883.5.112" displayName="Swish and spit out, oromucosal">
+        <originalText>Definition: Swish and spit out, oromucosal</originalText>
+    </code>
+    <code code="SWISHSWAL" codeSystem="2.16.840.1.113883.5.112" displayName="Swish and swallow, oromucosal">
+        <originalText>Definition: Swish and swallow, oromucosal</originalText>
+    </code>
+    <!-- 1-A _TopicalAbsorptionRoute (v:TopicalAbsorptionRoute)-->
+    <code code="TTYMPTABSORP" codeSystem="2.16.840.1.113883.5.112" displayName="Topical absorption, transtympanic">
+        <originalText>Definition: Topical absorption, transtympanic</originalText>
+    </code>
+    <!-- 1-A _TopicalApplication (v:TopicalApplication)-->
+    <code code="BUC" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, buccal">
+        <originalText>Definition: Topical application, buccal</originalText>
+    </code>
+    <code code="CERV" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, cervical">
+        <originalText>Definition: Topical application, cervical</originalText>
+    </code>
+    <code code="DEN" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, dental">
+        <originalText>Definition: Topical application, dental</originalText>
+    </code>
+    <code code="DRESS" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, soaked dressing">
+        <originalText>Definition: Topical application, soaked dressing</originalText>
+    </code>
+    <code code="GIN" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, gingival">
+        <originalText>Definition: Topical application, gingival</originalText>
+    </code>
+    <code code="HAIR" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, hair">
+        <originalText>Definition: Topical application, hair</originalText>
+    </code>
+    <code code="ICORNTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, intracorneal">
+        <originalText>Definition: Topical application, intracorneal</originalText>
+    </code>
+    <code code="ICORONTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, intracoronal (dental)">
+        <originalText>Definition: Topical application, intracoronal (dental)</originalText>
+    </code>
+    <code code="IESOPHTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, intraesophageal">
+        <originalText>Definition: Topical application, intraesophageal</originalText>
+    </code>
+    <code code="IILEALTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, intraileal">
+        <originalText>Definition: Topical application, intraileal</originalText>
+    </code>
+    <code code="ILTOP" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, intralesional">
+        <originalText>Definition: Topical application, intralesional</originalText>
+    </code>
+    <code code="ILUMTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, intraluminal">
+        <originalText>Definition: Topical application, intraluminal</originalText>
+    </code>
+    <code code="IOTOP" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, intraocular">
+        <originalText>Definition: Topical application, intraocular</originalText>
+    </code>
+    <code code="LARYNGTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, laryngeal">
+        <originalText>Definition: Topical application, laryngeal</originalText>
+    </code>
+    <code code="MUC" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, mucous membrane">
+        <originalText>Definition: Topical application, mucous membrane</originalText>
+    </code>
+    <code code="NAIL" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, nail">
+        <originalText>Definition: Topical application, nail</originalText>
+    </code>
+    <code code="NASAL" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, nasal">
+        <originalText>Definition: Topical application, nasal</originalText>
+    </code>
+    <code code="OCDRESTA" codeSystem="2.16.840.1.113883.5.112" displayName="Occlusive dressing technique">
+        <originalText>Definition: Occlusive dressing technique</originalText>
+    </code>
+    <code code="OPTHALTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, ophthalmic">
+        <originalText>Definition: Topical application, ophthalmic</originalText>
+    </code>
+    <code code="ORALTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, oral">
+        <originalText>Definition: Topical application, oral</originalText>
+    </code>
+    <code code="ORMUC" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, oromucosal">
+        <originalText>Definition: Topical application, oromucosal</originalText>
+    </code>
+    <code code="OROPHARTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, oropharyngeal">
+        <originalText>Definition: Topical application, oropharyngeal</originalText>
+    </code>
+    <code code="PDONTTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, periodontal">
+        <originalText>Definition: Topical application, periodontal</originalText>
+    </code>
+    <code code="PERIANAL" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, perianal">
+        <originalText>Definition: Topical application, perianal</originalText>
+    </code>
+    <code code="PERINEAL" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, perineal">
+        <originalText>Definition: Topical application, perineal</originalText>
+    </code>
+    <code code="RECTAL" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, rectal">
+        <originalText>Definition: Topical application, rectal</originalText>
+    </code>
+    <code code="SCALP" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, scalp">
+        <originalText>Definition: Topical application, scalp</originalText>
+    </code>
+    <code code="SKIN" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, skin">
+        <originalText>Definition: Topical application, skin</originalText>
+    </code>
+    <code code="SUBCONJTA" codeSystem="2.16.840.1.113883.5.112" displayName="Subconjunctival">
+        <originalText>Definition: Subconjunctival</originalText>
+    </code>
+    <code code="SWAB" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, swab">
+        <originalText>Definition: Topical application, swab</originalText>
+    </code>
+    <code code="TMUCTA" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, transmucosal">
+        <originalText>Definition: Topical application, transmucosal</originalText>
+    </code>
+    <code code="TOPICAL" codeSystem="2.16.840.1.113883.5.112" displayName="Topical">
+        <originalText>Definition: Topical</originalText>
+    </code>
+    <code code="VAGINS" codeSystem="2.16.840.1.113883.5.112" displayName="Topical application, vaginal">
+        <originalText>Definition: Insertion, vaginal</originalText>
+    </code>
+    <code code="GARGLE" codeSystem="2.16.840.1.113883.5.112" displayName="Gargle">
+        <originalText>Definition: Gargle</originalText>
+    </code>
+    <code code="INSUF" codeSystem="2.16.840.1.113883.5.112" displayName="Insufflation">
+        <originalText>Definition: Insufflation</originalText>
+    </code>
+    <code code="PO" codeSystem="2.16.840.1.113883.5.112" displayName="Swallow, oral">
+        <originalText>Definition: Swallow, oral</originalText>
+    </code>
+    <code code="SHAMPOO" codeSystem="2.16.840.1.113883.5.112" displayName="Shampoo">
+        <originalText>Definition: Shampoo</originalText>
+    </code>
+    <code code="SOAK" codeSystem="2.16.840.1.113883.5.112" displayName="Immersion (soak)">
+        <originalText>Definition: Immersion (soak)</originalText>
+    </code>
+    <code code="SUCK" codeSystem="2.16.840.1.113883.5.112" displayName="Suck, oromucosal">
+        <originalText>Definition: Suck, oromucosal</originalText>
+    </code>
+    <code code="TRNSLING" codeSystem="2.16.840.1.113883.5.112" displayName="Translingual">
+        <originalText>Definition: Translingual</originalText>
+    </code>
+    <!-- 0-A _RouteBySite (v:RouteBySite)-->
+    <!-- 1-A _AmnioticFluidSacRoute (v:AmnioticFluidSacRoute)-->
+    <!-- 1-A _BiliaryRoute (v:BiliaryRoute)-->
+    <!-- 1-A _BodySurfaceRoute (v:BodySurfaceRoute)-->
+    <!-- 1-A _CervicalRoute (v:CervicalRoute)-->
+    <!-- 1-A _DentalRoute (v:_DentalRoute) -->
+    <!-- 1-A _EndocervicalRoute (v:EndocervicalRoute)-->
+    <!-- 1-A _EnteralRoute (v:EnteralRoute)-->
+    <!-- 1-A _EpiduralRoute (v:EpiduralRoute)-->
+    <!-- 1-A _ExtraAmnioticRoute (v:ExtraAmnioticRoute)-->
+    <!-- 1-A _ExtracorporealCirculationRoute (v:ExtracorporealCirculationRoute)-->
+    <!-- 1-A _GastricRoute (v:GastricRoute)-->
+    <!-- 1-A _GingivalRoute (v:GingivalRoute)-->
+    <!-- 1-A _InterameningealRoute (v:InterameningealRoute)-->
+    <!-- 1-A _IntraabdominalRoute (v:IntraabdominalRoute)-->
+    <!-- 1-A _IntraarterialRoute (v:IntraarterialRoute)-->
+    <!-- 1-A _IntraarticularRoute (v:IntraarticularRoute)-->
+    <!-- 1-A _IntrabronchialRoute (v:IntrabronchialRoute)-->
+    <!-- 1-A _IntrabursalRoute (v:IntrabursalRoute)-->
+    <!-- 1-A _IntracardiacRoute (v:IntracardiacRoute)-->
+    <!-- 1-A _IntracartilaginousRoute (v:IntracartilaginousRoute)-->
+    <!-- 1-A _IntracaudalRoute (v:IntracaudalRoute)-->
+    <!-- 1-A _IntracavernosalRoute (v:IntracavernosalRoute)-->
+    <!-- 1-A _IntracavitaryRoute (v:IntracavitaryRoute)-->
+    <!-- 1-A _IntracerebralRoute (v:IntracerebralRoute)-->
+    <!-- 1-A _IntracervicalRoute (v:IntracervicalRoute)-->
+    <!-- 1-A _IntracisternalRoute (v:IntracisternalRoute)-->
+    <!-- 1-A _IntracornealRoute (v:IntracornealRoute)-->
+    <!-- 1-A _IntracoronalRoute (v:IntracoronalRoute)-->
+    <!-- 1-A _IntracoronaryRoute (v:IntracoronaryRoute)-->
+    <!-- 1-A _IntracorpusCavernosumRoute (v:IntracorpusCavernosumRoute)-->
+    <!-- 1-A _IntradiscalRoute (v:IntradiscalRoute)-->
+    <!-- 1-A _IntraductalRoute (v:IntraductalRoute)-->
+    <!-- 1-A _IntraduodenalRoute (v:IntraduodenalRoute)-->
+    <!-- 1-A _IntraduralRoute (v:IntraduralRoute)-->
+    <!-- 1-A _IntraepidermalRoute (v:IntraepidermalRoute)-->
+    <!-- 1-A _IntraepithelialRoute (v:IntraepithelialRoute)-->
+    <!-- 1-A _IntraesophagealRoute (v:IntraesophagealRoute)-->
+    <!-- 1-A _IntragastricRoute (v:IntragastricRoute)-->
+    <!-- 1-A _IntrailealRoute (v:IntrailealRoute)-->
+    <!-- 1-A _IntralesionalRoute (v:IntralesionalRoute)-->
+    <!-- 1-A _IntraluminalRoute (v:IntraluminalRoute)-->
+    <!-- 1-A _IntralymphaticRoute (v:IntralymphaticRoute)-->
+    <!-- 1-A _IntramedullaryRoute (v:IntramedullaryRoute)-->
+    <!-- 1-A _IntramuscularRoute (v:IntramuscularRoute)-->
+    <!-- 1-A _IntraocularRoute (v:IntraocularRoute)-->
+    <!-- 1-A _IntraosseousRoute (v:IntraosseousRoute)-->
+    <!-- 1-A _IntraovarianRoute (v:IntraovarianRoute)-->
+    <!-- 1-A _IntrapericardialRoute (v:IntrapericardialRoute)-->
+    <!-- 1-A _IntraperitonealRoute (v:IntraperitonealRoute)-->
+    <!-- 1-A _IntrapleuralRoute (v:IntrapleuralRoute)-->
+    <!-- 1-A _IntraprostaticRoute (v:IntraprostaticRoute)-->
+    <!-- 1-A _IntrapulmonaryRoute (v:IntrapulmonaryRoute)-->
+    <!-- 1-A _IntrasinalRoute (v:IntrasinalRoute)-->
+    <!-- 1-A _IntraspinalRoute (v:IntraspinalRoute)-->
+    <!-- 1-A _IntrasternalRoute (v:IntrasternalRoute)-->
+    <!-- 1-A _IntrasynovialRoute (v:IntrasynovialRoute)-->
+    <!-- 1-A _IntratendinousRoute (v:IntratendinousRoute)-->
+    <!-- 1-A _IntratesticularRoute (v:IntratesticularRoute)-->
+    <!-- 1-A _IntrathecalRoute (v:IntrathecalRoute)-->
+    <!-- 1-A _IntrathoracicRoute (v:IntrathoracicRoute)-->
+    <!-- 1-A _IntratrachealRoute (v:IntratrachealRoute)-->
+    <!-- 1-A _IntratubularRoute (v:IntratubularRoute)-->
+    <!-- 1-A _IntratumorRoute (v:IntratumorRoute)-->
+    <!-- 1-A _IntratympanicRoute (v:IntratympanicRoute)-->
+    <!-- 1-A _IntrauterineRoute (v:IntrauterineRoute)-->
+    <!-- 1-A _IntravascularRoute (v:IntravascularRoute)-->
+    <!-- 1-A _IntravenousRoute (v:IntravenousRoute)-->
+    <!-- 1-A _IntraventricularRoute (v:IntraventricularRoute)-->
+    <!-- 1-A _IntravesicleRoute (v:IntravesicleRoute)-->
+    <!-- 1-A _IntravitrealRoute (v:IntravitrealRoute)-->
+    <!-- 1-A _JejunumRoute (v:JejunumRoute)-->
+    <!-- 1-A _LacrimalPunctaRoute (v:LacrimalPunctaRoute)-->
+    <!-- 1-A _LaryngealRoute (v:LaryngealRoute)-->
+    <!-- 1-A _LingualRoute (v:LingualRoute)-->
+    <!-- 1-A _MucousMembraneRoute (v:MucousMembraneRoute)-->
+    <!-- 1-A _NailRoute (v:NailRoute)-->
+    <!-- 1-A _NasalRoute (v:NasalRoute)-->
+    <!-- 1-A _OphthalmicRoute (v:OphthalmicRoute)-->
+    <!-- 1-A _OralRoute (v:OralRoute)-->
+    <!-- 1-A _OromucosalRoute (v:OromucosalRoute)-->
+    <!-- 1-A _OropharyngealRoute (v:OropharyngealRoute)-->
+    <!-- 1-A _OticRoute (v:OticRoute)-->
+    <!-- 1-A _ParanasalSinusesRoute (v:ParanasalSinusesRoute)-->
+    <!-- 1-A _ParenteralRoute (v:ParenteralRoute)-->
+    <!-- 1-A _PerianalRoute (v:PerianalRoute)-->
+    <!-- 1-A _PeriarticularRoute (v:PeriarticularRoute)-->
+    <!-- 1-A _PeriduralRoute (v:PeriduralRoute)-->
+    <!-- 1-A _PerinealRoute (v:PerinealRoute)-->
+    <!-- 1-A _PerineuralRoute (v:PerineuralRoute)-->
+    <!-- 1-A _PeriodontalRoute (v:PeriodontalRoute)-->
+    <!-- 1-A _PulmonaryRoute (v:PulmonaryRoute)-->
+    <!-- 1-A _RectalRoute (v:RectalRoute)-->
+    <!-- 1-A _RespiratoryTractRoute (v:RespiratoryTractRoute)-->
+    <!-- 1-A _RetrobulbarRoute (v:RetrobulbarRoute)-->
+    <!-- 1-A _ScalpRoute (v:ScalpRoute)-->
+    <!-- 1-A _SinusUnspecifiedRoute (v:SinusUnspecifiedRoute)-->
+    <!-- 1-A _SkinRoute (v:SkinRoute)-->
+    <!-- 1-A _SoftTissueRoute (v:SoftTissueRoute)-->
+    <!-- 1-A _SubarachnoidRoute (v:SubarachnoidRoute)-->
+    <!-- 1-A _SubconjunctivalRoute (v:SubconjunctivalRoute)-->
+    <!-- 1-A _SubcutaneousRoute (v:SubcutaneousRoute)-->
+    <!-- 1-A _SublesionalRoute (v:SublesionalRoute)-->
+    <!-- 1-A _SublingualRoute (v:SublingualRoute)-->
+    <!-- 1-A _SubmucosalRoute (v:SubmucosalRoute)-->
+    <!-- 1-A _TracheostomyRoute (v:TracheostomyRoute)-->
+    <!-- 1-A _TransmucosalRoute (v:TransmucosalRoute)-->
+    <!-- 1-A _TransplacentalRoute (v:TransplacentalRoute)-->
+    <!-- 1-A _TranstrachealRoute (v:TranstrachealRoute)-->
+    <!-- 1-A _TranstympanicRoute (v:TranstympanicRoute)-->
+    <!-- 1-A _UreteralRoute (v:UreteralRoute)-->
+    <!-- 1-A _UrethralRoute (v:UrethralRoute)-->
+    <!-- 1-A _UrinaryBladderRoute (v:UrinaryBladderRoute)-->
+    <!-- 1-A _UrinaryTractRoute (v:UrinaryTractRoute)-->
+    <!-- 1-A _VaginalRoute (v:VaginalRoute)-->
+    <!-- 1-A _VitreousHumourRoute (v:VitreousHumourRoute)-->
+</codeSystem>

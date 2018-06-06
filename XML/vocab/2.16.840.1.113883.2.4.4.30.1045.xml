@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+	<name>Gecodeerde antwoorden bij Code diagnostische bepalingen</name>
+	<desc>Gecodeerde antwoorden bij NHG tabel 45 Code diagnostische bepalingen</desc>
+	<code code="1" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ja"/>
+	<code code="2" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="nee"/>
+	<code code="3" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="nooit"/>
+	<code code="4" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="voorheen"/>
+	<code code="5" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="afwezig"/>
+	<code code="6" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="aanwezig"/>
+	<code code="7" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="onbekend"/>
+	<code code="8" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="onduidelijk"/>
+	<code code="9" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="weigeraar"/>
+	<code code="11" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="voorbereider"/>
+	<code code="12" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="normaal"/>
+	<code code="13" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="afwijkend"/>
+	<code code="14" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="minder dan ADL"/>
+	<code code="15" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ADL"/>
+	<code code="16" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="meer dan ADL"/>
+	<code code="17" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="voldoende"/>
+	<code code="18" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="onvoldoende"/>
+	<code code="22" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="graad 1: geen beperking"/>
+	<code code="23" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="graad 2: geringe beperking"/>
+	<code code="24" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="graad 3: matige beperking"/>
+	<code code="25" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="graad 4: ernstige beperking"/>
+	<code code="26" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="&lt; 1x per week"/>
+	<code code="27" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="&gt; 1x per week"/>
+	<code code="28" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="dagelijks"/>
+	<code code="29" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="niet verhoogd"/>
+	<code code="30" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="verhoogd"/>
+	<code code="31" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="negatief"/>
+	<code code="32" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="positief"/>
+	<code code="39" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="kaukasisch"/>
+	<code code="40" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="negroïde"/>
+	<code code="41" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="aziatisch"/>
+	<code code="42" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="controle"/>
+	<code code="43" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="exacerbatie"/>
+	<code code="44" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="luchtweginfectie"/>
+	<code code="45" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="inadequaat medicatiegebruik"/>
+	<code code="46" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="allergeenexpositie"/>
+	<code code="47" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="overige/onbekende oorzaken"/>
+	<code code="48" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="huisarts"/>
+	<code code="49" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="specialist"/>
+	<code code="51" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="jaarcontrole"/>
+	<code code="52" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="driemaandelijkse controle"/>
+	<code code="53" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2-4 x per jaar"/>
+	<code code="54" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1x per jaar"/>
+	<code code="55" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="geen geregelde zorg"/>
+	<code code="56" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="aspecifieke prikkels"/>
+	<code code="57" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="intermitterend astma"/>
+	<code code="58" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="patiÎnt wil niet"/>
+	<code code="59" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="controle specialist"/>
+	<code code="60" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="op initiatief arts"/>
+	<code code="61" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="gestoorde glucosetolerantie"/>
+	<code code="62" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="geen medicatie"/>
+	<code code="63" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="orale bloedglucose verlagende middelen"/>
+	<code code="64" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="insuline"/>
+	<code code="65" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="orale bloedgluc verlagende middelen + insuline"/>
+	<code code="66" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="aarzelaar"/>
+	<code code="67" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="mild persisterend astma"/>
+	<code code="68" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="matig persisterend astma"/>
+	<code code="69" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ernstig persisterend astma"/>
+	<code code="70" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="geopereerd"/>
+	<code code="71" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="links"/>
+	<code code="72" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="rechts"/>
+	<code code="73" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1 week"/>
+	<code code="74" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2 weken"/>
+	<code code="75" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="3 weken"/>
+	<code code="76" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1 maand"/>
+	<code code="77" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2 maanden"/>
+	<code code="78" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="3 maanden"/>
+	<code code="79" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="4 maanden"/>
+	<code code="80" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="5 maanden"/>
+	<code code="81" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="half jaar"/>
+	<code code="82" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1 jaar"/>
+	<code code="83" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="9 maanden"/>
+	<code code="84" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1.5 jaar"/>
+	<code code="85" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2 jaar"/>
+	<code code="86" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="praktijkondersteuner"/>
+	<code code="87" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="praktijkassistente"/>
+	<code code="89" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="niet te bepalen"/>
+	<code code="90" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="&gt; 4x per jaar"/>
+	<code code="92" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="6 weken"/>
+	<code code="93" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="longarts"/>
+	<code code="94" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="longverpleegkundige"/>
+	<code code="97" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="astma"/>
+	<code code="98" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="chronische bronchitis"/>
+	<code code="99" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="COPD"/>
+	<code code="100" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="onbekende longaandoening"/>
+	<code code="101" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="geen"/>
+	<code code="102" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="vesiculair ademgeruis"/>
+	<code code="103" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="crepitaties (fijn of grof)"/>
+	<code code="104" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="rhonchi (piepen of brommen)"/>
+	<code code="105" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="verlengd exspirium"/>
+	<code code="106" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="verzwakt/opgeheven ademgeruis"/>
+	<code code="107" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="zo nodig"/>
+	<code code="108" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="meer &apos;lucht&apos; krijgen"/>
+	<code code="109" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="betere conditie"/>
+	<code code="110" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="beter ruiken/proeven"/>
+	<code code="111" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="geldbesparing"/>
+	<code code="112" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="zich gezonder voelen"/>
+	<code code="113" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="beter slapen"/>
+	<code code="114" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="onafhankelijk zijn van tabak"/>
+	<code code="115" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="frissere adem"/>
+	<code code="116" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="beter voor gezondheid omgeving"/>
+	<code code="117" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="verbetering uiterlijk"/>
+	<code code="118" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="afname kans/verergering HVZ, kanker, longemfyseem"/>
+	<code code="120" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="angst gewichtstoename"/>
+	<code code="121" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="stress"/>
+	<code code="122" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="sociale druk"/>
+	<code code="123" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ontwenningsverschijnselen"/>
+	<code code="124" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="toename luchtwegklachten"/>
+	<code code="125" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="eerdere mislukte stoppogingen"/>
+	<code code="126" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="niet het juiste tijdstip"/>
+	<code code="128" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="twijfelt"/>
+	<code code="129" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1 dag"/>
+	<code code="130" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2 dagen"/>
+	<code code="131" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="3 dagen"/>
+	<code code="132" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="4 dagen"/>
+	<code code="133" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="5 dagen"/>
+	<code code="134" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="6 dagen"/>
+	<code code="138" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="telefonisch contact"/>
+	<code code="139" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="vervolgconsult"/>
+	<code code="140" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="initiatief patiÎnt"/>
+	<code code="141" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="sigaretten"/>
+	<code code="142" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="shag"/>
+	<code code="143" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="sigaren"/>
+	<code code="144" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="pijp"/>
+	<code code="145" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="kort consult"/>
+	<code code="146" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="uitgebreid consult"/>
+	<code code="147" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="K1 endocervicale cil. cellen aangetroffen"/>
+	<code code="148" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="K2 squameuze metaplastische cellen aangetroffen"/>
+	<code code="149" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="K3 endometrium aangetroffen"/>
+	<code code="150" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="K4 endocerv. cil. + squam. metapl. cellen aangetr."/>
+	<code code="151" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="K5 endocerv. cil. cellen + endometrium aangetr."/>
+	<code code="152" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="K6 squameuze metapl. cellen + endometrium aangetr."/>
+	<code code="153" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="K7 endoc.cil.+squam.metapl. cellen+endom. aangetr."/>
+	<code code="154" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="K8 uitsluitend plaveiselcellen"/>
+	<code code="155" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O1 virusinfectie"/>
+	<code code="156" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O2 trichomonas vaginalis"/>
+	<code code="157" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O3 bacteriÎle infectie"/>
+	<code code="158" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O4 candida albicans (monilia)"/>
+	<code code="159" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O5 haemophilus vaginalis"/>
+	<code code="160" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O6 geen tekenen van ontsteking"/>
+	<code code="161" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O7 actinomyces"/>
+	<code code="162" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O8 chlamydia"/>
+	<code code="163" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="O9 niet-specifieke ontsteking"/>
+	<code code="164" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P1 geen afwijkingen"/>
+	<code code="165" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P2 abnormale plaveiselcellen"/>
+	<code code="166" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P3 atypische squameuze metaplasie"/>
+	<code code="167" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P4 geringe dysplasie"/>
+	<code code="168" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P5 matige dysplasie"/>
+	<code code="169" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P6 ernstige dysplasie"/>
+	<code code="170" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P7 carcinoma in situ"/>
+	<code code="171" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P8 micro-invasief plaveiselcelcarcinoom"/>
+	<code code="172" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="P9 invasief plaveiselcelcarcinoom"/>
+	<code code="173" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A1 geen andere afwijkingen"/>
+	<code code="174" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A2 epitheelatrofie"/>
+	<code code="175" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A3 atypische reparatie-reactie"/>
+	<code code="176" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A4 geringe atypie endometrium"/>
+	<code code="177" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A5 matige atypie endometrium"/>
+	<code code="178" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A6 ernstige atypie endometrium"/>
+	<code code="179" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A7 adenocarcinoom endometrium"/>
+	<code code="180" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A8 metastase maligne tumor"/>
+	<code code="181" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="C1 geen afwijkingen"/>
+	<code code="182" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="C2 geen endocervicale cil. epitheelcellen aangetr."/>
+	<code code="183" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="C3 enkele atypische endoc. cil. cellen aangetr."/>
+	<code code="184" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="C4 geringe atypie endocerviaal cil. epitheel"/>
+	<code code="185" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="C5 matige atypie endocerviaal cilindrisch epitheel"/>
+	<code code="186" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="C6 ernstige atypie endocerviaal cil. epitheel"/>
+	<code code="187" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="C7 adenocarcinoma in situ endocerv. cil. epitheel"/>
+	<code code="188" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="C9 adenocarcinoom endocervix"/>
+	<code code="189" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="K0 onvoldoende"/>
+	<code code="190" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="a) veel bloed"/>
+	<code code="191" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="b) veel leucocyten"/>
+	<code code="192" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="c) te weinig epitheel cellen"/>
+	<code code="193" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="d) slechte fixatie"/>
+	<code code="194" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="e) mechanische beschadiging"/>
+	<code code="195" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="f) cytolyse"/>
+	<code code="196" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="g) (te) dikke uitstrijk"/>
+	<code code="197" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="h) (te) weinig plaveiselepi. bij veel endoc.cellen"/>
+	<code code="198" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="B1 goed beoordeelbaar"/>
+	<code code="199" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="B2 voldoende beoordeelbaar, maar beperkt"/>
+	<code code="200" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="B3 niet beoordeelbaar"/>
+	<code code="201" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="regulair"/>
+	<code code="202" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="irregulair"/>
+	<code code="203" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="equaal"/>
+	<code code="204" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="niet equaal"/>
+	<code code="205" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="zwak"/>
+	<code code="206" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="normaal krachtig"/>
+	<code code="207" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="beperkt lateraal"/>
+	<code code="208" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="beperkt mediaal"/>
+	<code code="209" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="beperkt in meerdere/andere richtingen"/>
+	<code code="210" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="overig"/>
+	<code code="211" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="andere praktijkmedewerker"/>
+	<code code="212" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="overig/onbekend"/>
+	<code code="213" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="arbodienst"/>
+	<code code="214" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="kinderarts"/>
+	<code code="215" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="longfunctielaboratorium"/>
+	<code code="216" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="diabetesverpleegkundige"/>
+	<code code="217" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="podotherapeut"/>
+	<code code="218" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="internist"/>
+	<code code="219" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="thuiszorg"/>
+	<code code="220" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="diÎtist"/>
+	<code code="221" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="fysiotherapeut"/>
+	<code code="222" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="Stivoro"/>
+	<code code="223" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="gedragstherapeut"/>
+	<code code="224" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="groepscursus"/>
+	<code code="225" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="stop-roken poli"/>
+	<code code="226" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="oogarts"/>
+	<code code="227" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="binnen medioclaviculaire lijn"/>
+	<code code="228" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="buiten medioclaviculaire lijn"/>
+	<code code="229" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="volgens norm gezond bewegen"/>
+	<code code="230" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="drop"/>
+	<code code="231" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="overmatig alcoholgebruik"/>
+	<code code="232" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="oestrogenen"/>
+	<code code="233" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="corticosteroïden"/>
+	<code code="234" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="NSAID&apos;s"/>
+	<code code="235" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1+"/>
+	<code code="236" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="4+"/>
+	<code code="237" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2+"/>
+	<code code="238" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="3+"/>
+	<code code="240" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="hoog"/>
+	<code code="241" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1x dgs insuline+orale bloedgluc.verl.mid"/>
+	<code code="242" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="&gt;1xdgs insuline+orale bloedgluc.verl.mid"/>
+	<code code="243" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="antihypertensiva"/>
+	<code code="244" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="cholesterolverlagers"/>
+	<code code="245" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="trombocytenaggregatieremmers"/>
+	<code code="246" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="antistollingstherapie"/>
+	<code code="247" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="bËtablokkers"/>
+	<code code="248" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="RAS-remmers"/>
+	<code code="250" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="goed"/>
+	<code code="251" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="matig"/>
+	<code code="252" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="slecht"/>
+	<code code="253" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="oefentherapeut"/>
+	<code code="254" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="cardioloog"/>
+	<code code="255" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1: mild COPD"/>
+	<code code="256" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2: matig COPD"/>
+	<code code="257" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="3: ernstig COPD"/>
+	<code code="258" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="4: zeer ernstig COPD"/>
+	<code code="259" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="0: geen last"/>
+	<code code="260" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1: bij zware inspanning"/>
+	<code code="261" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2: bij haasten of lichte helling"/>
+	<code code="262" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="3: bij lopen"/>
+	<code code="263" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="4: bij klein stukje lopen"/>
+	<code code="264" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="5: komt het huis niet uit"/>
+	<code code="265" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="0% - 4% (groen)"/>
+	<code code="266" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="5% - 9% (geel)"/>
+	<code code="267" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="&gt;= 10% (rood)"/>
+	<code code="268" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="kan niet berekend worden"/>
+	<code code="275" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="gemotiveerd"/>
+	<code code="276" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ongemotiveerd"/>
+	<code code="277" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="overweegt te stoppen"/>
+	<code code="278" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="&gt; 1x per jaar"/>
+	<code code="279" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="nooit (score 0)"/>
+	<code code="280" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1 keer per maand of minder (score 0.5)"/>
+	<code code="281" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2 tot 4 keer per maand (score 1)"/>
+	<code code="282" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2 tot 3 keer per week (score 1.5)"/>
+	<code code="283" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="4 of meer keer per week (score 2)"/>
+	<code code="284" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1 of 2 (score 0)"/>
+	<code code="285" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="3 of 4 (score 0.5)"/>
+	<code code="286" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="5 of 6 (score 1)"/>
+	<code code="287" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="7 tot 9 (score 1.5)"/>
+	<code code="288" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="10 of meer (score 2)"/>
+	<code code="289" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="neen (score 0)"/>
+	<code code="290" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ja (score 1)"/>
+	<code code="291" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="A = ja (score 1)"/>
+	<code code="292" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="B = twijfelachtig (score 0)"/>
+	<code code="293" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="C = nee (score 0)"/>
+	<code code="294" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="D = was niet na te gaan (score 0)"/>
+	<code code="295" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="niet verhoogd (SIMM&apos;s 0)"/>
+	<code code="296" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="matig (SIMM&apos;s 1)"/>
+	<code code="297" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="hoog (SIMM&apos;s 2 of 3)"/>
+	<code code="298" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="gestart"/>
+	<code code="299" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="niet gestart"/>
+	<code code="300" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="voltooid"/>
+	<code code="301" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="4x per jaar"/>
+	<code code="302" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="2-3 x per jaar"/>
+	<code code="303" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="licht tot matig"/>
+	<code code="304" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ernstig"/>
+	<code code="305" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="&lt;= 2x per week"/>
+	<code code="306" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="&gt; 2x per week"/>
+	<code code="307" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="persisterend astma"/>
+	<code code="308" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="Artu Biologicals"/>
+	<code code="309" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="Ooms Allergie"/>
+	<code code="310" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="HAL Allergy"/>
+	<code code="311" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ALK - Abello"/>
+	<code code="312" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="twijfelachtig"/>
+	<code code="313" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="sterk positief"/>
+	<code code="314" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="niet van toepassing"/>
+	<code code="315" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="BI-RADS 0 = geen besluitvorming mogelijk"/>
+	<code code="316" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="BI-RADS 1 = geen afwijkingen"/>
+	<code code="317" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="BI-RADS 3 = waarschijnlijk goedaardige afwijking"/>
+	<code code="318" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="BI-RADS 4 = verdenking op kwaadaardige afwijking"/>
+	<code code="319" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="BI-RADS 5 = zeer verdacht voor kwaadaard. afwijk."/>
+	<code code="320" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="BI-RADS 6 = pathologisch bewezen maligniteit"/>
+	<code code="321" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="BI-RADS 2 = goedaardige afwijking"/>
+	<code code="322" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="12 maanden (reguliere controle)"/>
+	<code code="323" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="binnen 3 maanden bij oogarts"/>
+	<code code="324" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="binnen 1 maand bij oogarts"/>
+	<code code="325" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="binnen 1 week bij oogarts"/>
+	<code code="326" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="binnen 1 dag bij oogarts"/>
+	<code code="327" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="st.1 geen typische claudicatio klachten"/>
+	<code code="328" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="st.2a typische claudicatio klachten &lt;100m loopafst"/>
+	<code code="329" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="st.3 ischem. klachten in rust of trofische stoorn."/>
+	<code code="330" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="st.4 ulcera of dreigende necrose of gangreen voet"/>
+	<code code="331" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="kl.I: geen klachten (meer) bij normale fys. activ."/>
+	<code code="332" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="kl.II: klachten bij normale fysieke activ."/>
+	<code code="333" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="kl.III: klachten bij minder dan normale fys.acti."/>
+	<code code="334" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="kl.IV: klachten bij elke inspanning of in rust"/>
+	<code code="335" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="st.2b typische claudicatio klachten &gt;100m loopafst"/>
+	<code code="336" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="in volgend contact roken aankaarten"/>
+	<code code="337" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="niet gevallen"/>
+	<code code="338" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="eenmaal"/>
+	<code code="339" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="meerdere malen"/>
+	<code code="340" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="1 tot 3"/>
+	<code code="341" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="4 of meer"/>
+	<code code="342" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="PV persoonlijke verzorging"/>
+	<code code="343" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="VP verpleegkundige verzorging"/>
+	<code code="344" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="BH behandeling"/>
+	<code code="345" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="VB verblijf"/>
+	<code code="346" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="BG-ind. begeleiding individueel"/>
+	<code code="347" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="BG-groep: begeleiding in groep"/>
+	<code code="348" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="ZZP 1 VV beschut wonen met enige begeleiding"/>
+	<code code="349" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 2 VV beschut wonen met begeleiding en verzorg."/>
+	<code code="350" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 3  VV beschut wonen beg. en intensieve verzorg"/>
+	<code code="351" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 4 VV beschut wonen intens.beg. en uitgebr.verz"/>
+	<code code="352" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 6 VV beschermd wonen  intens. verzorg. en verp"/>
+	<code code="353" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 7 VV beschermd wonen zeer intens.zorg mn beg."/>
+	<code code="354" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 5 VV beschermd wonen met intens. dementiezorg"/>
+	<code code="355" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 8 VV beschermd wonen zeer intens.zorg mn verz."/>
+	<code code="356" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 9 VV herstelgerichte behandeling m verpl.verz."/>
+	<code code="357" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14"
+		displayName="ZZP 10 VV beschermd verblijf intens.palliat. zorg"/>
+	<code code="358" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="gestoord"/>
+	<code code="359" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="alleen bij ADL"/>
+	<code code="360" codeSystem="2.16.840.1.113883.2.4.4.30.1045" codeSystemVersion="v14" displayName="bij ADL en IADL/HADL"/>
+</codeSystem>

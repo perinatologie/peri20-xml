@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PRPA_IN101301NL - Person Registry Record Added --><!--Note: this file was generated. DO NOT EDIT HERE.--><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:hl7-org:v3"
+           targetNamespace="urn:hl7-org:v3"
+           elementFormDefault="qualified">
+   <xs:include schemaLocation="MCCI_MT000100.xsd"/>
+   <xs:include schemaLocation="MFMI_MT700701_OPT_OV.xsd"/>
+   <xs:include schemaLocation="PRPA_MT101301NL.xsd"/>
+   <xs:element name="PRPA_IN101301NL" type="PRPA_IN101301NL.MCCI_MT000100.Message"/>
+   <xs:complexType name="PRPA_IN101301NL.MCCI_MT000100.Message">
+      <xs:sequence>
+         <xs:element name="id" type="II" minOccurs="1" maxOccurs="1"/>
+         <xs:element name="creationTime" type="TS" minOccurs="1"/>
+         <xs:element name="versionCode" type="CS" minOccurs="1"/>
+         <xs:element name="interactionId" type="II" minOccurs="1"/>
+         <xs:element name="profileId" type="II" minOccurs="1"/>
+         <xs:element name="processingCode" type="CS" minOccurs="1"/>
+         <xs:element name="processingModeCode" type="CS" minOccurs="1"/>
+         <xs:element name="acceptAckCode" type="CS" minOccurs="1"/>
+         <xs:element name="attentionLine" type="MCCI_MT000100.AttentionLine" minOccurs="0"
+                     maxOccurs="unbounded"/>
+         <xs:element name="receiver" type="MCCI_MT000100.Receiver"/>
+         <xs:element name="respondTo" type="MCCI_MT000100.RespondTo" minOccurs="0"
+                     maxOccurs="unbounded"/>
+         <xs:element name="sender" type="MCCI_MT000100.Sender"/>
+         <xs:element name="ControlActProcess"
+                     type="PRPA_IN101301NL.MFMI_MT700701_OPT_OV.ControlActProcess"/>
+         <!-- OZ version --><!-- <xs:element name="controlActProcess" type="MCCI_MT000100.ControlActProcess"/> --></xs:sequence>
+      <xs:attribute name="type" type="Classes" default="Message"/>
+      <xs:attribute name="templateId" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="typeID" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="realmCode" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="cs"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="nullFlavor" type="cs" use="optional"/>
+   </xs:complexType>
+   <xs:complexType name="PRPA_IN101301NL.MFMI_MT700701_OPT_OV.ControlActProcess">
+      <xs:sequence>
+         <xs:element name="id" type="II" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:element name="code" type="CD" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:element name="text" type="ED" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:element name="effectiveTime" type="IVL_TS" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:element name="priorityCode" type="CE" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:element name="reasonCode" type="CE" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:element name="languageCode" type="CE" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:element name="authorOrPerformer" type="MFMI_MT700701_OPT_OV.AuthorOrPerformer"/>
+         <xs:element name="dataEnterer" type="MFMI_MT700701_OPT_OV.DataEnterer" minOccurs="0"
+                     maxOccurs="unbounded"/>
+         <xs:element name="informationRecipient" type="MFMI_MT700701_OPT_OV.InformationRecipient"
+                     minOccurs="0"
+                     maxOccurs="unbounded"/>
+         <xs:element name="overseer" type="MFMI_MT700701_OPT_OV.Overseer" minOccurs="0"
+                     maxOccurs="unbounded"/>
+         <xs:element name="reason" type="MFMI_MT700701_OPT_OV.Reason" minOccurs="0"
+                     maxOccurs="unbounded"/>
+         <xs:element name="subject" type="PRPA_IN101301NL.MFMI_MT700701_OPT_OV.Subject"
+                     maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="type" type="Classes" default="ControlAct"/>
+      <xs:attribute name="classCode" type="ActClass" use="optional" default="CACT"/>
+      <xs:attribute name="moodCode" type="x_ActMoodIntentEvent" use="required"/>
+      <xs:attribute name="templateId" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="typeID" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="realmCode" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="cs"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="nullFlavor" type="cs" use="optional"/>
+   </xs:complexType>
+   <xs:complexType name="PRPA_IN101301NL.MFMI_MT700701_OPT_OV.Subject">
+      <xs:sequence>
+         <xs:element name="registrationProcess"
+                     type="PRPA_IN101301NL.MFMI_MT700701_OPT_OV.RegistrationProcess"/>
+      </xs:sequence>
+      <xs:attribute name="type" type="Classes" default="ActRelationship"/>
+      <xs:attribute name="typeCode" type="ActRelationshipType" use="optional" default="SUBJ"/>
+      <xs:attribute name="contextConductionInd" type="bl" use="optional" default="false"/>
+      <xs:attribute name="templateId" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="typeID" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="realmCode" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="cs"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="nullFlavor" type="cs" use="optional"/>
+   </xs:complexType>
+   <xs:complexType name="PRPA_IN101301NL.MFMI_MT700701_OPT_OV.RegistrationProcess">
+      <xs:sequence>
+         <xs:element name="id" type="II" minOccurs="0" maxOccurs="unbounded"/>
+         <xs:element name="code" type="CD" maxOccurs="unbounded"/>
+         <xs:element name="statusCode" type="CS" maxOccurs="unbounded"/>
+         <xs:element name="effectiveTime" type="IVL_TS" maxOccurs="unbounded"/>
+         <xs:element name="subject1" type="PRPA_IN101301NL.MFMI_MT700701_OPT_OV.Subject2"
+                     maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="type" type="Classes" default="ActHeir"/>
+      <xs:attribute name="classCode" type="ActClass" use="optional" default="REG"/>
+      <xs:attribute name="moodCode" type="x_ActMoodIntentEvent" use="required"/>
+      <xs:attribute name="templateId" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="typeID" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="realmCode" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="cs"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="nullFlavor" type="cs" use="optional"/>
+   </xs:complexType>
+   <xs:complexType name="PRPA_IN101301NL.MFMI_MT700701_OPT_OV.Subject2">
+      <xs:sequence>
+         <xs:sequence>
+            <xs:element name="identifiedPerson" type="PRPA_MT101301NL.IdentifiedPerson"/>
+         </xs:sequence>
+      </xs:sequence>
+      <xs:attribute name="type" type="Classes" default="ActRelationship"/>
+      <xs:attribute name="typeCode" type="ActRelationshipType" use="optional" default="SUBJ"/>
+      <xs:attribute name="contextConductionInd" type="bl" use="optional" default="false"/>
+      <xs:attribute name="templateId" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="typeID" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="oid"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="realmCode" use="optional">
+         <xs:simpleType>
+            <xs:list itemType="cs"/>
+         </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="nullFlavor" type="cs" use="optional"/>
+   </xs:complexType>
+   <xs:complexType name="PRPA_IN101301NL."/>
+   <!--Payload group declaration removed--></xs:schema>

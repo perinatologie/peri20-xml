@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?><?oxygen SCHSchema="vocab.sch?><codeSystem xmlns:mif2="urn:hl7-org:v3/mif2" xmlns="urn:hl7-org:v3"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:ns="http://www.w3.org/1999/xhtml"
+            xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd"
+            codeStrength="CWE">
+   <name>RoleClass</name>
+   <desc/>
+   <code code="CHILD" codeSystem="2.16.840.1.113883.5.110" displayName="child">
+      <originalText>Definition: The player of the role is a child of the scoping entity, in a generic sense.</originalText>
+   </code>
+   <code code="CRED" codeSystem="2.16.840.1.113883.5.110"
+         displayName="credentialed entity">
+      <originalText>Definition: A role played by an entity that receives credentials from the scoping entity.</originalText>
+   </code>
+   <code code="NURPRAC" codeSystem="2.16.840.1.113883.5.110"
+         displayName="nurse practitioner">
+      <originalText> </originalText>
+   </code>
+   <code code="NURS" codeSystem="2.16.840.1.113883.5.110" displayName="nurse">
+      <originalText> </originalText>
+   </code>
+   <code code="PA" codeSystem="2.16.840.1.113883.5.110"
+         displayName="physician assistant">
+      <originalText> </originalText>
+   </code>
+   <code code="PHYS" codeSystem="2.16.840.1.113883.5.110" displayName="physician">
+      <originalText> </originalText>
+   </code>
+   <code code="ROL" codeSystem="2.16.840.1.113883.5.110" displayName="role"><!-- v:RoleClassRoot --><originalText>Definition: Corresponds to the Role class</originalText>
+   </code>
+   <!-- 1-A _RoleClassAssociative (v:RoleClassAssociative)--><!-- 2-A _RoleClassMutualRelationship (v:RoleClassMutualRelationship)--><!-- 3-A _RoleClassRelationshipFormal (v:RoleClassRelationshipFormal)--><code code="AFFL" codeSystem="2.16.840.1.113883.5.110" displayName="affiliate">
+      <originalText>Definition: Player of the Affiliate role has a business/professional relationship with scoper. Player and scoper may be persons or organization. The Affiliate relationship does not imply membership in a group, nor does it exist for resource scheduling purposes.</originalText>
+   </code>
+   <code code="AGNT" codeSystem="2.16.840.1.113883.5.110" displayName="agent"><!-- v:RoleClassAgent --><originalText>Definition: An entity (player) that acts or is authorized to act on behalf of another entity (scoper).</originalText>
+   </code>
+   <code code="ASSIGNED" codeSystem="2.16.840.1.113883.5.110"
+         displayName="assigned entity"><!-- v:RoleClassAssignedEntity --><originalText>Definition: An agent role in which the agent is an Entity acting in the employ of an organization. The focus is on functional role on behalf of the organization, unlike the Employee role where the focus is on the 'Human Resources' relationship between the employee and the organization.</originalText>
+   </code>
+   <code code="COMPAR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="commissioning party">
+      <originalText>Definition: An Entity that is authorized to issue or instantiate permissions, privileges, credentials or other formal/legal authorizations.</originalText>
+   </code>
+   <code code="SGNOFF" codeSystem="2.16.840.1.113883.5.110"
+         displayName="signing authority or officer">
+      <originalText>Definition: The role of a person (player) who is the officer or signature authority for of a scoping entity, usually an organization (scoper).</originalText>
+   </code>
+   <code code="CON" codeSystem="2.16.840.1.113883.5.110" displayName="contact"><!-- v:RoleClassContact --><originalText>Definition: A person or an organization (player) which provides or receives information regarding another entity (scoper). Examples; patient NOK and emergency contacts; guarantor contact; employer contact.</originalText>
+   </code>
+   <code code="ECON" codeSystem="2.16.840.1.113883.5.110"
+         displayName="emergency contact">
+      <originalText>Definition: An entity to be contacted in the event of an emergency.</originalText>
+   </code>
+   <code code="NOK" codeSystem="2.16.840.1.113883.5.110" displayName="next of kin">
+      <originalText>Definition: An individual designated for notification as the next of kin for a given entity.</originalText>
+   </code>
+   <code code="GUARD" codeSystem="2.16.840.1.113883.5.110" displayName="guardian">
+      <originalText>Definition: Guardian of a ward</originalText>
+   </code>
+   <code code="CIT" codeSystem="2.16.840.1.113883.5.110" displayName="citizen">
+      <originalText>Definition: Citizen of apolitical entity</originalText>
+   </code>
+   <code code="COVPTY" codeSystem="2.16.840.1.113883.5.110" displayName="covered party"><!-- v:RoleClassCoveredParty --><originalText>Definition: A role class played by a person who receives benefit coverage under the terms of a particular insurance policy. The underwriter of that policy is the scoping entity. The covered party receives coverage because of some contractual or other relationship with the holder of that policy.</originalText>
+   </code>
+   <code code="CLAIM" codeSystem="2.16.840.1.113883.5.110" displayName="claimant">
+      <originalText>Definition: Description: A role played by a party making a claim for coverage under a policy or program. A claimant must be either a person or organization, or a group of persons or organizations. A claimant is not a named insured or a program eligible.</originalText>
+   </code>
+   <code code="NAMED" codeSystem="2.16.840.1.113883.5.110" displayName="named insured"><!-- v:RoleClassNamedInsured --><originalText>Definition: Description: A role played by a party to an insurance policy to which the insurer agrees to indemnify for losses, provides benefits for, or renders services. A named insured may be either a person, non-person living subject, or an organization, or a group of persons, non-person living subjects, or organizations.</originalText>
+   </code>
+   <code code="DEPEN" codeSystem="2.16.840.1.113883.5.110" displayName="dependent">
+      <originalText>Definition: Description: A role played by a person covered under a policy or program based on an association with a subscriber, which is recognized by the policy holder.</originalText>
+   </code>
+   <code code="INDIV" codeSystem="2.16.840.1.113883.5.110" displayName="individual">
+      <originalText>Definition: Description: A role played by a party covered under a policy as the policy holder. An individual may be either a person or an organization.</originalText>
+   </code>
+   <code code="SUBSCR" codeSystem="2.16.840.1.113883.5.110" displayName="subscriber">
+      <originalText>Definition: Description: A role played by a person covered under a policy based on association with a sponsor who is the policy holder, and whose association may provide for the eligibility of dependents for coverage.</originalText>
+   </code>
+   <code code="PROG" codeSystem="2.16.840.1.113883.5.110" displayName="program eligible">
+      <originalText>Definition: Description: A role played by a party that meets the eligibility criteria for coverage under a program. A program eligible may be either a person, non-person living subject, or an organization, or a group of persons, non-person living subjects, or organizations.</originalText>
+   </code>
+   <code code="CRINV" codeSystem="2.16.840.1.113883.5.110"
+         displayName="clinical research investigator">
+      <originalText>Definition: A role played by a provider, always a person, who has agency authority from a Clinical Research Sponsor to direct the conduct of a clinical research trial or study on behalf of the sponsor.</originalText>
+   </code>
+   <code code="CRSPNSR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="clinical research sponsor">
+      <originalText>Definition: A role played by an entity, usually an organization, that is the sponsor of a clinical research trial or study. The sponsor commissions the study, bears the expenses, is responsible for satisfying all legal requirements concerning subject safety and privacy, and is generally responsible for collection, storage and analysis of the data generated during the trial. No scoper is necessary, as a clinical research sponsor undertakes the role on its own authority and declaration. Clinical research sponsors are usually educational or other research organizations, government agencies or biopharmaceutical companies.</originalText>
+   </code>
+   <code code="EMP" codeSystem="2.16.840.1.113883.5.110" displayName="employee"><!-- v:RoleClassEmployee --><originalText>Definition: A relationship between a person or organization and a person or organization formed for the purpose of exchanging work for compensation. The purpose of the role is to identify the type of relationship the employee has to the employer, rather than the nature of the work actually performed. (Contrast with AssignedEntity.)</originalText>
+   </code>
+   <code code="MIL" codeSystem="2.16.840.1.113883.5.110" displayName="military person">
+      <originalText>Definition: A role played by a member of a military service. Scoper is the military service (e.g. Army, Navy, Air Force, etc.) or, more specifically, the unit (e.g. Company C, 3rd Battalion, 4th Division, etc.)</originalText>
+   </code>
+   <code code="GUAR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="guarantorGuarantorRole&#xA;               ">
+      <originalText>Definition: A person or organization (player) that serves as a financial guarantor for another person or organization (scoper).</originalText>
+   </code>
+   <code code="INVSBJ" codeSystem="2.16.840.1.113883.5.110"
+         displayName="Investigation Subject"><!-- v:RoleClassInvestigationSubject --><originalText>Definition: An entity that is the subject of an investigation. This role is scoped by the party responsible for the investigation.</originalText>
+   </code>
+   <code code="CASEBJ" codeSystem="2.16.840.1.113883.5.110" displayName="Case Subject">
+      <originalText>Definition: A person, non-person living subject, or place that is the subject of an investigation related to a notifiable condition (health circumstance that is reportable within the applicable public health jurisdiction)</originalText>
+   </code>
+   <code code="RESBJ" codeSystem="2.16.840.1.113883.5.110"
+         displayName="research subject">
+      <originalText>Definition: Definition:Specifies the administrative functionality within a formal experimental design for which the ResearchSubject role was established.</originalText>
+   </code>
+   <code code="LIC" codeSystem="2.16.840.1.113883.5.110" displayName="licensed entity"><!-- v:RoleClassLicensedEntity --><originalText>Definition: A relationship in which the scoper certifies the player ( e. g. a medical care giver, a medical device or a provider organization) to perform certain activities that fall under the jurisdiction of the scoper (e.g., a health authority licensing healthcare providers, a medical quality authority certifying healthcare professionals).</originalText>
+   </code>
+   <code code="NOT" codeSystem="2.16.840.1.113883.5.110" displayName="notary public">
+      <originalText> Concept Properties: internalId: 11576 Name:Class: notaryPublic Name:Role:player:Entity: notaryPublic&amp; Sort:Entity:playedRole:Role: AAAACB___ Sort:Entity:scopedRole:Role: AAAACB___ Name:Role:scoper:Entity: political(&amp;|Entity)</originalText>
+   </code>
+   <code code="PROV" codeSystem="2.16.840.1.113883.5.110"
+         displayName="healthcare provider">
+      <originalText>Definition: An Entity (player) that is authorized to provide health care services by some authorizing agency (scoper).</originalText>
+   </code>
+   <code code="PAT" codeSystem="2.16.840.1.113883.5.110" displayName="patient">
+      <originalText>Definition: Description:A Role of a LivingSubject (player) as a recipient of health care services from a healthcare provider (scoper).</originalText>
+   </code>
+   <code code="PAYEE" codeSystem="2.16.840.1.113883.5.110" displayName="payee">
+      <originalText>Definition: The role of an organization or individual designated to receive payment for a claim against a particular coverage. The scoping entity is the organization that is the submitter of the invoice in question.</originalText>
+   </code>
+   <code code="PAYOR" codeSystem="2.16.840.1.113883.5.110" displayName="invoice payor">
+      <originalText>Definition: The role of an organization that undertakes to accept claims invoices, assess the coverage or payments due for those invoices and pay to the designated payees for those invoices. This role may be either the underwriter or a third-party organization authorized by the underwriter. The scoping entity is the organization that underwrites the claimed coverage.</originalText>
+   </code>
+   <code code="POLHOLD" codeSystem="2.16.840.1.113883.5.110" displayName="policy holder">
+      <originalText>Definition: A role played by a person or organization that holds an insurance policy. The underwriter of that policy is the scoping entity.</originalText>
+   </code>
+   <code code="QUAL" codeSystem="2.16.840.1.113883.5.110" displayName="qualified entity">
+      <originalText>Definition: An entity (player) that has been recognized as having certain training/experience or other characteristics that would make said entity an appropriate performer for a certain activity. The scoper is an organization that educates or qualifies entities.</originalText>
+   </code>
+   <code code="SPNSR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="coverage sponsor">
+      <originalText>Definition: A role played by an entity, usually an organization that is the sponsor of an insurance plan or a health program. A sponsor is the party that is ultimately accountable for the coverage by employment contract or by law. A sponsor can be an employer, union, government agency, or association. Fully insured sponsors establish the terms of the plan and contract with health insurance plans to assume the risk and to administer the plan. Self-insured sponsors delegate coverage administration, but not risk, to third-party administrators. Program sponsors designate services to be covered in accordance with statute. Program sponsors may administer the coverage themselves, delegate coverage administration, but not risk to third-party administrators, or contract with health insurance plans to assume the risk and administrator a program. Sponsors qualify individuals who may become</originalText>
+   </code>
+   <code code="STD" codeSystem="2.16.840.1.113883.5.110" displayName="student">
+      <originalText>Definition: A role played by an individual who is a student of a school, which is the scoping entity.</originalText>
+   </code>
+   <code code="UNDWRT" codeSystem="2.16.840.1.113883.5.110" displayName="underwriter">
+      <originalText>Definition: A role played by a person or an organization. It is the party that</originalText>
+   </code>
+   <code code="CAREGIVER" codeSystem="2.16.840.1.113883.5.110" displayName="caregiver">
+      <originalText>Definition: A person responsible for the primary care of a patient at home.</originalText>
+   </code>
+   <code code="PRS" codeSystem="2.16.840.1.113883.5.110"
+         displayName="personal relationship">
+      <originalText>Definition: Links two people in a personal relationship. The character of the relationship must be defined by a PersonalRelationshipRoleType code. The player and scoper are determined by PersonalRelationshipRoleType code as well.</originalText>
+   </code>
+   <!-- 2-A _RoleClassPassive (v:RoleClassPassive)--><code code="ACCESS" codeSystem="2.16.840.1.113883.5.110" displayName="access">
+      <originalText>Definition: A role in which the playing entity (material) provides access to another entity. The principal use case is intravenous (or other bodily) access lines that preexist and need to be referred to for medication routing instructions.</originalText>
+   </code>
+   <code code="ADMM" codeSystem="2.16.840.1.113883.5.110"
+         displayName="Administerable Material">
+      <originalText>Definition: A material (player) that can be administered to an Entity (scoper).</originalText>
+   </code>
+   <code code="BIRTHPL" codeSystem="2.16.840.1.113883.5.110" displayName="birthplace">
+      <originalText>Definition: Relates a place (playing Entity) as the location where a living subject (scoping Entity) was born.</originalText>
+   </code>
+   <code code="DEATHPLC" codeSystem="2.16.840.1.113883.5.110"
+         displayName="place of death">
+      <originalText>Definition: Definition: Relates a place (playing Entity) as the location where a living subject (scoping Entity) died.</originalText>
+   </code>
+   <code code="DST" codeSystem="2.16.840.1.113883.5.110"
+         displayName="distributed material"><!-- v:RoleClassDistributedMaterial --><originalText>Definition: A material (player) distributed by a distributor (scoper) who functions between a manufacturer and a buyer or retailer.</originalText>
+   </code>
+   <code code="RET" codeSystem="2.16.840.1.113883.5.110" displayName="retailed material">
+      <originalText>Definition: Material (player) sold by a retailer (scoper), who also give advice to prospective buyers.</originalText>
+   </code>
+   <code code="EXPR" codeSystem="2.16.840.1.113883.5.110" displayName="exposed entity">
+      <originalText>Definition: A role played by an entity that has been exposed to a person or animal suffering a contagious disease, or with a location from which a toxin has been distributed. The player of the role is normally a person or animal, but it is possible that other entity types could become exposed. The role is scoped by the source of the exposure, and it is quite possible for a person playing the role of exposed party to also become the scoper a role played by another person. That is to say, once a person has become infected, it is possible, perhaps likely, for that person to infect others.</originalText>
+   </code>
+   <code code="HLD" codeSystem="2.16.840.1.113883.5.110" displayName="held entity">
+      <originalText>Definition: Entity that is currently in the possession of a holder (scoper), who holds, or uses it, usually based on some agreement with the owner.</originalText>
+   </code>
+   <code code="HLTHCHRT" codeSystem="2.16.840.1.113883.5.110" displayName="health chart">
+      <originalText>Definition: The role of a material (player) that is the physical health chart belonging to an organization (scoper).</originalText>
+   </code>
+   <code code="IDENT" codeSystem="2.16.840.1.113883.5.110"
+         displayName="identified entity">
+      <originalText>Definition: Roles played by entities and scoped by entities that identify them for various purposes.</originalText>
+   </code>
+   <code code="MANU" codeSystem="2.16.840.1.113883.5.110"
+         displayName="manufactured product"><!-- v:RoleClassManufacturedProduct --><originalText>Definition: Scoped by the manufacturer</originalText>
+   </code>
+   <code code="THER" codeSystem="2.16.840.1.113883.5.110"
+         displayName="therapeutic agent">
+      <originalText>Definition: A manufactured material (player) that is used for its therapeutic properties. The manufacturer is the scoper.</originalText>
+   </code>
+   <code code="MNT" codeSystem="2.16.840.1.113883.5.110" displayName="maintained entity">
+      <originalText>Definition: An entity (player) that is maintained by another entity (scoper). This is typical role held by durable equipment. The scoper assumes responsibility for proper operation, quality, and safety.</originalText>
+   </code>
+   <code code="OWN" codeSystem="2.16.840.1.113883.5.110" displayName="owned entity">
+      <originalText>Definition: An Entity (player) for which someone (scoper) is granted by law the right to call the material (player) his own. This entitles the scoper to make decisions about the disposition of that material.</originalText>
+   </code>
+   <code code="RGPR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="regulated product">
+      <originalText>Definition: A product regulated by some governmentatl orgnization. The role is played by Material and scoped by Organization.</originalText>
+   </code>
+   <code code="SDLOC" codeSystem="2.16.840.1.113883.5.110"
+         displayName="service delivery location"><!-- v:RoleClassServiceDeliveryLocation --><originalText>Definition: A role played by a place at which services may be provided.</originalText>
+   </code>
+   <code code="DSDLOC" codeSystem="2.16.840.1.113883.5.110"
+         displayName="dedicated service delivery locationhealth care facility&#xA;               ">
+      <originalText>Definition: A role of a place (player) that is intended to house the provision of services. Scoper is the Entity (typically Organization) that provides these services. This is not synonymous with "ownership."</originalText>
+   </code>
+   <code code="ISDLOC" codeSystem="2.16.840.1.113883.5.110"
+         displayName="incidental service delivery location">
+      <originalText>Definition: A role played by a place at which health care services may be provided without prior designation or authorization.</originalText>
+   </code>
+   <code code="TERR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="territory of authority">
+      <originalText>Definition: Relates a place entity (player) as the region over which the scoper (typically an Organization) has certain authority (jurisdiction). For example, the Calgary Regional Health Authority (scoper) has authority over the territory "Region 4 of Alberta" (player) in matters of health.</originalText>
+   </code>
+   <code code="USED" codeSystem="2.16.840.1.113883.5.110" displayName="used entity">
+      <originalText>Definition: Description:An entity (player) that is used by another entity (scoper)</originalText>
+   </code>
+   <code code="WRTE" codeSystem="2.16.840.1.113883.5.110"
+         displayName="warranted product">
+      <originalText>Definition: A role a product plays when a guarantee is given to the purchaser by the seller (scoping entity) stating that the product is reliable and free from known defects and that the seller will repair or replace defective parts within a given time limit and under certain conditions.</originalText>
+   </code>
+   <!-- 1-A _RoleClassOntological (v:RoleClassOntological)--><code code="EQUIV" codeSystem="2.16.840.1.113883.5.110"
+         displayName="equivalent entity"><!-- v:RoleClassEquivalentEntity --><originalText>Definition: Description: Specifies the player Entity (the equivalent Entity) as an Entity that is considered to be equivalent to a reference Entity (scoper). The equivalence is in principle a symmetric relationship, however, it is expected that the scoper is a reference entity which serves as reference entity for multiple different equivalent entities.</originalText>
+   </code>
+   <code code="SAME" codeSystem="2.16.840.1.113883.5.110" displayName="same">
+      <originalText>Definition: The "same" role asserts an identity between playing and scoping entities, i.e., that they are in fact two records of the same entity instance, and, in the case of discrepancies (e.g different DOB, gender), that one or both are in error.</originalText>
+   </code>
+   <code code="SUBY" codeSystem="2.16.840.1.113883.5.110" displayName="subsumed by">
+      <originalText>Definition: Relates a prevailing record of an Entity (scoper) with another record (player) that it subsumes.</originalText>
+   </code>
+   <code code="GEN" codeSystem="2.16.840.1.113883.5.110"
+         displayName="has generalization"><!-- v:RoleClassIsSpeciesEntity --><originalText>Definition: Relates a specialized material concept (player) to its generalization (scoper).</originalText>
+   </code>
+   <code code="GRIC" codeSystem="2.16.840.1.113883.5.110" displayName="has generic">
+      <originalText>Definition: A special link between pharmaceuticals indicating that the target (scoper) is a generic for the source (player).</originalText>
+   </code>
+   <code code="INST" codeSystem="2.16.840.1.113883.5.110" displayName="instance">
+      <originalText>Definition: An individual piece of material (player) instantiating a class of material (scoper).</originalText>
+   </code>
+   <code code="SUBS" codeSystem="2.16.840.1.113883.5.110" displayName="subsumer">
+      <originalText>Definition: An entity that subsumes the identity of another. Used in the context of merging documented entity instances. Both the player and scoper must have the same classCode.</originalText>
+   </code>
+   <!-- 1-A _RoleClassPartitive (v:RoleClassPartitive)--><code code="CONT" codeSystem="2.16.840.1.113883.5.110" displayName="content">
+      <originalText>Definition: Relates a material as the content (player) to a container (scoper). Unlike ingredients, the content and a container remain separate (not mixed) and the content can be removed from the container. A content is not part of an empty container.</originalText>
+   </code>
+   <code code="EXPAGTCAR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="exposure agent carrier"><!-- v:RoleClassExposureAgentCarrier --><originalText>Definition: An exposure agent carrier is an entity that is capable of conveying an exposure agent from one entity to another. The scoper of the role must be the exposure agent (e.g., pathogen).</originalText>
+   </code>
+   <code code="EXPVECTOR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="exposure vector">
+      <originalText>Definition: Description: A vector is a living subject that carries an exposure agent. The vector does not cause the disease itself, but exposes targets to the exposure agent. A mosquito carrying malaria is an example of a vector. The scoper of the role must be the exposure agent (e.g., pathogen).</originalText>
+   </code>
+   <code code="FOMITE" codeSystem="2.16.840.1.113883.5.110" displayName="fomite">
+      <originalText>Definition: Description: A fomite is a non-living entity that is capable of conveying exposure agent from one entity to another. A doorknob contaminated with a Norovirus is an example of a fomite. Anyone touching the doorknob would be exposed to the virus. The scoper of the role must be the exposure agent (e.g., pathogen).</originalText>
+   </code>
+   <code code="INGR" codeSystem="2.16.840.1.113883.5.110" displayName="ingredient"><!-- v:RoleClassIngredientEntity --><originalText>Definition: Relates a component (player) to a mixture (scoper). E.g., Glucose and Water are ingredients of D5W, latex may be an ingredient in a tracheal tube.</originalText>
+   </code>
+   <code code="ACTI" codeSystem="2.16.840.1.113883.5.110"
+         displayName="active ingredient"><!-- v:RoleClassActiveIngredient --><originalText>Definition: Definition: a therapeutically active ingredient (player) in a mixture (scoper), where the mixture is typically a manufactured pharmaceutical. It is unknown if the quantity of such an ingredient is expressed precisely in terms of the playing ingredient substance, or, if it is specified in terms of a closely related substance (active moiety or reference substance).</originalText>
+   </code>
+   <code code="ACTIB" codeSystem="2.16.840.1.113883.5.110"
+         displayName="active ingredient - basis of strength">
+      <originalText>Definition: Description: Active ingredient, where the ingredient substance (player) is itself the "basis of strength", i.e., where the Role.quantity specifies exactly the quantity of the player substance in the medicine formulation.</originalText>
+   </code>
+   <code code="ACTIM" codeSystem="2.16.840.1.113883.5.110"
+         displayName="active ingredient - moiety is basis of strength">
+      <originalText>Definition: Description: Active ingredient, where not the ingredient substance (player), but itâ€™s active moiety is the "basis of strength", i.e., where the Role.quantity specifies the quantity of the player substance's active moiety in the medicine formulation.</originalText>
+   </code>
+   <code code="ACTIR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="active ingredient - reference substance is basis of strength">
+      <originalText>Definition: Description: Active ingredient, where not the ingredient substance (player) but another reference substance with the same active moiety, is the "basis of strength", i.e., where the Role.quantity specifies the quantity of a reference substance, similar but different from the player substance's in the medicine formulation.</originalText>
+   </code>
+   <code code="ADTV" codeSystem="2.16.840.1.113883.5.110" displayName="additive">
+      <originalText>Definition: An ingredient (player) that is added to a base (scoper), that amounts to a minor part of the overall mixture.</originalText>
+   </code>
+   <code code="BASE" codeSystem="2.16.840.1.113883.5.110" displayName="base">
+      <originalText>Definition: A base ingredient (player) is what comprises the major part of a mixture (scoper). E.g., Water in most i.v. solutions, or Vaseline in salves. Among all ingredients of a material, there should be only one base. A base substance can, in turn, be a mixture.</originalText>
+   </code>
+   <code code="IACT" codeSystem="2.16.840.1.113883.5.110"
+         displayName="inactive ingredient"><!-- v:RoleClassInactiveIngredient --><originalText>Definition: Concept Relationships: Specializes: INGR Generalizes (derived): COLR FLVR PRSV STBL</originalText>
+   </code>
+   <code code="COLR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="color additivecolor&#xA;               ">
+      <originalText>Definition: A substance (player) influencing the optical aspect of material (scoper).</originalText>
+   </code>
+   <code code="FLVR" codeSystem="2.16.840.1.113883.5.110"
+         displayName="flavor additiveflavor&#xA;               ">
+      <originalText>Definition: A substance (player) added to a mixture (scoper) to make it taste a certain way. In food the use is obvious, in pharmaceuticals flavors can hide disgusting taste of the active ingredient (important in pediatric treatments).</originalText>
+   </code>
+   <code code="PRSV" codeSystem="2.16.840.1.113883.5.110" displayName="preservative">
+      <originalText>Definition: A substance (player) added to a mixture (scoper) to prevent microorganisms (fungi, bacteria) to spoil the mixture.</originalText>
+   </code>
+   <code code="STBL" codeSystem="2.16.840.1.113883.5.110" displayName="stabilizer">
+      <originalText>Definition: A stabilizer (player) added to a mixture (scoper) in order to prevent the molecular disintegration of the main substance.</originalText>
+   </code>
+   <code code="LOCE" codeSystem="2.16.840.1.113883.5.110" displayName="located entity"><!-- v:RoleClassLocatedEntity --><originalText>Definition: Relates an entity (player) to a location (scoper) at which it is present in some way. This presence may be limited in time.</originalText>
+   </code>
+   <code code="STOR" codeSystem="2.16.840.1.113883.5.110" displayName="stored entity">
+      <originalText>Definition: Relates an entity (player) (e.g. a device) to a location (scoper) at which it is normally found or stored when not used.</originalText>
+   </code>
+   <code code="MBR" codeSystem="2.16.840.1.113883.5.110" displayName="member">
+      <originalText>Definition: A role played by an entity that is a member of a group. The group provides the scope for this role.</originalText>
+   </code>
+   <code code="PART" codeSystem="2.16.840.1.113883.5.110" displayName="part"><!-- v:RoleClassPart --><originalText>Definition: Definition: an association between two Entities where the playing Entity (the part) is a component of the whole (scoper) in the sense of an integral structural component, that is distinct from other parts in the same whole, has a distinct function in the whole, and, as an effect, the full integrity of the whole depends (to some degree) on the presence of this part, even though the part may often be separable from the whole.</originalText>
+   </code>
+   <code code="ACTM" codeSystem="2.16.840.1.113883.5.110" displayName="active moiety">
+      <originalText>Definition: The molecule or ion that is responsible for the intended pharmacological action of the drug substance, excluding those appended or associated parts of the molecule that make the molecule an ester, salt (including a salt with hydrogen or coordination bonds), or other noncovalent derivative (such as a complex, chelate, or clathrate).</originalText>
+   </code>
+   <code code="SPEC" codeSystem="2.16.840.1.113883.5.110" displayName="specimen"><!-- v:RoleClassSpecimen --><originalText>Definition: A role played by a material entity that is a specimen for an act. It is scoped by the source of the specimen.</originalText>
+   </code>
+   <code code="ALQT" codeSystem="2.16.840.1.113883.5.110" displayName="aliquot">
+      <originalText>Definition: A portion (player) of an original or source specimen (scoper) used for testing or transportation.</originalText>
+   </code>
+   <code code="ISLT" codeSystem="2.16.840.1.113883.5.110" displayName="isolate">
+      <originalText>Definition: A microorganism that has been isolated from other microorganisms or a source matrix.</originalText>
+   </code>
+</codeSystem>

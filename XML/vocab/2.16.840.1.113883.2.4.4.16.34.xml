@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>GBA tabel Landen (34)</name>
+    <desc></desc>
+        <code code="0000" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Onbekend"/>
+    <code code="5001" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Canada"/>
+    <code code="5002" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frankrijk"/>
+    <code code="5003" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zwitserland"/>
+    <code code="5004" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Rhodesië"/>
+    <code code="5005" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Malawi"/>
+    <code code="5006" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Cuba"/>
+    <code code="5007" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Suriname"/>
+    <code code="5008" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tunesië"/>
+    <code code="5009" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Oostenrijk"/>
+    <code code="5010" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="België"/>
+    <code code="5011" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Botswana"/>
+    <code code="5012" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Iran"/>
+    <code code="5013" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nieuwzeeland"/>
+    <code code="5014" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zuidafrika"/>
+    <code code="5015" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Denemarken"/>
+    <code code="5016" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Noordjemen"/>
+    <code code="5017" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Hongarije"/>
+    <code code="5018" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Saoediarabië"/>
+    <code code="5019" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Liberia"/>
+    <code code="5020" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Etiopië"/>
+    <code code="5021" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Chili"/>
+    <code code="5022" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Marokko"/>
+    <code code="5023" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Togo"/>
+    <code code="5024" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ghana"/>
+    <code code="5025" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Laos"/>
+    <code code="5026" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Angola"/>
+    <code code="5027" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Filipijnen"/>
+    <code code="5028" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zambia"/>
+    <code code="5029" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Mali"/>
+    <code code="5030" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ivoorkust"/>
+    <code code="5031" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Burma"/>
+    <code code="5032" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Monaco"/>
+    <code code="5033" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Colombia"/>
+    <code code="5034" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Albanië"/>
+    <code code="5035" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kameroen"/>
+    <code code="5036" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zuidviëtnam"/>
+    <code code="5037" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Singapore"/>
+    <code code="5038" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Paraguay"/>
+    <code code="5039" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zweden"/>
+    <code code="5040" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Cyprus"/>
+    <code code="5041" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Australisch Nieuwguinea"/>
+    <code code="5042" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brunei"/>
+    <code code="5043" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Irak"/>
+    <code code="5044" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Mauritius"/>
+    <code code="5045" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Vaticaanstad"/>
+    <code code="5046" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kashmir"/>
+    <code code="5047" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Myanmar"/>
+    <code code="5048" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Jemen"/>
+    <code code="5049" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Slovenië"/>
+    <code code="5050" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zaïre"/>
+    <code code="5051" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kroatië"/>
+    <code code="5052" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Taiwan"/>
+    <code code="5053" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Rusland"/>
+    <code code="5054" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Armenië"/>
+    <code code="5055" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ascension"/>
+    <code code="5056" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Azoren"/>
+    <code code="5057" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bahrein"/>
+    <code code="5058" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bhutan"/>
+    <code code="5059" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Britse Antillen"/>
+    <code code="5060" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Comoren"/>
+    <code code="5061" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Falklandeilanden"/>
+    <code code="5062" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans Guyana"/>
+    <code code="5063" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans Somaliland"/>
+    <code code="5064" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Gilbert- en Ellice-eilanden"/>
+    <code code="5065" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Groenland"/>
+    <code code="5066" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Guadeloupe"/>
+    <code code="5067" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kaapverdische Eilanden"/>
+    <code code="5068" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Macau"/>
+    <code code="5069" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Martinique"/>
+    <code code="5070" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Mozambique"/>
+    <code code="5071" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Pitcairneilanden"/>
+    <code code="5072" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Guinee Bissau"/>
+    <code code="5073" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Réunion"/>
+    <code code="5074" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Saint Pierre en Miquelon"/>
+    <code code="5075" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Seychellen en Amiranten"/>
+    <code code="5076" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tonga"/>
+    <code code="5077" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Wallis en Futuna"/>
+    <code code="5078" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zuidwest Afrika"/>
+    <code code="5079" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans Indië"/>
+    <code code="5080" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Johnston"/>
+    <code code="5081" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kedah"/>
+    <code code="5082" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kelantan"/>
+    <code code="5083" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Malakka"/>
+    <code code="5084" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Mayotte"/>
+    <code code="5085" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Negri Sembilan"/>
+    <code code="5086" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Pahang"/>
+    <code code="5087" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Perak"/>
+    <code code="5088" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Perlis"/>
+    <code code="5089" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Portugees Indië"/>
+    <code code="5090" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Selangor"/>
+    <code code="5091" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sikkim"/>
+    <code code="5092" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sint Vincent en de Grenadinen"/>
+    <code code="5093" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Spitsbergen"/>
+    <code code="5094" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Trengganu"/>
+    <code code="5095" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Aruba"/>
+    <code code="5096" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Burkina Faso"/>
+    <code code="5097" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Azerbajdsjan"/>
+    <code code="5098" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Belarus (Wit-Rusland)"/>
+    <code code="5099" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kazachstan"/>
+    <code code="5100" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Macedonië"/>
+    <code code="5101" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Timor Leste"/>
+    <code code="5102" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Servië en Montenegro"/>
+    <code code="5103" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Servië"/>
+    <code code="5104" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Montenegro"/>
+    <code code="5105" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kosovo"/>
+    <code code="6000" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Moldavië"/>
+    <code code="6001" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Burundi"/>
+    <code code="6002" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Finland"/>
+    <code code="6003" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Griekenland"/>
+    <code code="6004" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Guatemala"/>
+    <code code="6005" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nigeria"/>
+    <code code="6006" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Libië"/>
+    <code code="6007" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ierland"/>
+    <code code="6008" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brazilië"/>
+    <code code="6009" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Rwanda"/>
+    <code code="6010" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Venezuela"/>
+    <code code="6011" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="IJsland"/>
+    <code code="6012" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Liechtenstein"/>
+    <code code="6013" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Somalia"/>
+    <code code="6014" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Verenigde Staten van Amerika"/>
+    <code code="6015" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bolivia"/>
+    <code code="6016" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Australië"/>
+    <code code="6017" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Jamaica"/>
+    <code code="6018" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Luxemburg"/>
+    <code code="6019" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tsjaad"/>
+    <code code="6020" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Mauritanië"/>
+    <code code="6021" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kyrgyzstan"/>
+    <code code="6022" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="China"/>
+    <code code="6023" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Afganistan"/>
+    <code code="6024" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Indonesië"/>
+    <code code="6025" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Guyana"/>
+    <code code="6026" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Noordviëtnam"/>
+    <code code="6027" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Noorwegen"/>
+    <code code="6028" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="San Marino"/>
+    <code code="6029" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Duitsland"/>
+    <code code="6030" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nederland"/>
+    <code code="6031" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kambodja"/>
+    <code code="6032" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Fiji"/>
+    <code code="6033" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bahama-eilanden"/>
+    <code code="6034" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Israël"/>
+    <code code="6035" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nepal"/>
+    <code code="6036" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zuidkorea"/>
+    <code code="6037" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Spanje"/>
+    <code code="6038" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Oekraine"/>
+    <code code="6039" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Grootbrittannië"/>
+    <code code="6040" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Niger"/>
+    <code code="6041" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Haïti"/>
+    <code code="6042" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Jordanië"/>
+    <code code="6043" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Turkije"/>
+    <code code="6044" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Trinidad en Tobago"/>
+    <code code="6045" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Joegoslavië"/>
+    <code code="6046" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bovenvolta"/>
+    <code code="6047" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Algerije"/>
+    <code code="6048" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Gabon"/>
+    <code code="6049" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Noordkorea"/>
+    <code code="6050" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Oezbekistan"/>
+    <code code="6051" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sierra Leone"/>
+    <code code="6052" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Honduras"/>
+    <code code="6053" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Canarische eilanden"/>
+    <code code="6054" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans Polynesië"/>
+    <code code="6055" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Gibraltar"/>
+    <code code="6056" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Portugees Timor"/>
+    <code code="6057" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tadzjikistan"/>
+    <code code="6058" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Britse Salomons-eilanden"/>
+    <code code="6059" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="São Tomé en Principe"/>
+    <code code="6060" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sint Helena"/>
+    <code code="6061" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tristan Da Cunha"/>
+    <code code="6062" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Westsamoa"/>
+    <code code="6063" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Toerkmenistan"/>
+    <code code="6064" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Georgië"/>
+    <code code="6065" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bosnië-Herzegovina"/>
+    <code code="6066" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tsjechië"/>
+    <code code="6067" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Slowakije"/>
+    <code code="6068" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Federale Republiek Joegoslavië"/>
+    <code code="6069" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Democratische Republiek Congo"/>
+    <code code="7001" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Uganda"/>
+    <code code="7002" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kenya"/>
+    <code code="7003" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Malta"/>
+    <code code="7004" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Barbados"/>
+    <code code="7005" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Andorra"/>
+    <code code="7006" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Mexico"/>
+    <code code="7007" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Costa Rica"/>
+    <code code="7008" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Gambia"/>
+    <code code="7009" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Syrië"/>
+    <code code="7011" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nederlandse Antillen"/>
+    <code code="7012" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zuidjemen"/>
+    <code code="7014" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Egypte"/>
+    <code code="7015" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Argentinië"/>
+    <code code="7016" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Lesotho"/>
+    <code code="7017" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Honduras"/>
+    <code code="7018" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nicaragua"/>
+    <code code="7020" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Pakistan"/>
+    <code code="7021" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Senegal"/>
+    <code code="7023" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Dahomey"/>
+    <code code="7024" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bulgarije"/>
+    <code code="7026" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Maleisië"/>
+    <code code="7027" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Dominicaanse Republiek"/>
+    <code code="7028" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Polen"/>
+    <code code="7029" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Rusland (oud)"/>
+    <code code="7030" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Britse Maagdeneilanden"/>
+    <code code="7031" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tanzania"/>
+    <code code="7032" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="El Salvador"/>
+    <code code="7033" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sri Lanka"/>
+    <code code="7034" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Soedan"/>
+    <code code="7035" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Japan"/>
+    <code code="7036" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Hongkong"/>
+    <code code="7037" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Panama"/>
+    <code code="7038" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Uruguay"/>
+    <code code="7039" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ecuador"/>
+    <code code="7040" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Guinee"/>
+    <code code="7041" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Maldiven"/>
+    <code code="7042" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Thailand"/>
+    <code code="7043" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Libanon"/>
+    <code code="7044" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Italië"/>
+    <code code="7045" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Koeweit"/>
+    <code code="7046" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="India"/>
+    <code code="7047" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Roemenië"/>
+    <code code="7048" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tsjechoslowakije"/>
+    <code code="7049" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Peru"/>
+    <code code="7050" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Portugal"/>
+    <code code="7051" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Oman"/>
+    <code code="7052" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Mongolië"/>
+    <code code="7054" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Verenigde Arabische Emiraten"/>
+    <code code="7055" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tibet"/>
+    <code code="7057" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nauru"/>
+    <code code="7058" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nederlands Nieuwguinea"/>
+    <code code="7059" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tanganyika"/>
+    <code code="7060" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Palestina"/>
+    <code code="7062" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Westindië"/>
+    <code code="7063" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Portugees Afrika"/>
+    <code code="7064" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Letland"/>
+    <code code="7065" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Estland"/>
+    <code code="7066" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Litouwen"/>
+    <code code="7067" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Afrika"/>
+    <code code="7068" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Belgisch Congo"/>
+    <code code="7070" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Indië"/>
+    <code code="7071" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Noordrhodesië"/>
+    <code code="7072" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zuidrhodesië"/>
+    <code code="7073" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Saarland"/>
+    <code code="7074" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans Indo China"/>
+    <code code="7075" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Westborneo"/>
+    <code code="7076" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Goudkust"/>
+    <code code="7077" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ras-El-Cheima"/>
+    <code code="7079" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans Congo"/>
+    <code code="7080" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Siam"/>
+    <code code="7082" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Oostafrika"/>
+    <code code="7083" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Noordborneo"/>
+    <code code="7084" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bangladesh"/>
+    <code code="7085" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Duitse Democratische Republiek"/>
+    <code code="7087" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Madeira-eilanden"/>
+    <code code="7088" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Amerikaanse Maagdeneilanden"/>
+    <code code="7089" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Australische Salomonseilanden"/>
+    <code code="7091" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Spaanse Sahara"/>
+    <code code="7092" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Caymaneilanden"/>
+    <code code="7093" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Caicoseilanden"/>
+    <code code="7094" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Turkseilanden"/>
+    <code code="7095" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Territorium in Antarctica"/>
+    <code code="7096" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Territorium in de Indische Oceaan"/>
+    <code code="7097" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Cookeilanden"/>
+    <code code="7098" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tokelau-eilanden"/>
+    <code code="7099" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nieuwcaledonië"/>
+    <code code="8000" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Hawaii-eilanden"/>
+    <code code="8001" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Guam"/>
+    <code code="8002" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Amerikaans Samoa"/>
+    <code code="8003" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Midway"/>
+    <code code="8004" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ryukyueilanden"/>
+    <code code="8005" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Wake"/>
+    <code code="8006" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Pacific eilanden"/>
+    <code code="8008" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Grenada"/>
+    <code code="8009" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Marianen"/>
+    <code code="8010" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Cabinda"/>
+    <code code="8011" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Canton en Enderbury"/>
+    <code code="8012" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Christmaseiland"/>
+    <code code="8013" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Cocoseilanden"/>
+    <code code="8014" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Faeröer"/>
+    <code code="8015" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Montserrat"/>
+    <code code="8016" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Norfolk"/>
+    <code code="8017" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Belize"/>
+    <code code="8018" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tasmanië"/>
+    <code code="8019" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Turks- en Caicoseilanden"/>
+    <code code="8020" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Puerto Rico"/>
+    <code code="8021" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Papua-Nieuwguinea"/>
+    <code code="8022" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Solomoneilanden"/>
+    <code code="8023" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Benin"/>
+    <code code="8024" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Viëtnam"/>
+    <code code="8025" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kaapverdië"/>
+    <code code="8026" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Seychellen"/>
+    <code code="8027" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kiribati"/>
+    <code code="8028" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Tuvalu"/>
+    <code code="8029" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sint Lucia"/>
+    <code code="8030" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Dominica"/>
+    <code code="8031" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zimbabwe"/>
+    <code code="8032" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Doebai"/>
+    <code code="8033" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nieuwehebriden"/>
+    <code code="8034" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kanaaleilanden"/>
+    <code code="8035" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Man"/>
+    <code code="8036" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Anguilla"/>
+    <code code="8037" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Saint Kitts-Nevis"/>
+    <code code="8038" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Antigua"/>
+    <code code="8039" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sint Vincent"/>
+    <code code="8040" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Gilberteilanden"/>
+    <code code="8041" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Panamakanaalzone"/>
+    <code code="8042" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Saint Kitts-Nevis-Anguilla"/>
+    <code code="8043" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Belau"/>
+    <code code="8044" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Republiek van Palau"/>
+    <code code="8045" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Antigua en Barbuda"/>
+    <code code="9000" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Newfoundland"/>
+    <code code="9001" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nyasaland"/>
+    <code code="9003" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Eritrea"/>
+    <code code="9005" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ifni"/>
+    <code code="9006" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Kameroen"/>
+    <code code="9007" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kaiser Wilhelmsland"/>
+    <code code="9008" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kongo"/>
+    <code code="9009" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kongo Kinshasa"/>
+    <code code="9010" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Madagaskar"/>
+    <code code="9013" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Kongo Brazzaville"/>
+    <code code="9014" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Leewardeilanden"/>
+    <code code="9015" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Windwardeilanden"/>
+    <code code="9016" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans gebied van Afars en Issa&apos;s"/>
+    <code code="9017" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Phoenixeilanden"/>
+    <code code="9020" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Portugees Guinee"/>
+    <code code="9022" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Duits Zuidwestafrika"/>
+    <code code="9023" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Namibië"/>
+    <code code="9027" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Somaliland"/>
+    <code code="9028" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Italiaans Somaliland"/>
+    <code code="9030" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Nederlands Indië"/>
+    <code code="9031" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Guyana"/>
+    <code code="9036" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Swaziland"/>
+    <code code="9037" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Katar"/>
+    <code code="9041" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Aden"/>
+    <code code="9042" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zuidarabische Federatie"/>
+    <code code="9043" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Equatoriaalguinee"/>
+    <code code="9044" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Spaans Guinee"/>
+    <code code="9047" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Verenigde Arabische Republiek"/>
+    <code code="9048" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bermuda"/>
+    <code code="9049" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sovjetunie"/>
+    <code code="9050" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Duits Oostafrika"/>
+    <code code="9051" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Zanzibar"/>
+    <code code="9052" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Ceylon"/>
+    <code code="9053" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Muscat en Oman"/>
+    <code code="9054" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Trucial Oman"/>
+    <code code="9055" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Indo China"/>
+    <code code="9056" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Marshalleilanden"/>
+    <code code="9057" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sarawak"/>
+    <code code="9058" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Brits Borneo"/>
+    <code code="9060" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sabah"/>
+    <code code="9061" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Aboe Dhabi"/>
+    <code code="9062" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Adjman"/>
+    <code code="9063" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Basoetoland"/>
+    <code code="9064" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bechuanaland"/>
+    <code code="9065" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Foedjaira"/>
+    <code code="9066" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans Kameroen"/>
+    <code code="9067" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Johore"/>
+    <code code="9068" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Korea"/>
+    <code code="9069" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Labuan"/>
+    <code code="9070" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Oem el Koewein"/>
+    <code code="9071" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Oostenrijk-Hongarije"/>
+    <code code="9072" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Portugees Oost Afrika"/>
+    <code code="9073" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Portugees West Afrika"/>
+    <code code="9074" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Sjardja"/>
+    <code code="9075" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Straits Settlements"/>
+    <code code="9076" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Abessinië"/>
+    <code code="9077" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans West Afrika"/>
+    <code code="9078" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Frans Equatoriaal Afrika"/>
+    <code code="9081" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Oeroendi"/>
+    <code code="9082" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Roeanda-Oeroendi"/>
+    <code code="9084" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Goa"/>
+    <code code="9085" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Dantzig"/>
+    <code code="9086" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Centrafrika"/>
+    <code code="9087" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Djibouti"/>
+    <code code="9088" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Transjordanië"/>
+    <code code="9089" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Bondsrepubliek Duitsland"/>
+    <code code="9090" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Vanuatu"/>
+    <code code="9091" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Niue"/>
+    <code code="9092" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Spaans Noordafrika"/>
+    <code code="9093" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Westelijke Sahara"/>
+    <code code="9094" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Micronesia"/>
+    <code code="9095" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Svalbardeilanden"/>
+    <code code="9999" codeSystem="2.16.840.1.113883.2.4.4.16.34" displayName="Internationaal gebied"/>
+</codeSystem>

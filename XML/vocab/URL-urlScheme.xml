@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/codeSystem2html.xsl"?>
+<?oxygen SCHSchema="vocab.sch"?>
+<codeSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 vocab.xsd" xmlns="urn:hl7-org:v3">
+    <name>URL.scheme</name>
+    <desc>Tabel van ondersteunde URL schemes</desc>
+    <code code="tel" codeSystem="URL-urlScheme" displayName="Telefoon"/>
+    <code code="fax" codeSystem="URL-urlScheme" displayName="Fax"/>
+    <code code="mailto" codeSystem="URL-urlScheme" displayName="E-mail"/>
+    <code code="http" codeSystem="URL-urlScheme" displayName="HTTP"/>
+    <code code="https" codeSystem="URL-urlScheme" displayName="HTTPS"/>
+    <code code="ftp" codeSystem="URL-urlScheme" displayName="FTP"/>
+    <code code="mllp" codeSystem="URL-urlScheme" displayName="MLLP"/>
+    <code code="file" codeSystem="URL-urlScheme" displayName="Bestanden"/>
+    <code code="nfs" codeSystem="URL-urlScheme" displayName="NFS"/>
+    <code code="telnet" codeSystem="URL-urlScheme" displayName="Telnet"/>
+    <code code="x-hl7-applicatie" codeSystem="URL-urlScheme" displayName="HL7 Applicatie-id op de AORTA"/> 
+</codeSystem>
