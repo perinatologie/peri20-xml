@@ -1,0 +1,14 @@
+{
+  "name": "peri20-xml",
+  "version": "2.2.10",
+  "description": "mirror from http://decor.nictiz.nl/perinatologie/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NICTIZ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perinatologie/peri20-xml.git"
+  },
+  "homepage": "http://decor.nictiz.nl/perinatologie/"
+}
