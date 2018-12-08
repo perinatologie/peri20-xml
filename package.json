@@ -1,6 +1,6 @@
 {
-  "name": "peri20-xml",
-  "version": "2.2.10",
+  "name": "@nictiz/peri20-xml",
+  "version": "2.2.11",
   "description": "mirror from http://decor.nictiz.nl/perinatologie/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
