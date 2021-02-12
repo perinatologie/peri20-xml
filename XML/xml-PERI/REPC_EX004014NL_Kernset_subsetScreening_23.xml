@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?nictiz status="test"?>
-<?xml-model href="../schematron_closed_warnings/peri20-ksgz-ss-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../schematron/peri20-ksgz-ss-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model phase="#ALL" href="../schematron_closed_warnings/peri20-ksgz-ss-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <REPC_IN004014NL xmlns="urn:hl7-org:v3" xmlns:hl7="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../schemas_codeGen/REPC_IN004014NL.xsd">
     <!--  Voorbeeld Kernset geboortezorg, subset screening  -->
-    <id extension="9878" root="2.16.840.1.113883.2.4.99.23444.1.2.3.1.1.1.1.1"/>
+    <id extension="9878" root="2.16.840.1.113883.2.4.3.11.999.60.1"/>
     <creationTime value="20141020133500"/>
     <versionCode code="NICTIZEd2005-Okt"/>
     <interactionId extension="REPC_IN004014NL" root="2.16.840.1.113883.1.6"/>

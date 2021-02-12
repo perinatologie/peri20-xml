@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.11.195"
              name="PartusStadium"
              displayName="Partus stadium"
              effectiveDate="2014-01-02T00:00:00"
              statusCode="draft">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <sourceCodeSystem id="2.16.840.1.113883.2.4.3.22.1.2.98"
-                        identifierName="PartusassKraamzorg"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+                        identifierName="PartusassKraamzorg"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.98"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.98"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.98"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.98"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -23,13 +37,11 @@
       <conceptList>
                 <concept code="6893006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="First stage of labor (finding)"
                   level="0"
                   type="L"/>
                 <concept code="42857002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Second stage of labor (finding)"
                   level="0"
                   type="L"/>

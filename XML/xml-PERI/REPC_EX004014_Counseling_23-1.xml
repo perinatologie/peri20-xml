@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model phase="#ALL" href="../schematron_closed_warnings/peri20-cns-rap-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<REPC_IN004014NL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 ../schemas/REPC_IN004014NL.xsd">
+    <!-- Unieke identificatie van dit HL7v3 bericht  zoals uitgegeven door het zendende systeem-->
+    <id extension="86572343" root="2.16.840.1.113883.2.4.3.11.999.60.1"/>
+    <creationTime value="20140102101112"/>
+    <versionCode code="NICTIZEd2005-Okt"/>
+    <interactionId extension="REPC_IN004014NL" root="2.16.840.1.113883.1.6"/>
+    <profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
+    <processingCode code="P"/>
+    <processingModeCode code="T"/>
+    <acceptAckCode code="AL"/>
+    <receiver typeCode="RCV">
+        <device classCode="DEV" determinerCode="INSTANCE">
+            <!-- ID van de ontvangende softwareapplicatie -->
+            <id extension="2" root="2.16.840.1.113883.2.4.99.104.2"/>
+            <name>Systeem Y van organisatie EFG</name>
+        </device>
+    </receiver>
+    <sender typeCode="SND">
+        <device classCode="DEV" determinerCode="INSTANCE">
+            <!-- ID van de zendende softwareapplicatie -->
+            <id extension="3-1" root="2.16.840.1.113883.2.4.99.105.3"/>
+            <name>Verloskundige software applicatie X van praktijk ABC</name>
+        </device>
+    </sender>
+    <ControlActProcess classCode="CACT" moodCode="EVN">
+        <authorOrPerformer typeCode="AUT">
+            <participant>
+                <AssignedPerson>
+                    <!-- ID van verloskundige, hier een UZI code -->
+                    <id root="2.16.528.1.1007.3.1" extension="000012349"/>
+                    <!-- Zorgverlenertype = verloskundige -->
+                    <code codeSystem="2.16.840.1.113883.2.4.15.111" code="03.000"/>
+                    <assignedPrincipalChoiceList>
+                        <assignedPerson>
+                            <name>
+                                <given>Victor</given>
+                                <family>Verloskundige</family>
+                            </name>
+                        </assignedPerson>
+                    </assignedPrincipalChoiceList>
+                    <Organization>
+                        <!-- ID van de organisatie waartoe de auteur behoort, URA -->
+                        <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                        <!-- Organisatietype = verloskundigenpraktijk -->
+                        <code codeSystem="2.16.840.1.113883.2.4.15.1060" code="G3"/>
+                        <name>ABC Verloskundigenpraktijk</name>
+                        <addr>
+                            <city>Lutjebroek</city>
+                        </addr>
+                    </Organization>
+                </AssignedPerson>
+            </participant>
+        </authorOrPerformer>
+        <overseer typeCode="RESP">
+            <AssignedPerson>
+                <!-- ID van verloskundige, hier een UZI code -->
+                <id root="2.16.528.1.1007.3.1" extension="000012349"/>
+                <!-- Zorgverlenertype = verloskundige -->
+                <code codeSystem="2.16.840.1.113883.2.4.15.111" code="03.000"/>
+                <assignedPrincipalChoiceList>
+                    <assignedPerson>
+                        <name>
+                            <given>Victor</given>
+                            <family>Verloskundige</family>
+                        </name>
+                    </assignedPerson>
+                </assignedPrincipalChoiceList>
+                <Organization>
+                    <!-- ID van de organisatie waartoe de auteur behoort, URA -->
+                    <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                    <!-- Organisatietype = verloskundigenpraktijk -->
+                    <code code="G3" codeSystem="2.16.840.1.113883.2.4.15.1060"/>
+                    <name>ABC Verloskundigenpraktijk</name>
+                    <addr>
+                        <city>Vestigingsplaats</city>
+                    </addr>
+                </Organization>
+            </AssignedPerson>
+        </overseer>
+        <subject typeCode="SUBJ" contextConductionInd="false">
+            <registrationProcess moodCode="EVN">
+                <!-- een id voor het registration proces om later voor update doeleinden
+                    daaraan te kunnen refereren -->
+                <id root="2.16.840.1.113883.2.4.99.23444.6" extension="rps4632856243"/>
+                <!-- fixed 900000 -->
+                <code code="900000" codeSystem="2.16.840.1.113883.2.4.15.4"/>
+                <!-- registration process is active now -->
+                <statusCode code="active"/>
+                <!-- registration process date and time -->
+                <effectiveTime>
+                    <low value="20120229123745"/>
+                </effectiveTime>
+                <subject2 typeCode="SUBJ" contextConductionInd="false">
+                    <CareProvisionEvent classCode="PCPR" moodCode="EVN">
+                        <templateId root="2.16.840.1.113883.2.4.6.10.90.80"/>
+                        <statusCode code="active"/>
+                        <!-- Item: Vrouw  -->
+                        <subject typeCode="SBJ">
+                            <patient classCode="PAT">
+                                <!-- BSN van de moeder -->
+                                <id root="2.16.840.1.113883.2.4.6.3" extension="100202020"/>
+                                <addr use="HP">
+                                    <postalCode>1234 AB</postalCode>
+                                </addr>
+                                <patientPerson classCode="PSN" determinerCode="INSTANCE">
+                                    <!-- naam van de moeder -->
+                                    <name use="OR">
+                                        <given>Diny</given>
+                                        <family>Bos</family>
+                                    </name>
+                                    <!-- geboortedatum moeder -->
+                                    <birthTime value="19700801"/>
+                                    <!-- Etniciteit -->
+                                    <ethnicGroupCode code="12" codeSystem="2.16.840.1.113883.2.4.4.13.28"/>
+                                </patientPerson>
+
+                            </patient>
+                        </subject>
+                        <!-- Zorgverlener / Zorgaanbieder -->
+                        <verifier typeCode="LA">
+                            <assignedPerson classCode="ASSIGNED">
+                                <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                                    <id root="2.16.528.1.1007.3.3" extension="00023444"/>
+                                    <id root="2.16.840.1.113883.2.4.3.46.99.5.6.1.1" extension="12"/>
+                                    <name>ABC Verloskundigenpraktijk</name>
+                                </representedOrganization>
+                            </assignedPerson>
+                        </verifier>
+                        <!-- Reden verzending -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="RedenVerzending" codeSystem="2.16.840.1.113883.2.4.4.13.53"/>
+                                <value xsi:type="CE" code="def" codeSystem="2.16.840.1.113883.2.4.4.13.53"/>
+                            </observation>
+                        </pertinentInformation3>
+                        <!--        zwangerschap        -->
+                        <!--  Graviditeit 1..1 R -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900004"/>
+                                <code code="Gravidity" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <value xsi:type="INT" value="2"/>
+                            </observation>
+                        </pertinentInformation3>
+                        <!-- A terme datum 1..1 M -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900928"/>
+                                <code code="EDDDef" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <!-- Item: 20030 - A terme datum 1..1 M -->
+                                <value xsi:type="TS" value="20100815"/>
+                            </observation>
+                        </pertinentInformation3>
+                        <!-- Item: 20120 - Counseling prenatale gewenst -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <code code="CounselDesired" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                <value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.25"/>
+                            </observation>
+                        </pertinentInformation3>
+                        <!-- Counseling combinatietest -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <encounter classCode="ENC" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900932"/>
+                                <id nullFlavor="NI"/>
+                                <code code="1" codeSystem="2.16.840.1.113883.2.4.4.13.31" displayName="combinatietest"/>
+                                <effectiveTime value="20120402"/>
+                                <performer typeCode="PRF">
+                                    <assignedEntity classCode="ASSIGNED">
+                                        <id root="2.16.528.1.1007.3.1" extension="000123459"/>
+                                        <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                                            <name>Victor Verloskundige</name>
+                                        </assignedPerson>
+                                    </assignedEntity>
+                                </performer>
+                                <outboundRelationship typeCode="PERT">
+                                    <!-- Item: 20480 - Direct IPD gewenst 1..1 R -->
+                                    <act classCode="CONS" moodCode="INT" negationInd="true">
+                                        <!-- geen direct IPD gewenst -->
+                                        <code code="IPDDesired" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                    </act>
+                                </outboundRelationship>
+                                <outboundRelationship typeCode="PERT">
+                                    <!-- Item: 20485 - Combinatietest gewenst 1..1 C 0017 -->
+                                    <act classCode="CONS" moodCode="INT" negationInd="false">
+                                        <!-- wel Combinatietest gewenst -->
+                                        <code code="CombiTestDesired" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                    </act>
+                                </outboundRelationship>
+                            </encounter>
+                        </pertinentInformation3>
+                        <!-- Counseling SEO -->
+                        <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                            <encounter classCode="ENC" moodCode="EVN">
+                                <templateId root="2.16.840.1.113883.2.4.6.10.90.900933"/>
+                                <id nullFlavor="NI"/>
+                                <code code="2" codeSystem="2.16.840.1.113883.2.4.4.13.31" displayName="SEO"/>
+                                <effectiveTime value="20120402"/>
+                                <performer typeCode="PRF">
+                                    <assignedEntity classCode="ASSIGNED">
+                                        <id root="2.16.528.1.1007.3.1" extension="000123459"/>
+                                        <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                                            <name>Victor Verloskundige</name>
+                                        </assignedPerson>
+                                    </assignedEntity>
+                                </performer>
+                                <outboundRelationship typeCode="PERT">
+                                    <!-- Item: 20490 - Direct GUO gewenst 1..1 R -->
+                                    <act classCode="CONS" moodCode="INT" negationInd="true">
+                                        <!-- geen direct GUO gewenst -->
+                                        <code code="InstantGUODesired" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                    </act>
+                                </outboundRelationship>
+                                <outboundRelationship typeCode="PERT">
+                                    <!-- Item: 20495 - SEO gewenst 1..1 C 0018 -->
+                                    <act classCode="CONS" moodCode="INT" negationInd="true">
+                                        <!-- geen SEO gewenst -->
+                                        <code code="SEODesired" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                    </act>
+                                </outboundRelationship>
+                            </encounter>
+                        </pertinentInformation3>
+                    </CareProvisionEvent>
+                </subject2>
+            </registrationProcess>
+        </subject>
+    </ControlActProcess>
+</REPC_IN004014NL>

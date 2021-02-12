@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.8.2.11"
+             name="SpecifiekeStofThesaurus122Codelijst"
+             displayName="SpecifiekeStofThesaurus122Codelijst"
+             effectiveDate="2015-04-01T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2015bbr-"
+             referencedFrom="peri20-">
+      <desc language="nl-NL">G-standaard Ongewenste medicatiegroepen (2.16.840.1.113883.2.4.4.1.902.122): Alle waarden</desc>
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.4.1.902.122"
+                        identifierName="G-Standaard Tabel 122"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.1.902.122"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.1.902.122"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.1.902.122"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.1.902.122"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <completeCodeSystem codeSystem="2.16.840.1.113883.2.4.4.1.902.122"
+                          codeSystemName="G-Standaard Tabel 122"/>
+   </valueSet>
+</valueSets>

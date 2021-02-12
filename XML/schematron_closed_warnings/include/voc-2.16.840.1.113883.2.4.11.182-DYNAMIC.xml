@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.11.182"
              name="TypePartus22"
              displayName="TypePartus"
              statusCode="final"
              effectiveDate="2016-11-22T14:00:45">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <sourceCodeSystem id="2.16.840.1.113883.2.4.4.14"
-                        identifierName="Perinatologische procedurecodes"/>
+                        identifierName="Perinatologische procedurecodes"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.14"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.14"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.14"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.14"/>
       <sourceCodeSystem id="2.16.840.1.113883.2.4.4.14.10"
-                        identifierName="TerminationOfPregnancy"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+                        identifierName="TerminationOfPregnancy"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.14.10"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.14.10"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.14.10"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.14.10"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

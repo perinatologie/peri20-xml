@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schematron_closed_warnings/peri20-ct-avr-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../schematron/peri20-ct-avr-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model phase="#ALL" href="../schematron_closed_warnings/peri20-ct-avr-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--     Aanvraag combinatietest    -->
 <REPC_IN004014NL xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../schemas/REPC_IN004014NL.xsd">
     <!-- Unieke identificatie van dit HL7v3 bericht  zoals uitgegeven door het zendende systeem-->
-    <id extension="86572343" root="2.16.840.1.113883.2.4.6.6.99.23444.17"/>
+    <id extension="86572343" root="2.16.840.1.113883.2.4.3.11.999.60.1"/>
     <creationTime value="20140102101112"/>
     <versionCode code="NICTIZEd2005-Okt"/>
     <interactionId extension="REPC_IN004014NL" root="2.16.840.1.113883.1.6"/>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.7.9.1"
+             name="BurgerlijkeStaatCodelijst"
+             displayName="BurgerlijkeStaatCodelijst"
+             effectiveDate="2015-04-01T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2015bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.5.2"
+                        identifierName="MaritalStatus"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/MaritalStatus"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/MaritalStatus"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="D"
+                  codeSystem="2.16.840.1.113883.5.2"
+                  displayName="Divorced"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Gescheiden (huwelijk/geregistreerd partnerschap ontbonden)"/>
+                </concept>
+                <concept code="M"
+                  codeSystem="2.16.840.1.113883.5.2"
+                  displayName="Married"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Gehuwd"/>
+                </concept>
+                <concept code="S"
+                  codeSystem="2.16.840.1.113883.5.2"
+                  displayName="Never Married"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Nooit gehuwd geweest/ geregistreerd partnerschap gehad"/>
+                </concept>
+                <concept code="T"
+                  codeSystem="2.16.840.1.113883.5.2"
+                  displayName="Domestic partner"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Geregistreerd partnerschap"/>
+                </concept>
+                <concept code="W"
+                  codeSystem="2.16.840.1.113883.5.2"
+                  displayName="Widowed"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Weduwe/weduwnaar"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

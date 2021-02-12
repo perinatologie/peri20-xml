@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
-   <title> Schematron file for POCD_MT000040NL - Structureel Echoscopisch Onderzoek (SEO) </title>
+   <title>Schematron file for transaction Structureel Echoscopisch Onderzoek (SEO) (2.16.840.1.113883.2.4.3.11.60.90.77.4.1401 2011-01-28T00:00:00)</title>
    <ns uri="urn:hl7-org:v3" prefix="hl7"/>
    <ns uri="urn:hl7-org:v3" prefix="cda"/>
    <ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
@@ -10,8 +10,10 @@
    <ns uri="http://art-decor.org/ns/decor" prefix="decor"/>
    <ns uri="urn:hl7-org:sdtc" prefix="sdtc"/>
    <ns uri="http://www.w3.org/XML/1998/namespace" prefix="xml"/>
-   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
+   <ns uri="urn:hl7-nl:v3" prefix="hl7nl"/>
    <ns uri="urn:ihe:pharm:medication" prefix="pharm"/>
+   <ns uri="urn:oid:1.3.6.1.4.1.19376.1.3.2" prefix="lab"/>
+   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
    <!-- Include realm specific schematron -->
    <!-- Include datatype abstract schematrons -->
    <pattern>
@@ -133,9 +135,19 @@
    <!-- Include the project schematrons related to scenario seo-1c -->
 
    <!-- cda-seo -->
+   <pattern>
+      <title>cda-seo</title>
+      <rule context="/">
+         <assert role="warning"
+                 test="descendant-or-self::hl7:ClinicalDocument[hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.4']]"
+                 see="http://decor.nictiz.nl/perinatologie/peri20-html-20190926T163541/tmp-2.16.840.1.113883.2.4.6.10.90.4-2012-03-11T000000.html">(cda-seo): In de instance werd het volgende element verwacht: descendant-or-self::hl7:ClinicalDocument[hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.4']]</assert>
+      </rule>
+   </pattern>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.4-2012-03-11T000000.sch"/>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.4-2012-03-11T000000-closed.sch"/>
 
+
+   <!-- Create phases for more targeted validation on large instances -->
 
 
    <!-- Include schematrons from templates with explicit * or ** context (but no representing templates), only those used in scenario template -->

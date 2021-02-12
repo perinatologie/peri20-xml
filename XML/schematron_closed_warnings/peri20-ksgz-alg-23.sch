@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
-   <title> Schematron file for  - Kernset Geboortezorg </title>
+   <title>Schematron file for transaction Kernset Geboortezorg 2.3 (2.16.840.1.113883.2.4.3.11.60.90.77.4.2437 2016-11-22T08:24:02)</title>
    <ns uri="urn:hl7-org:v3" prefix="hl7"/>
    <ns uri="urn:hl7-org:v3" prefix="cda"/>
    <ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
@@ -10,8 +10,10 @@
    <ns uri="http://art-decor.org/ns/decor" prefix="decor"/>
    <ns uri="urn:hl7-org:sdtc" prefix="sdtc"/>
    <ns uri="http://www.w3.org/XML/1998/namespace" prefix="xml"/>
-   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
+   <ns uri="urn:hl7-nl:v3" prefix="hl7nl"/>
    <ns uri="urn:ihe:pharm:medication" prefix="pharm"/>
+   <ns uri="urn:oid:1.3.6.1.4.1.19376.1.3.2" prefix="lab"/>
+   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
    <!-- Include realm specific schematron -->
    <!-- Include datatype abstract schematrons -->
    <pattern>
@@ -133,10 +135,84 @@
    <!-- Include the project schematrons related to scenario ksgz-alg-23 -->
 
    <!-- albprn-ks-233 -->
+   <pattern>
+      <title>albprn-ks-233</title>
+      <rule context="/">
+         <assert role="warning"
+                 test="descendant-or-self::hl7:REPC_IN004014NL[hl7:interactionId[@root = '2.16.840.1.113883.1.6']]"
+                 see="http://decor.nictiz.nl/perinatologie/peri20-html-20190926T163541/tmp-2.16.840.1.113883.2.4.6.10.90.76-2018-02-20T170856.html">(albprn-ks-233): In de instance werd het volgende element verwacht: descendant-or-self::hl7:REPC_IN004014NL[hl7:interactionId[@root = '2.16.840.1.113883.1.6']]</assert>
+      </rule>
+   </pattern>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.76-2018-02-20T170856.sch"/>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.76-2018-02-20T170856-closed.sch"/>
 
 
+   <!-- Create phases for more targeted validation on large instances -->
+   <phase id="AllExceptClosed">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.76-2018-02-20T170856"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901091-2018-02-20T155029"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901095-2018-02-21T112313"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901096-2018-02-21T152713"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901098-2018-02-21T154619"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901099-2018-02-23T113239"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901100-2018-02-23T140936"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901101-2018-02-26T150516"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901102-2018-02-26T151440"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901103-2018-02-27T180051"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901104-2018-02-28T111743"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901105-2018-02-28T121453"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901106-2018-02-28T150344"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901107-2018-02-28T162810"/>
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901108-2018-02-28T174957"/>
+   </phase>
+   <phase id="albprn-ks-233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.76-2018-02-20T170856"/>
+   </phase>
+   <phase id="albprn-ks-233-closed">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.76-2018-02-20T170856-closed"/>
+   </phase>
+   <phase id="IUVDMetObv">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901091-2018-02-20T155029"/>
+   </phase>
+   <phase id="ObstanamnvoorgzwangerschapKS233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901095-2018-02-21T112313"/>
+   </phase>
+   <phase id="RedenVerwObsAn233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901096-2018-02-21T152713"/>
+   </phase>
+   <phase id="Verwijsdetails233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901098-2018-02-21T154619"/>
+   </phase>
+   <phase id="RedenVerwBev233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901099-2018-02-23T113239"/>
+   </phase>
+   <phase id="RedenVerwZw233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901100-2018-02-23T140936"/>
+   </phase>
+   <phase id="BevallingPRNKernset233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901101-2018-02-26T150516"/>
+   </phase>
+   <phase id="BaringPRNKernset233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901102-2018-02-26T151440"/>
+   </phase>
+   <phase id="WijzeBaringBegon">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901103-2018-02-27T180051"/>
+   </phase>
+   <phase id="CondPerPpRedVerw233">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901104-2018-02-28T111743"/>
+   </phase>
+   <phase id="IndicatiePrimSC">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901105-2018-02-28T121453"/>
+   </phase>
+   <phase id="Sectiocaesarea23">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901106-2018-02-28T150344"/>
+   </phase>
+   <phase id="TypePartus23">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901107-2018-02-28T162810"/>
+   </phase>
+   <phase id="VorigeUitkomstperkindKernset">
+      <active pattern="template-2.16.840.1.113883.2.4.6.10.90.901108-2018-02-28T174957"/>
+   </phase>
 
    <!-- Include schematrons from templates with explicit * or ** context (but no representing templates), only those used in scenario template -->
 

@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.11.198"
              name="ChromosomaleAfwijkingen22"
              displayName="ChromosomaleAfwijkingen"
              statusCode="final"
              versionLabel="2.3"
              effectiveDate="2016-10-26T16:44:18">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <sourceCodeSystem id="2.16.840.1.113883.2.4.4.13.22"
-                        identifierName="ChromosomaleAfwijkingen"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+                        identifierName="ChromosomaleAfwijkingen"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.13.22"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.13.22"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.13.22"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.13.22"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -24,19 +38,16 @@
       <conceptList>
                 <concept code="41040004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Complete trisomy 21 syndrome (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="51500006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Complete trisomy 18 syndrome (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="21111006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Complete trisomy 13 syndrome (disorder)"
                   level="0"
                   type="L"/>

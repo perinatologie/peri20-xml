@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.1.11.10317"
              name="ActRelationshipType"
              displayName="ActRelationshipType"
@@ -24,7 +24,12 @@
                 <p>4.) Post-condition, outcome, goal and risk, with the Act at the source having the outcome or goal at the target.</p>
                 <p>5.) A host of functional relationships including support, cause, derivation, etc. generalized under the notion of "pertinence".</p>
             </desc>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1002" identifierName="Act Relationship Type"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1002"
+                        identifierName="Act Relationship Type"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/ActRelationshipType"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/ActRelationshipType"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

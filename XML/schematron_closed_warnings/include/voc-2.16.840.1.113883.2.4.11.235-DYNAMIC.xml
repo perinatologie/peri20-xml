@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              name="frequentie_hartslag"
              displayName="Frequentie hartslag"
              id="2.16.840.1.113883.2.4.11.235"
              effectiveDate="2017-02-03T16:14:46"
              statusCode="draft">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -20,19 +25,16 @@
       <conceptList>
                 <concept code="421656001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Bradycardia - baseline fetal heart rate (finding)"
                   level="0"
                   type="L"/>
                 <concept code="278084002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Normal baseline fetal heart rate (finding)"
                   level="0"
                   type="L"/>
                 <concept code="421348006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Tachycardia - baseline fetal heart rate (finding)"
                   level="0"
                   type="L"/>

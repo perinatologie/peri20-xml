@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.90.77.11.229"
+             name="Ondersteuning_Ontslag_Huis"
+             displayName="Ondersteuning_Ontslag_Huis"
+             effectiveDate="2018-10-12T13:44:34"
+             statusCode="draft">
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <copyright language="en-US">This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.</copyright>
+      <conceptList>
+                <concept code="53617003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="monitoren van ademhaling (regime/therapie)"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="monitoren van ademhaling"/>
+                    <designation language="nl-NL"
+                         type="synonym"
+                         displayName="bewaken van ademhaling"/>
+                </concept>
+                <concept code="225373002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Percutaneous endoscopic gastrostomy feeding (procedure)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>Maagsonde (PEG)</div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Percutaneous endoscopic gastrostomy feeding (regime/therapy)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Percutaneous endoscopic gastrostomy feeding"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Percutaneous endoscopic gastrostomy feeding"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PEG - Percutaneous endoscopic gastrostomy feeding"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PEG - Percutaneous endoscopic gastrostomy feeding"/>
+                </concept>
+                <concept code="229914003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Nasogastric feeding (procedure)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>Maagsonde (via neus)</div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Nasogastric feeding (regime/therapy)"/>
+                    <designation language="en" type="synonym" displayName="Nasogastric feeding"/>
+                    <designation language="en" type="synonym" displayName="Nasogastric feeding"/>
+                    <designation language="en" type="synonym" displayName="Gastric gavage"/>
+                    <designation language="en" type="synonym" displayName="NG feeding"/>
+                    <designation language="en" type="synonym" displayName="NGT feeding"/>
+                    <designation language="en" type="synonym" displayName="Nasogastric tube feeding"/>
+                    <designation language="en" type="synonym" displayName="NGT feeding"/>
+                    <designation language="en" type="synonym" displayName="Gastric gavage"/>
+                    <designation language="en" type="synonym" displayName="Nasogastric tube feeding"/>
+                    <designation language="en" type="synonym" displayName="NG feeding"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="toedienen van voeding via nasogastrische sonde (regime/therapie)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="toedienen van sondevoeding via neus-maagsonde"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="toedienen van voeding via nasogastrische sonde"/>
+                </concept>
+                <concept code="225372007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Total parenteral nutrition (regime/therapy)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>Parenterale voeding</div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Total parenteral nutrition (regime/therapy)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Total parenteral nutrition"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Total parenteral nutrition"/>
+                    <designation language="en" type="synonym" displayName="Suralimentation"/>
+                    <designation language="en" type="synonym" displayName="TPN procedure"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Total parenteral nutrition administration"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="TPN - Total parenteral nutrition"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Central hyperalimentation"/>
+                    <designation language="en" type="synonym" displayName="TPN procedure"/>
+                    <designation language="en" type="synonym" displayName="Superalimentation"/>
+                    <designation language="en" type="synonym" displayName="Hyperalimentation"/>
+                    <designation language="en" type="synonym" displayName="Hyperalimentation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Central hyperalimentation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="TPN - Total parenteral nutrition"/>
+                    <designation language="en" type="synonym" displayName="Suralimentation"/>
+                    <designation language="en" type="synonym" displayName="Superalimentation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Parenteral hyperalimentation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Total parenteral nutrition administration"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Parenteral hyperalimentation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="totale parenterale voeding (regime/therapie)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="totale parenterale voeding"/>
+                    <designation language="nl" type="synonym" displayName="TPV"/>
+                </concept>
+                <concept code="229917005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Gastrostomy feeding (procedure)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>Maagsonde (PEG)</div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Gastrostomy feeding (regime/therapy)"/>
+                    <designation language="en" type="synonym" displayName="Gastrostomy feeding"/>
+                    <designation language="en" type="synonym" displayName="Gastrostomy feeding"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="gastrostomie voeding (regime/therapie)"/>
+                    <designation language="nl" type="synonym" displayName="gastrostomie voeding"/>
+                </concept>
+                <concept code="14603002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Apnea monitor surveillance (regime/therapy)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>Apnea monitor</div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Apnea monitor surveillance (regime/therapy)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Apnoea monitor surveillance"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Apnea monitor surveillance"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="surveillance met apneumonitor (regime/therapie)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="surveillance met apneumonitor"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="monitoren met apneumonitor"/>
+                </concept>
+                <concept code="63818009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Cardiotachometer monitoring (regime/therapy)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>Hart monitor</div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cardiotachometer monitoring (regime/therapy)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cardiotachometer monitoring"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cardiotachometer monitoring"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="monitoren met cardiotachometer (regime/therapie)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="monitoren met cardiotachometer"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="controle met polsfrequentiemeter"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="controle met cardiotachometer"/>
+                </concept>
+                <concept code="25156005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Intravenous feeding of patient (regime/therapy)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>Parenterale voeding</div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Intravenous feeding of patient (regime/therapy)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intravenous feeding of patient"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intravenous feeding of patient"/>
+                    <designation language="en" type="synonym" displayName="IV - Intravenous feeding"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PN - Parenteral nutrition"/>
+                    <designation language="en" type="synonym" displayName="Intravenous feeding"/>
+                    <designation language="en" type="synonym" displayName="IV - Intravenous feeding"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PN - Parenteral nutrition"/>
+                    <designation language="en" type="synonym" displayName="Parenteral feeding"/>
+                    <designation language="en" type="synonym" displayName="Intravenous feeding"/>
+                    <designation language="en" type="synonym" displayName="Parenteral alimentation"/>
+                    <designation language="en" type="synonym" displayName="Parenteral nutrition"/>
+                    <designation language="en" type="synonym" displayName="Parenteral nutrition"/>
+                    <designation language="en" type="synonym" displayName="Parenteral alimentation"/>
+                    <designation language="en" type="synonym" displayName="Parenteral feeding"/>
+                </concept>
+                <concept code="57485005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Oxygen therapy (procedure)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>Zuurstof</div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Oxygen therapy (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Oxygen therapy"/>
+                    <designation language="en" type="synonym" displayName="Oxygen therapy"/>
+                    <designation language="en" type="synonym" displayName="Oxygen therapy care"/>
+                    <designation language="en" type="synonym" displayName="Oxygen therapy care"/>
+                    <designation language="en" type="synonym" displayName="O2 therapy"/>
+                    <designation language="en" type="synonym" displayName="O2 therapy"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

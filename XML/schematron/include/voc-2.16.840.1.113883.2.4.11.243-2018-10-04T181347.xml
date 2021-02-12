@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.11.243"
+             name="VerrichtingType_OndersteuningOpvang"
+             displayName="VerrichtingType_OndersteuningOpvang"
+             effectiveDate="2018-10-04T18:13:47"
+             statusCode="draft">
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <copyright language="en-US">This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.</copyright>
+      <conceptList>
+                <concept code="57485005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Oxygen therapy (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Oxygen therapy (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Oxygen therapy"/>
+                    <designation language="en" type="synonym" displayName="Oxygen therapy"/>
+                    <designation language="en" type="synonym" displayName="Oxygen therapy care"/>
+                    <designation language="en" type="synonym" displayName="Oxygen therapy care"/>
+                    <designation language="en" type="synonym" displayName="O2 therapy"/>
+                    <designation language="en" type="synonym" displayName="O2 therapy"/>
+                </concept>
+                <concept code="313191000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Injection of epinephrine (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Injection of epinephrine (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Injection of adrenaline"/>
+                    <designation language="en" type="synonym" displayName="Injection of adrenaline"/>
+                    <designation language="en" type="synonym" displayName="Injection of epinephrine"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="injectie van adrenaline (verrichting)"/>
+                    <designation language="nl" type="synonym" displayName="injectie van adrenaline"/>
+                    <designation language="nl" type="synonym" displayName="injectie van epinefrine"/>
+                </concept>
+                <concept code="47545007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Continuous positive airway pressure ventilation treatment (regime/therapy)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Continuous positive airway pressure ventilation treatment (regime/therapy)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Continuous positive airway pressure ventilation treatment"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Continuous positive airway pressure ventilation treatment"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CPAP - Continuous positive airways pressure therapy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Continuous positive airways pressure therapy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CPAP - Continuous positive airways pressure"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Continuous positive airways pressure therapy"/>
+                    <designation language="en" type="synonym" displayName="CPAP treatment"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CPAP - Continuous positive airways pressure therapy"/>
+                    <designation language="en" type="synonym" displayName="CPAP treatment"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CPAP - Continuous positive airways pressure"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="continue positievedrukbeademing (regime/therapie)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="continue positievedrukbeademing"/>
+                    <designation language="nl" type="synonym" displayName="CPAP"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="continuous positive airway pressure ventilation"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="beademing met 'continuous positive airway pressure'"/>
+                </concept>
+                <concept code="11140008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Respiratory assist, manual (regime/therapy)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Respiratory assist, manual (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Respiratory assist, manual"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Respiratory assist, manual"/>
+                    <designation language="en" type="synonym" displayName="Hand ventilation"/>
+                    <designation language="en" type="synonym" displayName="Hand ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Manually assisted breathing"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Manually assisted breathing"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hand ventilation - bagging"/>
+                    <designation language="en" type="synonym" displayName="Manual ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hand ventilation - bagging"/>
+                    <designation language="en" type="synonym" displayName="Manual ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="handmatige beademing (verrichting)"/>
+                    <designation language="nl" type="synonym" displayName="handmatige beademing"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="handmatige ademhalingsondersteuning"/>
+                    <designation language="nl" type="synonym" displayName="manuele beademing"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="manuele ademhalingsondersteuning"/>
+                </concept>
+                <concept code="40617009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Artificial respiration (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Artificial respiration (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Artificial respiration"/>
+                    <designation language="en" type="synonym" displayName="Artificial respiration"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mechanically assisted breathing"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mechanically assisted ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Respiratory assist, mechanical"/>
+                    <designation language="en" type="synonym" displayName="Mechanical ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mechanically assisted breathing"/>
+                    <designation language="en" type="synonym" displayName="Artificial ventilation"/>
+                    <designation language="en" type="synonym" displayName="Mechanical ventilation"/>
+                    <designation language="en" type="synonym" displayName="Artificial ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mechanically assisted ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Respiratory assist, mechanical"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="kunstmatige beademing (verrichting)"/>
+                    <designation language="nl" type="synonym" displayName="kunstmatige beademing"/>
+                </concept>
+                <concept code="243147009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Controlled ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Controlled ventilation (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Controlled ventilation"/>
+                    <designation language="en" type="synonym" displayName="Controlled ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="gereguleerde beademing (verrichting)"/>
+                    <designation language="nl" type="synonym" displayName="gereguleerde beademing"/>
+                    <designation language="nl" type="synonym" displayName="gereguleerde ventilatie"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="gereguleerde ademhalingsondersteuning"/>
+                </concept>
+                <concept code="286812008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Pressure controlled ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Pressure controlled ventilation (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Pressure controlled ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Pressure controlled ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PCV - Pressure controlled ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PCV - Pressure controlled ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="drukgestuurde beademing (verrichting)"/>
+                    <designation language="nl" type="synonym" displayName="drukgestuurde beademing"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="drukgestuurde ademhalingsondersteuning"/>
+                </concept>
+                <concept code="266700009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Assisted breathing (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Assisted breathing (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Assisted breathing"/>
+                    <designation language="en" type="synonym" displayName="Assisted breathing"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Assisted ventilation therapy"/>
+                    <designation language="en" type="synonym" displayName="Lung ventilation"/>
+                    <designation language="en" type="synonym" displayName="Ventilation assistance"/>
+                    <designation language="en" type="synonym" displayName="Lung ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Assisted ventilation therapy"/>
+                    <designation language="en" type="synonym" displayName="Ventilation assistance"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="ademhalingsondersteuning (verrichting)"/>
+                    <designation language="nl" type="synonym" displayName="ademhalingsondersteuning"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="respiratoire ondersteuning"/>
+                    <designation language="nl" type="synonym" displayName="geassisteerde beademing"/>
+                </concept>
+                <concept code="428311008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Noninvasive ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Noninvasive ventilation (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Noninvasive ventilation"/>
+                    <designation language="en" type="synonym" displayName="Noninvasive ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="non-invasieve beademing (verrichting)"/>
+                    <designation language="nl" type="synonym" displayName="non-invasieve beademing"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="niet-invasieve ademhalingsondersteuning"/>
+                </concept>
+                <concept code="182686001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Endotracheal respiratory assistance (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Endotracheal respiratory assistance (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Endotracheal respiratory assistance"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Endotracheal respiratory assistance"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="endotracheale ademhalingsondersteuning (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="endotracheale ademhalingsondersteuning"/>
+                    <designation language="nl" type="synonym" displayName="endotracheale beademing"/>
+                </concept>
+                <concept code="405609003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Volume controlled ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Volume controlled ventilation (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Volume controlled ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Volume controlled ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="volumegestuurde beademing (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="volumegestuurde beademing"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="volumegestuurde ademhalingsondersteuning"/>
+                </concept>
+                <concept code="243154003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="High frequency jet ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="High frequency jet ventilation (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="High frequency jet ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="High frequency jet ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="HFJV - High frequency jet ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="HFJV - High frequency jet ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="jetbeademing met hoge frequentie (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="jetbeademing met hoge frequentie"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="‘high-frequency jet’-beademing"/>
+                </concept>
+                <concept code="41710008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Byrd respirator therapy (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Byrd respirator therapy (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Byrd respirator therapy"/>
+                    <designation language="en" type="synonym" displayName="Byrd respirator therapy"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="beademing met Bird-respirator (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsondersteuning met Bird-respirator"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="beademing met Bird-respirator"/>
+                </concept>
+                <concept code="425447009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Bag valve mask ventilation (regime/therapy)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Bag valve mask ventilation (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Bag valve mask ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Bag valve mask ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="beademing met beademingsballon (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="beademing met beademingsballon"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="beademing met 'bag-valve-mask'"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsondersteuning met beademingsballon"/>
+                </concept>
+                <concept code="243155002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="High frequency oscillatory ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="High frequency oscillatory ventilation (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="High frequency oscillatory ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="High frequency oscillatory ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="HFOV - High frequency oscillatory ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="HFOV - High frequency oscillatory ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="hoogfrequente oscillerende beademing (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="hoogfrequente oscillerende beademing"/>
+                    <designation language="nl" type="synonym" displayName="HFOV"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="high-frequency oscillatory ventilation"/>
+                </concept>
+                <concept code="243156001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Continuous flow ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Continuous flow ventilation (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Continuous flow ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Continuous flow ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="beademing met continue flow (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="beademing met continue flow"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsondersteuning met continue flow"/>
+                </concept>
+                <concept code="266690007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Closed cardiac massage with ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Closed cardiac massage with ventilation (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Closed cardiac massage with ventilation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Closed cardiac massage with ventilation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="gesloten hartmassage met beademing (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="gesloten hartmassage met beademing"/>
+                </concept>
+                <concept code="74596007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Resuscitation with artificial respiration (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Resuscitation with artificial respiration (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Resuscitation with artificial respiration"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Resuscitation with artificial respiration"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="reanimatie met kunstmatige beademing (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="reanimatie met kunstmatige beademing"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="resuscitatie met kunstmatige beademing"/>
+                </concept>
+                <concept code="243184006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Ventilation with self-inflating bag (regime/therapy)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Ventilation with self-inflating bag (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ventilation with self-inflating bag"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ventilation with self-inflating bag"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ventilation with self-reflating bag"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ventilation with self-reflating bag"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="beademing met zelfopblazende beademingsballon (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="beademing met zelfopblazende beademingsballon"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsondersteuning met zelfopblazende beademingsballon"/>
+                </concept>
+                <concept code="428311008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Noninvasive ventilation (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Noninvasive ventilation (procedure)"/>
+                    <designation language="en" type="synonym" displayName="Noninvasive ventilation"/>
+                    <designation language="en" type="synonym" displayName="Noninvasive ventilation"/>
+                </concept>
+                <concept code="408853006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Intermittent positive pressure ventilation via endotracheal tube (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intermittent positive pressure ventilation via endotracheal tube (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intermittent positive pressure ventilation via endotracheal tube"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intermittent positive pressure ventilation via endotracheal tube"/>
+                    <designation language="en" type="preferred" displayName="IPPV via tracheal tube"/>
+                    <designation language="en" type="synonym" displayName="IPPV via tracheal tube"/>
+                </concept>
+                <concept code="33631000146101"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Mechanical external cardiac massage (procedure)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <table border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      width="280"
+                      style="font-family: -webkit-standard; border-collapse: collapse; width: 210pt;">
+                            <tbody>
+                                <tr height="17" style="height: 13pt;">
+                                    <td colspan="1"
+                            rowspan="1"
+                            class="xl67"
+                            height="17"
+                            width="280"
+                            style="padding: 0px; font-size: 9pt; font-family: Verdana, sans-serif; vertical-align: top; border: none; height: 13pt; width: 210pt;">Mechanische thoraxcompressies</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Mechanical external cardiac massage (procedure)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mechanical external cardiac massage"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="mechanische thoraxcompressies (verrichting)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="mechanische thoraxcompressies"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

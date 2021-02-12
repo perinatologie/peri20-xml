@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.3.11.60.90.77.11.29"
              statusCode="final"
              name="MaagDarmLeveraandoening22"
              displayName="Maag Darm Lever aandoening (2.2)"
              effectiveDate="2014-09-19T14:40:15">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -20,19 +25,16 @@
       <conceptList>
                 <concept code="328383001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Chronic liver disease (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="64766004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Ulcerative colitis (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="34000006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Crohn's disease (disorder)"
                   level="0"
                   type="L"/>

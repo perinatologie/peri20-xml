@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.3.11.60.90.77.11.31"
              statusCode="final"
              name="Anemie22"
              displayName="Anemie (2.2)"
              effectiveDate="2014-09-22T09:54:44">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -20,25 +25,21 @@
       <conceptList>
                 <concept code="87522002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Iron deficiency anemia (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="80141007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Hemoglobinopathy (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="127040003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Hereditary hemoglobinopathy disorder homozygous for hemoglobin S (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="40108008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Thalassemia (disorder)"
                   level="0"
                   type="L"/>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.12.16.4"
+             name="HuidskleurScoreCodelijst"
+             displayName="HuidskleurScoreCodelijst"
+             effectiveDate="2017-09-04T00:00:00"
+             statusCode="deprecated"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.6.1"
+                        identifierName="LOINC"
+                        canonicalUri="http://loinc.org"
+                        canonicalUriDSTU2="http://loinc.org"
+                        canonicalUriSTU3="http://loinc.org"
+                        canonicalUriR4="http://loinc.org"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="LA6722-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="The baby's whole body is completely bluish-gray or pale"
+                  level="0"
+                  type="L"
+                  ordinal="0">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Een bleke of blauwe huidskleur"/>
+                </concept>
+                <concept code="LA6723-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Good color in body with bluish hands or feet"
+                  level="0"
+                  type="L"
+                  ordinal="1">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Roze lijfje, maar blauwachtige armen en benen"/>
+                </concept>
+                <concept code="LA6724-4"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Good color all over"
+                  level="0"
+                  type="L"
+                  ordinal="2">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Mooie roze huidskleur"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

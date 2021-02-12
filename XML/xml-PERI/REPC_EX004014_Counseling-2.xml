@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schematron_closed_warnings/peri20-counseling-22.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../schematron/peri20-counseling-22.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model phase="#ALL" href="../schematron_closed_warnings/peri20-counseling-22.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <REPC_IN004014NL xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../schemas/REPC_IN004014NL.xsd">
+
     <!--     Counseling bericht    -->
-    <id extension="86572343" root="2.16.840.1.113883.2.4.6.6.99.23444.17"/>
+
+    <!-- Unieke identificatie (lopend nummer) van dit HL7v3 bericht  zoals uitgegeven door het zendende systeem-->
+    <id extension="86572343" root="2.16.840.1.113883.2.4.3.11.999.60.1"/>
     <creationTime value="20140102101112"/>
     <versionCode code="NICTIZEd2005-Okt"/>
     <interactionId extension="REPC_IN004014NL" root="2.16.840.1.113883.1.6"/>
@@ -160,7 +162,7 @@
                                 <value xsi:type="CE" code="upd" codeSystem="2.16.840.1.113883.2.4.4.13.53"/>
                             </observation>
                         </pertinentInformation3>
-                        
+
                         <!--        zwangerschap        -->
 
                         <!-- Item: 20010 - Graviditeit 1..1 R -->
@@ -223,7 +225,7 @@
                                 <value xsi:type="BL" value="false"/>
                             </observation>
                         </pertinentInformation3>
-                        
+
                         <!-- Item: 20175 - Diabetes mellitus type 1 1..1 M -->
                         <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
                             <observation classCode="OBS" moodCode="EVN">
@@ -231,15 +233,15 @@
                                 <value xsi:type="BL" value="false"/>
                             </observation>
                         </pertinentInformation3>
-                        
+
                         <!-- Item: 20180 - Rookgewoonte 1..1 M -->
                         <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
                             <observation classCode="OBS" moodCode="EVN">
-                                <code code="Rookgedrag" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Rookgedrag"></code>
+                                <code code="Rookgedrag" codeSystem="2.16.840.1.113883.2.4.4.13" displayName="Rookgedrag"/>
                                 <value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.58" displayName="niet gerookt"/>
                             </observation>
                         </pertinentInformation3>
-                        
+
                         <!-- Item: 20211 - Gewicht (gemeten) 1..1 M -->
                         <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
                             <observation classCode="OBS" moodCode="EVN">
@@ -247,7 +249,7 @@
                                 <value xsi:type="PQ" value="84" unit="kg"/>
                             </observation>
                         </pertinentInformation3>
-                        
+
                         <!-- Item: 20212 - Lengte (gemeten) 0..1 R -->
                         <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
                             <observation classCode="OBS" moodCode="EVN">
@@ -263,7 +265,7 @@
                                 <value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.2.4.4.13.25"/>
                             </observation>
                         </pertinentInformation3>
-                        
+
                         <!-- Counseling combinatietest -->
                         <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
                             <encounter classCode="ENC" moodCode="EVN">

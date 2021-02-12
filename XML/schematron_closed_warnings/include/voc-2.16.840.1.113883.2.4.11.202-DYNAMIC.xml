@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.11.202"
              name="PediatrischeVerwijsindicatie"
              displayName="Pediatrische verwijsindicatie"
@@ -11,9 +11,23 @@
              statusCode="draft"
              versionLabel="2.2">
       <sourceCodeSystem id="2.16.840.1.113883.2.4.4.13.52"
-                        identifierName="Pediatrische verwijsindicaties"/>
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+                        identifierName="Pediatrische verwijsindicaties"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.13.52"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.13.52"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.13.52"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.13.52"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -29,7 +43,6 @@
                   type="L"/>
                 <concept code="289261003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Delivery problem (finding)"
                   level="0"
                   type="S"/>
@@ -40,19 +53,16 @@
                   type="L"/>
                 <concept code="289365005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Finding of malposition of foetus (finding)"
                   level="1"
                   type="L"/>
                 <concept code="12729009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Prolonged rupture of membranes (disorder)"
                   level="1"
                   type="L"/>
                 <concept code="168092006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Amniotic fluid -meconium stain (finding)"
                   level="1"
                   type="L"/>
@@ -68,19 +78,16 @@
                   type="L"/>
                 <concept code="413654009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Birth asphyxia (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="34681009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Perinatal respiratory distress (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="52767006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Neonatal hypoglycemia (disorder)"
                   level="0"
                   type="L"/>
@@ -96,7 +103,6 @@
                   type="L"/>
                 <concept code="387712008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Neonatal jaundice (disorder)"
                   level="0"
                   type="L"/>
@@ -107,7 +113,6 @@
                   type="L"/>
                 <concept code="161838002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Infant feeding problem (finding)"
                   level="0"
                   type="L"/>

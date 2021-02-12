@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
-   <title> Schematron file for REPC_IN004014NL - Aanleverbericht PRN 2e lijn naar PRN </title>
+   <title>Schematron file for transaction Aanleverbericht PRN 2e lijn naar PRN (2.16.840.1.113883.2.4.3.11.60.90.77.4.801 2012-03-01T00:00:00)</title>
    <ns uri="urn:hl7-org:v3" prefix="hl7"/>
    <ns uri="urn:hl7-org:v3" prefix="cda"/>
    <ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
@@ -10,8 +10,10 @@
    <ns uri="http://art-decor.org/ns/decor" prefix="decor"/>
    <ns uri="urn:hl7-org:sdtc" prefix="sdtc"/>
    <ns uri="http://www.w3.org/XML/1998/namespace" prefix="xml"/>
-   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
+   <ns uri="urn:hl7-nl:v3" prefix="hl7nl"/>
    <ns uri="urn:ihe:pharm:medication" prefix="pharm"/>
+   <ns uri="urn:oid:1.3.6.1.4.1.19376.1.3.2" prefix="lab"/>
+   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
    <!-- Include realm specific schematron -->
    <!-- Include datatype abstract schematrons -->
    <pattern>
@@ -49,9 +51,11 @@
       <include href="include/DTr1_EN.sch"/>
       <include href="include/DTr1_ENXP.sch"/>
       <include href="include/DTr1_hl7nl-INT.sch"/>
+      <include href="include/DTr1_hl7nl-IVL_QTY.sch"/>
       <include href="include/DTr1_hl7nl-IVL_TS.sch"/>
       <include href="include/DTr1_hl7nl-PIVL_TS.sch"/>
       <include href="include/DTr1_hl7nl-PQ.sch"/>
+      <include href="include/DTr1_hl7nl-QSET_QTY.sch"/>
       <include href="include/DTr1_hl7nl-RTO.sch"/>
       <include href="include/DTr1_hl7nl-TS.sch"/>
       <include href="include/DTr1_II.sch"/>
@@ -133,6 +137,14 @@
    <!-- Include the project schematrons related to scenario albprn-2el-20 -->
 
    <!-- albprn-2el-21 -->
+   <pattern>
+      <title>albprn-2el-21</title>
+      <rule context="/">
+         <assert role="warning"
+                 test="descendant-or-self::hl7:id[@nullFlavor = 'UNK'] | descendant-or-self::hl7:code[(@code = '900000' and @codeSystem = '2.16.840.1.113883.2.4.15.4')] | descendant-or-self::hl7:statusCode[@code = 'active'] | descendant-or-self::hl7:effectiveTime[not(@nullFlavor)] | descendant-or-self::hl7:subject2[hl7:CareProvisionEvent[hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.71']]]"
+                 see="http://decor.nictiz.nl/perinatologie/peri20-html-20190926T163541/tmp-2.16.840.1.113883.2.4.6.10.90.71-2012-12-07T000000.html">(albprn-2el-21): In de instance werd tenminste één van de volgende elementen verwacht: descendant-or-self::hl7:id[@nullFlavor = 'UNK'] | descendant-or-self::hl7:code[(@code = '900000' and @codeSystem = '2.16.840.1.113883.2.4.15.4')] | descendant-or-self::hl7:statusCode[@code = 'active'] | descendant-or-self::hl7:effectiveTime[not(@nullFlavor)] | descendant-or-self::hl7:subject2[hl7:CareProvisionEvent[hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.71']]]</assert>
+      </rule>
+   </pattern>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.71-2012-12-07T000000.sch"/>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.71-2012-12-07T000000-closed.sch"/>
 

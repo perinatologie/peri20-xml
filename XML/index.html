@@ -119,7 +119,7 @@
       <table width="100%">
          <tr>
             <td valign="bottom">
-               <h1>Nictiz XML-distributie Geboortezorg Release 2.2.10 en 2.3.2</h1> Gegenereerd: 20 maart 2018.
+               <h1>Nictiz XML-distributie Kernset Neonatologie - versie voor review.</h1> Gegenereerd: 26 september 2019
             </td>
             <td align="right">
                <div class="logo"></div>
@@ -141,7 +141,7 @@
                   <tr>
                      <td class="content">
                         <p>Welkom bij de HTML-documentatie van de XML-distributie.</p>
-                        <p>Tips bij het gebruik:</p>
+                        <p><b>Tips bij het gebruik:</b></p>
                         <ul>
                            <li>Bij tabellen kan de inhoud naar wens gesorteerd worden door op één van de kolombeschrijvingen te klikken, het kleine rode
                               pijltje geeft aan hoe gesorteerd wordt.
@@ -172,7 +172,7 @@
                         <table width="100%">
                            <tr>
                               <td>
-                                 <div class="paragraph">Hieronder een overzicht van alle 125 XML schema's, waarvan 4 interacties. De schema's zijn per HL7-domein, zichtbaar in de eerste vier letters, gegroepeerd en worden voorafgegaan door
+                                 <div class="paragraph">Hieronder een overzicht van alle 135 XML schema's, waarvan 4 interacties. De schema's zijn per HL7-domein, zichtbaar in de eerste vier letters, gegroepeerd en worden voorafgegaan door
                                     het overzicht van interacties. De interacties komen ook terug in de HL7-domeingroepen.
                                  </div>
                                  <h2 class="toggler" id="int_d1-toggler" onclick="return toggle(&#34;int_d1&#34;,&#34;int_d1-toggler&#34;)">Interacties</h2>
@@ -230,9 +230,78 @@
                                        </table>
                                     </div>
                                  </div>
-                                 <h2 class="toggler" id="d3-toggler" onclick="return toggle(&#34;d3&#34;,&#34;d3-toggler&#34;)">COCT - Common Message Elements</h2>
+                                 <h2 class="toggler" id="d4-toggler" onclick="return toggle(&#34;d4&#34;,&#34;d4-toggler&#34;)">CDA</h2>
                                  <div class="level2">
-                                    <div id="d3" class="toggle">
+                                    <div id="d4" class="toggle">
+                                       <table class="values" id="CDAschemaList">
+                                          <thead>
+                                             <tr>
+                                                <th class="larger" title="Bestandsnaam XML Schema">XML Schema</th>
+                                                <th class="larger" title="R-MIM bevat de volgende naam en omschrijving">Omschrijving</th>
+                                                <th class="larger" title="Schema bevat de volgende include(s), die mogelijk zelf ook weer includes bevatten">Includes</th>
+                                                <th class="larger" title="Schema wordt gebruikt in de volgende interactie(s)">Interactie</th>
+                                             </tr>
+                                          </thead>
+                                          <tr>
+                                             <td class="value"><a name="CDANL_extended.xsd"></a><a href="schemas/CDANL_extended.xsd">CDANL_extended.xsd</a></td>
+                                             <td class="value">
+                                                <div class="paragraph">CDA top level schema met Nederlandse extensies</div>
+                                             </td>
+                                             <td class="value">
+                                                <div><a href="#CDANL_extended.xsd">POCD_MT000040NL_extended.xsd</a></div>
+                                             </td>
+                                             <td class="value"></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="value"><a name="CDAr2ClinicalStatement.xsd"></a><a href="schemas/CDAr2ClinicalStatement.xsd">CDAr2ClinicalStatement.xsd</a></td>
+                                             <td class="value">
+                                                <div class="paragraph">XML Schema met complexTypes voor het officiële CDA ClinicalStatement, met enkele uitzonderingen. Zie interne schema-documentatie
+                                                   voor details.
+                                                </div>
+                                             </td>
+                                             <td class="value">
+                                                <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
+                                                <div><a href="#CDAr2ClinicalStatement.xsd">POCD_MT000040NL_extended.xsd</a></div>
+                                             </td>
+                                             <td class="value"></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="value"><a name="organizer.xsd"></a><a href="schemas/organizer.xsd">organizer.xsd</a></td>
+                                             <td class="value">
+                                                <div class="paragraph">XML Schema met organizer die bouwstenen groepeert op basis van CDAr2ClinicalStatement.xsd</div>
+                                             </td>
+                                             <td class="value">
+                                                <div><a href="#organizer.xsd">CDAr2ClinicalStatement.xsd</a></div>
+                                             </td>
+                                             <td class="value"></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="value"><a name="POCD_MT000040NL_extended.xsd"></a><a href="schemas/POCD_MT000040NL_extended.xsd">POCD_MT000040NL_extended.xsd</a></td>
+                                             <td class="value">
+                                                <!-- (DEBUG) Visio location: -->
+                                                <div class="paragraph">CDA include level schema met Nederlandse extensies</div>
+                                             </td>
+                                             <td class="value">
+                                                <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
+                                                <div><a href="intro/coreschemas.html#voc.xsd">../coreschemas/voc.xsd</a></div>
+                                                <div><a href="intro/coreschemas.html#NarrativeBlock.xsd">../coreschemas/NarrativeBlock.xsd</a></div>
+                                             </td>
+                                             <td class="value"></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="value"><a name="sdtc_extension.xsd"></a><a href="schemas/sdtc_extension.xsd">sdtc_extension.xsd</a></td>
+                                             <td class="value">
+                                                <div class="paragraph">XML Schema met HL7 Structured Documents Technical Committee (SDTC) extensies voor CDA.</div>
+                                             </td>
+                                             <td class="value"></td>
+                                             <td class="value"></td>
+                                          </tr>
+                                       </table>
+                                    </div>
+                                 </div>
+                                 <h2 class="toggler" id="d6-toggler" onclick="return toggle(&#34;d6&#34;,&#34;d6-toggler&#34;)">COCT - Common Message Elements</h2>
+                                 <div class="level2">
+                                    <div id="d6" class="toggle">
                                        <table class="values" id="schemaList">
                                           <thead>
                                              <tr>
@@ -245,7 +314,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT010000NL.xsd"></a><a href="schemas/COCT_MT010000NL.xsd">COCT_MT010000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM010000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -269,7 +338,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT020000NL.xsd"></a><a href="schemas/COCT_MT020000NL.xsd">COCT_MT020000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM020000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -281,7 +350,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT030000NL.xsd"></a><a href="schemas/COCT_MT030000NL.xsd">COCT_MT030000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM030000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -302,7 +371,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT030007NL.xsd"></a><a href="schemas/COCT_MT030007NL.xsd">COCT_MT030007NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM030007NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -320,7 +389,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT030200NL02.xsd"></a><a href="schemas/COCT_MT030200NL02.xsd">COCT_MT030200NL02.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM030200NL02.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -341,7 +410,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT030203.xsd"></a><a href="schemas/COCT_MT030203.xsd">COCT_MT030203.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM030203.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -357,7 +426,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT030207NL.xsd"></a><a href="schemas/COCT_MT030207NL.xsd">COCT_MT030207NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM030207NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -371,7 +440,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT040200NL.xsd"></a><a href="schemas/COCT_MT040200NL.xsd">COCT_MT040200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM040200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -386,7 +455,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT040203.xsd"></a><a href="schemas/COCT_MT040203.xsd">COCT_MT040203.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM040203.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -404,7 +473,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT050000NL02.xsd"></a><a href="schemas/COCT_MT050000NL02.xsd">COCT_MT050000NL02.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM050000NL02.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -427,7 +496,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT050002NL.xsd"></a><a href="schemas/COCT_MT050002NL.xsd">COCT_MT050002NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM050002NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -442,7 +511,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT050004NL.xsd"></a><a href="schemas/COCT_MT050004NL.xsd">COCT_MT050004NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM050004NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -461,7 +530,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT060000NL.xsd"></a><a href="schemas/COCT_MT060000NL.xsd">COCT_MT060000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM060000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -475,7 +544,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT070000.xsd"></a><a href="schemas/COCT_MT070000.xsd">COCT_MT070000.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM070000.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -491,7 +560,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT070000NL.xsd"></a><a href="schemas/COCT_MT070000NL.xsd">COCT_MT070000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM070000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -505,7 +574,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT080000NL.xsd"></a><a href="schemas/COCT_MT080000NL.xsd">COCT_MT080000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM080000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -529,7 +598,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090000NL.xsd"></a><a href="schemas/COCT_MT090000NL.xsd">COCT_MT090000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -545,7 +614,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090001NL.xsd"></a><a href="schemas/COCT_MT090001NL.xsd">COCT_MT090001NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090001NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -557,7 +626,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090100.xsd"></a><a href="schemas/COCT_MT090100.xsd">COCT_MT090100.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM090100.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -575,7 +644,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090100NL02.xsd"></a><a href="schemas/COCT_MT090100NL02.xsd">COCT_MT090100NL02.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090100NL02.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -591,7 +660,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090102NL.xsd"></a><a href="schemas/COCT_MT090102NL.xsd">COCT_MT090102NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090102NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -605,7 +674,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090108NL.xsd"></a><a href="schemas/COCT_MT090108NL.xsd">COCT_MT090108NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090108NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -620,7 +689,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090200NL.xsd"></a><a href="schemas/COCT_MT090200NL.xsd">COCT_MT090200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -635,7 +704,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090300.xsd"></a><a href="schemas/COCT_MT090300.xsd">COCT_MT090300.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM090300.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -653,7 +722,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090300NL.xsd"></a><a href="schemas/COCT_MT090300NL.xsd">COCT_MT090300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -669,7 +738,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090303NL.xsd"></a><a href="schemas/COCT_MT090303NL.xsd">COCT_MT090303NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090303NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -684,7 +753,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT090400NL.xsd"></a><a href="schemas/COCT_MT090400NL.xsd">COCT_MT090400NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM090400NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -700,7 +769,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT110000NL.xsd"></a><a href="schemas/COCT_MT110000NL.xsd">COCT_MT110000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM110000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -712,7 +781,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT120100NL02.xsd"></a><a href="schemas/COCT_MT120100NL02.xsd">COCT_MT120100NL02.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM120100NL02.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -726,7 +795,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT120104NL02.xsd"></a><a href="schemas/COCT_MT120104NL02.xsd">COCT_MT120104NL02.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM120104NL02.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -739,7 +808,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT120300NL.xsd"></a><a href="schemas/COCT_MT120300NL.xsd">COCT_MT120300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM120300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -753,7 +822,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT120500NL.xsd"></a><a href="schemas/COCT_MT120500NL.xsd">COCT_MT120500NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM120500NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -767,7 +836,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT150000.xsd"></a><a href="schemas/COCT_MT150000.xsd">COCT_MT150000.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM150000.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -783,7 +852,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT150000NL.xsd"></a><a href="schemas/COCT_MT150000NL.xsd">COCT_MT150000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM150000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -797,7 +866,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT150002NL.xsd"></a><a href="schemas/COCT_MT150002NL.xsd">COCT_MT150002NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM150002NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -811,7 +880,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT150003.xsd"></a><a href="schemas/COCT_MT150003.xsd">COCT_MT150003.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM150003.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -827,7 +896,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT150003NL.xsd"></a><a href="schemas/COCT_MT150003NL.xsd">COCT_MT150003NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM150003NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -841,7 +910,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT150007NL.xsd"></a><a href="schemas/COCT_MT150007NL.xsd">COCT_MT150007NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM150007NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -855,7 +924,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT200000NL.xsd"></a><a href="schemas/COCT_MT200000NL.xsd">COCT_MT200000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM200000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -871,7 +940,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT210000NL.xsd"></a><a href="schemas/COCT_MT210000NL.xsd">COCT_MT210000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM210000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -884,7 +953,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT220100NL.xsd"></a><a href="schemas/COCT_MT220100NL.xsd">COCT_MT220100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM220100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -900,7 +969,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT220200NL.xsd"></a><a href="schemas/COCT_MT220200NL.xsd">COCT_MT220200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM220200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -915,7 +984,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT220300NL.xsd"></a><a href="schemas/COCT_MT220300NL.xsd">COCT_MT220300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM220300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -929,7 +998,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT230100NL.xsd"></a><a href="schemas/COCT_MT230100NL.xsd">COCT_MT230100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM230100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -941,9 +1010,30 @@
                                              </td>
                                           </tr>
                                           <tr>
-                                             <td class="value"><a name="COCT_MT230200NL.xsd"></a><a href="schemas/COCT_MT230200NL.xsd">COCT_MT230200NL.xsd</a></td>
+                                             <td class="value"><a name="COCT_MT230100UV.xsd"></a><a href="schemas/COCT_MT230100UV.xsd">COCT_MT230100UV.xsd</a></td>
+                                             <td class="value">
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM230100UV.xml-->
+                                             </td>
+                                             <td class="value">
+                                                <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
+                                                <div><a href="#COCT_MT230100UV.xsd">COCT_MT440001UV.xsd</a></div>
+                                             </td>
+                                             <td class="value"></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="value"><a name="COCT_MT230100UV_ext_pharmacy.xsd"></a><a href="schemas/COCT_MT230100UV_ext_pharmacy.xsd">COCT_MT230100UV_ext_pharmacy.xsd</a></td>
                                              <td class="value">
                                                 <!-- (DEBUG) Visio location: -->
+                                             </td>
+                                             <td class="value">
+                                                <div><a href="#COCT_MT230100UV_ext_pharmacy.xsd">COCT_MT440001UV_ext_pharmacy.xsd</a></div>
+                                             </td>
+                                             <td class="value"></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="value"><a name="COCT_MT230200NL.xsd"></a><a href="schemas/COCT_MT230200NL.xsd">COCT_MT230200NL.xsd</a></td>
+                                             <td class="value">
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM230200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -957,7 +1047,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT240000NL.xsd"></a><a href="schemas/COCT_MT240000NL.xsd">COCT_MT240000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM240000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -972,7 +1062,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT240007NL.xsd"></a><a href="schemas/COCT_MT240007NL.xsd">COCT_MT240007NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM240007NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -987,7 +1077,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT250000NL.xsd"></a><a href="schemas/COCT_MT250000NL.xsd">COCT_MT250000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM250000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1001,7 +1091,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT350000NL.xsd"></a><a href="schemas/COCT_MT350000NL.xsd">COCT_MT350000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM350000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1024,7 +1114,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT410000NL.xsd"></a><a href="schemas/COCT_MT410000NL.xsd">COCT_MT410000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM410000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1046,7 +1136,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT430000NL.xsd"></a><a href="schemas/COCT_MT430000NL.xsd">COCT_MT430000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM430000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1060,7 +1150,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT440001NL.xsd"></a><a href="schemas/COCT_MT440001NL.xsd">COCT_MT440001NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM440001NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1071,9 +1161,27 @@
                                              </td>
                                           </tr>
                                           <tr>
-                                             <td class="value"><a name="COCT_MT470000NL.xsd"></a><a href="schemas/COCT_MT470000NL.xsd">COCT_MT470000NL.xsd</a></td>
+                                             <td class="value"><a name="COCT_MT440001UV.xsd"></a><a href="schemas/COCT_MT440001UV.xsd">COCT_MT440001UV.xsd</a></td>
+                                             <td class="value">
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM440001UV.xml-->
+                                             </td>
+                                             <td class="value">
+                                                <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
+                                             </td>
+                                             <td class="value"></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="value"><a name="COCT_MT440001UV_ext_pharmacy.xsd"></a><a href="schemas/COCT_MT440001UV_ext_pharmacy.xsd">COCT_MT440001UV_ext_pharmacy.xsd</a></td>
                                              <td class="value">
                                                 <!-- (DEBUG) Visio location: -->
+                                             </td>
+                                             <td class="value"></td>
+                                             <td class="value"></td>
+                                          </tr>
+                                          <tr>
+                                             <td class="value"><a name="COCT_MT470000NL.xsd"></a><a href="schemas/COCT_MT470000NL.xsd">COCT_MT470000NL.xsd</a></td>
+                                             <td class="value">
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM470000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1087,7 +1195,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT510004NL.xsd"></a><a href="schemas/COCT_MT510004NL.xsd">COCT_MT510004NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM510004NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1102,7 +1210,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT520001NL.xsd"></a><a href="schemas/COCT_MT520001NL.xsd">COCT_MT520001NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM520001NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1115,7 +1223,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT530000NL.xsd"></a><a href="schemas/COCT_MT530000NL.xsd">COCT_MT530000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM530000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1159,7 +1267,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT530100NL.xsd"></a><a href="schemas/COCT_MT530100NL.xsd">COCT_MT530100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM530100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1178,7 +1286,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT530200NL.xsd"></a><a href="schemas/COCT_MT530200NL.xsd">COCT_MT530200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM530200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1193,7 +1301,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT530300NL.xsd"></a><a href="schemas/COCT_MT530300NL.xsd">COCT_MT530300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM530300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1209,7 +1317,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT530400NL.xsd"></a><a href="schemas/COCT_MT530400NL.xsd">COCT_MT530400NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM530400NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1228,7 +1336,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT530500NL.xsd"></a><a href="schemas/COCT_MT530500NL.xsd">COCT_MT530500NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM530500NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1245,7 +1353,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT530600NL.xsd"></a><a href="schemas/COCT_MT530600NL.xsd">COCT_MT530600NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM530600NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1260,7 +1368,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT550000NL.xsd"></a><a href="schemas/COCT_MT550000NL.xsd">COCT_MT550000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM550000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1275,7 +1383,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT560000NL.xsd"></a><a href="schemas/COCT_MT560000NL.xsd">COCT_MT560000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM560000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1291,7 +1399,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT590000NL.xsd"></a><a href="schemas/COCT_MT590000NL.xsd">COCT_MT590000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM590000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1305,7 +1413,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT650005NL.xsd"></a><a href="schemas/COCT_MT650005NL.xsd">COCT_MT650005NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM650005NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1318,7 +1426,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT670000NL.xsd"></a><a href="schemas/COCT_MT670000NL.xsd">COCT_MT670000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM670000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1331,7 +1439,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT710000.xsd"></a><a href="schemas/COCT_MT710000.xsd">COCT_MT710000.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7_domein\Gedeeld\VisioModelXmlFiles_deprecated\COCT_RM710000.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -1346,7 +1454,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT710000NL.xsd"></a><a href="schemas/COCT_MT710000NL.xsd">COCT_MT710000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM710000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1360,7 +1468,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT710007NL.xsd"></a><a href="schemas/COCT_MT710007NL.xsd">COCT_MT710007NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM710007NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1375,7 +1483,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT820000NL.xsd"></a><a href="schemas/COCT_MT820000NL.xsd">COCT_MT820000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM820000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1390,7 +1498,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT840000NL.xsd"></a><a href="schemas/COCT_MT840000NL.xsd">COCT_MT840000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM840000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1409,7 +1517,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT840100NL.xsd"></a><a href="schemas/COCT_MT840100NL.xsd">COCT_MT840100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM840100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1429,7 +1537,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT840200NL.xsd"></a><a href="schemas/COCT_MT840200NL.xsd">COCT_MT840200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM840200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1449,7 +1557,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT840300NL.xsd"></a><a href="schemas/COCT_MT840300NL.xsd">COCT_MT840300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM840300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1470,7 +1578,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT840500NL.xsd"></a><a href="schemas/COCT_MT840500NL.xsd">COCT_MT840500NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM840500NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1486,7 +1594,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT841000NL.xsd"></a><a href="schemas/COCT_MT841000NL.xsd">COCT_MT841000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM841000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1502,7 +1610,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT841100NL.xsd"></a><a href="schemas/COCT_MT841100NL.xsd">COCT_MT841100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM841100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1523,7 +1631,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT841200NL.xsd"></a><a href="schemas/COCT_MT841200NL.xsd">COCT_MT841200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM841200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1545,7 +1653,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT841300NL.xsd"></a><a href="schemas/COCT_MT841300NL.xsd">COCT_MT841300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM841300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1564,7 +1672,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT841400NL.xsd"></a><a href="schemas/COCT_MT841400NL.xsd">COCT_MT841400NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM841400NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1586,7 +1694,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT841500NL.xsd"></a><a href="schemas/COCT_MT841500NL.xsd">COCT_MT841500NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM841500NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1605,7 +1713,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT910000NL02.xsd"></a><a href="schemas/COCT_MT910000NL02.xsd">COCT_MT910000NL02.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM910000NL02.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1621,7 +1729,7 @@
                                           <tr>
                                              <td class="value"><a name="COCT_MT960000NL.xsd"></a><a href="schemas/COCT_MT960000NL.xsd">COCT_MT960000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\COCT_RM960000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1637,9 +1745,9 @@
                                        </table>
                                     </div>
                                  </div>
-                                 <h2 class="toggler" id="d87-toggler" onclick="return toggle(&#34;d87&#34;,&#34;d87-toggler&#34;)">MCCI - Message Control Infrastructure</h2>
+                                 <h2 class="toggler" id="d94-toggler" onclick="return toggle(&#34;d94&#34;,&#34;d94-toggler&#34;)">MCCI - Message Control Infrastructure</h2>
                                  <div class="level2">
-                                    <div id="d87" class="toggle">
+                                    <div id="d94" class="toggle">
                                        <table class="values" id="MCCIschemaList">
                                           <thead>
                                              <tr>
@@ -1660,7 +1768,7 @@
                                           <tr>
                                              <td class="value"><a name="MCCI_MT000100.xsd"></a><a href="schemas/MCCI_MT000100.xsd">MCCI_MT000100.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\MCCI_RM000100.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -1676,7 +1784,7 @@
                                           <tr>
                                              <td class="value"><a name="MCCI_MT000200.xsd"></a><a href="schemas/MCCI_MT000200.xsd">MCCI_MT000200.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\MCCI_RM000200.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#datatypes.xsd">../coreschemas/datatypes.xsd</a></div>
@@ -1690,9 +1798,9 @@
                                        </table>
                                     </div>
                                  </div>
-                                 <h2 class="toggler" id="d90-toggler" onclick="return toggle(&#34;d90&#34;,&#34;d90-toggler&#34;)">MFMI - Master File Management Infrastructure</h2>
+                                 <h2 class="toggler" id="d97-toggler" onclick="return toggle(&#34;d97&#34;,&#34;d97-toggler&#34;)">MFMI - Master File Management Infrastructure</h2>
                                  <div class="level2">
-                                    <div id="d90" class="toggle">
+                                    <div id="d97" class="toggle">
                                        <table class="values" id="MFMIschemaList">
                                           <thead>
                                              <tr>
@@ -1720,9 +1828,30 @@
                                        </table>
                                     </div>
                                  </div>
-                                 <h2 class="toggler" id="d91-toggler" onclick="return toggle(&#34;d91&#34;,&#34;d91-toggler&#34;)">POCP - Common Product Model</h2>
+                                 <h2 class="toggler" id="d99-toggler" onclick="return toggle(&#34;d99&#34;,&#34;d99-toggler&#34;)">pharm</h2>
                                  <div class="level2">
-                                    <div id="d91" class="toggle">
+                                    <div id="d99" class="toggle">
+                                       <table class="values" id="pharmschemaList">
+                                          <thead>
+                                             <tr>
+                                                <th class="larger" title="Bestandsnaam XML Schema">XML Schema</th>
+                                                <th class="larger" title="R-MIM bevat de volgende naam en omschrijving">Omschrijving</th>
+                                                <th class="larger" title="Schema bevat de volgende include(s), die mogelijk zelf ook weer includes bevatten">Includes</th>
+                                                <th class="larger" title="Schema wordt gebruikt in de volgende interactie(s)">Interactie</th>
+                                             </tr>
+                                          </thead>
+                                          <tr>
+                                             <td class="value"><a name="pharm_extension.xsd"></a><a href="schemas/pharm_extension.xsd">pharm_extension.xsd</a></td>
+                                             <td class="value"></td>
+                                             <td class="value"></td>
+                                             <td class="value"></td>
+                                          </tr>
+                                       </table>
+                                    </div>
+                                 </div>
+                                 <h2 class="toggler" id="d101-toggler" onclick="return toggle(&#34;d101&#34;,&#34;d101-toggler&#34;)">POCP - Common Product Model</h2>
+                                 <div class="level2">
+                                    <div id="d101" class="toggle">
                                        <table class="values" id="POCPschemaList">
                                           <thead>
                                              <tr>
@@ -1735,7 +1864,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT010100NL.xsd"></a><a href="schemas/POCP_MT010100NL.xsd">POCP_MT010100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM010100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1762,7 +1891,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT010200NL.xsd"></a><a href="schemas/POCP_MT010200NL.xsd">POCP_MT010200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM010200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1789,7 +1918,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT010300NL.xsd"></a><a href="schemas/POCP_MT010300NL.xsd">POCP_MT010300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM010300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1804,7 +1933,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT010400NL.xsd"></a><a href="schemas/POCP_MT010400NL.xsd">POCP_MT010400NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM010400NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1817,7 +1946,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT010600NL.xsd"></a><a href="schemas/POCP_MT010600NL.xsd">POCP_MT010600NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM010600NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1844,7 +1973,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT020100NL.xsd"></a><a href="schemas/POCP_MT020100NL.xsd">POCP_MT020100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM020100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1860,7 +1989,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT020200NL.xsd"></a><a href="schemas/POCP_MT020200NL.xsd">POCP_MT020200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM020200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1877,7 +2006,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT030100NL.xsd"></a><a href="schemas/POCP_MT030100NL.xsd">POCP_MT030100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM030100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1891,7 +2020,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT030200NL.xsd"></a><a href="schemas/POCP_MT030200NL.xsd">POCP_MT030200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM030200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1905,7 +2034,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT030300NL.xsd"></a><a href="schemas/POCP_MT030300NL.xsd">POCP_MT030300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM030300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1919,7 +2048,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT040100NL.xsd"></a><a href="schemas/POCP_MT040100NL.xsd">POCP_MT040100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM040100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1934,7 +2063,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT050100NL.xsd"></a><a href="schemas/POCP_MT050100NL.xsd">POCP_MT050100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM050100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1950,7 +2079,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT050200NL.xsd"></a><a href="schemas/POCP_MT050200NL.xsd">POCP_MT050200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM050200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1964,7 +2093,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT050400NL.xsd"></a><a href="schemas/POCP_MT050400NL.xsd">POCP_MT050400NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM050400NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1977,7 +2106,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT060000NL.xsd"></a><a href="schemas/POCP_MT060000NL.xsd">POCP_MT060000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM060000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -1992,7 +2121,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT060100NL.xsd"></a><a href="schemas/POCP_MT060100NL.xsd">POCP_MT060100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM060100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2009,7 +2138,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT060200NL.xsd"></a><a href="schemas/POCP_MT060200NL.xsd">POCP_MT060200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM060200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2024,7 +2153,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT070000NL.xsd"></a><a href="schemas/POCP_MT070000NL.xsd">POCP_MT070000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM070000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2039,7 +2168,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT070100NL.xsd"></a><a href="schemas/POCP_MT070100NL.xsd">POCP_MT070100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM070100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2053,7 +2182,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT070200NL.xsd"></a><a href="schemas/POCP_MT070200NL.xsd">POCP_MT070200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM070200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2068,7 +2197,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT080200NL.xsd"></a><a href="schemas/POCP_MT080200NL.xsd">POCP_MT080200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM080200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2083,7 +2212,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT080300NL.xsd"></a><a href="schemas/POCP_MT080300NL.xsd">POCP_MT080300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM080300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2099,7 +2228,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT081100NL.xsd"></a><a href="schemas/POCP_MT081100NL.xsd">POCP_MT081100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM081100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2113,7 +2242,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT082100NL.xsd"></a><a href="schemas/POCP_MT082100NL.xsd">POCP_MT082100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM082100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2129,7 +2258,7 @@
                                           <tr>
                                              <td class="value"><a name="POCP_MT090100NL.xsd"></a><a href="schemas/POCP_MT090100NL.xsd">POCP_MT090100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\POCP_RM090100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2145,9 +2274,9 @@
                                        </table>
                                     </div>
                                  </div>
-                                 <h2 class="toggler" id="d116-toggler" onclick="return toggle(&#34;d116&#34;,&#34;d116-toggler&#34;)">PRPA - Patient Administration</h2>
+                                 <h2 class="toggler" id="d126-toggler" onclick="return toggle(&#34;d126&#34;,&#34;d126-toggler&#34;)">PRPA - Patient Administration</h2>
                                  <div class="level2">
-                                    <div id="d116" class="toggle">
+                                    <div id="d126" class="toggle">
                                        <table class="values" id="PRPAschemaList">
                                           <thead>
                                              <tr>
@@ -2170,7 +2299,7 @@
                                           <tr>
                                              <td class="value"><a name="PRPA_MT101301NL.xsd"></a><a href="schemas/PRPA_MT101301NL.xsd">PRPA_MT101301NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\PRPA_RM101301NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2188,9 +2317,9 @@
                                        </table>
                                     </div>
                                  </div>
-                                 <h2 class="toggler" id="d118-toggler" onclick="return toggle(&#34;d118&#34;,&#34;d118-toggler&#34;)">REPC - Care Provision</h2>
+                                 <h2 class="toggler" id="d128-toggler" onclick="return toggle(&#34;d128&#34;,&#34;d128-toggler&#34;)">REPC - Care Provision</h2>
                                  <div class="level2">
-                                    <div id="d118" class="toggle">
+                                    <div id="d128" class="toggle">
                                        <table class="values" id="REPCschemaList">
                                           <thead>
                                              <tr>
@@ -2225,7 +2354,7 @@
                                           <tr>
                                              <td class="value"><a name="REPC_MT000100NL.xsd"></a><a href="schemas/REPC_MT000100NL.xsd">REPC_MT000100NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\REPC_RM000100NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2249,7 +2378,7 @@
                                           <tr>
                                              <td class="value"><a name="REPC_MT000200NL.xsd"></a><a href="schemas/REPC_MT000200NL.xsd">REPC_MT000200NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\REPC_RM000200NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2268,7 +2397,7 @@
                                           <tr>
                                              <td class="value"><a name="REPC_MT000300NL.xsd"></a><a href="schemas/REPC_MT000300NL.xsd">REPC_MT000300NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\REPC_RM000300NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2287,7 +2416,7 @@
                                           <tr>
                                              <td class="value"><a name="REPC_MT000301NL.xsd"></a><a href="schemas/REPC_MT000301NL.xsd">REPC_MT000301NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\REPC_RM000301NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2305,7 +2434,7 @@
                                           <tr>
                                              <td class="value"><a name="REPC_MT000400NL.xsd"></a><a href="schemas/REPC_MT000400NL.xsd">REPC_MT000400NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\REPC_RM000400NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2321,7 +2450,7 @@
                                           <tr>
                                              <td class="value"><a name="REPC_MT000700NL.xsd"></a><a href="schemas/REPC_MT000700NL.xsd">REPC_MT000700NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\REPC_RM000700NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2335,7 +2464,7 @@
                                           <tr>
                                              <td class="value"><a name="REPC_MT002000NL.xsd"></a><a href="schemas/REPC_MT002000NL.xsd">REPC_MT002000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\REPC_RM002000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2359,7 +2488,7 @@
                                           <tr>
                                              <td class="value"><a name="REPC_MT004000NL.xsd"></a><a href="schemas/REPC_MT004000NL.xsd">REPC_MT004000NL.xsd</a></td>
                                              <td class="value">
-                                                <!-- (DEBUG) Visio location: -->
+                                                <!-- (DEBUG) Visio location: C:\source\trunk\HL7v3-Design-Repository\models\REPC_RM004000NL.xml-->
                                              </td>
                                              <td class="value">
                                                 <div><a href="intro/coreschemas.html#infrastructureRoot.xsd">../coreschemas/infrastructureRoot.xsd</a></div>
@@ -2502,7 +2631,7 @@
                                        </tr>
                                        <tr>
                                           <td class="value"><b><a name="peri20-instance2schematron.xml"></a><a href="schematron/peri20-instance2schematron.xml">peri20-instance2schematron.xml</a></b></td>
-                                          <td class="value">&nbsp;</td>
+                                          <td class="value">Bestand dat verbinding maakt tussen een instance en een schematronbestand en tussen een template en een transactie</td>
                                        </tr>
                                        <tr>
                                           <td class="value"><b><a name="peri20-jze-1c.sch"></a><a href="schematron/peri20-jze-1c.sch">peri20-jze-1c.sch</a></b></td>
@@ -2523,6 +2652,10 @@
                                        <tr>
                                           <td class="value"><b><a name="peri20-ksgz-ss-23.sch"></a><a href="schematron/peri20-ksgz-ss-23.sch">peri20-ksgz-ss-23.sch</a></b></td>
                                           <td class="value"> Schematron file for  - Kernset geboortezorg, subset screening </td>
+                                       </tr>
+                                       <tr>
+                                          <td class="value"><b><a name="peri20-ksneo-alg-30.sch"></a><a href="schematron/peri20-ksneo-alg-30.sch">peri20-ksneo-alg-30.sch</a></b></td>
+                                          <td class="value"> Schematron file for  - Kernset Neonatologie </td>
                                        </tr>
                                        <tr>
                                           <td class="value"><b><a name="peri20-mcci2-admgeboorte-1a-ack.sch"></a><a href="schematron/peri20-mcci2-admgeboorte-1a-ack.sch">peri20-mcci2-admgeboorte-1a-ack.sch</a></b></td>
@@ -2570,543 +2703,11 @@
                            <tr>
                               <td>
                                  <div class="level2">
-                                    <div class="paragraph">Overzicht van de binnen de map vocab gebruikte vocabulaires. De via de 
-                                       DECOR-methodiek (zie tabblad Inleiding) gegenereerde vocabulairebestanden staan in 
-                                       schematron/include en zijn niet hier gedocumenteerd, maar in de betreffende projectdocumentatie.
-                                       Naarmate meer projecten worden ge/herschreven in DECOR zal het aantal hier genoemde vocabulaires
-                                       afnemen. Het complete overzicht van door Nictiz gedefinieerde vocabulaire vindt u hier: <a href="http://decor.nictiz.nl/decor/services/ValueSetIndex">http://decor.nictiz.nl/decor/services/ValueSetIndex</a><p> N.B. Vocabulaires die niet door Nictiz worden beheerd zijn zuiver informatief. Zij zijn opgenomen voor gebruik door de schematron
+                                    <div class="paragraph">Overzicht van de binnen de map vocab gebruikte vocabulaires. Het complete overzicht van door Nictiz gedefinieerde vocabulaire vindt u hier: <a href="http://decor.nictiz.nl/decor/services/ValueSetIndex">http://decor.nictiz.nl/decor/services/ValueSetIndex</a><p> N.B. Vocabulaires die niet door Nictiz worden beheerd zijn zuiver informatief. Zij zijn opgenomen voor gebruik door de schematron
                                           en html presentatie stylesheets, meldingen moeten gezien worden waarschuwingen.
                                        </p>
                                     </div>
-                                    <table class="values" id="vocabList">
-                                       <thead>
-                                          <tr>
-                                             <th class="larger">Naam</th>
-                                             <th class="larger">OID</th>
-                                          </tr>
-                                       </thead>
-                                       <tr>
-                                          <td class="value"><a href="vocab/1.0.3166.1.2.2.xml">ISO 3166 Alpha 2 Landcodes</a></td>
-                                          <td class="value">1.0.3166.1.2.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/1.0.639.1.xml">ISO 639-1</a></td>
-                                          <td class="value">1.0.639.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/1.3.160.xml">EAN Artikelcodes</a></td>
-                                          <td class="value">1.3.160</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.528.1.1003.1.3.5.4.1.xml">Getronics CSP Organisatie CA</a></td>
-                                          <td class="value">2.16.528.1.1003.1.3.5.4.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.528.1.1007.4.2.1.xml">SBV-Z Syntax Meldingsteksten</a></td>
-                                          <td class="value">2.16.528.1.1007.4.2.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.528.1.1007.4.2.2.xml">SBV-Z Zoekresultaat Meldingsteksten</a></td>
-                                          <td class="value">2.16.528.1.1007.4.2.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.528.1.1007.4.2.3.xml">SBV-Z Business-Rule Meldingsteksten</a></td>
-                                          <td class="value">2.16.528.1.1007.4.2.3</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.1.11.17660.xml">Service Delivery Location</a></td>
-                                          <td class="value">2.16.840.1.113883.1.11.17660</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.1.11.19708.xml">Act Substance Administration Code</a></td>
-                                          <td class="value">2.16.840.1.113883.1.11.19708</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.1.18.xml">Trigger event</a></td>
-                                          <td class="value">2.16.840.1.113883.1.18</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.1.6.xml">Interactie Id</a></td>
-                                          <td class="value">2.16.840.1.113883.1.6</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.12.212.xml">GBA tabel Nationaliteiten (32)</a></td>
-                                          <td class="value">2.16.840.1.113883.12.212</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.15.1.xml">AttentionLineElementTypeNL</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.15.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.15.1060.xml">RoleCodeNL - zorgaanbiedertype (organisaties)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.15.1060</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.15.111.xml">RoleCodeNL - zorgverlenertype (natuurlijke personen)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.15.111</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.15.2.xml">RoleCodeNL-organisatiedeeltyperingen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.15.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.15.20.xml">Mate van overgevoeligheid</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.15.20</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.15.4.xml">ActRegistryCode: x_DataDomainNL</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.15.4</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.2.70.10.xml">Indicatie geheim</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.2.70.10</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.1.xml">AORTA profileId's</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.10.xml">Organisatiedeelidentificaties</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.10</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.12.xml">GebeurtenistypenAbonneerbaar</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.12</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.13.xml">Gebeurtenis identificatiesysteem</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.13</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.14.xml">Identificatiesysteem voor gebeurtenissen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.14</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.15.xml">Identificatie voor Kerndossier implementatiehandleiding v1.0</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.15</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.16.xml">Identificatie voor e-Paramedici implementatiehandleiding v1.0</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.16</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.17.1.xml">ActAortaPatientAccessNL: x_DataDomainNL</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.17.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.17.2.xml">ActNotificationContactMethodNL: x_DataDomainNL</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.17.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.17.3.xml">ActNotificationChannelNL: x_DataDomainNL</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.17.3</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.18.xml">GebeurtenistypenNietAbonneerbaar</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.18</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.2.xml">Kwalificatietypen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.25.xml">AORTA GBO-organisatie-id's</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.25</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.3.xml">Systeemrollen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.3</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.4.xml">GBZ identificaties</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.4</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.5.xml">XIS-typekwalificaties</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.5</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.6.xml">RoleCodeWettelijkeVertegenwoordigerNL</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.6</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.7.1.xml">Klantenloket artefacten productie</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.7.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.7.2.xml">Klantenloket artefacten</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.7.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.7.3.xml">Klantenloketmedewerkers</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.7.3</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.8.xml">RoleCodeToegangPatiëntNL</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.8</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.11.9.xml">Perinatologie-conformance profile-id's</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.11.9</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.111.15.1.xml">AORTA Context Code</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.111.15.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.23.5.1.xml">PALGA servicetypes</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.23.5.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.23.5.3.xml">PALGA types obductie</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.23.5.3</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.3.32.3.xml">Zorgaanvrager (melder/verwijzer/klant)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.3.32.3</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.361.xml">Bestand 361 a-tabel (eenheid gebruiksadvies)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1.361</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.651.xml">G-Standaard Bestand 651 (obsolete)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1.651</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.652.xml">G-Standaard Bestand 652 (obsolete)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1.652</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.725.xml">G-Standaard Bestand 725</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1.725</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.750.xml">G-Standaard Bestand 750</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1.750</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.900.2.xml">G-Standaard bestand 902 Thesaurus 2</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1.900.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.902.122.xml">G-Standaard Tabel 122</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1.902.122</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.902.40.xml">G-Standaard Tabel 40</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1.902.40</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.1.xml">G-Standaard GPK</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.10.xml">G-Standaard PRK</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.10</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.11.xml">G-Standaard tabel 902 thesaurus 0006</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.11</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.12.xml">G-Standaard tabel 902 thesaurus 4</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.12</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.13.xml">Perinatologische observatiecodes</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.13</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.14.xml">Perinatologische procedurecodes</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.14</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.15.xml">Nederlandse postcodes</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.15</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.16.34.xml">GBA tabel Landen (34)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.16.34</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.2.14.xml">LMR ontslagbestemmingen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.2.14</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.2.xml">WCIAv3 Tabel 25</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.3.xml">WCIAv3 Tabel 25 Tijdseenheden</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.3</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.30.1045.xml">Gecodeerde antwoorden bij Code diagnostische bepalingen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.30.1045</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.30.11.xml">NHG Tabel 11 Code sociale laag</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.30.11</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.30.12.xml">NHG Tabel 12 Code specialisme</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.30.12</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.30.14.xml">Code contact</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.30.14</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.30.15.xml">Code verrichtingen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.30.15</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.30.20.xml">NHG Tabel 20 Code opleiding</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.30.20</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.30.45.xml">Code diagnostische bepalingen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.30.45</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.31.1.xml">ICPC-1-NL</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.31.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.32.2.xml">Journaalregeltypen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.32.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.4.xml">WCIAv3 Tabel 25 Eenheden gebruiksadvies</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.4</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.5.xml">WCIAv3 Tabel 25 B-codes</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.5</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.50.1.xml">NTS Ketenbrede urgentiecategoriën</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.50.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.6.xml">WCIAv3 Tabel 25 Aanvullende teksten bij medicatiedosering (numcode)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.6</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.7.xml">G-Standaard HPK</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.7</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.8.xml">G-Standaard ZI_nummer</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.8</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.80.xml">Cliq catalogus van hulpmiddelen</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.80</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.4.9.xml">G-Standaard thesaurus subtabel 0007</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.4.9</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.6.10.100.xml">Templates Jeugdgezondheidszorg</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.6.10.100</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.6.14.xml">JGZ Regio's</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.6.14</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.6.5.xml">Nederlandse Ministeriële Departementen (Ministeries)</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.6.5</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.6.6.1.1000.xml">AORTA Foutcodes</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.6.6.1.1000</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.2.4.6.70.xml">SBV-Z Identificatiedocumenttypes</a></td>
-                                          <td class="value">2.16.840.1.113883.2.4.6.70</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1.xml">AdministrativeGender</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1001.xml">ActMood</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1001</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1008.xml">NullFlavor</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1008</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1011.xml">Soort telefoonnummer</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1011</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1012.xml">Soort adres</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1012</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1053.xml">ActUncertainty</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1053</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1057.xml">ContextControl</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1057</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1060.xml">EntityCode</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1060</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1064.xml">ParticipationMode</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1064</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1068.xml">RoleStatus</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1068</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1071.xml">SubstitutionCondition</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1071</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1077.xml">EducationLevel</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1077</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.110.xml">RoleClass</a></td>
-                                          <td class="value">2.16.840.1.113883.5.110</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.1100.xml">AcknowledgementDetailCode</a></td>
-                                          <td class="value">2.16.840.1.113883.5.1100</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.111.xml">RoleCode</a></td>
-                                          <td class="value">2.16.840.1.113883.5.111</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.112.xml">RouteOfAdministration</a></td>
-                                          <td class="value">2.16.840.1.113883.5.112</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.139.xml">TimingEvent</a></td>
-                                          <td class="value">2.16.840.1.113883.5.139</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.14.xml">ActStatus</a></td>
-                                          <td class="value">2.16.840.1.113883.5.14</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.18.xml">AcknowledgementType</a></td>
-                                          <td class="value">2.16.840.1.113883.5.18</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.2.xml">MaritalStatus</a></td>
-                                          <td class="value">2.16.840.1.113883.5.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.25.xml">Confidentiality</a></td>
-                                          <td class="value">2.16.840.1.113883.5.25</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.33.xml">DocumentCompletion</a></td>
-                                          <td class="value">2.16.840.1.113883.5.33</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.34.xml">DocumentStorage</a></td>
-                                          <td class="value">2.16.840.1.113883.5.34</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.4.xml">ActCode</a></td>
-                                          <td class="value">2.16.840.1.113883.5.4</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.6.xml">ActClass</a></td>
-                                          <td class="value">2.16.840.1.113883.5.6</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.60.xml">LanguageAbilityMode</a></td>
-                                          <td class="value">2.16.840.1.113883.5.60</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.61.xml">LanguageAbilityProficiency</a></td>
-                                          <td class="value">2.16.840.1.113883.5.61</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.7.xml">ActPriority</a></td>
-                                          <td class="value">2.16.840.1.113883.5.7</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.83.xml">Observation Interpretation</a></td>
-                                          <td class="value">2.16.840.1.113883.5.83</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.85.xml">OrderableDrugForm</a></td>
-                                          <td class="value">2.16.840.1.113883.5.85</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.88.xml">ParticipationFunction</a></td>
-                                          <td class="value">2.16.840.1.113883.5.88</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.89.xml">ParticipationSignature</a></td>
-                                          <td class="value">2.16.840.1.113883.5.89</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.5.90.xml">ParticipationType</a></td>
-                                          <td class="value">2.16.840.1.113883.5.90</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.6.1.xml">LOINC</a></td>
-                                          <td class="value">2.16.840.1.113883.6.1</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.6.100.xml">ISO 639-3 language codes</a></td>
-                                          <td class="value">2.16.840.1.113883.6.100</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.6.121.xml">HumanLanguage</a></td>
-                                          <td class="value">2.16.840.1.113883.6.121</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.6.254.xml">ICF</a></td>
-                                          <td class="value">2.16.840.1.113883.6.254</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.6.3.2.xml">iCD10dut</a></td>
-                                          <td class="value">2.16.840.1.113883.6.3.2</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.6.73.xml">WHO ATC</a></td>
-                                          <td class="value">2.16.840.1.113883.6.73</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.6.90.xml">WHO ICD-10 CM</a></td>
-                                          <td class="value">2.16.840.1.113883.6.90</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/2.16.840.1.113883.6.96.xml">SNOMED-CT</a></td>
-                                          <td class="value">2.16.840.1.113883.6.96</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/ED-mediaType.xml">ED-mediaType</a></td>
-                                          <td class="value">ED-mediaType</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/URL-urlScheme.xml">URL.scheme</a></td>
-                                          <td class="value">URL-urlScheme</td>
-                                       </tr>
-                                       <tr>
-                                          <td class="value"><a href="vocab/ucum-essence.xml">ucum-essence</a></td>
-                                          <td class="value">ucum-essence</td>
-                                       </tr>
-                                    </table>
-                                 </div>
+                                      </div>
                               </td>
                            </tr>
                         </table>
@@ -3165,61 +2766,22 @@
                               <tr>
                                  <td class="value"><a href="schematron">schematron</a></td>
                                  <td class="value">
-                                    <div class="paragraph">Schematron-bestanden voor de validatie van 'business rules'. Het gaat hierbij om eisen die in implementatiehandleidingen zijn
-                                       opgenomen, maar slechts moeizaam of helemaal niet met XML schema zijn af te dwingen. Dit is relevant voor ontwikkeling / test
-                                       fase en niet bedoeld voor een productieomgeving.
+                                    <div class="paragraph">Schematron-bestanden voor de validatie van 'business rules'. Het gaat hierbij om eisen die in implementatiehandleidingen zijn opgenomen, maar slechts moeizaam of helemaal niet met XML schema zijn af te dwingen. Dit is relevant voor ontwikkeling / test fase en niet bedoeld voor een productieomgeving.
+                                       
+                                    </div><div class="paragraph">Bestanden met '_text' in de bestandsnaam zijn XSLT (stylesheets) bestanden welke gegenereerd zijn uit de schematronbestanden. Indien de mogelijkheid ontbreekt om schematronbestanden te gebruiken voor de validatie van XML berichten dan kunnen deze XSLT's gebruikt worden. Deze XSLT's geven de meldingen terug via xsl:message. Deze meldingen zijn geschikt voor afslag in bijvoorbeeld logging. SVRL (zie hieronder) geeft meldingen in een verwerkbare vorm. 
+                                       
+                                    </div><div class="paragraph">Bestanden met '_svrl' in de bestandsnaam zijn XSLT (stylesheets) bestanden welke gegenereerd zijn uit de schematronbestanden. Indien de mogelijkheid ontbreekt om schematronbestanden te gebruiken voor de validatie van XML berichten dan kunnen deze XSLT's gebruikt worden. SVRL staat voor Schematron Validation Reporting Language (zie: http://schematron.com) en geeft de meldingen terug in een XML-structuur zodat deze verder kunnen worden verwerkt in andere logica.
                                     </div>
                                  </td>
                               </tr>
                               <tr>
                                  <td class="value"><a href="schematron_closed_warnings">schematron_closed_warnings</a></td>
                                  <td class="value">
-                                    <div class="paragraph">De map 'schematron_closed_warnings' bevat schematrons met daarin naast de gebruikelijke meldingen ook waarschuwingen worden
-                                       gegeven voor zaken die niet zijn gespecificeerd. Dit is relevant voor ontwikkeling / test fase en niet bedoeld voor een productieomgeving.
+                                    <div class="paragraph">De map 'schematron_closed_warnings' bevat schematrons met daarin naast de gebruikelijke meldingen ook waarschuwingen worden gegeven voor zaken die niet zijn gespecificeerd. Dit is alléén relevant voor ontwikkeling / test fase en uitdrukkelijk niet bedoeld voor een productieomgeving. Net als in de schematron map zijn er ook text xslt en svrl versies beschikbaar.
                                     </div>
                                  </td>
                               </tr>
-                              <tr>
-                                 <td class="value"><a href="schematron_closed_warnings_svrl">schematron_closed_warnings_svrl</a></td>
-                                 <td class="value">
-                                    <div class="paragraph">XSLT (stylesheets) bestanden welke gegenereerd zijn uit de schematronbestanden in schematron_closed_warnings. Indien de mogelijkheid
-                                       ontbreekt om Schematron-bestanden te gebruiken voor de validatie van XML berichten dan kunnen deze XSLT's gebruikt worden.
-                                       SVRL staat voor Schematron Validation Reporting Language (zie: http://schematron.com) en geeft de meldingen terug in een XML-structuur
-                                       zodat deze verder kunnen worden verwerkt in andere logica.
-                                    </div>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td class="value"><a href="schematron_closed_warnings_xslt">schematron_closed_warnings_xslt</a></td>
-                                 <td class="value">
-                                    <div class="paragraph">XSLT (stylesheets) bestanden welke gegenereerd zijn uit de schematronbestanden. Indien de mogelijkheid ontbreekt om Schematron-bestanden
-                                       te gebruiken voor de validatie van XML berichten dan kunnen deze XSLT's gebruikt worden. Deze XSLT's geven de meldingen terug
-                                       via xsl:message. Deze meldingen zijn geschikt voor afslag in bijvoorbeeld logging. Zie SVRL om meldingen in een verwerkbare
-                                       vorm geleverd te krijgen. (http://schematron.com)
-                                    </div>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td class="value"><a href="schematron_svrl">schematron_svrl</a></td>
-                                 <td class="value">
-                                    <div class="paragraph">XSLT (stylesheets) bestanden welke gegenereerd zijn uit de schematronbestanden. Indien de mogelijkheid ontbreekt om Schematron-bestanden
-                                       te gebruiken voor de validatie van XML berichten dan kunnen deze XSLT's gebruikt worden. SVRL staat voor Schematron Validation
-                                       Reporting Language (zie: http://schematron.com) en geeft de meldingen terug in een XML-structuur zodat deze verder kunnen
-                                       worden verwerkt in andere logica.
-                                    </div>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td class="value"><a href="schematron_xslt">schematron_xslt</a></td>
-                                 <td class="value">
-                                    <div class="paragraph">XSLT (stylesheets) bestanden welke gegenereerd zijn uit de schematronbestanden. Indien de mogelijkheid ontbreekt om Schematron-bestanden
-                                       te gebruiken voor de validatie van XML berichten dan kunnen deze XSLT's gebruikt worden. Deze XSLT's geven de meldingen terug
-                                       via xsl:message. Deze meldingen zijn geschikt voor afslag in bijvoorbeeld logging. Zie SVRL om meldingen in een verwerkbare
-                                       vorm geleverd te krijgen. (http://schematron.com)
-                                    </div>
-                                 </td>
-                              </tr>
-                              <tr>
+                                     <tr>
                                  <td class="value"><a href="vocab">vocab</a></td>
                                  <td class="value">
                                     <div class="paragraph">Vocabulaire bestanden met, binnen AORTA gebruikte, vocabulaires. Deze bestanden hebben als naam de OID van het desbetreffende
@@ -3246,6 +2808,12 @@
                                  <td class="value"><a href="xml-PERI">xml-PERI</a></td>
                                  <td class="value">
                                     <div class="paragraph">XML-voorbeeldberichten uit het domein Perinatologie.</div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td class="value"><a href="xsl">xsl</a></td>
+                                 <td class="value">
+                                    <div class="paragraph">Bevat informatieve hulpmiddelen voor tonen en converteren van bepaalde XML-materialen.</div>
                                  </td>
                               </tr>
                            </table>

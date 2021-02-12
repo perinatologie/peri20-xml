@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.12.4.3"
+             name="ManchetTypeCodelijst"
+             displayName="ManchetTypeCodelijst"
+             effectiveDate="2017-12-31T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                        identifierName="ResultaatStatus"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="STD"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                  displayName="Standaard"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Standaard (Standaard manchet voor een volwassene (manchet 16x30 cm)"/>
+                </concept>
+                <concept code="L"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                  displayName="Groot"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Groot (Een manchet voor een volwassene met een armomtrek van 35 tot 44 cm (manchet 16x36 cm))"/>
+                </concept>
+                <concept code="S"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                  displayName="Klein"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Klein (Een manchet voor een volwassene met een armomtrek van 22 tot 26 cm (manchet 12x22 cm) )"/>
+                </concept>
+                <concept code="XL"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                  displayName="Extra groot"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Extra groot (Een manchet voor het dijbeen of arm wanneer de armomtrek 45 tot 52 cm is (manchet 16x42 cm))"/>
+                </concept>
+                <concept code="KIND"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                  displayName="Kind"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Maat voor kind (Een manchet voor kinderen of voor volwassenen met een dunne arm (manchet ca. 8x21 cm) )"/>
+                </concept>
+                <concept code="JONGKIND"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                  displayName="Jong kind"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Maat voor jong kind (Een manchet voor jonge kinderen (manchet ca. 5x15 cm))"/>
+                </concept>
+                <concept code="NEONAAT"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.15.1"
+                  displayName="Neonaat"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Maat voor neonaat (Een manchet voor neonaten (manchet ca. 3x6 cm))"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

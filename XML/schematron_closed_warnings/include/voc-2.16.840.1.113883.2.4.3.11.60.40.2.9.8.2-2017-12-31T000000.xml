@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.9.8.2"
+             name="ToedieningsafspraakAanvullendeInformatieCodelijst"
+             displayName="ToedieningsafspraakAanvullendeInformatieCodelijst"
+             effectiveDate="2017-12-31T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                        identifierName="Voorlopige aanvullende informatie toedieningsafspraak"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="1"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Geneesmiddel niet verstrekt"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Geneesmiddel niet verstrekt"/>
+                </concept>
+                <concept code="2"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Niet leverbaar"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Niet leverbaar"/>
+                </concept>
+                <concept code="3"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Medicatieafspraak gewijzigd: substantie"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Medicatieafspraak gewijzigd: substantie"/>
+                </concept>
+                <concept code="4"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Medicatieafspraak gewijzigd: dosering"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Medicatieafspraak gewijzigd: dosering"/>
+                </concept>
+                <concept code="5"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Medicatieafspraak gewijzigd: farmaceutische vorm"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Medicatieafspraak gewijzigd: farmaceutische vorm"/>
+                </concept>
+                <concept code="6"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Medicatieafspraak gewijzigd: verwisseling van persoon"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Medicatieafspraak gewijzigd: verwisseling van persoon"/>
+                </concept>
+                <concept code="7"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Machtiging aangevraagd"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Machtiging aangevraagd"/>
+                </concept>
+                <concept code="8"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Machtiging afgewezen"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Machtiging afgewezen"/>
+                </concept>
+                <concept code="9"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Machtiging in gebruik nemen"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Machtiging in gebruik nemen"/>
+                </concept>
+                <concept code="10"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Gebruiksinstructie gegeven"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Gebruiksinstructie gegeven"/>
+                </concept>
+                <concept code="11"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Controle inhalatietechniek"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Controle inhalatietechniek"/>
+                </concept>
+                <concept code="12"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Meter periodieke controle"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Meter periodieke controle"/>
+                </concept>
+                <concept code="13"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Pen controle/omruil"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Pen controle/omruil"/>
+                </concept>
+                <concept code="14"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Bijwerking besproken"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Bijwerking besproken"/>
+                </concept>
+                <concept code="15"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Afhandeling bijwerking niet-lareb"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Afhandeling bijwerking niet-lareb"/>
+                </concept>
+                <concept code="16"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Melding lareb"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Melding lareb"/>
+                </concept>
+                <concept code="17"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.999"
+                  displayName="Medicatiebewaking OT"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Medicatiebewaking OT"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

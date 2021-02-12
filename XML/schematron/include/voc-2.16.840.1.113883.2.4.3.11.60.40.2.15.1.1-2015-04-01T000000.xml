@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.15.1.1"
+             name="ContactTypeCodelijst"
+             displayName="ContactTypeCodelijst"
+             effectiveDate="2015-04-01T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2015bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.5.4"
+                        identifierName="ActCode"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/ActCode"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/ActCode"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="AMB"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Ambulatory"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Poliklinisch [Een uitgebreide term voor zorg aangeboden in een zorginstelling. De term &#34;ambulatory&#34; of te wel mobiel geven normaliter aan dat de patiënt zelf naar de locatie is gekomen en niet is opgenomen]."/>
+                </concept>
+                <concept code="EMER"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Emergency"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="SEH [Een patiënt contact dat plaats heeft op een specialistische locatie waar de patiënt een spoed onderzoek en -behandeling ondergaat, totdat de patiënt ontslagen kan worden of wordt opgenomen in de zorginstelling of naar een andere zorginstelling wordt overgedragen.]"/>
+                </concept>
+                <concept code="FLD"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Field"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Op lokatie [Een patiënt contact dat heeft plaats gevonden buiten een zorginstelling en ook niet bij de patiënt thuis, bijvoorbeeld op de plaats van een ongeluk of in een supermarkt.]"/>
+                </concept>
+                <concept code="HH"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Home"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Thuis [Een zorg contact dat plaats heeft gevonden bij de patiënt thuis of in het huis van een ander waar de patiënt zich op dat moment bevindt.]"/>
+                </concept>
+                <concept code="IMP"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Inpatient"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Klinisch [Een patiënt contact waarbij de patiënt is opgenomen in een zorginstelling en de patiënt ten minste een nacht overblijft en wordt voorzien van een kamer, maaltijden en continue verpleegkundige zorg.]"/>
+                </concept>
+                <concept code="SS"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Short Stay"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Dagopname [Een contact waarbij de patiënt is opgenomen in een zorginstelling voor een vooraf vastgestelde periode, normaliter minder dan 24 uur.]"/>
+                </concept>
+                <concept code="VR"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Virtual"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Virtueel [Een patiënt contact waarbij de patiënt en de zorgverlener zich niet op dezelfde fysieke locatie bevinden. Voorbeelden hiervan zijn telefonisch contact, email verkeer, robotchirurgie en televideo conferentie, maar ook een Multi Disciplinair Overleg (MDO) kan hieronder vallen.]"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

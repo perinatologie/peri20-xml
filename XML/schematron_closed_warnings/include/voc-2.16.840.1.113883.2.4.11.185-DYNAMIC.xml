@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.11.185"
              name="RolZorgverlenerPerinataleControle"
              displayName="RolZorgverlener perinatale controle"
              effectiveDate="2014-01-02T00:00:00"
              statusCode="draft">
-      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.22.1.2.59" identifierName="Rol"/>
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.22.1.2.59"
+                        identifierName="Rol"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.59"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.59"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.59"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.59"/>
       <sourceCodeSystem id="2.16.840.1.113883.2.4.15.111"
-                        identifierName="RoleCodeNL - zorgverlenertype (personen)"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+                        identifierName="RoleCodeNL - zorgverlenertype (personen)"
+                        canonicalUri="http://fhir.nl/fhir/NamingSystem/uzi-rolcode"
+                        canonicalUriDSTU2="http://fhir.nl/fhir/NamingSystem/uzi-rolcode"
+                        canonicalUriSTU3="http://fhir.nl/fhir/NamingSystem/uzi-rolcode"
+                        canonicalUriR4="http://fhir.nl/fhir/NamingSystem/uzi-rolcode"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.4.15.1"
+             name="ContinentieCodelijst"
+             displayName="ContinentieCodelijst"
+             effectiveDate="2015-09-08T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2015bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.6.254"
+                        identifierName="International Classification of Function"
+                        canonicalUri="http://hl7.org/fhir/sid/icf-nl"
+                        canonicalUriDSTU2="http://hl7.org/fhir/sid/icf-nl"
+                        canonicalUriSTU3="http://hl7.org/fhir/sid/icf-nl"
+                        canonicalUriR4="http://hl7.org/fhir/sid/icf-nl"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="b5253.0"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Geen stoornis"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Stoornis 0-4%"/>
+                </concept>
+                <concept code="b5253.1"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Lichte stoornis"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Stoornis 5-24%"/>
+                </concept>
+                <concept code="b5253.2"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Matige stoornis"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Stoornis 25-49%"/>
+                </concept>
+                <concept code="b5253.3"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Ernstige stoornis"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Stoornis 50-95%"/>
+                </concept>
+                <concept code="b5253.4"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Volledige stoornis"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Stoornis 96-100%"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

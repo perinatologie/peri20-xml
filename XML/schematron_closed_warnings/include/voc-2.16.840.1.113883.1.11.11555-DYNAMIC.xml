@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.1.11.11555"
              name="RoleClass"
              displayName="RoleClass"
@@ -53,7 +53,12 @@
                 </ul>
                 <p>The hierarchy discussed above is represented In the current vocabulary tables as a set of abstract domains, with the exception of the "Personal relationship" which is a leaf concept.</p>
             </desc>
-      <sourceCodeSystem id="2.16.840.1.113883.5.110" identifierName="Role Class"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.110"
+                        identifierName="Role Class"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/RoleClass"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/RoleClass"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

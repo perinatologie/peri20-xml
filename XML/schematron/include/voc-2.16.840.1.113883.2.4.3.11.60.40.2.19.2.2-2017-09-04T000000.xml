@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.19.2.2"
+             name="WondWeefselOncoUlcerCodelijst"
+             displayName="WondWeefselOncoUlcerCodelijst"
+             effectiveDate="2017-09-04T00:00:00"
+             statusCode="deprecated"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                        identifierName="OncoUlcerWeefsel"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.7.1"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="GRAAD1"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                  displayName="Graad I"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Graad I"/>
+                </concept>
+                <concept code="GRAAD2"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                  displayName="Graad II"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Graad II"/>
+                </concept>
+                <concept code="GRAAD3"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                  displayName="Graad III"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Graad III"/>
+                </concept>
+                <concept code="GRAAD4"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                  displayName="Graad IV"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Graad IV"/>
+                </concept>
+                <concept code="GRAAD5"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.7.1"
+                  displayName="Graad V"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Graad V"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

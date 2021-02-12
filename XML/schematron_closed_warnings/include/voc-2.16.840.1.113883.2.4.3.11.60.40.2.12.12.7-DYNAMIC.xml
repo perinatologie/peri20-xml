@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.12.12.7"
+             name="SpierspanningCodelijst"
+             displayName="SpierspanningCodelijst"
+             effectiveDate="2017-12-31T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                        identifierName="CN_Spierspanning"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.20.7"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="Musc1"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                  displayName="Muscles fully relaxed"
+                  level="0"
+                  type="L"
+                  ordinal="1">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Spieren volledig ontspannen; geen spierspanning"/>
+                </concept>
+                <concept code="Musc2"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                  displayName="Reduced muscle tone"
+                  level="0"
+                  type="L"
+                  ordinal="2">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Verminderde spierspanning; minder weerstand dan normaal"/>
+                </concept>
+                <concept code="Musc3"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                  displayName="Normal muscle tone"
+                  level="0"
+                  type="L"
+                  ordinal="3">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Normale spierspanning"/>
+                </concept>
+                <concept code="Musc4"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                  displayName="Increased muscle tone"
+                  level="0"
+                  type="L"
+                  ordinal="4">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Toegenomen spierspanning en buiging van vingers en tenen"/>
+                </concept>
+                <concept code="Musc5"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.20.7"
+                  displayName="Extreme muscle rigidity"
+                  level="0"
+                  type="L"
+                  ordinal="5">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Extreme spierstijfheid en buiging van vingers en tenen"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

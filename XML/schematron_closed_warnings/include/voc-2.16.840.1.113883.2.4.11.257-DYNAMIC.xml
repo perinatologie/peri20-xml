@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.11.257"
+             name="KraamKindProbleemNaamCodelijst"
+             displayName="KraamKindProbleemNaamCodelijst"
+             effectiveDate="2019-03-12T14:52:13"
+             statusCode="draft">
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.4.13.8"
+                        identifierName="CongenitaleAfwijkingen"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.13.8"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.13.8"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.13.8"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.13.8"/>
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.22.1.2.64"
+                        identifierName="KADiagnose"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.64"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.64"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.64"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.64"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <copyright language="en-US">This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.</copyright>
+      <conceptList>
+                <concept code="88425004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital anomaly of nervous system (disorder)"
+                  level="0"
+                  type="A">
+                    <desc language="nl-NL">Aangeboren afwijkingen centraal zenuwstelsel</desc>
+                </concept>
+                <concept code="89369001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Anencephalus (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="414667000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Meningomyelocele (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="30023002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hydranencephaly (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="47032000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital hydrocephalus (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="30915001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Holoprosencephaly sequence (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="4945003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Microgyria (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="09"
+                  codeSystem="2.16.840.1.113883.2.4.4.13.8"
+                  displayName="Overige congenitale afwijkingen zenuwstelsel"
+                  level="1"
+                  type="L"/>
+                <concept code="9904008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital anomaly of cardiovascular system (disorder)"
+                  level="0"
+                  type="A">
+                    <desc language="nl-NL">Aangeboren hartafwijkingen</desc>
+                </concept>
+                <concept code="61959006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Common truncus arteriosus (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="204296002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Discordant ventriculoarterial connection (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="86299006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Tetralogy of Fallot (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="45503006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Common ventricle (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="7484005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Double outlet right ventricle (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="360481003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Common atrioventricular canal (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="253591008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Pulmonary atresia with ventricular septal defect (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="63042009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital atresia of tricuspid valve (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="62067003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hypoplastic left heart syndrome (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="218728005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Interrupted aortic arch (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="111323005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Total anomalous pulmonary venous return (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="281587000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Pentalogy of Cantrell (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="7305005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Coarctation of aorta (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="22"
+                  codeSystem="2.16.840.1.113883.2.4.4.13.8"
+                  displayName="Overige congenitale afwijking hart en bloedvaten"
+                  level="1"
+                  type="L"/>
+                <concept code="95470009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital anomaly of digestive tract (disorder)"
+                  level="0"
+                  type="A">
+                    <desc language="nl-NL">Aangeboren afwijkingen tractus digestivus</desc>
+                </concept>
+                <concept code="87979003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cleft palate (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cleft palate (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Cleft palate"/>
+                    <designation language="en" type="synonym" displayName="Cleft palate"/>
+                    <designation language="en" type="synonym" displayName="Palatoschisis"/>
+                    <designation language="en" type="synonym" displayName="Palatoschisis"/>
+                    <designation language="en" type="synonym" displayName="Uranoschisis"/>
+                    <designation language="en" type="synonym" displayName="CP - Cleft palate"/>
+                    <designation language="en" type="synonym" displayName="Uranoschisis"/>
+                    <designation language="en" type="synonym" displayName="CP - Cleft palate"/>
+                    <designation language="nl" type="synonym" displayName="palatoschisis"/>
+                    <designation language="nl" type="synonym" displayName="gespleten gehemelte"/>
+                </concept>
+                <concept code="60983006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital esophagotracheal fistula (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital esophagotracheal fistula (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital esophagotracheal fistula"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital oesophagotracheal fistula"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="TOF - Congenital tracheoesophageal fistula"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="TOF - Congenital tracheo-oesophageal fistula"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="congenitale tracheo-oesofagale fistel"/>
+                </concept>
+                <concept code="26179002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital atresia of esophagus (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital atresia of esophagus (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of esophagus"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of oesophagus"/>
+                    <designation language="en" type="synonym" displayName="Imperforate esophagus"/>
+                    <designation language="en" type="synonym" displayName="Oesophageal atresia"/>
+                    <designation language="en" type="synonym" displayName="Imperforate oesophagus"/>
+                    <designation language="en" type="synonym" displayName="Esophageal atresia"/>
+                    <designation language="en" type="synonym" displayName="OA - Esophageal atresia"/>
+                    <designation language="en" type="synonym" displayName="OA - Oesophageal atresia"/>
+                </concept>
+                <concept code="204659003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Esophageal atresia with tracheoesophageal fistula (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="oesofagusatresie met tracheo-oesofagale fistel"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Esophageal atresia with tracheoesophageal fistula (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Esophageal atresia with tracheo-esophageal fistula"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Oesophageal atresia with tracheo-oesophageal fistula"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Esophageal atresia with tracheoesophageal fistula"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Tracheo-oesophageal fistula with atresia of oesophagus"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Tracheo-esophageal fistula with atresia of oesophagus"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Esophageal atresia with tracheoesophageal fistula"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Tracheo-esophageal fistula with atresia of esophagus"/>
+                </concept>
+                <concept code="51118003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital atresia of duodenum (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital atresia of duodenum (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of duodenum"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of duodenum"/>
+                    <designation language="en" type="synonym" displayName="Atresia of duodenum"/>
+                    <designation language="en" type="synonym" displayName="Duodenal atresia"/>
+                    <designation language="en" type="synonym" displayName="Duodenal atresia"/>
+                    <designation language="en" type="synonym" displayName="Atresia of duodenum"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="duodenumatresie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="duodenumatresie"/>
+                </concept>
+                <concept code="360491009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="atresie van jejunum (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="atresie van jejunum (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="atresie van jejunum"/>
+                    <designation language="nl" type="synonym" displayName="jejunumatresie"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital atresia of jejunum (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of jejunum"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of jejunum"/>
+                    <designation language="en" type="synonym" displayName="Jejunal atresia"/>
+                    <designation language="en" type="synonym" displayName="Apple peel syndrome"/>
+                    <designation language="en" type="synonym" displayName="Atresia of jejunum"/>
+                    <designation language="en" type="synonym" displayName="Jejunal atresia"/>
+                    <designation language="en" type="synonym" displayName="Atresia of jejunum"/>
+                    <designation language="en" type="synonym" displayName="Apple peel syndrome"/>
+                </concept>
+                <concept code="25896009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="atresie van ileum (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="atresie van ileum (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="atresie van ileum"/>
+                    <designation language="nl" type="synonym" displayName="ileumatresie"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital atresia of ileum (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of ileum"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of ileum"/>
+                    <designation language="en" type="synonym" displayName="Atresia of ileum"/>
+                    <designation language="en" type="synonym" displayName="Ileal atresia"/>
+                    <designation language="en" type="synonym" displayName="Ileal atresia"/>
+                    <designation language="en" type="synonym" displayName="Atresia of ileum"/>
+                </concept>
+                <concept code="37054000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital atresia of colon (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital atresia of colon (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of colon"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of colon"/>
+                    <designation language="en" type="synonym" displayName="Colonic atresia"/>
+                    <designation language="en" type="synonym" displayName="Colonic atresia"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="colonatresie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="colonatresie"/>
+                </concept>
+                <concept code="33225004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Anorectal anomaly (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Anorectal anomaly (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Anorectal anomaly"/>
+                    <designation language="en" type="synonym" displayName="Anorectal anomaly"/>
+                    <designation language="en" type="synonym" displayName="Anorectal malformation"/>
+                    <designation language="en" type="synonym" displayName="Anorectal malformation"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="anorectale malformatie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="anorectale malformatie"/>
+                </concept>
+                <concept code="18735004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="omfalocele (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="omfalocele (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="omfalocele"/>
+                    <designation language="nl" type="synonym" displayName="omphalocele"/>
+                    <designation language="nl" type="synonym" displayName="omfalokèle"/>
+                    <designation language="nl" type="synonym" displayName="congenitale navelbreuk"/>
+                    <designation language="nl" type="synonym" displayName="exomphalos"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital omphalocele (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Congenital omphalocele"/>
+                    <designation language="en" type="synonym" displayName="Congenital omphalocele"/>
+                    <designation language="en" type="synonym" displayName="Omphalocele"/>
+                    <designation language="en" type="synonym" displayName="Omphalocele"/>
+                    <designation language="en" type="synonym" displayName="Amniocele"/>
+                    <designation language="en" type="synonym" displayName="Amniocele"/>
+                </concept>
+                <concept code="72951007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="gastroschisis (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="gastroschisis (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="gastroschisis"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Gastroschisis (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Gastroschisis"/>
+                    <designation language="en" type="synonym" displayName="Gastroschisis"/>
+                </concept>
+                <concept code="77480004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital biliary atresia (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital biliary atresia (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital biliary atresia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital biliary atresia"/>
+                    <designation language="en" type="synonym" displayName="Biliary atresia"/>
+                    <designation language="en" type="synonym" displayName="Atresia of bile ducts"/>
+                    <designation language="en" type="synonym" displayName="Atresia of bile ducts"/>
+                    <designation language="en" type="synonym" displayName="BA - Biliary atresia"/>
+                    <designation language="en" type="synonym" displayName="BA - Biliary atresia"/>
+                    <designation language="en" type="synonym" displayName="Biliary atresia"/>
+                    <designation language="nl" type="synonym" displayName="atresie van galwegen"/>
+                </concept>
+                <concept code="30"
+                  codeSystem="2.16.840.1.113883.2.4.4.13.8"
+                  displayName="Overige congenitale afwijking tractus digestivus"
+                  level="1"
+                  type="L"/>
+                <concept code="287085006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Genitourinary congenital anomalies (disorder)"
+                  level="0"
+                  type="A">
+                    <desc language="nl-NL">Aangeboren afwijkingen tractus urogenitalis</desc>
+                </concept>
+                <concept code="41962002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Oligohydramnios sequence (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Oligohydramnios sequence (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Oligohydramnios sequence"/>
+                    <designation language="en" type="synonym" displayName="Oligohydramnios sequence"/>
+                    <designation language="en" type="synonym" displayName="Potter syndrome"/>
+                    <designation language="en" type="synonym" displayName="Potter syndrome"/>
+                    <designation language="en" type="synonym" displayName="Renofacial syndrome"/>
+                    <designation language="en" type="synonym" displayName="Renofacial syndrome"/>
+                    <designation language="en" type="synonym" displayName="Renal agenesis syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital absence of kidneys syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Bilateral congenital absence of kidneys"/>
+                    <designation language="en" type="synonym" displayName="Renal agenesis syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital absence of kidneys syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="BRA - Bilateral renal agenesis"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="BRA - Bilateral renal agenesis"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Potter's anomaly of the kidney"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Potter's anomaly of the kidney"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Bilateral congenital absence of kidneys"/>
+                    <designation language="nl" type="synonym" displayName="syndroom van Potter"/>
+                </concept>
+                <concept code="204949001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Renal dysplasia (disorder)"
+                  level="1"
+                  type="S">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Renal dysplasia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Renal dysplasia"/>
+                    <designation language="en" type="synonym" displayName="Renal dysplasia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital renal dysplasia"/>
+                    <designation language="en" type="synonym" displayName="Dysplastic kidney"/>
+                    <designation language="en" type="synonym" displayName="Dysplasia of kidney"/>
+                    <designation language="en" type="synonym" displayName="Renotubular dysgenesis"/>
+                    <designation language="en" type="synonym" displayName="Dysplasia of kidney"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Primitive renal tubule syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Primitive renal tubule syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital renal dysplasia"/>
+                    <designation language="en" type="synonym" displayName="Dysplastic kidney"/>
+                    <designation language="en" type="synonym" displayName="Renotubular dysgenesis"/>
+                    <designation language="nl" type="synonym" displayName="dysplasie van nier"/>
+                    <designation language="nl" type="synonym" displayName="renale dysplasie"/>
+                </concept>
+                <concept code="28770003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Polycystic kidney disease, infantile type (disorder)"
+                  level="2"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Polycystic kidney disease, infantile type (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Polycystic kidney disease, infantile type"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Polycystic kidney disease, infantile type"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Autosomal recessive polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Infantile polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="IPKD - Infantile polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="ARPKD - Autosomal recessive polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Autosomal recessive polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Autosomal recessive infantile polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Autosomal recessive infantile polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Infantile polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="ARPKD - Autosomal recessive polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="IPKD - Infantile polycystic kidney disease"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="autosomaal recessieve polycysteuze nierziekte (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="autosomaal recessieve polycysteuze nierziekte"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="autosomaal recessieve polycysteuze nierziekte [ARPKD]"/>
+                </concept>
+                <concept code="28728008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Polycystic kidney disease, adult type (disorder)"
+                  level="2"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Polycystic kidney disease, adult type (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Polycystic kidney disease, adult type"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Polycystic kidney disease, adult type"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Autosomal dominant polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Autosomal dominant adult polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Polycystic kidneys - adult type"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Polycystic kidneys - adult type"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="ADPKD - Autosomal dominant polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="ADPKD - Autosomal dominant polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Autosomal dominant adult polycystic kidney disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Autosomal dominant polycystic kidney disease"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="autosomaal dominante polycysteuze nierziekte (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="autosomaal dominante polycysteuze nierziekte"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="autosomaal dominante polycysteuze nierziekte [ADPKD]"/>
+                </concept>
+                <concept code="7163005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="obstructieve uropathie (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="obstructieve uropathie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="obstructieve uropathie"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Urinary tract obstruction (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Urinary tract obstruction"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Urinary tract obstruction"/>
+                    <designation language="en" type="synonym" displayName="Obstructive uropathy"/>
+                    <designation language="en" type="synonym" displayName="Obstructive uropathy"/>
+                </concept>
+                <concept code="61758007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Exstrophy of bladder sequence (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Exstrophy of bladder sequence (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Exstrophy of bladder sequence"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Exstrophy of bladder sequence"/>
+                    <designation language="en" type="synonym" displayName="Ectopia vesicae"/>
+                    <designation language="en" type="synonym" displayName="Exstrophy of bladder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Exstrophy of urinary bladder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital extroversion of urinary bladder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital extroversion of urinary bladder"/>
+                    <designation language="en" type="synonym" displayName="Ectopia vesicae"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital ectopic bladder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital ectopic bladder"/>
+                    <designation language="en" type="synonym" displayName="Exstrophy of bladder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Exstrophy of urinary bladder"/>
+                </concept>
+                <concept code="69"
+                  codeSystem="2.16.840.1.113883.2.4.4.13.8"
+                  displayName="Overige congenitale afwijking tractus urogenitalis"
+                  level="1"
+                  type="L"/>
+                <concept code="409709004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Chromosomal disorder (disorder)"
+                  level="0"
+                  type="A">
+                    <desc language="nl-NL">Chromosomale afwijkingen </desc>
+                </concept>
+                <concept code="21111006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Complete trisomy 13 syndrome (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Complete trisomy 13 syndrome (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Complete trisomy 13 syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Complete trisomy 13 syndrome"/>
+                    <designation language="en" type="synonym" displayName="D&gt;1&lt; trisomy syndrome"/>
+                    <designation language="en" type="synonym" displayName="D&gt;1&lt; trisomy syndrome"/>
+                    <designation language="en" type="synonym" displayName="Patau syndrome"/>
+                    <designation language="en" type="synonym" displayName="Patau syndrome"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="syndroom van Patau (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="syndroom van Patau"/>
+                </concept>
+                <concept code="51500006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="syndroom van Edwards (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="syndroom van Edwards (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="syndroom van Edwards"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Complete trisomy 18 syndrome (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Complete trisomy 18 syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Complete trisomy 18 syndrome"/>
+                    <designation language="en" type="synonym" displayName="Edwards syndrome"/>
+                    <designation language="en" type="synonym" displayName="Edwards syndrome"/>
+                </concept>
+                <concept code="41040004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Complete trisomy 21 syndrome (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Complete trisomy 21 syndrome (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Complete trisomy 21 syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Complete trisomy 21 syndrome"/>
+                    <designation language="en" type="synonym" displayName="T21 - Trisomy 21"/>
+                    <designation language="en" type="synonym" displayName="Downs syndrome"/>
+                    <designation language="en" type="synonym" displayName="Downs syndrome"/>
+                    <designation language="en" type="synonym" displayName="T21 - Trisomy 21"/>
+                    <designation language="en" type="synonym" displayName="Down syndrome"/>
+                    <designation language="en" type="synonym" displayName="Down syndrome"/>
+                    <designation language="nl" type="synonym" displayName="syndroom van Down"/>
+                    <designation language="nl" type="synonym" displayName="downsyndroom"/>
+                    <designation language="nl" type="synonym" displayName="trisomie-21"/>
+                    <designation language="nl" type="synonym" displayName="downsyndroom"/>
+                </concept>
+                <concept code="74345006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital disorder due to abnormality of chromosome number OR structure (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital disorder due to abnormality of chromosome number OR structure (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital chromosomal disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital chromosomal disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Chromosomal abnormality syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Chromosomal hereditary disorder"/>
+                    <designation language="en" type="synonym" displayName="Chromosomopathy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Chromosomal imbalance syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Chromosomal imbalance syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital disorder due to abnormality of chromosome number OR structure"/>
+                    <designation language="en" type="synonym" displayName="Anomaly of chromosome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Chromosomal abnormality syndrome"/>
+                    <designation language="en" type="synonym" displayName="Anomaly of chromosome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital disorder due to abnormality of chromosome number OR structure"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Chromosomal hereditary disorder"/>
+                    <designation language="en" type="synonym" displayName="Chromosomopathy"/>
+                </concept>
+                <concept code="66651005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Triploidy syndrome (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Triploidy syndrome (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Triploidy syndrome"/>
+                    <designation language="en" type="synonym" displayName="Triploidy syndrome"/>
+                    <designation language="en" type="synonym" displayName="Triploidy"/>
+                    <designation language="en" type="synonym" displayName="Triploidy"/>
+                </concept>
+                <concept code="400038003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital malformation syndrome (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital malformation syndrome (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital malformation syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital malformation syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple congenital anomalies"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple congenital anomalies"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple congenital malformations"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple congenital malformations"/>
+                </concept>
+                <concept code="276654001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital malformation (disorder"
+                  level="0"
+                  type="A">
+                    <desc language="nl-NL">Andere aangeboren afwijkingen </desc>
+                </concept>
+                <concept code="105986008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital skeletal dysplasia (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital skeletal dysplasia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Skeletal dysplasia"/>
+                    <designation language="en" type="synonym" displayName="Skeletal dysplasia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital skeletal dysplasia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital skeletal dysplasia"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="skeletdysplasie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="skeletdysplasie"/>
+                </concept>
+                <concept code="17190001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital diaphragmatic hernia (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital diaphragmatic hernia (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital diaphragmatic hernia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital diaphragmatic hernia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CDH - Congenital diaphragmatic hernia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CDH - Congenital diaphragmatic hernia"/>
+                </concept>
+                <concept code="276508000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hydrops fetalis (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Hydrops fetalis (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Hydrops fetalis"/>
+                    <designation language="en" type="synonym" displayName="Hydrops fetalis"/>
+                    <designation language="en" type="synonym" displayName="HF - Hydrops fetalis"/>
+                    <designation language="en" type="synonym" displayName="Hydrops foetalis"/>
+                    <designation language="en" type="synonym" displayName="HF - Hydrops foetalis"/>
+                    <designation language="en" type="synonym" displayName="HF - Hydrops fetalis"/>
+                    <designation language="en" type="synonym" displayName="HF - Hydrops foetalis"/>
+                    <designation language="en" type="synonym" displayName="Hydrops foetalis"/>
+                    <designation language="nl" type="synonym" displayName="hydrops foetalis"/>
+                </concept>
+                <concept code="59566000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Oligohydramnios (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Oligohydramnios (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Oligohydramnios"/>
+                    <designation language="en" type="synonym" displayName="Oligohydramnios"/>
+                    <designation language="en" type="synonym" displayName="Reduced liquor volume"/>
+                    <designation language="en" type="synonym" displayName="Deficient liquor"/>
+                    <designation language="en" type="synonym" displayName="Scanty liquor"/>
+                    <designation language="en" type="synonym" displayName="Scanty liquor"/>
+                    <designation language="en" type="synonym" displayName="Deficient liquor"/>
+                    <designation language="en" type="synonym" displayName="Reduced liquor volume"/>
+                    <designation language="nl" type="synonym" displayName="oligohydramnion"/>
+                </concept>
+                <concept code="240104008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital myotonic dystrophy (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital myotonic dystrophy (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital myotonic dystrophy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital myotonic dystrophy"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="congenitale myotone dystrofie"/>
+                </concept>
+                <concept code="41337007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Conjoined twins (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Conjoined twins (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Conjoined twins"/>
+                    <designation language="en" type="synonym" displayName="Conjoined twins"/>
+                    <designation language="en" type="synonym" displayName="Siamese twins"/>
+                    <designation language="en" type="synonym" displayName="Siamese twins"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="siamese tweeling (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="siamese tweeling"/>
+                </concept>
+                <concept code="53189005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital atresia of trachea (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital atresia of trachea (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of trachea"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital atresia of trachea"/>
+                </concept>
+                <concept code="275260000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital malformation of the respiratory system (disorder)"
+                  level="0"
+                  type="A">
+                    <desc language="nl-NL">Aangeboren afwijkingen luchtwegen</desc>
+                </concept>
+                <concept code="111318005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital cystic adenomatoid malformation of lung (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="congenitaal cysteuze adenomatoïde malformatie van long"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="congenitaal cysteuze adenomatoïde malformatie van long [CCAM]"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital cystic adenomatoid malformation of lung (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital cystic adenomatoid malformation of lung"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital cystic adenomatoid malformation of lung"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital cystic adenomatoid malformation of the lung"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital cystic adenomatoid malformation of the lung"/>
+                </concept>
+                <concept code="204508009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Choanal atresia (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Choanal atresia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Choanal atresia"/>
+                    <designation language="en" type="synonym" displayName="Choanal atresia"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="choanale atresie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="choanale atresie"/>
+                </concept>
+                <concept code="38"
+                  codeSystem="2.16.840.1.113883.2.4.4.13.8"
+                  displayName="Overige congenitale afwijking tractus respiratorius"
+                  level="1"
+                  type="L"/>
+                <concept code="276519002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal hypotension (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Neonatal hypotension (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Neonatal hypotension"/>
+                    <designation language="en" type="synonym" displayName="Neonatal hypotension"/>
+                </concept>
+                <concept code="83330001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Patent ductus arteriosus (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Patent ductus arteriosus (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Patent ductus arteriosus"/>
+                    <designation language="en" type="synonym" displayName="Patent ductus arteriosus"/>
+                    <designation language="en" type="synonym" displayName="Patent arterial duct"/>
+                    <designation language="en" type="synonym" displayName="Patent ductus Botalli"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PDA - Patent ductus arteriosus"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PDA - Patent ductus arteriosus"/>
+                    <designation language="en" type="synonym" displayName="Patent arterial duct"/>
+                    <designation language="en" type="synonym" displayName="Patent ductus Botalli"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="persisterende ductus arteriosus"/>
+                </concept>
+                <concept code="698247007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cardiac arrhythmia (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cardiac arrhythmia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Cardiac arrhythmia"/>
+                    <designation language="en" type="synonym" displayName="Cardiac arrhythmia"/>
+                    <designation language="en" type="synonym" displayName="Cardiac dysrhythmia"/>
+                    <designation language="en" type="synonym" displayName="Cardiac dysrhythmia"/>
+                    <designation language="en" type="synonym" displayName="Arrhythmia"/>
+                    <designation language="en" type="synonym" displayName="Disorder of heart rhythm"/>
+                    <designation language="en" type="synonym" displayName="Disorder of heart rhythm"/>
+                    <designation language="en" type="synonym" displayName="Arrhythmia"/>
+                    <designation language="nl" type="synonym" displayName="hartritmestoornis"/>
+                    <designation language="nl" type="synonym" displayName="hartritmestoornis"/>
+                </concept>
+                <concept code="9904008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital anomaly of cardiovascular system (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Congenital anomaly of cardiovascular system (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital anomaly of cardiovascular system"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital anomaly of cardiovascular system"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital cardiovascular disorder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Congenital cardiovascular disorder"/>
+                </concept>
+                <concept code="195506001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Idiopathic hypotension (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Idiopathic hypotension (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Idiopathic hypotension"/>
+                    <designation language="en" type="synonym" displayName="Idiopathic hypotension"/>
+                    <designation language="nl" type="synonym" displayName="idiopathische hypotensie"/>
+                </concept>
+                <concept code="234171009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Drug-induced hypotension (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Drug-induced hypotension (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Drug-induced hypotension"/>
+                    <designation language="en" type="synonym" displayName="Drug-induced hypotension"/>
+                    <designation language="en" type="synonym" displayName="Hypotension due to drugs"/>
+                    <designation language="en" type="synonym" displayName="Hypotension due to drugs"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="medicatie-geïnduceerde hypotensie"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="hypotensie door geneesmiddelen"/>
+                </concept>
+                <concept code="45007003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Low blood pressure (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Low blood pressure (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Low blood pressure"/>
+                    <designation language="en" type="synonym" displayName="Low blood pressure"/>
+                    <designation language="en" type="synonym" displayName="Arterial hypotension"/>
+                    <designation language="en" type="synonym" displayName="Hypopiesis"/>
+                    <designation language="en" type="synonym" displayName="Arterial hypotension"/>
+                    <designation language="en" type="synonym" displayName="Hypotension"/>
+                    <designation language="en" type="synonym" displayName="Hypotension"/>
+                    <designation language="en" type="synonym" displayName="Hypopiesis"/>
+                    <designation language="nl" type="synonym" displayName="hypotensie"/>
+                    <designation language="nl" type="synonym" displayName="lage bloeddruk"/>
+                </concept>
+                <concept code="72654001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Supraventricular arrhythmia (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Supraventricular arrhythmia (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Supraventricular arrhythmia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Supraventricular arrhythmia"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="supraventriculaire ritmestoornis"/>
+                </concept>
+                <concept code="56110009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Birth trauma of fetus (disorder)"
+                  level="0"
+                  type="L"/>
+                <concept code="126941005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Subdural intracranial hemorrhage due to birth trauma (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="206399009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Intracranial subarachnoid hemorrhage due to birth injury (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="206192007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Tentorial tear due to birth trauma (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="219"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Overige bloedingen (geboortetrauma)"
+                  level="1"
+                  type="L"/>
+                <concept code="371129000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Paralysis from birth trauma (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="290"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Overige geboortetraumata"
+                  level="1"
+                  type="L"/>
+                <concept code="82353009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital infectious disease (disorder)"
+                  level="0"
+                  type="L"/>
+                <concept code="35742006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital syphilis (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="73893000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital toxoplasmosis (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="59527008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital cytomegalovirus infection (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="1857005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital rubella syndrome (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="206376005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Sepsis of the newborn (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="39367000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Inflammatory disease of the central nervous system (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="1450"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Overige infecties"
+                  level="1"
+                  type="L"/>
+                <concept code="406"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Immunologische en haematologische stoornissen"
+                  level="0"
+                  type="L"/>
+                <concept code="414030009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of immune structure (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="414028007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of hematopoietic system in newborn (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="13404009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Twin-to-twin blood transfer (disorder)"
+                  level="2"
+                  type="L"/>
+                <concept code="3580"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Overig haematologisch"
+                  level="2"
+                  type="L"/>
+                <concept code="267574006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Nervous system and sense organ diseases (disorder)"
+                  level="0"
+                  type="L"/>
+                <concept code="276647007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Perinatal intracranial hemorrhage (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="206576006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal cerebral ischemia (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="87476004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Convulsions in the newborn (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="205294008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal hypotonia (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="415297005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Retinopathy of prematurity (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="95827002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital hearing disorder (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="363696006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal cardiovascular disorder (disorder)"
+                  level="0"
+                  type="L"/>
+                <concept code="206596003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal hypertension (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="276519002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal hypotension (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="276508000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hydrops fetalis (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="5800"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Overige circulatoire problemen"
+                  level="1"
+                  type="L"/>
+                <concept code="363225006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal respiratory system disorder (disorder)"
+                  level="0"
+                  type="L"/>
+                <concept code="46775006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Respiratory distress syndrome in the newborn (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="276533002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal aspiration syndromes (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="67569000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Bronchopulmonary dysplasia of newborn (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="6990"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Overige respiratoire problemen"
+                  level="1"
+                  type="L"/>
+                <concept code="7100"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Stoornissen tractus digestivus en navel"
+                  level="0"
+                  type="L"/>
+                <concept code="281610001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal hyperbilirubinemia (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="7700"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Overige stoornissen tractus digestivus en navel"
+                  level="1"
+                  type="L"/>
+                <concept code="363221002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal metabolic and endocrinologic disorder (disorder)"
+                  level="0"
+                  type="L"/>
+                <concept code="52767006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal hypoglycemia (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="276557002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal hyperglycemia (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="190268003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Congenital hypothyroidism (disorder)"
+                  level="1"
+                  type="L"/>
+                <concept code="8490"
+                  codeSystem="2.16.840.1.113883.2.4.3.22.1.2.64"
+                  displayName="Overige endocriene, metabole en milieu interieur stoornissen"
+                  level="1"
+                  type="L"/>
+                <concept code="363224005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Neonatal renal disorder (disorder)"
+                  level="1"
+                  type="L"/>
+            </conceptList>
+   </valueSet>
+</valueSets>

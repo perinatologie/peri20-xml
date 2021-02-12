@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              name="LOINC_peri"
              displayName="LOINC-peri"
              effectiveDate="2011-01-28T00:00:00"
              id="2.16.840.1.113883.2.4.11.129"
              statusCode="final">
-      <sourceCodeSystem id="2.16.840.1.113883.6.1" identifierName="LOINC"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.1"
+                        identifierName="LOINC"
+                        canonicalUri="http://loinc.org"
+                        canonicalUriDSTU2="http://loinc.org"
+                        canonicalUriSTU3="http://loinc.org"
+                        canonicalUriR4="http://loinc.org"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -112,7 +117,7 @@
                   displayName="HC"
                   level="0"
                   type="L"/>
-                <concept code="11863-8 "
+                <concept code="11863-8"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Cerebellum"
                   level="0"

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.20.6.1"
+             name="TelecomTypeCodelijst"
+             displayName="TelecomTypeCodelijst"
+             effectiveDate="2017-09-04T00:00:00"
+             statusCode="deprecated"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.40.4.22.1"
+                        identifierName="TelecomDeviceTypes"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1119"
+                        identifierName="Address Use"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-AddressUse"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/AddressUse"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/AddressUse"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-AddressUse"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="LL"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.22.1"
+                  displayName="Land Line"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Vast telefoonnummer"/>
+                </concept>
+                <concept code="FAX"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.22.1"
+                  displayName="Fax"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Fax"/>
+                </concept>
+                <concept code="MC"
+                  codeSystem="2.16.840.1.113883.5.1119"
+                  displayName="Mobile Phone"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Mobiel telefoonnummer"/>
+                </concept>
+                <concept code="PG"
+                  codeSystem="2.16.840.1.113883.5.1119"
+                  displayName="Pager"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Pieper"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

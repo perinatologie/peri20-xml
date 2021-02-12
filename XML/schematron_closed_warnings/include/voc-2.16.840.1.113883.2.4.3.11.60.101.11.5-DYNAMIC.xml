@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.3.11.60.101.11.5"
              name="Geslacht"
              displayName="Geslacht"
@@ -18,8 +18,18 @@
       <desc language="de-DE">Administrative Gender codes from HL7 with addition of null flavor UNK</desc>
       <desc language="de-AT">Administrative Gender codes from HL7 with addition of null flavor UNK</desc>
       <desc language="da-DK">Administrative Gender codes from HL7 with addition of null flavor UNK</desc>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1" identifierName="AdministrativeGender"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1"
+                        identifierName="AdministrativeGender"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/AdministrativeGender"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/AdministrativeGender"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

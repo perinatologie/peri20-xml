@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              name="Fundusstand22"
              displayName="Fundusstand (2.2)"
              id="2.16.840.1.113883.2.4.11.226"
              effectiveDate="2016-12-16T16:29:23"
              statusCode="draft">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -25,7 +30,6 @@
                   type="L"/>
                 <concept code="289626002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Uterine fundus at symphysis pubis (finding)"
                   level="0"
                   type="L"/>
@@ -41,19 +45,16 @@
                   type="L"/>
                 <concept code="289627006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Uterine fundus at umbilicus (finding)"
                   level="0"
                   type="L"/>
                 <concept code="289629009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Uterine fundus above umbilicus (finding)"
                   level="0"
                   type="L"/>
                 <concept code="289630004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Uterine fundus between umbilicus and xiphisternum (finding)"
                   level="0"
                   type="L"/>
@@ -64,7 +65,6 @@
                   type="L"/>
                 <concept code="289631000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Uterine fundus at xiphisternum (finding)"
                   level="0"
                   type="L"/>

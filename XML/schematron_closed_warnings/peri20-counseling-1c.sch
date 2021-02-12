@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
-   <title> Schematron file for REPC_IN004110UV01 - Counseling bericht fase 1c </title>
+   <title>Schematron file for transaction Counseling bericht fase 1c (2.16.840.1.113883.2.4.3.11.60.90.77.4.501 2011-01-28T00:00:00)</title>
    <ns uri="urn:hl7-org:v3" prefix="hl7"/>
    <ns uri="urn:hl7-org:v3" prefix="cda"/>
    <ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
@@ -10,8 +10,10 @@
    <ns uri="http://art-decor.org/ns/decor" prefix="decor"/>
    <ns uri="urn:hl7-org:sdtc" prefix="sdtc"/>
    <ns uri="http://www.w3.org/XML/1998/namespace" prefix="xml"/>
-   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
+   <ns uri="urn:hl7-nl:v3" prefix="hl7nl"/>
    <ns uri="urn:ihe:pharm:medication" prefix="pharm"/>
+   <ns uri="urn:oid:1.3.6.1.4.1.19376.1.3.2" prefix="lab"/>
+   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
    <!-- Include realm specific schematron -->
    <!-- Include datatype abstract schematrons -->
    <pattern>
@@ -133,9 +135,19 @@
    <!-- Include the project schematrons related to scenario counseling-1c -->
 
    <!-- counseling-1c -->
+   <pattern>
+      <title>counseling-1c</title>
+      <rule context="/">
+         <assert role="warning"
+                 test="descendant-or-self::hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.54'] | descendant-or-self::hl7:id[not(@nullFlavor)] | descendant-or-self::hl7:statusCode[@code = 'active' or @nullFlavor] | descendant-or-self::hl7:effectiveTime | descendant-or-self::hl7:subject[@typeCode = 'SBJ'] | descendant-or-self::hl7:performer[hl7:responsibleParty[hl7:code[concat(@code, @codeSystem) = doc('include/voc-2.16.840.1.113883.2.4.11.58-DYNAMIC.xml')//valueSet[1]/conceptList/concept/concat(@code, @codeSystem)]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'Gravidity' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'NFetusMax' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'NFetusCur' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'EDD' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'PRN3206' and @codeSystem = '2.16.840.1.113883.2.4.3.22.1.1')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'BroachDown' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'CounselDesired' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'TrisomyAnam' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = '46635009' and @codeSystem = '2.16.840.1.113883.6.96')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = '77176002' and @codeSystem = '2.16.840.1.113883.6.96')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = '3141-9' and @codeSystem = '2.16.840.1.113883.6.1')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = '3137-7' and @codeSystem = '2.16.840.1.113883.6.1')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:encounter[hl7:code[(@code = '225328009' and @codeSystem = '2.16.840.1.113883.6.96')]]]"
+                 see="http://decor.nictiz.nl/perinatologie/peri20-html-20190926T163541/tmp-2.16.840.1.113883.2.4.6.10.90.54-2012-10-20T000000.html">(counseling-1c): In de instance werd tenminste één van de volgende elementen verwacht: descendant-or-self::hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.54'] | descendant-or-self::hl7:id[not(@nullFlavor)] | descendant-or-self::hl7:statusCode[@code = 'active' or @nullFlavor] | descendant-or-self::hl7:effectiveTime | descendant-or-self::hl7:subject[@typeCode = 'SBJ'] | descendant-or-self::hl7:performer[hl7:responsibleParty[hl7:code[concat(@code, @codeSystem) = doc('include/voc-2.16.840.1.113883.2.4.11.58-DYNAMIC.xml')//valueSet[1]/conceptList/concept/concat(@code, @codeSystem)]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'Gravidity' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'NFetusMax' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'NFetusCur' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'EDD' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'PRN3206' and @codeSystem = '2.16.840.1.113883.2.4.3.22.1.1')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'BroachDown' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'CounselDesired' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = 'TrisomyAnam' and @codeSystem = '2.16.840.1.113883.2.4.4.13')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = '46635009' and @codeSystem = '2.16.840.1.113883.6.96')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = '77176002' and @codeSystem = '2.16.840.1.113883.6.96')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = '3141-9' and @codeSystem = '2.16.840.1.113883.6.1')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:observation[hl7:code[(@code = '3137-7' and @codeSystem = '2.16.840.1.113883.6.1')]]] | descendant-or-self::hl7:pertinentInformation3[hl7:encounter[hl7:code[(@code = '225328009' and @codeSystem = '2.16.840.1.113883.6.96')]]]</assert>
+      </rule>
+   </pattern>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.54-2012-10-20T000000.sch"/>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.54-2012-10-20T000000-closed.sch"/>
 
+
+   <!-- Create phases for more targeted validation on large instances -->
 
 
    <!-- Include schematrons from templates with explicit * or ** context (but no representing templates), only those used in scenario template -->

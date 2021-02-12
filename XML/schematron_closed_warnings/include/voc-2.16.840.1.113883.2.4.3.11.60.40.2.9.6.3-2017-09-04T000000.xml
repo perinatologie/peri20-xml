@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.9.6.3"
+             name="MedicatieafspraakAanvullendeInformatieCodelijst"
+             displayName="MedicatieafspraakAanvullendeInformatieCodelijst"
+             effectiveDate="2017-09-04T00:00:00"
+             statusCode="deprecated"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                        identifierName="Voorlopige G-std thesaurus 2050"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="1"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                  displayName="Bewust hoge dosering"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Bewust hoge dosering"/>
+                </concept>
+                <concept code="2"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                  displayName="Bewust lage dosering"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Bewust lage dosering"/>
+                </concept>
+                <concept code="3"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                  displayName="Bewust afwijkende toedieningsweg"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Bewust afwijkende toedieningsweg"/>
+                </concept>
+                <concept code="4"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                  displayName="Medische noodzaak"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Medische noodzaak"/>
+                </concept>
+                <concept code="5"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                  displayName="Profylaxe"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Profylaxe"/>
+                </concept>
+                <concept code="6"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                  displayName="Wijziging in GDS per direct"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Wijziging in GDS per direct"/>
+                </concept>
+                <concept code="7"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.3.2050"
+                  displayName="Wijziging in GDS per rolwissel"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Wijziging in GDS per rolwissel"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

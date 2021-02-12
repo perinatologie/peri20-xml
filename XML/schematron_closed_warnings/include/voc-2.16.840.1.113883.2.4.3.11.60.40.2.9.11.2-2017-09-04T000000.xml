@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.9.11.2"
+             name="RedenWijzigenOfStoppenGebruikCodelijst"
+             displayName="RedenWijzigenOfStoppenGebruikCodelijst"
+             effectiveDate="2017-09-04T00:00:00"
+             statusCode="deprecated"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                        identifierName="Medicatieafspraak Reden"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <copyright language="en-US">This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.</copyright>
+      <conceptList>
+                <concept code="266709005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Medication commenced (finding)"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Starten medicamenteuze behandeling"/>
+                </concept>
+                <concept code="438833006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Administration of drug or medicament contraindicated (situation)"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Contra-indicatie"/>
+                </concept>
+                <concept code="79899007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Drug interaction (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Interactie"/>
+                </concept>
+                <concept code="473010000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hypersensitivity condition (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Overgevoeligheid"/>
+                </concept>
+                <concept code="5"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Geen of onvoldoende effect"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Geen of onvoldoende effect"/>
+                </concept>
+                <concept code="6"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Te sterk effect"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Te sterk effect"/>
+                </concept>
+                <concept code="7"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="(Mogelijke) bijwerking"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="(Mogelijke) bijwerking"/>
+                </concept>
+                <concept code="8"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Toedieningsweg voldoet niet"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Toedieningsweg voldoet niet"/>
+                </concept>
+                <concept code="9"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Indicatie vervallen"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Indicatie vervallen"/>
+                </concept>
+                <concept code="10"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Beleidswijziging"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Beleidswijziging"/>
+                </concept>
+                <concept code="305335007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Admission to establishment (procedure)"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Opname"/>
+                </concept>
+                <concept code="12"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Wens patiënt"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Wens patiënt"/>
+                </concept>
+                <concept code="13"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Volgens afspraak"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Volgens afspraak"/>
+                </concept>
+                <concept code="14"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Hervatten beleid vorige voorschrijver"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Hervatten beleid vorige voorschrijver"/>
+                </concept>
+                <concept code="15"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.20.77.5.2.2"
+                  displayName="Geplande procedure"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Procedure waaronder ingreep, interferentie met gepland labonderzoek, etc."/>
+                </concept>
+                <exception code="OTH"
+                    codeSystem="2.16.840.1.113883.5.1008"
+                    displayName="Overig"
+                    level="0"
+                    type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Overig"/>
+                </exception>
+            </conceptList>
+   </valueSet>
+</valueSets>

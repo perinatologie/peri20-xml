@@ -3,27 +3,19 @@
     <!-- Chapter 1: Release Info (if publication is a release) -->
     <!-- ========= --><release project="2.16.840.1.113883.2.4.3.11.60.90"
             prefix="peri20-"
-            signature="20180320T180627"
-            date="2018-03-20T18:06:27"
-            versionLabel="2.2.10 en 2.3.3">
-      <note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xmlns:decor="http://art-decor.org/ns/decor"
+            signature="20190926T163541"
+            date="2019-09-26T16:35:41"
+            versionLabel="Kernset Neonatologie 3.0 voor review, 2.2.11 en 2.2.4">
+      <note xmlns:decor="http://art-decor.org/ns/decor"
             xmlns:sdtc="urn:hl7-org:sdtc"
             xmlns:peri="urn:nictiz-nl:v3/peri"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             language="nl-NL">
-                <div style="margin: 0px 0px 4px; vertical-align: top;">Deze publicatie vervangt de vorige publicatie voor de volgende transacties:</div>
-                <div style="margin: 0px 0px 4px; vertical-align: top;">
-                    <ul>
-                        <li>PRN Kernset 2.2<br clear="none"/>
-                        </li>
-                        <li>Kernset Geboortezorg 2.3<br clear="none"/>
-                        </li>
-                        <li>Kernset Geboortezorg, subset screening 2.3<br clear="none"/>
-                        </li>
-                    </ul>
-                </div>
-                <div style="margin: 0px 0px 4px; vertical-align: top;">Deze publicatie bevat ook alle overige transacties.<br clear="none"/>
-                </div>
+                <div>Deze publicatie vervangt de vorige publicatie voor de volgende transacties:<br/>Kernset aanleverbericht 2.2 (Perined)<br/>Kernset Geboortezorg 2.3 (Perined)<br/>Kernset Geboortezorg, subset screening 2.3 (RIVM)</div>
+                <div> </div>
+                <div>Deze publicatie bevat de Kernset Neonatologie 3.0 voor review.</div>
+                <div> </div>
+                <div>Deze publicatie bevat ook alle overige transacties.</div>
             </note>
    </release>
     
@@ -55,7 +47,13 @@
   Note that the same template may be part of multiple transactions, hence multiple map element could be present for the same template. The attached Schematron
   will have different names, but will have the exact same rules (same template, same rules) hence only the first match is needed for validation.
   
-- As final fallback, when no template-id is found in the instance, code should rely on root element of the instance to determine the Schematron file name ... --><!-- template name: combinatietest -->
+- As final fallback, when no template-id is found in the instance, code should rely on root element of the instance to determine the Schematron file name ... --><!-- template name: CDAKsNeoClinicalDocumentNLHeader -->
+    <map rootelement="ClinicalDocument"
+        namespace="urn:hl7-org:v3"
+        sch="peri20-ksneo-alg-30.sch"
+        schsvrl="peri20-ksneo-alg-30.xsl"
+        xsd="ClinicalDocument.xsd"/>
+   <!-- template name: combinatietest -->
     <map rootelement="REPC_IN004014NL"
         namespace="urn:hl7-org:v3"
         sch="peri20-ct-avr-23.sch"
@@ -317,7 +315,18 @@
     <!-- Used to map a representing template to a specific Schematron. How to read:
 - For every representing template the schematron file and sch svrl xsl conversion file is mentioned
 - The corresponding root element plus its namespace is mentioned 
-- Every transaction represented by this template is named--><template id="2.16.840.1.113883.2.4.6.10.90.85"
+- Every transaction represented by this template is named--><template id="2.16.840.1.113883.2.4.6.10.90.901181"
+             effectiveDate="2018-11-07T17:08:19"
+             sch="peri20-ksneo-alg-30.sch"
+             schsvrl="peri20-ksneo-alg-30.xsl">
+      <root rootelement="ClinicalDocument" namespace="urn:hl7-org:v3"/>
+      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.2446"
+                   effectiveDate="2018-06-01T15:07:24"
+                   statusCode="pending"
+                   versionLabel="3.0"
+                   name="Kernset Neonatologie"/>
+   </template>
+   <template id="2.16.840.1.113883.2.4.6.10.90.85"
              effectiveDate="2016-12-16T14:00:27"
              sch="peri20-ct-avr-23.sch"
              schsvrl="peri20-ct-avr-23.xsl">
@@ -506,107 +515,5 @@
                    effectiveDate="2012-08-06T00:00:00"
                    statusCode="final"
                    name="Acknowledgement Obstetrisch aanleverbericht PRN 2e lijn"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.51"
-             effectiveDate="2012-03-11T00:00:00"
-             sch="peri20-uitkomst-1c-1el.sch"
-             schsvrl="peri20-uitkomst-1c-1el.xsl">
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.401"
-                   effectiveDate="2011-01-28T00:00:00"
-                   statusCode="final"
-                   name="Uitkomst bericht fase 1c vanuit 1e lijn naar registraties"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.900924"
-             effectiveDate="2015-02-19T00:00:00"
-             sch="peri20-counseling-22.sch"
-             schsvrl="peri20-counseling-22.xsl">
-      <root rootelement="REPC_IN004014NL" namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.2404"
-                   effectiveDate="2014-01-08T15:19:23"
-                   statusCode="final"
-                   versionLabel="22"
-                   name="Counseling bericht (2.2)"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.46"
-             effectiveDate="2012-12-20T00:00:00"
-             sch="peri20-counseling-22-ack.sch"
-             schsvrl="peri20-counseling-22-ack.xsl">
-      <root rootelement="MCCI_IN000002" namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.2405"
-                   effectiveDate="2014-01-08T15:19:23"
-                   statusCode="final"
-                   versionLabel="22"
-                   name="Acknowledgement Counseling bericht"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.1"
-             effectiveDate="2012-03-11T00:00:00"
-             sch="peri20-jze-1c.sch"
-             schsvrl="peri20-jze-1c.xsl">
-      <root rootelement="ClinicalDocument" namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.1101"
-                   effectiveDate="2011-01-28T00:00:00"
-                   statusCode="final"
-                   name="Jonge zwangerschapsecho (JZE)"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.2"
-             effectiveDate="2012-03-11T00:00:00"
-             sch="peri20-ntm-1c.sch"
-             schsvrl="peri20-ntm-1c.xsl">
-      <root rootelement="ClinicalDocument" namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.1201"
-                   effectiveDate="2011-01-28T00:00:00"
-                   statusCode="final"
-                   name="NT-meting"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.3"
-             effectiveDate="2012-03-11T00:00:00"
-             sch="peri20-ctk-1c.sch"
-             schsvrl="peri20-ctk-1c.xsl">
-      <root rootelement="ClinicalDocument" namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.1301"
-                   effectiveDate="2011-01-28T00:00:00"
-                   statusCode="final"
-                   name="Combinatietest kansbepaling"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.4"
-             effectiveDate="2012-03-11T00:00:00"
-             sch="peri20-seo-1c.sch"
-             schsvrl="peri20-seo-1c.xsl">
-      <root rootelement="ClinicalDocument" namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.1401"
-                   effectiveDate="2011-01-28T00:00:00"
-                   statusCode="final"
-                   name="Structureel Echoscopisch Onderzoek (SEO)"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.5"
-             effectiveDate="2012-03-11T00:00:00"
-             sch="peri20-guo-1c.sch"
-             schsvrl="peri20-guo-1c.xsl">
-      <root rootelement="ClinicalDocument" namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.1501"
-                   effectiveDate="2011-01-28T00:00:00"
-                   statusCode="final"
-                   name="Geavanceerd Echoscopisch Onderzoek (GEO)"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.45"
-             effectiveDate="2012-06-26T00:00:00"
-             sch="peri20-admgeb-1a.sch"
-             schsvrl="peri20-admgeb-1a.xsl">
-      <root rootelement="subject[hl7:registrationProcess]"
-            namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.901"
-                   effectiveDate="2011-01-28T00:00:00"
-                   statusCode="final"
-                   name="Administratief geboortebericht fase 1a"/>
-   </template>
-   <template id="2.16.840.1.113883.2.4.6.10.90.46"
-             effectiveDate="2012-12-20T00:00:00"
-             sch="peri20-mcci2-admgeboorte-1a-ack.sch"
-             schsvrl="peri20-mcci2-admgeboorte-1a-ack.xsl">
-      <root rootelement="MCCI_IN000002" namespace="urn:hl7-org:v3"/>
-      <transaction id="2.16.840.1.113883.2.4.3.11.60.90.77.4.902"
-                   effectiveDate="2011-01-28T00:00:00"
-                   statusCode="final"
-                   name="Acknowledgement Administratief geboortebericht fase 1a"/>
    </template>
 </mappings>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.90.77.11.230"
+             name="ProbleemNaam_Neurologisch"
+             displayName="ProbleemNaam_Neurologisch"
+             effectiveDate="2018-10-12T16:10:05"
+             statusCode="draft">
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <copyright language="en-US">This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.</copyright>
+      <conceptList>
+                <concept code="703300001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hypoxic ischemic encephalopathy (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Hypoxic ischemic encephalopathy (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hypoxic ischaemic encephalopathy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hypoxic ischemic encephalopathy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hypoxic ischemic brain injury"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hypoxic ischaemic brain injury"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="hypoxisch-ischemische encefalopathie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="hypoxisch-ischemische encefalopathie"/>
+                    <designation language="nl" type="synonym" displayName="post-asfyxiesyndroom"/>
+                </concept>
+                <concept code="95628005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystemName="SNOMED CT"
+                  displayName="Neonatal encephalopathy (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <div>
+                            <h3 style="margin: 0cm 0cm 0.0001pt; line-height: 16px; font-size: 10pt; font-family: Arial, sans-serif;">
+                                <span style="font-weight: normal;">
+                                    <span class="yui-non">Encefalopathie</span>
+                                </span>
+                            </h3>
+                        </div>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Neonatal encephalopathy (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Neonatal encephalopathy"/>
+                    <designation language="en" type="synonym" displayName="Neonatal encephalopathy"/>
+                </concept>
+                <concept code="413654009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Birth asphyxia (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <h3 style="margin: 0cm 0cm 0.0001pt; line-height: 16px; font-size: 10pt; font-family: Arial, sans-serif;">
+                            <span style="font-weight: normal;">
+                                <a name="_Toc511742345"/>
+                                <a name="_Toc490424142">Asfyxie</a>
+                            </span>
+                        </h3>
+                    </desc>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Birth asphyxia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Birth asphyxia"/>
+                    <designation language="en" type="synonym" displayName="Birth asphyxia"/>
+                    <designation language="nl" type="synonym" displayName="perinatale asfyxie"/>
+                    <designation language="nl" type="preferred" displayName="asfyxie bij geboorte"/>
+                </concept>
+                <concept code="182660006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cold therapy (procedure)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <h3 style="margin: 0cm 0cm 0.0001pt; line-height: 16px; font-size: 10pt; font-family: Arial, sans-serif;">
+                            <a name="_Toc511742346" style="font-weight: normal;">Therapeutische hypothermie</a>
+                        </h3>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cold therapy (regime/therapy)"/>
+                    <designation language="en" type="synonym" displayName="Cold therapy"/>
+                    <designation language="en" type="synonym" displayName="Cold therapy"/>
+                    <designation language="en" type="synonym" displayName="Cooling therapy"/>
+                    <designation language="en" type="synonym" displayName="Cooling therapy"/>
+                    <designation language="en" type="synonym" displayName="Therapy by cooling"/>
+                    <designation language="en" type="synonym" displayName="Therapy by cooling"/>
+                </concept>
+                <concept code="87476004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Convulsions in the newborn (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <h3 style="margin: 0cm 0cm 0.0001pt; line-height: 16px; font-size: 10pt;">
+                            <span class="yui-non" style="font-weight: normal;">
+                                <a name="_Toc511742347"/>
+                                <a name="_Toc490424144">Neonatale convulsies </a>waarvoor medicatie</span>
+                            <span style="font-family: Arial, sans-serif;"/>
+                        </h3>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Convulsions in the newborn (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Convulsions in the newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Convulsions in the newborn"/>
+                    <designation language="en" type="synonym" displayName="Neonatal convulsions"/>
+                    <designation language="en" type="synonym" displayName="Neonatal convulsions"/>
+                    <designation language="en" type="synonym" displayName="Seizures in the newborn"/>
+                    <designation language="en" type="synonym" displayName="Neonatal seizures"/>
+                    <designation language="en" type="synonym" displayName="Seizures in newborn"/>
+                    <designation language="en" type="synonym" displayName="Fits in newborn"/>
+                    <designation language="en" type="synonym" displayName="Fits in newborn"/>
+                    <designation language="en" type="synonym" displayName="Seizures in newborn"/>
+                    <designation language="en" type="synonym" displayName="Fits in the newborn"/>
+                    <designation language="en" type="synonym" displayName="Fits in the newborn"/>
+                    <designation language="en" type="synonym" displayName="Seizures in the newborn"/>
+                    <designation language="en" type="synonym" displayName="Neonatal seizures"/>
+                    <designation language="nl" type="synonym" displayName="neonatale convulsies"/>
+                    <designation language="nl" type="synonym" displayName="neonatale aanvallen"/>
+                </concept>
+                <concept code="70611002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Perinatal intraventricular hemorrhage (disorder)"
+                  level="0"
+                  type="A">
+                    <desc language="nl-NL">
+                        <span style="font-size: 11pt; line-height: 15.693333625793457px; font-family: Calibri, sans-serif;">IVH</span>
+                        <span style="font-family: -webkit-standard; font-size: medium;">
+                            <br clear="none"/>
+                        </span>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Perinatal intraventricular hemorrhage (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Perinatal intraventricular hemorrhage"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Perinatal intraventricular haemorrhage"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular hemorrhage from any perinatal cause"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular haemorrhage from any perinatal cause"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Neonatal intraventricular haemorrhage"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Neonatal intraventricular hemorrhage"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="perinatale intraventriculaire bloeding (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="perinatale intraventriculaire bloeding"/>
+                </concept>
+                <concept code="206395003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Intraventricular (nontraumatic) hemorrhage, grade 1, of fetus and newborn (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Intraventricular (nontraumatic) hemorrhage, grade 1, of fetus and newborn (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) hemorrhage, grade 1, of fetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 1, of fetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 1, of fetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 1, of foetus and newborn"/>
+                </concept>
+                <concept code="206396002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Intraventricular (nontraumatic) hemorrhage, grade 2, of fetus and newborn (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Intraventricular (nontraumatic) hemorrhage, grade 2, of fetus and newborn (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 2, of foetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) hemorrhage, grade 2, of fetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 2, of fetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 2, of fetus and newborn"/>
+                </concept>
+                <concept code="206397006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Intraventricular (nontraumatic) hemorrhage, grade 3, of fetus and newborn (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Intraventricular (nontraumatic) hemorrhage, grade 3, of fetus and newborn (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 3, of fetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) hemorrhage, grade 3, of fetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 3, of fetus and newborn"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Intraventricular (nontraumatic) haemorrhage, grade 3, of foetus and newborn"/>
+                </concept>
+                <concept code="722580004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Fetal or neonatal intraventricular non-traumatic hemorrhage grade 4 (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Fetal or neonatal intraventricular non-traumatic hemorrhage grade 4 (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Fetal or neonatal intraventricular non-traumatic hemorrhage grade 4"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Foetal or neonatal intraventricular non-traumatic haemorrhage grade 4"/>
+                </concept>
+                <concept code="371116000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Posthemorrhagic hydrocephalus (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">PHVD</desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Posthemorrhagic hydrocephalus (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Posthemorrhagic hydrocephalus"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Posthemorrhagic hydrocephalus"/>
+                </concept>
+                <concept code="22711000146109"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cerebral ischemia in anterior cerebral artery territory (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cerebral ischemia in anterior cerebral artery territory (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cerebral ischemia in anterior cerebral artery territory"/>
+                </concept>
+                <concept code="22731000146102"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cerebral ischemia in posterior cerebral artery territory (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cerebral ischemia in posterior cerebral artery territory (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cerebral ischemia in posterior cerebral artery territory"/>
+                </concept>
+                <concept code="432504007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cerebral infarction (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cerebral infarction (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Cerebral infarction"/>
+                    <designation language="en" type="synonym" displayName="Cerebral infarction"/>
+                    <designation language="nl" type="synonym" displayName="cerebraal infarct"/>
+                </concept>
+                <concept code="230690007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cerebrovascular accident (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cerebrovascular accident (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Cerebrovascular accident"/>
+                    <designation language="en" type="synonym" displayName="Cerebrovascular accident"/>
+                    <designation language="en" type="synonym" displayName="Stroke"/>
+                    <designation language="en" type="synonym" displayName="Stroke"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CVA - Cerebrovascular accident"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CVA - Cerebrovascular accident"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="cerebrovasculair accident"/>
+                    <designation language="nl" type="synonym" displayName="beroerte"/>
+                </concept>
+                <concept code="230769007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Periventricular leucomalacia (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Periventricular leukomalacia (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Periventricular leukomalacia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Periventricular leucomalacia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Periventricular leucomalacia"/>
+                    <designation language="en" type="synonym" displayName="White matter necrosis"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Periventricular leucoencephalopathy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PVL - Periventricular leukomalacia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Periventricular leukoencephalopathy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PVL - Periventricular leucomalacia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PVL - Periventricular leucomalacia"/>
+                    <designation language="en" type="synonym" displayName="White matter necrosis"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="periventriculaire leukomalacie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="periventriculaire leukomalacie"/>
+                </concept>
+                <concept code="17281000146102"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Perinatal cerebellar hemorrhage (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Perinatal cerebellar hemorrhage (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Perinatal cerebellar hemorrhage"/>
+                </concept>
+                <concept code="75038005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cerebellar hemorrhage (disorder)"
+                  level="0"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cerebellar hemorrhage (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Cerebellar hemorrhage"/>
+                    <designation language="en" type="synonym" displayName="Cerebellar haemorrhage"/>
+                    <designation language="en" type="synonym" displayName="Hemorrhagic cerebellum"/>
+                    <designation language="en" type="synonym" displayName="Haemorrhagic cerebellum"/>
+                    <designation language="nl" type="synonym" displayName="cerebellaire bloeding"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

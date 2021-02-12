@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              name="regelmaat_hartslag"
              displayName="Regelmaat hartslag"
              id="2.16.840.1.113883.2.4.11.234"
              effectiveDate="2017-02-03T16:13:04"
              statusCode="draft">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -20,13 +25,11 @@
       <conceptList>
                 <concept code="289443009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Regular fetal heart rhythm (finding)"
                   level="0"
                   type="L"/>
                 <concept code="289444003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Irregular fetal heart rhythm (finding)"
                   level="0"
                   type="L"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.3.11.60.40.2.0.1.8"
              name="LandISOCodelijst"
              displayName="LandISOCodelijst"
@@ -13,7 +13,12 @@
              ident="zib2015bbr-"
              referencedFrom="peri20-">
       <desc language="nl-NL">ISO 3166-1 (alpha-2) (1.0.3166.1.2.2): Alle waarden</desc>
-      <sourceCodeSystem id="1.0.3166.1.2.2" identifierName="ISO 3166 Alpha 2"/>
+      <sourceCodeSystem id="1.0.3166.1.2.2"
+                        identifierName="ISO 3166 Alpha 2"
+                        canonicalUri="urn:iso:std:iso:3166"
+                        canonicalUriDSTU2="urn:iso:std:iso:3166"
+                        canonicalUriSTU3="urn:iso:std:iso:3166"
+                        canonicalUriR4="urn:iso:std:iso:3166"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

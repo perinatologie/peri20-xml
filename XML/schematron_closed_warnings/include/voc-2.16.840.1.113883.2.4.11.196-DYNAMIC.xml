@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.11.196"
              name="CongenitaleAfwijking22"
              displayName="Congenitale afwijking"
              statusCode="final"
              versionLabel="2.3"
              effectiveDate="2016-11-10T14:40:18">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <sourceCodeSystem id="2.16.840.1.113883.2.4.4.13.8"
-                        identifierName="CongenitaleAfwijkingen"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+                        identifierName="CongenitaleAfwijkingen"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.13.8"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.13.8"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.13.8"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.13.8"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -54,7 +68,6 @@
                   type="L"/>
                 <concept code="171131006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Meningocele (disorder)"
                   level="1"
                   type="L"/>
@@ -195,25 +208,21 @@
                   type="L"/>
                 <concept code="204712000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Anal atresia (disorder)"
                   level="1"
                   type="L"/>
                 <concept code="204739008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Hirschsprung's disease (disorder)"
                   level="1"
                   type="L"/>
                 <concept code="29980002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Congenital malrotation of intestine (disorder)"
                   level="1"
                   type="L"/>
                 <concept code="9707006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Intestinal volvulus (disorder)"
                   level="1"
                   type="L"/>
@@ -254,13 +263,11 @@
                   type="L"/>
                 <concept code="79231000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Hydrothorax (disorder)"
                   level="1"
                   type="L"/>
                 <concept code="83035003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Chylothorax (disorder)"
                   level="1"
                   type="L"/>

@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              statusCode="draft"
              id="2.16.840.1.113883.2.4.3.11.60.90.77.11.211"
              effectiveDate="2015-06-04T16:44:16"
              name="VerwijsindicatieKind"
              displayName="Verwijsindicatie kind"
              versionLabel="22">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -22,37 +32,31 @@
       <conceptList>
                 <concept code="364737004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Finding of neonatal condition (finding)"
                   level="0"
                   type="L"/>
                 <concept code="309257005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Excessive weight loss (finding)"
                   level="0"
                   type="L"/>
                 <concept code="387712008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Neonatal jaundice (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="161838002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Infant feeding problem (finding)"
                   level="0"
                   type="L"/>
                 <concept code="473130003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Suspected infectious disease (situation)"
                   level="0"
                   type="L"/>
                 <concept code="394886001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Suspected heart disease (context-dependent category)"
                   level="0"
                   type="L"/>
@@ -63,7 +67,6 @@
                   type="L"/>
                 <concept code="52767006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Neonatal hypoglycemia (disorder)"
                   level="0"
                   type="L"/>

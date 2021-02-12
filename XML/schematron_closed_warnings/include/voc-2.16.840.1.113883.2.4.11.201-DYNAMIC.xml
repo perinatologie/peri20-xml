@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.11.201"
              name="Geloofsovertuiging"
              displayName="Geloofsovertuiging"
              effectiveDate="2014-02-04T14:54:27"
              statusCode="draft">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
-      <sourceCodeSystem id="2.16.840.1.113883.2.4.4.13.51" identifierName="Geloofsovertuiging"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.4.13.51"
+                        identifierName="Geloofsovertuiging"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.13.51"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.13.51"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.13.51"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.13.51"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -22,19 +37,16 @@
       <conceptList>
                 <concept code="160552003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Not religious"
                   level="0"
                   type="L"/>
                 <concept code="276116000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Christian religion"
                   level="0"
                   type="L"/>
                 <concept code="276120001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Catholic religion"
                   level="1"
                   type="L"/>
@@ -95,31 +107,26 @@
                   type="L"/>
                 <concept code="276118004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Jehovah's Witness religion"
                   level="1"
                   type="L"/>
                 <concept code="276121002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Judaism"
                   level="0"
                   type="L"/>
                 <concept code="271390004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Islam"
                   level="0"
                   type="L"/>
                 <concept code="33822009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Buddhism"
                   level="0"
                   type="L"/>
                 <concept code="61154002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Hinduism"
                   level="0"
                   type="L"/>

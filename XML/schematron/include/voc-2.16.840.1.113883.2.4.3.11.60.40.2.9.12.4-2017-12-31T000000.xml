@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.9.12.4"
+             name="ZonodigCriteriumCodelijst"
+             displayName="ZonodigCriteriumCodelijst"
+             effectiveDate="2017-12-31T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.4.5"
+                        identifierName="NHG tabel 25 aanvullende teksten numeriek"
+                        canonicalUri="https://referentiemodel.nhg.org/tabellen/nhg-tabel-25-gebruiksvoorschrift#aanvullend-numeriek"
+                        canonicalUriDSTU2="https://referentiemodel.nhg.org/tabellen/nhg-tabel-25-gebruiksvoorschrift#aanvullend-numeriek"
+                        canonicalUriSTU3="https://referentiemodel.nhg.org/tabellen/nhg-tabel-25-gebruiksvoorschrift#aanvullend-numeriek"
+                        canonicalUriR4="https://referentiemodel.nhg.org/tabellen/nhg-tabel-25-gebruiksvoorschrift#aanvullend-numeriek"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="1022"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij een aanval"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij een aanval"/>
+                </concept>
+                <concept code="1023"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij benauwdheid"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij benauwdheid"/>
+                </concept>
+                <concept code="1024"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij diarree"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij diarree"/>
+                </concept>
+                <concept code="1028"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij pijn"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij pijn"/>
+                </concept>
+                <concept code="1121"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij jeuk"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij jeuk"/>
+                </concept>
+                <concept code="1137"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Zo nodig"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Zo nodig"/>
+                </concept>
+                <concept code="1144"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij hoofdpijn"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij hoofdpijn"/>
+                </concept>
+                <concept code="1145"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij koorts"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij koorts"/>
+                </concept>
+                <concept code="1146"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij hoge koorts"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij hoge koorts"/>
+                </concept>
+                <concept code="1147"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij koorts en/of pijn"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Bij koorts en/of pijn"/>
+                </concept>
+                <concept code="1387"
+                  codeSystem="2.16.840.1.113883.2.4.4.5"
+                  displayName="Bij hoest"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Bij hoest"/>
+                </concept>
+                <exception code="OTH"
+                    codeSystem="2.16.840.1.113883.5.1008"
+                    displayName="Overig"
+                    level="0"
+                    type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Overig"/>
+                </exception>
+                <exception code="NI"
+                    codeSystem="2.16.840.1.113883.5.1008"
+                    displayName="Geen Informatie"
+                    level="0"
+                    type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Geen Informatie"/>
+                </exception>
+            </conceptList>
+   </valueSet>
+</valueSets>

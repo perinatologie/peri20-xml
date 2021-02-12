@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              name="PostpartumComplicatie22"
              displayName="Postpartum complicatie"
              id="2.16.840.1.113883.2.4.3.11.60.90.77.11.34"
              statusCode="final"
              effectiveDate="2016-11-24T13:06:58">
-      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.22.1.2.1" identifierName="VILLijst"/>
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.22.1.2.1"
+                        identifierName="VILLijst"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.1"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.1"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.1"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.1"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -47,7 +62,6 @@
                   type="L"/>
                 <concept code="56272000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Postpartum deep phlebothrombosis (disorder)"
                   level="0"
                   type="L"/>
@@ -63,25 +77,21 @@
                   type="L"/>
                 <concept code="301822002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Abnormal vaginal bleeding (finding)"
                   level="0"
                   type="L"/>
                 <concept code="414086009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Embolism (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="385494008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Hematoma (disorder)"
                   level="0"
                   type="L"/>
                 <concept code="271737000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Anemia (disorder)"
                   level="0"
                   type="L"/>
@@ -112,7 +122,6 @@
                   type="L"/>
                 <concept code="6150"
                   codeSystem="2.16.840.1.113883.2.4.3.22.1.2.1"
-                  codeSystemName="Snomed CT"
                   displayName="Overige infecties"
                   level="1"
                   type="L"/>

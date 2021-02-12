@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.10.2.3"
+             name="LijnStatusCodelijst"
+             displayName="LijnStatusCodelijst"
+             effectiveDate="2017-09-04T00:00:00"
+             statusCode="deprecated"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.40.4.12.1"
+                        identifierName="LijnStatus"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.12.1"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.12.1"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.12.1"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.12.1"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="LNP"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.12.1"
+                  displayName="Lopend"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Lopend"/>
+                </concept>
+                <concept code="DOP"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.12.1"
+                  displayName="Afgedopt"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Afgedopt"/>
+                </concept>
+                <exception code="OTH"
+                    codeSystem="2.16.840.1.113883.5.1008"
+                    displayName="Other"
+                    level="0"
+                    type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Anders"/>
+                </exception>
+            </conceptList>
+   </valueSet>
+</valueSets>

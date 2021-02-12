@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              statusCode="final"
              id="2.16.840.1.113883.2.4.11.39"
              effectiveDate="2013-01-10T13:31:55"
              name="SCIndicatie"
              displayName="SCIndicatie"
              versionLabel="2.2">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
-      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.22.1.2.55" identifierName="SCIndicatie"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.22.1.2.55"
+                        identifierName="SCIndicatie"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.55"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.55"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.55"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.22.1.2.55"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -33,19 +48,16 @@
                   type="L"/>
                 <concept code="15028002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Abnormal fetal presentation (finding)"
                   level="0"
                   type="L"/>
                 <concept code="237320005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Failure to progress in first stage of labor (finding)"
                   level="0"
                   type="L"/>
                 <concept code="249166003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Failure to progress in second stage of labor (finding)"
                   level="0"
                   type="L"/>
@@ -56,13 +68,11 @@
                   type="L"/>
                 <concept code="418138009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Patient condition finding (finding)"
                   level="0"
                   type="L"/>
                 <concept code="408854000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="Snomed CT"
                   displayName="Maternal request for treatment (finding)"
                   level="0"
                   type="L"/>

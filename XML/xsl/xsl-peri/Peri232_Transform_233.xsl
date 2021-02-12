@@ -4,8 +4,15 @@
     <xsl:strip-space elements="*"/>
     <!-- Transforms peri 2.3.2 message into peri 2.3.3 -->
     <!-- set a different schematron -->
-    <xsl:template match="/processing-instruction('xml-model')">
+    <xsl:template match="/processing-instruction('xml-model')[1]">
         <xsl:processing-instruction name="xml-model">href="file:/C:/SVN/AORTA/trunk/Zorgtoepassing/PerinataleZorg/DECOR/peri20-runtime-develop/peri20-ksgz-alg-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" phase="#ALL"</xsl:processing-instruction>
+    </xsl:template>
+    <xsl:template match="/processing-instruction('xml-model')[2]">
+        <xsl:processing-instruction name="xml-model">href="file:/C:/SVN/AORTA/branches/Onderhoud_Geboortezorg_v23/Publicaties/20180320/peri20-xml-20180320T091242/XML/schematron_closed_warnings/peri20-ksgz-alg-23.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" phase="#ALL"</xsl:processing-instruction>
+    </xsl:template>
+    <!-- set an absolute path to schema -->
+    <xsl:template match="hl7:REPC_IN004014NL/@xsi:schemaLocation">
+        <xsl:attribute name="xsi:schemaLocation">urn:hl7-org:v3 file:/C:/SVN/AORTA/branches/Onderhoud_Geboortezorg_v23/XML/schemas_codeGen/REPC_IN004014NL.xsd</xsl:attribute>
     </xsl:template>
     <!-- Update the main template id to the 2.3.3 version -->
     <xsl:template match="hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.74']/@root">
@@ -103,12 +110,12 @@
     <xsl:template match="hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.900966']/@root">
         <xsl:attribute name="root" select="'2.16.840.1.113883.2.4.6.10.90.901095'"/>
     </xsl:template>
-    <!-- Issue 1044 - template nr update at (reden verwijzing)/obstetrische anamnese/infectie 900950 -> 900975 -->
-    <xsl:template match="hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.900950'][ancestor::hl7:organizer[hl7:code/@code = '248983002']]/@root">
+    <!-- Issue 1044 - template nr update at (reden verwijzing)/obstetrische anamnese/infectie and diagnose zwangerschap (template 901004) 900950 -> 900975 -->
+    <xsl:template match="hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.900950'][ancestor::hl7:organizer[hl7:code/@code = '248983002' or hl7:templateId/@root='2.16.840.1.113883.2.4.6.10.90.901004']]/@root">
         <xsl:attribute name="root" select="'2.16.840.1.113883.2.4.6.10.90.900975'"/>
     </xsl:template>
     <!-- Issue 1044 - value conversion because other valueset in template 900950, which is not compatible with the appropriate valueset in 900975 -->
-    <xsl:template match="*[hl7:templateId/@root = '2.16.840.1.113883.2.4.6.10.90.900950'][ancestor::hl7:organizer[hl7:code/@code = '248983002']]/hl7:value">
+    <xsl:template match="*[hl7:templateId/@root = '2.16.840.1.113883.2.4.6.10.90.900950'][ancestor::hl7:organizer[hl7:code/@code = '248983002' or hl7:templateId/@root='2.16.840.1.113883.2.4.6.10.90.901004']]/hl7:value">
         <!-- Please note, there was a wrong valueset in the 2.3.2 template. This cannot be properly transformed. 
              Check your source code so that the appropriate valueset is supported from your source system. 
              This is a temporary technical fix to put it in OTH, which is not a proper solution -->
@@ -286,6 +293,10 @@
     <xsl:template match="hl7:pertinentInformation3/hl7:organizer/hl7:templateId[@root = '2.16.840.1.113883.2.4.6.10.90.901004']/@root">
         <xsl:attribute name="root">2.16.840.1.113883.2.4.6.10.90.901092</xsl:attribute>
     </xsl:template>
+
+    <!-- issue 1061 - remove obsolete id in template 901004 (901092) -->
+    <xsl:template match="hl7:pertinentInformation3/hl7:organizer[hl7:templateId/@root = '2.16.840.1.113883.2.4.6.10.90.901004']/hl7:id"/>
+    
 
     <xsl:template name="DianosisDeliverySectionWithIUVD">
         <!-- TODO pass and use the actual reason for referral -->

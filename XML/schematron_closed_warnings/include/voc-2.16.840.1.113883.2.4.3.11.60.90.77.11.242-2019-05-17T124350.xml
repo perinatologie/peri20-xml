@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.90.77.11.242"
+             name="LijnTypeCodelijst"
+             displayName="InfuuskatheterTypeCodelijst"
+             effectiveDate="2019-05-17T12:43:50"
+             statusCode="draft">
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <copyright language="en-US">This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.</copyright>
+      <conceptList>
+                <concept code="82449006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Peripheral intravenous catheter"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Perifeer intraveneus infuus"/>
+                </concept>
+                <concept code="52124006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Central venous catheter"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Centraal veneuze katheter"/>
+                </concept>
+                <concept code="30610008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Epidural catheter"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Epidurale katheter"/>
+                </concept>
+                <concept code="303727009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Arterial catheter"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Arteriële katheter"/>
+                </concept>
+                <concept code="102318003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Implantable venous catheter"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Port-a-cath"/>
+                </concept>
+                <concept code="450866001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Haemodialysis catheter"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Hemodialyse katheter"/>
+                </concept>
+                <concept code="tbd"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Subcutaneous catheter"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Subcutaan infuus"/>
+                </concept>
+                <exception code="OTH"
+                    codeSystem="2.16.840.1.113883.5.1008"
+                    displayName="Other"
+                    level="0"
+                    type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Anders"/>
+                </exception>
+            </conceptList>
+   </valueSet>
+</valueSets>

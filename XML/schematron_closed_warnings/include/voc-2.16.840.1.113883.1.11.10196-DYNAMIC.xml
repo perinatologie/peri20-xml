@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.1.11.10196"
              name="ActMood"
              displayName="ActMood"
@@ -23,7 +23,12 @@
                 <p>The moodCode of a single Act-instance never changes. Mood is not state.</p>
                 <p>To describe the progression of a business activity from defined to planned to executed, etc. one must instantiate different Act-instances in the different moods and link them using ActRelationship of general type "sequel". (See ActRelationship.type.)</p>
             </desc>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1001" identifierName="ActMood"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1001"
+                        identifierName="ActMood"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/ActMood"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/ActMood"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActMood"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

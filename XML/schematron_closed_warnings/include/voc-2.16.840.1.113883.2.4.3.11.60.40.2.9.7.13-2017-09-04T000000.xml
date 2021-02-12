@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.9.7.13"
+             name="IngredientCodeATCCodelijst"
+             displayName="IngredientCodeATCCodelijst"
+             effectiveDate="2017-09-04T00:00:00"
+             statusCode="deprecated"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <desc language="nl-NL">Anatomic Therapeutic Classification (ATC) - Alle waarden</desc>
+      <sourceCodeSystem id="2.16.840.1.113883.6.73"
+                        identifierName="ATC codes (Anatomical, Therapeutical and Chemical classification)"
+                        canonicalUri="http://www.whocc.no/atc"
+                        canonicalUriDSTU2="http://www.whocc.no/atc"
+                        canonicalUriSTU3="http://www.whocc.no/atc"
+                        canonicalUriR4="http://www.whocc.no/atc"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <completeCodeSystem codeSystem="2.16.840.1.113883.6.73"
+                          codeSystemName="ATC codes (Anatomical, Therapeutical and Chemical classification)"/>
+   </valueSet>
+</valueSets>

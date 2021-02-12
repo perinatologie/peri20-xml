@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
-   <title> Schematron file for REPC_IN004014NL - Counseling bericht (2.2) </title>
+   <title>Schematron file for transaction Counseling bericht (2.2) 22 (2.16.840.1.113883.2.4.3.11.60.90.77.4.2404 2014-01-08T15:19:23)</title>
    <ns uri="urn:hl7-org:v3" prefix="hl7"/>
    <ns uri="urn:hl7-org:v3" prefix="cda"/>
    <ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
@@ -10,8 +10,10 @@
    <ns uri="http://art-decor.org/ns/decor" prefix="decor"/>
    <ns uri="urn:hl7-org:sdtc" prefix="sdtc"/>
    <ns uri="http://www.w3.org/XML/1998/namespace" prefix="xml"/>
-   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
+   <ns uri="urn:hl7-nl:v3" prefix="hl7nl"/>
    <ns uri="urn:ihe:pharm:medication" prefix="pharm"/>
+   <ns uri="urn:oid:1.3.6.1.4.1.19376.1.3.2" prefix="lab"/>
+   <ns uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
    <!-- Include realm specific schematron -->
    <!-- Include datatype abstract schematrons -->
    <pattern>
@@ -49,9 +51,11 @@
       <include href="include/DTr1_EN.sch"/>
       <include href="include/DTr1_ENXP.sch"/>
       <include href="include/DTr1_hl7nl-INT.sch"/>
+      <include href="include/DTr1_hl7nl-IVL_QTY.sch"/>
       <include href="include/DTr1_hl7nl-IVL_TS.sch"/>
       <include href="include/DTr1_hl7nl-PIVL_TS.sch"/>
       <include href="include/DTr1_hl7nl-PQ.sch"/>
+      <include href="include/DTr1_hl7nl-QSET_QTY.sch"/>
       <include href="include/DTr1_hl7nl-RTO.sch"/>
       <include href="include/DTr1_hl7nl-TS.sch"/>
       <include href="include/DTr1_II.sch"/>
@@ -133,6 +137,14 @@
    <!-- Include the project schematrons related to scenario counseling-22 -->
 
    <!-- counseling-22 -->
+   <pattern>
+      <title>counseling-22</title>
+      <rule context="/">
+         <assert role="warning"
+                 test="descendant-or-self::hl7:REPC_IN004014NL[hl7:interactionId[@root = '2.16.840.1.113883.1.6']]"
+                 see="http://decor.nictiz.nl/perinatologie/peri20-html-20190926T163541/tmp-2.16.840.1.113883.2.4.6.10.90.900924-2015-02-19T000000.html">(counseling-22): In de instance werd het volgende element verwacht: descendant-or-self::hl7:REPC_IN004014NL[hl7:interactionId[@root = '2.16.840.1.113883.1.6']]</assert>
+      </rule>
+   </pattern>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.900924-2015-02-19T000000.sch"/>
    <include href="include/2.16.840.1.113883.2.4.6.10.90.900924-2015-02-19T000000-closed.sch"/>
 

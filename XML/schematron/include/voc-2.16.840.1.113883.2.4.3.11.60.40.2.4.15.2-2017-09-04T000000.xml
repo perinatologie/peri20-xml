@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.4.15.2"
+             name="DefecatieConsistentieCodelijst"
+             displayName="DefecatieConsistentieCodelijst"
+             effectiveDate="2017-09-04T00:00:00"
+             statusCode="deprecated"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                        identifierName="BristolStoolTypes"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.3.1"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="Type 1"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                  displayName="Separate hard lumps, like nuts."
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Losse harde keutels, zoals noten"/>
+                </concept>
+                <concept code="Type 2"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                  displayName="Sausage-shaped but lumpy."
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Als een worst, maar klonterig"/>
+                </concept>
+                <concept code="Type 3"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                  displayName="Like sausage but with  cracks on its surface."
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Als een worst, maar met barstjes aan de buitenkant"/>
+                </concept>
+                <concept code="Type 4"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                  displayName="Like sausage or snake, smooth and soft."
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Als een worst of slang, glad en zacht"/>
+                </concept>
+                <concept code="Type 5"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                  displayName="Soft blobs with clear-cut edges"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Zachte keutels met duidelijke randen"/>
+                </concept>
+                <concept code="Type 6"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                  displayName="Fluffy pieces with ragged edges"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL"
+                         type="preferred"
+                         displayName="Zachte stukjes met gehavende randen"/>
+                </concept>
+                <concept code="Type 7"
+                  codeSystem="2.16.840.1.113883.2.4.3.11.60.40.4.3.1"
+                  displayName="Entirely liquid"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Helemaal vloeibaar"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

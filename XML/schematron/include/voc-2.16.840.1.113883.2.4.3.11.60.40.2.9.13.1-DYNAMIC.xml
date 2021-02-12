@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.40.2.9.13.1"
+             name="MedicatieToedieningStatusCodelijst"
+             displayName="MedicatieToedieningStatusCodelijst"
+             effectiveDate="2017-12-31T00:00:00"
+             statusCode="final"
+             url="http://decor.nictiz.nl/decor/services/"
+             ident="zib2017bbr-"
+             referencedFrom="peri20-">
+      <sourceCodeSystem id="2.16.840.1.113883.5.14"
+                        identifierName="ActStatus"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/ActStatus"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/ActStatus"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-ActStatus"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <conceptList>
+                <concept code="active"
+                  codeSystem="2.16.840.1.113883.5.14"
+                  displayName="Active"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Actief"/>
+                </concept>
+                <concept code="suspended"
+                  codeSystem="2.16.840.1.113883.5.14"
+                  displayName="Suspended"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Onderbroken"/>
+                </concept>
+                <concept code="aborted"
+                  codeSystem="2.16.840.1.113883.5.14"
+                  displayName="Aborted"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Afgebroken"/>
+                </concept>
+                <concept code="completed"
+                  codeSystem="2.16.840.1.113883.5.14"
+                  displayName="Completed"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Voltooid"/>
+                </concept>
+                <concept code="cancelled"
+                  codeSystem="2.16.840.1.113883.5.14"
+                  displayName="Cancelled"
+                  level="0"
+                  type="L">
+                    <designation language="nl-NL" type="preferred" displayName="Niet gestart"/>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>

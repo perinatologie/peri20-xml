@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.3.11.60.103.11.16"
              name="NHGtabel20v1_Code_opleiding"
              displayName="NHG tabel 20v1 - CodeOpleiding"
@@ -14,8 +14,17 @@
              referencedFrom="peri20-">
       <desc language="nl-NL">NHG Tabel 20 - Code opleiding versie 1 d.d. november 2004</desc>
       <sourceCodeSystem id="2.16.840.1.113883.2.4.4.30.20"
-                        identifierName="NHG Tabel 20 Code opleiding"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+                        identifierName="NHG Tabel 20 Code opleiding"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.30.20"
+                        canonicalUriDSTU2="https://referentiemodel.nhg.org/tabellen/nhg-tabel-20-code-opleiding"
+                        canonicalUriSTU3="https://referentiemodel.nhg.org/tabellen/nhg-tabel-20-code-opleiding"
+                        canonicalUriR4="https://referentiemodel.nhg.org/tabellen/nhg-tabel-20-code-opleiding"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

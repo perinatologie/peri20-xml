@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.3.11.60.40.2.0.1.7"
              name="AanduidingBijNummerCodelijst"
              displayName="AanduidingBijNummerCodelijst"
@@ -13,7 +13,11 @@
              ident="zib2015bbr-"
              referencedFrom="peri20-">
       <sourceCodeSystem id="2.16.840.1.113883.2.4.3.11.60.101.5.3"
-                        identifierName="AanduidingBijHuisnummer"/>
+                        identifierName="AanduidingBijHuisnummer"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.3"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.3"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.3"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.3"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>

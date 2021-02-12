@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets>
-   <valueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:decor="http://art-decor.org/ns/decor"
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
              xmlns:sdtc="urn:hl7-org:sdtc"
              xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              id="2.16.840.1.113883.2.4.3.11.60.90.77.11.215"
              name="Interventie22"
              displayName="Interventie (2.2)"
              effectiveDate="2016-02-19T11:29:37"
              statusCode="draft">
-      <sourceCodeSystem id="2.16.840.1.113883.6.96" identifierName="SNOMED CT"/>
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
       <sourceCodeSystem id="2.16.840.1.113883.2.4.4.14"
-                        identifierName="Perinatologische procedurecodes"/>
-      <sourceCodeSystem id="2.16.840.1.113883.5.1008" identifierName="NullFlavor"/>
+                        identifierName="Perinatologische procedurecodes"
+                        canonicalUri="urn:oid:2.16.840.1.113883.2.4.4.14"
+                        canonicalUriDSTU2="urn:oid:2.16.840.1.113883.2.4.4.14"
+                        canonicalUriSTU3="urn:oid:2.16.840.1.113883.2.4.4.14"
+                        canonicalUriR4="urn:oid:2.16.840.1.113883.2.4.4.14"/>
+      <sourceCodeSystem id="2.16.840.1.113883.5.1008"
+                        identifierName="NullFlavor"
+                        canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+                        canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+                        canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
       <publishingAuthority name="KNOV">
                 <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
                 <addrLine>Mercatorlaan 1200</addrLine>
@@ -23,7 +37,6 @@
       <conceptList>
                 <concept code="265636007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Cerclage of cervix (procedure)"
                   level="0"
                   type="L"/>
@@ -34,31 +47,26 @@
                   type="L"/>
                 <concept code="46681009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Cerclage of cervix during pregnancy by abdominal approach (procedure)"
                   level="1"
                   type="L"/>
                 <concept code="90442009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Cerclage of cervix during pregnancy by vaginal approach (procedure)"
                   level="1"
                   type="L"/>
                 <concept code="65240009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Obstetrical version (procedure)"
                   level="0"
                   type="L"/>
                 <concept code="32485007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Hospital admission (procedure)"
                   level="0"
                   type="L"/>
                 <concept code="18629005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Administration of drug or medicament (procedure)"
                   level="0"
                   type="L"/>
@@ -69,13 +77,11 @@
                   type="L"/>
                 <concept code="387672006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Cardiotochogram (regime/therapy)"
                   level="0"
                   type="L"/>
                 <concept code="275305005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  codeSystemName="SNOMED CT"
                   displayName="Antenatal/postnatal care (regime/therapy)"
                   level="0"
                   type="L"/>

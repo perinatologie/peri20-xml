@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:decor="http://art-decor.org/ns/decor"
+             xmlns:sdtc="urn:hl7-org:sdtc"
+             xmlns:peri="urn:nictiz-nl:v3/peri"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="2.16.840.1.113883.2.4.3.11.60.90.77.11.224"
+             name="ProbleemNaam_Stofwisselingsziekten"
+             displayName="ProbleemNaam_Stofwisselingsziekten"
+             effectiveDate="2018-08-16T00:30:35"
+             statusCode="draft">
+      <sourceCodeSystem id="2.16.840.1.113883.6.96"
+                        identifierName="SNOMED CT"
+                        canonicalUri="http://snomed.info/sct"
+                        canonicalUriDSTU2="http://snomed.info/sct"
+                        canonicalUriSTU3="http://snomed.info/sct"
+                        canonicalUriR4="http://snomed.info/sct"/>
+      <publishingAuthority name="KNOV">
+                <addrLine>Koninklijke Nederlandse Organisatie van Verloskundigen</addrLine>
+                <addrLine>Mercatorlaan 1200</addrLine>
+                <addrLine>3528 BL Utrecht</addrLine>
+                <addrLine>T 030 282 31 00</addrLine>
+            </publishingAuthority>
+      <copyright language="en-US">This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.</copyright>
+      <conceptList>
+                <concept code="20957000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of carbohydrate metabolism (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Koolhydraatstofwisselingsziekten<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of carbohydrate metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of carbohydrate metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of carbohydrate metabolism"/>
+                </concept>
+                <concept code="29633007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName=" Glycogeenstapelingsziekte"
+                  level="1"
+                  type="L"/>
+                <concept code="7265005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glycogen storage disease, type I (disorder)"
+                  level="2"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glycogen storage disease, type I (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease, type I"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease, type I"/>
+                    <designation language="en" type="synonym" displayName="von Gierke's disease"/>
+                    <designation language="en" type="synonym" displayName="von Gierke's disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hepatorenal glycogen storage disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hepatorenal glycogen storage disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease, type 1"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease, type 1"/>
+                    <designation language="en" type="synonym" displayName="GSD I"/>
+                    <designation language="en" type="synonym" displayName="Liver glycogen disease"/>
+                    <designation language="en" type="synonym" displayName="von Gierke disease"/>
+                    <designation language="en" type="synonym" displayName="GSD I"/>
+                    <designation language="en" type="synonym" displayName="von Gierke disease"/>
+                    <designation language="en" type="synonym" displayName="Liver glycogen disease"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="glycogeenstapelingsziekte type 1 (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="glycogeenstapelingsziekte type 1"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="glucose-6-fosfatasedeficiëntie"/>
+                </concept>
+                <concept code="444707001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glycogen storage disease type Ia (disorder)"
+                  level="3"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glycogen storage disease type Ia (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease type Ia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease type Ia"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="glycogeenstapelingsziekte type 1a (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="glycogeenstapelingsziekte type 1a"/>
+                </concept>
+                <concept code="30102006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glucose-6-phosphate transport defect (disorder)"
+                  level="3"
+                  type="L">
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucose-6-phosphate transport defect (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucose-6-phosphate transport defect"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucose-6-phosphate transport defect"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucose 6-phosphate transport defect"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucose 6-phosphate transport defect"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glycogen storage disease type Ib"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease type Ib"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="glycogeenstapelingsziekte type 1b (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="glycogeenstapelingsziekte type 1b"/>
+                </concept>
+                <concept code="274864009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glycogen storage disease, type II (disorder)"
+                  level="2"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glycogen storage disease, type II (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease due to acid maltase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease due to acid maltase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Glycogen heart disease"/>
+                    <designation language="en" type="synonym" displayName="Pompe's disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogenosis due to acid maltase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease, type II"/>
+                    <designation language="en" type="synonym" displayName="Glycogenosis type II"/>
+                    <designation language="en" type="synonym" displayName="Glycogen heart disease"/>
+                    <designation language="en" type="synonym" displayName="Pompe's disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Alpha-1,4-glucosidase acid deficiency"/>
+                    <designation language="en" type="synonym" displayName="Glycogenosis type II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Alpha-1,4-glucosidase acid deficiency"/>
+                    <designation language="en" type="synonym" displayName="Pompe disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogenosis due to acid maltase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease, type II"/>
+                    <designation language="en" type="synonym" displayName="Pompe disease"/>
+                </concept>
+                <concept code="66937008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glycogen storage disease, type III (disorder)"
+                  level="2"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glycogen storage disease, type III (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease type III"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease type III"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Debrancher deficiency glycogen storage disease"/>
+                    <designation language="en" type="synonym" displayName="Cori disease"/>
+                    <designation language="en" type="synonym" displayName="Limit dextrin - glycogen"/>
+                    <designation language="en" type="synonym" displayName="Cori disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease type 3"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Debrancher enzyme deficiency"/>
+                    <designation language="en" type="synonym" displayName="Cori's disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease, type III"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Debrancher deficiency glycogen storage disease"/>
+                    <designation language="en" type="synonym" displayName="Cori's disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Debrancher enzyme deficiency"/>
+                    <designation language="en" type="synonym" displayName="Limit dextrinosis"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease type 3"/>
+                    <designation language="en" type="synonym" displayName="GSD III"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Amylo-1,6-glucosidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Limit dextrin - glycogen"/>
+                    <designation language="en" type="synonym" displayName="GSD III"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glycogen storage disease, type III"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Amylo-1,6-glucosidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Limit dextrinosis"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="glycogeenstapelingsziekte type 3 (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="glycogeenstapelingsziekte type 3"/>
+                </concept>
+                <concept code="190745006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Galactosemia (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Galactosemia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Galactosemia"/>
+                    <designation language="en" type="synonym" displayName="Galactosaemia"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="galactosemie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="galactosemie"/>
+                </concept>
+                <concept code="44779003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of amino acid metabolism (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Aminoacidopathieën<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of amino acid metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of amino acid metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of amino acid metabolism"/>
+                    <designation language="en" type="synonym" displayName="Amino acid disorder"/>
+                    <designation language="en" type="synonym" displayName="Amino acidopathy"/>
+                    <designation language="en" type="synonym" displayName="Amino acidopathy"/>
+                    <designation language="en" type="synonym" displayName="Amino acid disorder"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stofwisselingsstoornis van aminozuren"/>
+                </concept>
+                <concept code="7573000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Classical phenylketonuria (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Classical phenylketonuria (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Classical phenylketonuria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Classical phenylketonuria"/>
+                    <designation language="en" type="synonym" displayName="PKU - Phenylketonuria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PAH - Phenylalanine hydroxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Imbecilitus phenylpyruvica"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Phenylpyruvic oligophrenia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Imbecilitus phenylpyruvica"/>
+                    <designation language="en" type="synonym" displayName="PKU - Phenylketonuria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Phenylalanine hydroxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Oligophrenia phenylpyruvica"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Phenylalanine hydroxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Severe phenylalanine hydroxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Phenylpyruvic oligophrenia"/>
+                    <designation language="en" type="synonym" displayName="PKU1 - Phenylketonuria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Severe phenylalanine hydroxylase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Phenylketonuria"/>
+                    <designation language="en" type="synonym" displayName="PKU1 - Phenylketonuria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hyperphenylalaninaemia, type I"/>
+                    <designation language="en" type="synonym" displayName="Folling's syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PAH - Phenylalanine hydroxylase deficiency"/>
+                    <designation language="en" type="synonym" displayName="PKU"/>
+                    <designation language="en" type="synonym" displayName="Phenylketonuria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Oligophrenia phenylpyruvica"/>
+                    <designation language="en" type="synonym" displayName="PAH deficiency"/>
+                    <designation language="en" type="synonym" displayName="PAH deficiency"/>
+                    <designation language="en" type="synonym" displayName="Folling's syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hyperphenylalaninemia, type I"/>
+                    <designation language="en" type="synonym" displayName="PKU"/>
+                    <designation language="nl" type="synonym" displayName="klassieke fenylketonurie"/>
+                </concept>
+                <concept code="85020001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cystinuria (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en" type="preferred" displayName="Cystinuria (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Cystinuria"/>
+                    <designation language="en" type="synonym" displayName="Cystinuria"/>
+                    <designation language="en" type="synonym" displayName="CSNU - Cystinuria"/>
+                    <designation language="en" type="synonym" displayName="CSNU - Cystinuria"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="cystinurie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="cystinurie"/>
+                </concept>
+                <concept code="190694001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="tyrosinemie (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="tyrosinemie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="tyrosinemie"/>
+                    <designation language="en" type="preferred" displayName="Tyrosinemia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Tyrosinaemia"/>
+                    <designation language="en" type="synonym" displayName="Tyrosinemia"/>
+                </concept>
+                <concept code="410056006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="tyrosinemie type 1 (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="tyrosinemie type 1 (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="tyrosinemie type 1"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Tyrosinemia type I (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Tyrosinemia type I"/>
+                    <designation language="en" type="synonym" displayName="Tyrosinaemia type I"/>
+                </concept>
+                <concept code="4887000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hypertyrosinemia, Richner-Hanhart type (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Hypertyrosinemia, Richner-Hanhart type (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hypertyrosinaemia, Richner-Hanhart type"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hypertyrosinemia, Richner-Hanhart type"/>
+                    <designation language="en" type="synonym" displayName="Tyrosinaemia type 2"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Oculocutaneous tyrosinemia"/>
+                    <designation language="en" type="synonym" displayName="Tyrosinaemia type II"/>
+                    <designation language="en" type="synonym" displayName="Richner-Hanhart syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Persistent hypertyrosinaemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Tyrosine transaminase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Tyrosinemia without hepatorenal dysfunction"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hereditary hypertyrosinemia, type II"/>
+                    <designation language="en" type="synonym" displayName="Tyrosinemia type 2"/>
+                    <designation language="en" type="synonym" displayName="Tyrosinemia type II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hypertyrosinemia, Oregon type"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hereditary hypertyrosinaemia, type II"/>
+                    <designation language="en" type="synonym" displayName="Richner syndrome"/>
+                    <designation language="en" type="synonym" displayName="Richner syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Oculocutaneous tyrosinaemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Keratosis palmoplantaris with corneal dystrophy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Keratosis palmoplantaris with corneal dystrophy"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Tyrosine transaminase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hypertyrosinaemia, Oregon type"/>
+                    <designation language="en" type="synonym" displayName="Richner-Hanhart syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Persistent hypertyrosinemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Tyrosinaemia without hepatorenal dysfunction"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="tyrosinemie type 2 (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="tyrosinemie type 2"/>
+                </concept>
+                <concept code="11282001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Homocystinuria (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Homocystinuria (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Homocystinuria"/>
+                    <designation language="en" type="synonym" displayName="Homocystinuria"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="homocystinurie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="homocystinurie"/>
+                </concept>
+                <concept code="13144005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Methylcrotonyl-coenzyme A carboxylase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Methylcrotonyl-coenzyme A carboxylase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Methylcrotonyl-CoA carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Methylcrotonyl-CoA carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="3-Methylcrotonyl-CoA carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Methylcrotonyl-coenzyme A carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="beta-Methylcrotonylglycinuria, type 1"/>
+                    <designation language="en" type="synonym" displayName="MCC deficiency"/>
+                    <designation language="en" type="synonym" displayName="BMCC deficiency"/>
+                    <designation language="en" type="synonym" displayName="BMCC deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Methylcrotonyl-coenzyme A carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="beta-Methylcrotonylglycinuria, type 1"/>
+                    <designation language="en" type="synonym" displayName="MCC deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="3-Methylcrotonyl-CoA carboxylase deficiency"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="3-methylcrotonylglycinurie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="3-methylcrotonylglycinurie"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="3-methylcrotonyl-CoA-carboxylasedeficiëntie"/>
+                </concept>
+                <concept code="76175005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glutaric aciduria, type 1 (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glutaric aciduria, type 1 (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric aciduria, type 1"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric aciduria, type 1"/>
+                    <designation language="en" type="synonym" displayName="GA I"/>
+                    <designation language="en" type="synonym" displayName="GA I"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric acidemia, type 1"/>
+                    <designation language="en" type="synonym" displayName="Glutaric aciduria type I"/>
+                    <designation language="en" type="synonym" displayName="Glutaric aciduria type I"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric acidaemia, type 1"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="glutaaracidurie type 1 (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="glutaaracidurie type 1"/>
+                </concept>
+                <concept code="116021002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of organic acid metabolism (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Organische zuur ziekten<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of organic acid metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of organic acid metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of organic acid metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Organic acid metabolism disorder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Organic acid metabolism disorder"/>
+                </concept>
+                <concept code="69080001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Propionic acidemia (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Propionic acidemia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Propionic acidaemia"/>
+                    <designation language="en" type="synonym" displayName="Propionic acidemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hyperglycinemia with ketosis and leukopenia, types I and II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ketotic glycinemia, types I AND/OR II"/>
+                    <designation language="en" type="synonym" displayName="Ketotic hyperglycinaemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ketotic glycinemia, types I and II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hyperglycinaemia with ketosis and leucopenia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ketotic glycinaemia, types I AND/OR II"/>
+                    <designation language="en" type="synonym" displayName="Ketotic glycinaemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hyperglycinemia with ketosis AND leukopenia, types I AND/OR II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ketotic glycinaemia, types I and II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Propionyl-CoA carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Propionic acidaemia, type I AND/OR type II"/>
+                    <designation language="en" type="synonym" displayName="Ketotic hyperglycinemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PCC - Propionyl-CoA carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hyperglycinaemia with ketosis AND leucopenia, types I AND/OR II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Propionyl-CoA carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hyperglycinaemia with ketosis and leucopenia, types I and II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Propionic acidemia, type I AND/OR type II"/>
+                    <designation language="en" type="synonym" displayName="Ketotic glycinemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="PCC - Propionyl-CoA carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Hyperglycinemia with ketosis and leukopenia"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="propionacidurie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="propionacidurie"/>
+                </concept>
+                <concept code="42393006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Methylmalonic acidemia (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Methylmalonic acidemia (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Methylmalonic acidaemia"/>
+                    <designation language="en" type="synonym" displayName="Methylmalonic acidemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MMA - Methylmalonic aciduria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MMA - Methylmalonic aciduria"/>
+                </concept>
+                <concept code="87827003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Isovaleryl-coenzyme A dehydrogenase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Isovaleryl-coenzyme A dehydrogenase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isovaleryl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isovaleryl-CoA dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Isovaleric acidemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isovaleric acid-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isovaleric acid-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isovaleryl-coenzyme A dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isovaleryl-coenzyme A dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Isovaleric acidaemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isovaleric acid CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isovaleric acid CoA dehydrogenase deficiency"/>
+                </concept>
+                <concept code="27718001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Maple syrup urine disease (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Maple syrup urine disease (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Maple syrup urine disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Maple syrup urine disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Branched chain ketoaciduria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MSUD - Maple syrup urine disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Oxo-acid decarboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ketoacid decarboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Branched chain ketoaciduria"/>
+                    <designation language="en" type="synonym" displayName="Ketoacidemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="BCKD - Branched chain alpha-ketoacid dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="BCKD deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="BCKD - Branched chain alpha-ketoacid dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="MSUD"/>
+                    <designation language="en" type="synonym" displayName="MSUD"/>
+                    <designation language="en" type="synonym" displayName="Ketoacidaemia"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Branched-chain alpha-keto acid dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Branched-chain alpha-keto acid dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Branched chain ketoacid dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="BCKD deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Oxo-acid decarboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Branched chain ketoacid dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ketoacid decarboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MSUD - Maple syrup urine disease"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="maple-syrup urine disease"/>
+                </concept>
+                <concept code="28987007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glutaric aciduria (disorder)"
+                  level="1"
+                  type="S">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glutaric aciduria (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Glutaric aciduria"/>
+                    <designation language="en" type="synonym" displayName="Glutaric aciduria"/>
+                </concept>
+                <concept code="76175005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glutaric aciduria, type 1 (disorder)"
+                  level="2"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glutaric aciduria, type 1 (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric aciduria, type 1"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric aciduria, type 1"/>
+                    <designation language="en" type="synonym" displayName="GA I"/>
+                    <designation language="en" type="synonym" displayName="GA I"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric acidemia, type 1"/>
+                    <designation language="en" type="synonym" displayName="Glutaric aciduria type I"/>
+                    <designation language="en" type="synonym" displayName="Glutaric aciduria type I"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric acidaemia, type 1"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="glutaaracidurie type 1 (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="glutaaracidurie type 1"/>
+                </concept>
+                <concept code="22886006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glutaric aciduria, type 2 (disorder)"
+                  level="2"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glutaric aciduria, type 2 (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric aciduria, type 2"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric aciduria, type 2"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple acyl-CoA dehydrogenase deficiencies"/>
+                    <designation language="en" type="synonym" displayName="ACAD"/>
+                    <designation language="en" type="synonym" displayName="EMA"/>
+                    <designation language="en" type="synonym" displayName="GA II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MAD - Multiple acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric acidemia, type 2"/>
+                    <designation language="en" type="synonym" displayName="EMA"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric acidaemia, type 2"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ethylmalonic-adipicaciduria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric aciduria type II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ethylmalonic-adipicaciduria"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MAD - Multiple acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="ACAD"/>
+                    <designation language="en" type="synonym" displayName="GA II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glutaric aciduria type II"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple acyl-CoA dehydrogenase deficiencies"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="glutaaracidurie type 2 (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="glutaaracidurie type 2"/>
+                </concept>
+                <concept code="124611007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Deficiency of hydroxymethylglutaryl-CoA lyase (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Deficiency of hydroxymethylglutaryl-CoA lyase (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of hydroxymethylglutaryl-CoA lyase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of hydroxymethylglutaryl-CoA lyase"/>
+                    <designation language="en" type="synonym" displayName="HMG-CoA lyase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="3-Hydroxy-3-methylglutaryl-CoA lyase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="3-Hydroxy-3-methylglutaryl-CoA lyase deficiency"/>
+                    <designation language="en" type="synonym" displayName="HMG-CoA lyase deficiency"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="HMG-CoA-lyasedeficiëntie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="HMG-CoA-lyasedeficiëntie"/>
+                </concept>
+                <concept code="36444000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of the urea cycle metabolism (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Ureumcyclusdefecten<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of the urea cycle metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of the urea cycle metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of the urea cycle metabolism"/>
+                    <designation language="en" type="synonym" displayName="Disorder of urea cycle"/>
+                    <designation language="en" type="synonym" displayName="Disorder of urea cycle"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stofwisselingsstoornis van ureumcyclus"/>
+                </concept>
+                <concept code="80908008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Ornithine carbamoyltransferase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Ornithine carbamoyltransferase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ornithine carbamoyltransferase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ornithine carbamoyltransferase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of ornithine carbamoyltransferase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ornithine transcarbamoylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ornithine transcarbamoylase deficiency"/>
+                    <designation language="en" type="synonym" displayName="OCTD"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of citrulline phosphorylase"/>
+                    <designation language="en" type="synonym" displayName="OCT deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="OTC - Ornithine transcarbamylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of citrulline phosphorylase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="OTC - Ornithine transcarbamylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="OCT - Ornithine carbamoyltransferase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of ornithine transcarbamylase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ornithine transcarbamylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="OCT - Ornithine carbamoyltransferase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ornithine transcarbamylase deficiency"/>
+                    <designation language="en" type="synonym" displayName="OCT deficiency"/>
+                    <designation language="en" type="synonym" displayName="OCTD"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of ornithine carbamoyltransferase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of ornithine transcarbamylase"/>
+                </concept>
+                <concept code="23585005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of lysosomal enzyme (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Lysosomale stapelingsziekten<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of lysosomal enzyme (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of lysosomal enzyme"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of lysosomal enzyme"/>
+                    <designation language="en" type="synonym" displayName="Lysosomal enzyme defect"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Lysosomal enzyme disorder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Lysosomal enzyme disorder"/>
+                    <designation language="en" type="synonym" displayName="Lysosomal enzyme defect"/>
+                </concept>
+                <concept code="11380006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Mucopolysaccharidosis (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Mucopolysaccharidosis (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Mucopolysaccharidosis"/>
+                    <designation language="en" type="synonym" displayName="Mucopolysaccharidosis"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MPS - Mucopolysaccharidosis"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MPS - Mucopolysaccharidosis"/>
+                    <designation language="nl" type="synonym" displayName="mucopolysacharidose"/>
+                </concept>
+                <concept code="43916004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Mucopolysaccharidosis, MPS-VII (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Mucopolysaccharidosis type VII (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mucopolysaccharidosis, MPS-VII"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mucopolysaccharidosis, MPS-VII"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="beta-Glucuronidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Sly disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MPS VII - Mucopolysaccharidosis VII"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Beta-glucuronidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Sly syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mucopolysaccharidosis type VII"/>
+                    <designation language="en" type="synonym" displayName="GUS deficiency"/>
+                    <designation language="en" type="synonym" displayName="GUSB deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="beta-Glucuronidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Sly disease"/>
+                    <designation language="en" type="synonym" displayName="GUS deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MPS VII - Mucopolysaccharidosis VII"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mucopolysaccharidosis type VII"/>
+                    <designation language="en" type="synonym" displayName="GUSB deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Beta-glucuronidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Sly syndrome"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="mucopolysacharidose type 7 (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="mucopolysacharidose type 7"/>
+                    <designation language="nl" type="synonym" displayName="syndroom van Sly"/>
+                </concept>
+                <concept code="190794006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Glucosylceramide beta-glucosidase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Glucosylceramide beta-glucosidase deficiency (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Gaucher's disease"/>
+                    <designation language="en" type="synonym" displayName="Gaucher's disease"/>
+                    <designation language="en" type="synonym" displayName="Kerasin lipoidosis"/>
+                    <designation language="en" type="synonym" displayName="Gaucher disease"/>
+                    <designation language="en" type="synonym" displayName="Gaucher syndrome"/>
+                    <designation language="en" type="synonym" displayName="Gaucher splenomegaly"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucocerebrosidase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucosylceramide beta-glucosidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Glucocerebrosidosis"/>
+                    <designation language="en" type="synonym" displayName="Kerasin histiocytosis"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucosylceramide beta-glucosidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Kerasin lipoidosis"/>
+                    <designation language="en" type="synonym" displayName="Kerasin histiocytosis"/>
+                    <designation language="en" type="synonym" displayName="Glucocerebrosidosis"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cerebroside lipidosis syndrome"/>
+                    <designation language="en" type="synonym" displayName="Gaucher splenomegaly"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucosylceramidase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucocerebrosidase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Glucosylceramidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Gaucher syndrome"/>
+                    <designation language="en" type="synonym" displayName="Gaucher disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cerebroside lipidosis syndrome"/>
+                    <designation language="nl" type="synonym" displayName="ziekte van Gaucher"/>
+                </concept>
+                <concept code="39929009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of fatty acid metabolism (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Vetzuuroxidatiestoornissen<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of fatty acid metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of fatty acid metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of fatty acid metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorders of fatty-acid metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of fat oxidation"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorders of fatty-acid metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of fat oxidation"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stoornis van vetzuurmetabolisme"/>
+                </concept>
+                <concept code="128596003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Medium-chain acyl-coenzyme A dehydrogenase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Medium-chain acyl-coenzyme A dehydrogenase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Medium-chain acyl-coenzyme A dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Medium-chain acyl-coenzyme A dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Medium chain acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Medium chain acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="MCAD deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MCAD - Medium chain acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MCAD - Medium chain acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="MCAD deficiency"/>
+                </concept>
+                <concept code="307127004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Isolated long chain hydroxyacyl-CoA dehydrogenase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Isolated long chain hydroxyacyl-CoA dehydrogenase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isolated long chain hydroxyacyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Isolated long chain hydroxyacyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="LCHAD - Isolated long chain hydroxyacyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="LCHAD - Isolated long chain hydroxyacyl-CoA dehydrogenase deficiency"/>
+                </concept>
+                <concept code="237997005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Very long chain acyl-coenzyme A dehydrogenase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Very long chain acyl-coenzyme A dehydrogenase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Very long chain acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Very long chain acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="VLCAD - Very long chain acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Very long chain acyl-coenzyme A dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="VLCAD - Very long chain acyl-CoA dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Very long chain acyl-coenzyme A dehydrogenase deficiency"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="very-long-chain acyl-CoA-dehydrogenasedeficiëntie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="very-long-chain acyl-CoA-dehydrogenasedeficiëntie"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="very-long-chain acyl-CoA dehydrogenase deficiency [VLCADD]"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="very long chain acyl coenzym A dehydrogenase [VLCAD]"/>
+                </concept>
+                <concept code="240096000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Mitochondrial cytopathy (disorder)"
+                  level="0"
+                  type="S">
+                    <desc language="nl-NL">Mitochondriële ziekten<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Mitochondrial cytopathy (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Mitochondrial cytopathy"/>
+                    <designation language="en" type="synonym" displayName="Mitochondrial cytopathy"/>
+                    <designation language="en" type="synonym" displayName="Mitochondrial disease"/>
+                    <designation language="en" type="synonym" displayName="Mitochondrial disease"/>
+                </concept>
+                <concept code="237988006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Nicotinamide adenine dinucleotide coenzyme Q reductase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Nicotinamide adenine dinucleotide coenzyme Q reductase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Nicotinamide adenine dinucleotide coenzyme Q reductase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Nicotinamide adenine dinucleotide coenzyme Q reductase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="NADH - Nicotinamide adenine dinucleotide coenzyme Q reductase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="NADH - Nicotinamide adenine dinucleotide coenzyme Q reductase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex I deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex I deficiency"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="ademhalingsketen-complex-1-deficiëntie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsketen-complex-1-deficiëntie"/>
+                </concept>
+                <concept code="237989003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Succinate-coenzyme Q reductase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Succinate-coenzyme Q reductase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Succinate-coenzyme Q reductase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Succinate-coenzyme Q reductase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex II deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex II deficiency"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="ademhalingsketen-complex-2-deficiëntie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsketen-complex-2-deficiëntie"/>
+                </concept>
+                <concept code="237990007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="ademhalingsketen-complex-3-deficiëntie (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="ademhalingsketen-complex-3-deficiëntie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsketen-complex-3-deficiëntie"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Ubiquinone dehydrogenase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ubiquinone dehydrogenase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Ubiquinone dehydrogenase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex III deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex III deficiency"/>
+                </concept>
+                <concept code="67434000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="ademhalingsketen-complex-4-deficiëntie (aandoening)"
+                  level="1"
+                  type="L">
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="ademhalingsketen-complex-4-deficiëntie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsketen-complex-4-deficiëntie"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cytochrome-c oxidase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cytochrome-c oxidase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cytochrome-c oxidase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cytochrome c oxidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex IV deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Cytochrome c oxidase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="COX - Cytochrome C oxidase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="COX - Cytochrome C oxidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex IV deficiency"/>
+                </concept>
+                <concept code="237992004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Complex V deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Complex V deficiency (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Complex V deficiency"/>
+                    <designation language="en" type="synonym" displayName="Complex V deficiency"/>
+                    <designation language="en" type="synonym" displayName="ATP synthase deficiency"/>
+                    <designation language="en" type="synonym" displayName="ATP synthase deficiency"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="ademhalingsketen-complex-5-deficiëntie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="ademhalingsketen-complex-5-deficiëntie"/>
+                </concept>
+                <concept code="16851005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Mitochondrial myopathy (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Mitochondrial myopathy (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Mitochondrial myopathy"/>
+                    <designation language="en" type="synonym" displayName="Mitochondrial myopathy"/>
+                    <designation language="en" type="synonym" displayName="Ragged red myopathy"/>
+                    <designation language="en" type="synonym" displayName="Ragged red myopathy"/>
+                    <designation language="nl" type="synonym" displayName="mitochondriële myopathie"/>
+                </concept>
+                <concept code="39925003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Juvenile myopathy, encephalopathy, lactic acidosis AND stroke (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Juvenile myopathy, encephalopathy, lactic acidosis AND stroke (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Juvenile myopathy, encephalopathy, lactic acidosis AND stroke"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Juvenile myopathy, encephalopathy, lactic acidosis AND stroke"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mitochondrial myopathy, encephalopathy, lactic acidosis and stroke-like episodes"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MELAS - Mitochondrial encephalopathy, lactic acidosis and stroke-like episodes"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MELAS - Mitochondrial myopathy, encephalopathy, lactic acidosis and stroke-like episodes"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MELAS - Mitochondrial encephalopathy, lactic acidosis and stroke-like episodes"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Mitochondrial myopathy, encephalopathy, lactic acidosis and stroke-like episodes"/>
+                    <designation language="en" type="synonym" displayName="MELAS"/>
+                    <designation language="en" type="synonym" displayName="MELAS"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="MELAS - Mitochondrial myopathy, encephalopathy, lactic acidosis and stroke-like episodes"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="mitochondriale encefalomyopathie met lactaatacidose en stroke-like episodes"/>
+                    <designation language="nl" type="synonym" displayName="MELAS-syndroom"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="mitochondriale encefalomyopathie met lactaatacidose en stroke-like episodes [MELAS]"/>
+                </concept>
+                <concept code="238059005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of peroxisomal function (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Peroxisomale ziekten<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of peroxisomal function (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of peroxisomal function"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of peroxisomal function"/>
+                </concept>
+                <concept code="238006008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of purine and pyrimidine metabolism (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Purine- en Pyrimidine ziekten<br clear="none"/>
+                    </desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of purine and pyrimidine metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of purine and pyrimidine metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of purine and pyrimidine metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Purine and pyrimidine metabolism disorder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Purine and pyrimidine metabolism disorder"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stoornis van purine- en pyrimidinemetabolisme"/>
+                </concept>
+                <concept code="124275001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Deficiency of hypoxanthine phosphoribosyltransferase (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Deficiency of hypoxanthine phosphoribosyltransferase (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of hypoxanthine phosphoribosyltransferase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of hypoxanthine phosphoribosyltransferase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of IMP pyrophosphorylase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of hypoxanthine-guanine phosphoribosyltransferase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of guanine phosphoribosyltransferase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of hypoxanthine-guanine phosphoribosyltransferase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of guanine phosphoribosyltransferase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of IMP pyrophosphorylase"/>
+                </concept>
+                <concept code="45744005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of mineral metabolism (disorder)"
+                  level="0"
+                  type="S">
+                    <desc language="nl-NL">Metalen</desc>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of mineral metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of mineral metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of mineral metabolism"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="stoornis van mineraalstofwisseling (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stoornis van mineraalstofwisseling"/>
+                </concept>
+                <concept code="79886009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of copper metabolism (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of copper metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of copper metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of copper metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Copper metabolism disorder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Copper metabolism disorder"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stoornis van kopermetabolisme"/>
+                </concept>
+                <concept code="79886009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of copper metabolism (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of copper metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of copper metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of copper metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Copper metabolism disorder"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Copper metabolism disorder"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stoornis van kopermetabolisme"/>
+                </concept>
+                <concept code="30913008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of iron metabolism (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of iron metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of iron metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of iron metabolism"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stoornis van ijzermetabolisme"/>
+                </concept>
+                <concept code="46727001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Disorder of zinc metabolism (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Disorder of zinc metabolism (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of zinc metabolism"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Disorder of zinc metabolism"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="stoornis van zinkmetabolisme (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="stoornis van zinkmetabolisme"/>
+                </concept>
+                <concept code="59178007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Menkes kinky-hair syndrome (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Menkes kinky-hair syndrome (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Menkes kinky-hair syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Menkes kinky-hair syndrome"/>
+                    <designation language="en" type="synonym" displayName="Steely hair syndrome"/>
+                    <designation language="en" type="synonym" displayName="MK - Menkes syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="X-linked copper deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="X-linked copper deficiency"/>
+                    <designation language="en" type="synonym" displayName="Menkes syndrome"/>
+                    <designation language="en" type="synonym" displayName="Congenital hypocupremia"/>
+                    <designation language="en" type="synonym" displayName="MNK - Menkes syndrome"/>
+                    <designation language="en" type="synonym" displayName="MK - Menkes syndrome"/>
+                    <designation language="en" type="synonym" displayName="Congenital hypocupraemia"/>
+                    <designation language="en" type="synonym" displayName="Copper transport disease"/>
+                    <designation language="en" type="synonym" displayName="Menkes disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Menke's kinky hair syndrome"/>
+                    <designation language="en" type="synonym" displayName="Kinky hair disease"/>
+                    <designation language="en" type="synonym" displayName="Menkes syndrome"/>
+                    <designation language="en" type="synonym" displayName="Steely hair syndrome"/>
+                    <designation language="en" type="synonym" displayName="Steely hair disease"/>
+                    <designation language="en" type="synonym" displayName="Trichopoliodystrophy"/>
+                    <designation language="en" type="synonym" displayName="Menkes disease"/>
+                    <designation language="en" type="synonym" displayName="Copper transport disease"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Menke's kinky hair syndrome"/>
+                    <designation language="en" type="synonym" displayName="MNK - Menkes syndrome"/>
+                    <designation language="en" type="synonym" displayName="Trichopoliodystrophy"/>
+                    <designation language="en" type="synonym" displayName="Steely hair disease"/>
+                    <designation language="en" type="synonym" displayName="Kinky hair disease"/>
+                </concept>
+                <concept code="399187006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hemochromatosis (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Hemochromatosis (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Haemochromatosis"/>
+                    <designation language="en" type="synonym" displayName="Hemochromatosis"/>
+                    <designation language="en" type="synonym" displayName="Haemochromatosis"/>
+                    <designation language="en" type="synonym" displayName="Iron storage disease"/>
+                    <designation language="en" type="synonym" displayName="Iron storage disease"/>
+                    <designation language="en" type="synonym" displayName="Hemochromatosis"/>
+                    <designation language="nl" type="synonym" displayName="hemochromatose"/>
+                    <designation language="nl" type="synonym" displayName="ijzerstapelingsziekte"/>
+                    <designation language="nl" type="synonym" displayName="haemochromatosis"/>
+                </concept>
+                <concept code="238049009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Carbohydrate-deficient glycoprotein syndrome (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">
+                        <span style="font-family: -webkit-standard;">
+                            <span style="font-size: 10pt; line-height: 14.266666412353516px; font-family: Arial, sans-serif;">Glycosyleringsdefecten (CDG-syndromen)</span>
+                        </span>
+                        <span style="font-family: -webkit-standard; font-size: medium;">
+                            <br clear="none"/>
+                        </span>
+                    </desc>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Carbohydrate-deficient glycoprotein syndrome (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Carbohydrate-deficient glycoprotein syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Carbohydrate-deficient glycoprotein syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Carbohydrate deficiency glycoprotein syndrome"/>
+                    <designation language="en"
+                         type="preferred"
+                         displayName="CDG - Carbohydrate-deficient glycoprotein syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Carbohydrate deficiency glycoprotein syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Carbohydrate deficient glycoprotein syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="CDG - Carbohydrate-deficient glycoprotein syndrome"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Carbohydrate deficient glycoprotein syndrome"/>
+                </concept>
+                <concept code="85670002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Vitamin deficiency (disorder)"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Vitamine responsieve aandoeningen/aangeboren vitamine deficienties</desc>
+                </concept>
+                <concept code="190634004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cobalamin deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Cobalamin deficiency (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Cobalamin deficiency"/>
+                    <designation language="en" type="synonym" displayName="Cobalamin deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of vitamin B&gt;12&lt;"/>
+                    <designation language="en" type="synonym" displayName="Vitamin B12 deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of vitamin B&gt;12&lt;"/>
+                    <designation language="en" type="synonym" displayName="Vitamin B12 deficiency"/>
+                    <designation language="nl" type="synonym" displayName="cobalaminedeficiëntie"/>
+                    <designation language="nl" type="synonym" displayName="vitamine B12-tekort"/>
+                    <designation language="nl" type="synonym" displayName="vitamine B12-deficiëntie"/>
+                </concept>
+                <concept code="15307001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Biotin-(propionyl-CoA-carboxylase) ligase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Biotin-(propionyl-coenzyme A-carboxylase) ligase deficiency (disorder)"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Biotin-(propionyl-CoA-carboxylase) ligase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Biotin-(propionyl-CoA-carboxylase) ligase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple carboxylase deficiency, neonatal onset"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Holocarboxylase synthetase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Neonatal biotin-responsive multiple carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple carboxylase deficiency, neonatal onset"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Biotin-(propionyl-coenzyme A-carboxylase) ligase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Neonatal multiple carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Neonatal biotin-responsive multiple carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Biotin-(propionyl-coenzyme A-carboxylase) ligase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Holocarboxylase synthetase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Neonatal multiple carboxylase deficiency"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="holocarboxylase-synthetasedeficiëntie (aandoening)"/>
+                    <designation language="nl"
+                         type="synonym"
+                         displayName="holocarboxylase-synthetasedeficiëntie"/>
+                </concept>
+                <concept code="8808004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Biotinidase deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Biotinidase deficiency (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Biotinidase deficiency"/>
+                    <designation language="en" type="synonym" displayName="Biotinidase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Late-onset multiple carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Juvenile multiple carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple carboxylase deficiency - late onset"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Juvenile multiple carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of biotinidase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Late-onset multiple carboxylase deficiency"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Deficiency of biotinidase"/>
+                    <designation language="en"
+                         type="synonym"
+                         displayName="Multiple carboxylase deficiency - late onset"/>
+                    <designation language="nl"
+                         type="preferred"
+                         displayName="biotinidasedeficiëntie (aandoening)"/>
+                    <designation language="nl" type="synonym" displayName="biotinidasedeficiëntie"/>
+                </concept>
+                <concept code="386080007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Vitamin B6 deficiency (disorder)"
+                  level="1"
+                  type="L">
+                    <designation language="en"
+                         type="preferred"
+                         displayName="Vitamin B6 deficiency (disorder)"/>
+                    <designation language="en" type="synonym" displayName="Vitamin B6 deficiency"/>
+                    <designation language="en" type="synonym" displayName="Vitamin B6 deficiency"/>
+                    <designation language="en" type="synonym" displayName="Pyridoxamine deficiency"/>
+                    <designation language="en" type="synonym" displayName="Pyridoxine deficiency"/>
+                    <designation language="en" type="synonym" displayName="Pyridoxamine deficiency"/>
+                    <designation language="en" type="synonym" displayName="Pyridoxal deficiency"/>
+                    <designation language="en" type="synonym" displayName="Pyridoxine deficiency"/>
+                    <designation language="en" type="synonym" displayName="Pyridoxal deficiency"/>
+                    <designation language="nl" type="synonym" displayName="pyridoxinedeficiëntie"/>
+                    <designation language="nl" type="synonym" displayName="vitamine B6-deficiëntie"/>
+                </concept>
+                <concept code="1821000146108"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Hereditaire stofwisselingsstoornis"
+                  level="0"
+                  type="L">
+                    <desc language="nl-NL">Andere erfelijke stofwisselingsziekten.</desc>
+                </concept>
+            </conceptList>
+   </valueSet>
+</valueSets>
